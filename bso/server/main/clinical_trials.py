@@ -7,7 +7,6 @@ from bso.server.main.utils_swift import set_objects
 
 logger = get_logger(__name__)
 
-
 def my_parse_date(x):
     if x:
         return dateutil.parser.parse(x).isoformat()
