@@ -2,18 +2,12 @@ import requests
 import math
 import re
 import dateutil.parser
+import datetime
 from bso.server.main.logger import get_logger
-from bso.server.main.utils_swift import set_objects
+from bso.server.main.utils_swift import set_objects, get_objects
+from bso.server.main.utils import get_dois_info, my_parse_date, chunks 
 
 logger = get_logger(__name__)
-
-def my_parse_date(x):
-    if x:
-        return dateutil.parser.parse(x).isoformat()
-    return x
-
-def get_doi_info(doi):
-    return {}
 
 def harvest():
     url="https://clinicaltrials.gov/api/query/full_studies?expr=france&fmt=json&min_rnk={}&max_rnk={}"
@@ -26,21 +20,56 @@ def harvest():
     for p in range(0, nb_pages):
         r = requests.get(url.format(p * 100 + 1, (p+1) * 100)).json()
         data += r['FullStudiesResponse']['FullStudies']
+    today = datetime.date.today()
+    set_objects(data, "clinical-trials", f"clinical_trials_raw_{today}.json.gz")
     return data
 
 def parse_all(harvested_data):
     parsed_data = []
+    dois_to_get = []
     for d in harvested_data:
         parsed = parse_study(d)
         if 'France' in parsed.get('location_country', []):
             parsed_data.append(parsed)
-    set_objects(parsed_data, "clinical-trials", "clinical_trials.json.gz")
+            for r in parsed['references']:
+                if 'doi:' in r.get("ReferenceCitation", "").lower():
+                    doi = re.sub(".*doi:", "", r.get("ReferenceCitation", "")).strip().lower()
+                    doi = doi.split(" ")[0]
+                    if doi[-1] == ".":
+                        doi = doi[:-1]
+                    r['doi'] = doi
+                    if r.get('ReferenceType') in ['result', 'derived']:
+                        dois_to_get.append(doi)
+
+    dois_info_dict = {}
+    for c in chunks(list(set(dois_to_get)), 1000): 
+        dois_info = get_dois_info([{'doi': doi} for doi in c])
+        for info in dois_info:
+            doi = info['doi']
+            dois_info_dict[doi] = info
+    
+    for p in parsed_data:
+        for r in p['references']:
+            if r.get('doi'):
+                doi = r.get('doi')
+                if doi in dois_info_dict:
+                    r.update(dois_info_dict[doi])
+
+    today = datetime.date.today()
+    set_objects(parsed_data, "clinical-trials", f"clinical_trials_parsed_{today}.json.gz")
     return {"status": "ok", "source": "clinical-trials", "nb_studies_harvested": len(harvested_data), "nb_studies_parsed": len(parsed_data)}
 
 
-def harvest_parse_clinical_trials():
-    harvested_data = harvest()
-    parse_all(harvested_data)
+def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=""):
+    if to_harvest:
+        harvested_data = harvest()
+        if to_parse:
+            parse_all(harvested_data)
+    else:
+        if to_parse:
+            harvested_data = get_objects("clinical-trials", f"clinical_trials_raw_{harvest_date}.json.gz")
+            parse_all(harvested_data)
+
 
 def parse_study(input_study):
     x = input_study.get('Study')
@@ -101,8 +130,6 @@ def parse_study(input_study):
     elt['results_first_submit_date'] = my_parse_date(results_first_submit_date)
     elt['results_first_submit_qc_date'] = my_parse_date(results_first_submit_qc_date)
     
-    
-    
     ## design
     design_module = protocol.get('DesignModule', {})
     study_type = design_module.get('StudyType')
@@ -124,27 +151,16 @@ def parse_study(input_study):
     ref_module = protocol.get('ReferencesModule', {})
     ref_list = ref_module.get("ReferenceList", {})
     references = ref_list.get('Reference', [])
-    
-    for r in references:
-        if 'doi:' in r.get("ReferenceCitation", "").lower():
-            doi = re.sub(".*doi:", "", r.get("ReferenceCitation", "")).strip().lower()
-            doi = doi.split(" ")[0]
-            if doi[-1] == ".":
-                doi = doi[:-1]
-            r['doi'] = doi
-            if r.get('ReferenceType') in ['derived', 'result']:
-                r.update(get_doi_info(doi))
-            
+   
 
-    for f in ['background', 'derived', 'result']:
-        elt['publications_'+f] = ";".join([p['doi'] for p in references if p.get('ReferenceType') == f and 'doi' in p])
-        if f in ['derived', 'result']:
-            for field in ['is_oa', 'journal_issns', 'journal_name', 'is_icmje']:
-                elt['publications_'+f+'_'+field] = ";".join([p[field] for p in references if p.get('ReferenceType') == f and field in p])
-        #elt['publications_'+f] = [p for p in references if p.get('ReferenceType') == f]
-        
-    elt['all_references'] = references    
+    elt['references'] = references    
+   
+    # type can be result, derived or background
+    elt['publications_result'] = [p['doi'] for p in references if p.get('ReferenceType') == 'result' and 'doi' in p] 
 
+    elt['has_publications_result'] = len(elt['publications_result']) > 0
+
+    elt['has_results_or_publications'] = elt['has_results'] or elt['has_publications_result']
     
     ## ipd individual patient data
     ipd_module = protocol.get('IPDSharingStatementModule', {})
@@ -173,6 +189,5 @@ def parse_study(input_study):
     intervention_type = ";".join(list(set(
         [w.get('InterventionType') for w in interventions if 'InterventionType' in w])))
     elt['intervention_type'] = intervention_type
-    
     
     return elt

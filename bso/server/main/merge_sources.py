@@ -1,18 +1,20 @@
 import pandas as pd
+import datetime
 from bso.server.main.logger import get_logger
 from bso.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
 def get_each_sources():
+    today = datetime.date.today()
     raw_trials = {}
-    df_ct = pd.DataFrame(get_objects("clinical-trials", "clinical_trials.json.gz"))
+    df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{today}.json.gz"))
     df_ct['source'] = 'clinical_trials'
     raw_trials['NCTId'] = df_ct.to_dict(orient='records')
     nb_ct_clinical_trials = len(raw_trials['NCTId'])
     logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
     
-    df_euctr = pd.DataFrame(get_objects("clinical-trials", "euctr.json.gz"))
+    df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{today}.json.gz"))
     df_euctr['source'] = 'clinical_trials'
     raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
     nb_ct_euctr = len(raw_trials['eudraCT'])
