@@ -1,6 +1,7 @@
 from bso.server.main.clinical_trials import harvest_parse_clinical_trials
 from bso.server.main.euctr import harvest_parse_euctr
 from bso.server.main.merge_sources import merge_all
+from bso.server.main.enrich_ct import enrich
 from bso.server.main.elastic import reset_index, load_in_es
 
 def create_task_harvest(arg) -> dict:
@@ -18,7 +19,8 @@ def create_task_transform_load(arg) -> dict:
     if arg.get('harvest', True):
         harvest_parse_clinical_trials()
         harvest_parse_euctr()
-    data_to_import = merge_all()
+    merged_ct = merge_all()
+    data_to_import = enrich(merge_ct)
     reset_index("bso-clinical-trials")
     load_in_es(data_to_import, "bso-clinical-trials")
     return {}

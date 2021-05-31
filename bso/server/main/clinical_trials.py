@@ -5,7 +5,7 @@ import dateutil.parser
 import datetime
 from bso.server.main.logger import get_logger
 from bso.server.main.utils_swift import set_objects, get_objects
-from bso.server.main.utils import get_dois_info, my_parse_date, chunks 
+from bso.server.main.utils import my_parse_date 
 
 logger = get_logger(__name__)
 
@@ -31,29 +31,6 @@ def parse_all(harvested_data):
         parsed = parse_study(d)
         if 'France' in parsed.get('location_country', []):
             parsed_data.append(parsed)
-            for r in parsed['references']:
-                if 'doi:' in r.get("ReferenceCitation", "").lower():
-                    doi = re.sub(".*doi:", "", r.get("ReferenceCitation", "")).strip().lower()
-                    doi = doi.split(" ")[0]
-                    if doi[-1] == ".":
-                        doi = doi[:-1]
-                    r['doi'] = doi
-                    if r.get('ReferenceType') in ['result', 'derived']:
-                        dois_to_get.append(doi)
-
-    dois_info_dict = {}
-    for c in chunks(list(set(dois_to_get)), 1000): 
-        dois_info = get_dois_info([{'doi': doi} for doi in c])
-        for info in dois_info:
-            doi = info['doi']
-            dois_info_dict[doi] = info
-    
-    for p in parsed_data:
-        for r in p['references']:
-            if r.get('doi'):
-                doi = r.get('doi')
-                if doi in dois_info_dict:
-                    r.update(dois_info_dict[doi])
 
     today = datetime.date.today()
     set_objects(parsed_data, "clinical-trials", f"clinical_trials_parsed_{today}.json.gz")
@@ -138,6 +115,7 @@ def parse_study(input_study):
     design_info = design_module.get('DesignInfo', {})
     time_perspective = design_info.get('DesignTimePerspectiveList', {}).get('DesignTimePerspective', [])
     elt['time_perspective'] = ";".join(time_perspective)
+    elt['design_allocation'] = design_info.get('DesignAllocation')
     
     elt['primary_purpose'] = design_info.get('DesignPrimaryPurpose')
     
