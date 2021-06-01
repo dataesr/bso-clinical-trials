@@ -20,7 +20,7 @@ def create_task_transform_load(arg) -> dict:
         harvest_parse_clinical_trials()
         harvest_parse_euctr()
     merged_ct = merge_all()
-    data_to_import = enrich(merge_ct)
+    data_to_import = enrich(merged_ct)
     reset_index("bso-clinical-trials")
     load_in_es(data_to_import, "bso-clinical-trials")
     return {}

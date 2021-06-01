@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from bso.server.main.utils import get_dois_info, chunks
 
 def enrich(all_ct):
@@ -6,7 +7,8 @@ def enrich(all_ct):
     dois_to_get = []
     for ct in all_ct:
         enriched = enrich_ct(ct)
-        for r in enriched['references']:
+        references = enriched.get('references', [])
+        for r in references:
             if 'doi:' in r.get("ReferenceCitation", "").lower():
                 doi = re.sub(".*doi:", "", r.get("ReferenceCitation", "")).strip().lower()
                 doi = doi.split(" ")[0]
@@ -64,30 +66,41 @@ def enrich(all_ct):
 
     return res
 
-def enrich_ct(ct):
-    delay_submission_start = (pd.to_datetime(ct['study_start_date']) - pd.to_datetime(ct['study_first_submit_date'])).days
-    ct['delay_submission_start'] = delay_submission_start
-    if ct['study_start_date'] > ct['study_first_submit_date']:
-        ct['submission_temporality'] = 'before_start'
-    elif ct['study_completion_date'] >= ct['study_first_submit_date']:
-        ct['submission_temporality'] = 'during_study'
-    else:
-        ct['submission_temporality'] = 'after_completion'
-    
-    delay_start_completion = (pd.to_datetime(ct['study_completion_date']) - pd.to_datetime(ct['study_start_date'])).days
-    ct['delay_start_completion'] = delay_start_completion
 
-    if ct['enrollment_count'] < 50:
-        ct['enrollment_count_type'] = '49 or less'
-    elif ct['enrollment_count'] < 100:
-        ct['enrollment_count_type'] = '50 - 99'
-    elif ct['enrollment_count'] < 500:
-        ct['enrollment_count_type'] = '100 - 499'
-    elif ct['enrollment_count'] < 1000:
-        ct['enrollment_count_type'] = '500 - 999'
-    elif ct['enrollment_count'] < 5000:
-        ct['enrollment_count_type'] = '1000 - 4999'
-    elif ct['enrollment_count'] >= 5000:
-        ct['enrollment_count_type'] = '5000 or more'
+def enrich_ct(ct):
+    if isinstance(ct.get('study_start_date'), str) and isinstance(ct.get('study_first_submit_date'), str):
+        delay_submission_start = (pd.to_datetime(ct['study_start_date']) - pd.to_datetime(ct['study_first_submit_date'])).days
+        ct['delay_submission_start'] = delay_submission_start
+
+    if isinstance(ct.get('study_start_date'), str) and isinstance(ct.get('study_first_submit_date'), str) and ct['study_start_date'] > ct['study_first_submit_date']:
+        ct['submission_temporality'] = 'before_start'
+    elif isinstance(ct.get('study_first_submit_date'), str) and isinstance(ct.get('study_completion_date'), str) and ct['study_completion_date'] >= ct['study_first_submit_date']:
+        ct['submission_temporality'] = 'during_study'
+    elif isinstance(ct.get('study_first_submit_date'), str) and isinstance(ct.get('study_completion_date'), str) and ct['study_completion_date'] < ct['study_first_submit_date']:
+        ct['submission_temporality'] = 'after_completion'
+    else:
+        ct['submission_temporality'] = None
     
+    if isinstance(ct.get('study_completion_date'), str) and isinstance(ct.get('study_start_date'), str):
+        delay_start_completion = (pd.to_datetime(ct['study_completion_date']) - pd.to_datetime(ct['study_start_date'])).days
+        ct['delay_start_completion'] = delay_start_completion
+
+    if isinstance(ct.get('enrollment_count'), (int, float)):
+        if ct['enrollment_count'] < 50:
+            ct['enrollment_count_type'] = '49 or less'
+        elif ct['enrollment_count'] < 100:
+            ct['enrollment_count_type'] = '50 - 99'
+        elif ct['enrollment_count'] < 500:
+            ct['enrollment_count_type'] = '100 - 499'
+        elif ct['enrollment_count'] < 1000:
+            ct['enrollment_count_type'] = '500 - 999'
+        elif ct['enrollment_count'] < 5000:
+            ct['enrollment_count_type'] = '1000 - 4999'
+        elif ct['enrollment_count'] >= 5000:
+            ct['enrollment_count_type'] = '5000 or more'
+    else:
+        ct['enrollment_count_type'] = None
+   
+    if ct.get('references') is None:
+        ct['references'] = []
     return ct

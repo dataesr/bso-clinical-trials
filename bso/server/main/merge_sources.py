@@ -15,7 +15,7 @@ def get_each_sources():
     logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
     
     df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{today}.json.gz"))
-    df_euctr['source'] = 'clinical_trials'
+    df_euctr['source'] = 'euctr'
     raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
     nb_ct_euctr = len(raw_trials['eudraCT'])
     logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
@@ -48,7 +48,8 @@ def merge_all():
                     other_id = matches[ct[current_id_type]][0][other_id_type]
                     current_ids.append(other_id)
                     if other_id not in ct_transformed[other_id_type]:
-                        print("missing {} in {}".format(other_id, other_id_type))
+                        #logger.debug("missing {} in {}".format(other_id, other_id_type))
+                        pass
                     else:
                         other_version = ct_transformed[other_id_type][other_id]
                         ct_merge = merge_ct(ct_merge, other_version)
@@ -58,7 +59,8 @@ def merge_all():
                 known_ids.add(i)
 
     all_ct_final = [untransform_ct(e) for e in all_ct]
-    set_objects(all_ct_final, "clinical-trials", "merged_ct.json.gz")
+    today = datetime.date.today()
+    set_objects(all_ct_final, "clinical-trials", f"merged_ct_{today}.json.gz")
     return all_ct_final
 
 def untransform_ct(ct):
@@ -66,30 +68,29 @@ def untransform_ct(ct):
     all_sources = [e['source'] for e in ct['source']]
     all_sources.sort()
 
-    new_ct['all_sources'] = ";".join(all_sources)
+    new_ct['all_sources'] = all_sources
     for f in ct:
-        if len(ct[f]) == 0:
+        if f == "source":
             continue
-        if len(ct[f]) ==  1:
+        elif len(ct[f]) ==  0:
+            new_ct[f] = None
+        elif len(ct[f]) ==  1:
             new_ct[f] = ct[f][0][f]
+        elif f in ['references', 'other_ids']:
+            new_ct[f] = ct[f]
         else:
-            all_values = []
-            for v in ct[f]:
-                if isinstance(v, dict) and f in v:
-                    all_values.append(v[f])
-            if len(list(set(all_values))) == 1:
-                new_ct[f] = all_values[0]
+            possibilities = [ct[f][i][f] for i in range(0, len(ct[f])) if f in ct[f][i]]
+            sources = [ct[f][i]['source'] for i in range(0, len(ct[f]))]
+            
+            if isinstance(possibilities[0], bool):
+                new_ct[f] = any(possibilities)  # at least one True
+            elif 'clinical_trials' in sources:
+                new_ct[f] = [ct[f][i][f] for i in range(0, len(ct[f])) if ct[f][i]['source'] == "clinical_trials"][0]
             else:
-                new_ct[f] = ct[f]
-
-            if len(list(set(all_values))) >= 1:
-                new_ct[f] = all_values[0]
-            else:
-                new_ct[f]=""
-
+                logger.debug("THAT SHOULD NOT HAPPEN ??")
+                logger.debug(ct[f])
 
     return new_ct
-
 
 def update_matches(matches, new_trials, id1_type, other_ids):
     for ct in new_trials:
