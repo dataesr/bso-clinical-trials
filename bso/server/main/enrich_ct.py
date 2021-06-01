@@ -69,7 +69,7 @@ def enrich_ct(ct):
     ct['delay_submission_start'] = delay_submission_start
     if ct['study_start_date'] > ct['study_first_submit_date']:
         ct['submission_temporality'] = 'before_start'
-    elif ct['study_completion_date'] >= ct['study_first_submit_date']
+    elif ct['study_completion_date'] >= ct['study_first_submit_date']:
         ct['submission_temporality'] = 'during_study'
     else:
         ct['submission_temporality'] = 'after_completion'
@@ -79,15 +79,15 @@ def enrich_ct(ct):
 
     if ct['enrollment_count'] < 50:
         ct['enrollment_count_type'] = '49 or less'
-    elif ct['enrollment_count'] < 100
+    elif ct['enrollment_count'] < 100:
         ct['enrollment_count_type'] = '50 - 99'
-    elif ct['enrollment_count'] < 500
+    elif ct['enrollment_count'] < 500:
         ct['enrollment_count_type'] = '100 - 499'
-    elif ct['enrollment_count'] < 1000
+    elif ct['enrollment_count'] < 1000:
         ct['enrollment_count_type'] = '500 - 999'
-    elif ct['enrollment_count'] < 5000
+    elif ct['enrollment_count'] < 5000:
         ct['enrollment_count_type'] = '1000 - 4999'
-    elif ct['enrollment_count'] >= 5000
+    elif ct['enrollment_count'] >= 5000:
         ct['enrollment_count_type'] = '5000 or more'
     
     return ct
