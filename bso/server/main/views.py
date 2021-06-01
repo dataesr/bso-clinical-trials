@@ -16,7 +16,7 @@ def home():
 def run_task_harvest():
     args = request.get_json(force=True)
     with Connection(redis.from_url(current_app.config["REDIS_URL"])):
-        q = Queue("bso-clinical-trials", default_timeout=21600)
+        q = Queue("bso-clinical-trials", default_timeout=216000)
         task = q.enqueue(create_task_harvest, args)
     response_object = {
         "status": "success",
