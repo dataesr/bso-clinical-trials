@@ -1,6 +1,15 @@
 import pandas as pd
 import re
 from bso.server.main.utils import get_dois_info, chunks
+from bso.server.main.strings import normalize
+
+def tag_sponsor(x):
+    x_normalized = normalize(x) 
+    for f in ['hopit', 'hosp', 'universi', 'chu ', 'ihu ','cmc ', 'gustave roussy', 'pasteur',
+              'leon berard', ' national', 'calmettes', 'curie', 'direction centrale', 'société francaise']:
+        if f in x_normalized:
+            return 'academique'
+    return 'industriel'
 
 def enrich(all_ct):
     res = []
@@ -36,10 +45,13 @@ def enrich(all_ct):
                 if doi in dois_info_dict:
                     r.update(dois_info_dict[doi])
                 if r.get('ReferenceType') in ['result']:
-                    publications_date.append(r.get('published_date'))
+                    if isinstance(r.get('published_date'), str):
+                        publications_date.append(r.get('published_date'))
                     if has_publication_oa is None:
                         has_publication_oa = False
                     oa_details = r.get('oa_details', [])
+                    if len(oa_details) == 0:
+                        continue
                     last_obs_date = max([oa_detail.get('observation_date') for oa_detail in oa_details])
                     for oa_detail in r.get('oa_details', []):
                         obs_date = oa_detail.get('observation_date')
@@ -51,14 +63,14 @@ def enrich(all_ct):
         if publications_date:
             p['first_publication_date'] = min(publications_date)
 
-        if p['results_first_submit_date'] and p['first_publication_date']:
+        if isinstance(p.get('results_first_submit_date'), str) and isinstance(p.get('first_publication_date'), str):
             p['first_results_or_publication_date'] = min(p['results_first_submit_date'], p['first_publication_date'])
-        elif p['results_first_submit_date'] :
+        elif isinstance(p.get('results_first_submit_date'), str):
               p['first_results_or_publication_date'] = p['results_first_submit_date'] 
-        elif p['first_publication_date']:
+        elif isinstance(p.get('first_publication_date'), str):
              p['first_results_or_publication_date'] = p['first_publication_date']
 
-        if p['first_results_or_publication_date'] and p['study_completion_date']:
+        if isinstance(p.get('first_results_or_publication_date'), str) and isinstance(p.get('study_completion_date'), str):
             p['delay_first_results_completion'] = (pd.to_datetime(p['study_completion_date']) - pd.to_datetime(p['first_results_or_publication_date'])).days
 
         p['has_publication_oa'] = has_publication_oa
@@ -100,7 +112,10 @@ def enrich_ct(ct):
             ct['enrollment_count_type'] = '5000 or more'
     else:
         ct['enrollment_count_type'] = None
-   
+  
+    if isinstance(ct.get('lead_sponsor'), str):
+        ct['lead_sponsor_type'] = tag_sponsor(ct['lead_sponsor'])
+
     if ct.get('references') is None:
         ct['references'] = []
     return ct

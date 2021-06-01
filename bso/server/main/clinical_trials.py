@@ -114,7 +114,7 @@ def parse_study(input_study):
     
     design_info = design_module.get('DesignInfo', {})
     time_perspective = design_info.get('DesignTimePerspectiveList', {}).get('DesignTimePerspective', [])
-    elt['time_perspective'] = ";".join(time_perspective)
+    elt['time_perspective'] = time_perspective
     elt['design_allocation'] = design_info.get('DesignAllocation')
     
     elt['primary_purpose'] = design_info.get('DesignPrimaryPurpose')
@@ -153,10 +153,10 @@ def parse_study(input_study):
     ## contactLocation
     locations_module = protocol.get('ContactsLocationsModule', {})
     locations = locations_module.get('LocationList', {}).get('Location', [])
-    location_country = ";".join(list(set(
-        [x.get('LocationCountry') for x in locations if "LocationCountry" in x])))
-    location_facility = ";".join(list(set(
-        [x.get('LocationFacility') for x in locations if "LocationFacility" in x])))
+    location_country = list(set(
+        [x.get('LocationCountry') for x in locations if "LocationCountry" in x]))
+    location_facility = list(set(
+        [x.get('LocationFacility') for x in locations if "LocationFacility" in x]))
     
     elt['location_country'] = location_country
     elt['location_facility'] = location_facility
@@ -164,8 +164,8 @@ def parse_study(input_study):
     ## intervention
     intervention_module = protocol.get('ArmsInterventionsModule', {})
     interventions =  intervention_module.get('InterventionList', {}).get('Intervention', [])
-    intervention_type = ";".join(list(set(
-        [w.get('InterventionType') for w in interventions if 'InterventionType' in w])))
+    intervention_type = list(set(
+        [w.get('InterventionType') for w in interventions if 'InterventionType' in w]))
     elt['intervention_type'] = intervention_type
     
     return elt
