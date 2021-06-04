@@ -11,20 +11,23 @@ def create_task_harvest(arg) -> dict:
     harvest = arg.get('harvest', True)
     parse = arg.get('parse', True)
     harvest_date = arg.get('harvest_date')
+
     if source == "clinical-trials":
         return harvest_parse_clinical_trials(harvest, parse, harvest_date)
     elif source == "euctr":
         return harvest_parse_euctr(harvest, parse, harvest_date)
     return {}
 
-def create_task_transform_load(arg) -> dict:
-    if arg.get('harvest', True):
+
+def create_task_transform_load(args) -> dict:
+    if args.get('harvest', True):
         harvest_parse_clinical_trials()
         harvest_parse_euctr()
     today = datetime.date.today()
-    harvest_date = arg.get('harvest_date', f"{today}")
+    harvest_date = args.get('harvest_date', f"{today}")
     merged_ct = merge_all(harvest_date)
-    data_to_import = enrich(merged_ct)
-    reset_index("bso-clinical-trials")
-    load_in_es(data_to_import, "bso-clinical-trials")
+    data = enrich(merged_ct)
+    index = 'bso-clinical-trials'
+    reset_index(index=index)
+    load_in_es(data=data, index=index)
     return {}
