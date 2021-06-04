@@ -46,12 +46,11 @@ def load_in_es(data_to_import, myIndex):
         {
           "_index": myIndex,
           "_type": "_doc",
-          "_id": j,
           "_source": data_to_import[j]
         }
     for j in range(0, len(data_to_import))
     ]
-    bulk_res = helpers.bulk(es, actions, chunk_size=500)
+    bulk_res = helpers.bulk(es, actions, chunk_size=50, request_timeout=60)
 
     end = datetime.datetime.today()
     delta = (end - start)

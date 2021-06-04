@@ -1,12 +1,10 @@
 import pandas as pd
-import datetime
 from bso.server.main.logger import get_logger
 from bso.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
-def get_each_sources():
-    today = datetime.date.today()
+def get_each_sources(today):
     raw_trials = {}
     df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{today}.json.gz"))
     df_ct['source'] = 'clinical_trials'
@@ -21,8 +19,8 @@ def get_each_sources():
     logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
     return raw_trials
 
-def merge_all():
-    raw_trials = get_each_sources()
+def merge_all(today):
+    raw_trials = get_each_sources(today)
     ct_transformed = {}
     for k in raw_trials:
         ct_transformed[k] = {}
@@ -59,7 +57,6 @@ def merge_all():
                 known_ids.add(i)
 
     all_ct_final = [untransform_ct(e) for e in all_ct]
-    today = datetime.date.today()
     set_objects(all_ct_final, "clinical-trials", f"merged_ct_{today}.json.gz")
     return all_ct_final
 
@@ -74,10 +71,12 @@ def untransform_ct(ct):
             continue
         elif len(ct[f]) ==  0:
             new_ct[f] = None
-        elif len(ct[f]) ==  1:
-            new_ct[f] = ct[f][0][f]
         elif f in ['references', 'other_ids']:
             new_ct[f] = ct[f]
+        elif f in ['location_country', 'location_facility']:
+            new_ct[f] = [elt[f] for elt in ct[f]]
+        elif len(ct[f]) ==  1:
+            new_ct[f] = ct[f][0][f]
         else:
             possibilities = [ct[f][i][f] for i in range(0, len(ct[f])) if f in ct[f][i]]
             sources = [ct[f][i]['source'] for i in range(0, len(ct[f]))]
@@ -123,7 +122,7 @@ def transform_ct(ct_org):
 
         if not isinstance(ct_org[field], list):
             ct[field] = [ct_org[field]]
-        elif len(ct_org[field]) > 1:
+        elif len(ct_org[field]) >= 1:
             ct[field] = ct_org[field]
         else:
             continue

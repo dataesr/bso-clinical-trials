@@ -4,6 +4,8 @@ from bso.server.main.merge_sources import merge_all
 from bso.server.main.enrich_ct import enrich
 from bso.server.main.elastic import reset_index, load_in_es
 
+import datetime
+
 def create_task_harvest(arg) -> dict:
     source = arg.get('source', '').lower()
     harvest = arg.get('harvest', True)
@@ -19,7 +21,9 @@ def create_task_transform_load(arg) -> dict:
     if arg.get('harvest', True):
         harvest_parse_clinical_trials()
         harvest_parse_euctr()
-    merged_ct = merge_all()
+    today = datetime.date.today()
+    harvest_date = arg.get('harvest_date', f"{today}")
+    merged_ct = merge_all(harvest_date)
     data_to_import = enrich(merged_ct)
     reset_index("bso-clinical-trials")
     load_in_es(data_to_import, "bso-clinical-trials")
