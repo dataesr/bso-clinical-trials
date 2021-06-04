@@ -49,13 +49,13 @@ def enrich(all_ct):
                         publications_date.append(r.get('published_date'))
                     if has_publication_oa is None:
                         has_publication_oa = False
-                    oa_details = r.get('oa_details', [])
+                    oa_details = r.get('oa_details', {})
                     if len(oa_details) == 0:
                         continue
-                    last_obs_date = max([oa_detail.get('observation_date') for oa_detail in oa_details])
-                    for oa_detail in r.get('oa_details', []):
-                        obs_date = oa_detail.get('observation_date')
+                    last_obs_date = max(r.get('observation_dates', []))
+                    for obs_date in r.get('oa_details', {}):
                         if obs_date == last_obs_date:
+                            oa_detail = oa_details[obs_date]
                             is_oa = oa_detail.get('is_oa', False)
                             publication_access.append(is_oa)
                             has_publication_oa = has_publication_oa or is_oa # at least one publi is oa
