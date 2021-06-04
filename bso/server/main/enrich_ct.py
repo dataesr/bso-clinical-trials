@@ -97,24 +97,21 @@ def enrich_ct(ct):
         delay_start_completion = (pd.to_datetime(ct['study_completion_date']) - pd.to_datetime(ct['study_start_date'])).days
         ct['delay_start_completion'] = delay_start_completion
 
-    if isinstance(ct.get('enrollment_count'), (int, float)):
-        if ct['enrollment_count'] < 50:
-            ct['enrollment_count_type'] = '49 or less'
-        elif ct['enrollment_count'] < 100:
-            ct['enrollment_count_type'] = '50 - 99'
-        elif ct['enrollment_count'] < 500:
-            ct['enrollment_count_type'] = '100 - 499'
-        elif ct['enrollment_count'] < 1000:
-            ct['enrollment_count_type'] = '500 - 999'
-        elif ct['enrollment_count'] < 5000:
-            ct['enrollment_count_type'] = '1000 - 4999'
-        elif ct['enrollment_count'] >= 5000:
-            ct['enrollment_count_type'] = '5000 or more'
-    else:
-        ct['enrollment_count_type'] = None
   
     if isinstance(ct.get('lead_sponsor'), str):
         ct['lead_sponsor_type'] = tag_sponsor(ct['lead_sponsor'])
+
+    french_location_only = None
+    location_country = ct.get('location_country', [])
+    if isinstance(location_country, list):
+        location_country_lower = list(set([loc.lower() for loc in location_country]))
+        if 'france' in location_country_lower:
+            location_country_lower.remove('france')
+        if len(location_country_lower)>0:
+            french_location_only = False
+        else:
+            french_location_only = True
+    ct['french_location_only'] = french_location_only
 
     if ct.get('references') is None:
         ct['references'] = []
