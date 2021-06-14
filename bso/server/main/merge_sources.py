@@ -57,6 +57,8 @@ def merge_all(today):
                 known_ids.add(i)
 
     all_ct_final = [untransform_ct(e) for e in all_ct]
+    for ct in all_ct_final:
+        ct['snapshot_date'] = today
     set_objects(all_ct_final, "clinical-trials", f"merged_ct_{today}.json.gz")
     return all_ct_final
 
