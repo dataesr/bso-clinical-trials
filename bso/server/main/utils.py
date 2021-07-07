@@ -56,7 +56,7 @@ def get_dois_info(publications):
     
 def requests_retry_session(
     retries=10,
-    backoff_factor=0.3,
+    backoff_factor=0.6,
     status_forcelist=(500, 502, 504),
     session=None,
 ):

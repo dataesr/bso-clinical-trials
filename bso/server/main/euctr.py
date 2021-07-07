@@ -38,7 +38,12 @@ def harvest():
     links_to_download = []
 
     for p in range(1, nb_pages + 1):
-        r = requests_retry_session().get(url+str(p), verify=False)
+        try:
+            r = requests_retry_session().get(url+str(p), verify=False)
+        except:
+            logger.debug(f"ignoring page {url}{p} that cannot be downloaded")
+            time.sleep(2)
+            continue
         soup = BeautifulSoup(r.text, "lxml")
         current_links = []
         for link in soup.find_all('a'):
