@@ -56,7 +56,12 @@ def harvest():
 
     htmls = []
     for ix, url in enumerate(links_to_download):
-        r = requests_retry_session().get(url, verify=False)
+        try:
+            r = requests_retry_session().get(url, verify=False)
+        except:
+            logger.debug(f"ignoring page {url} that cannot be downloaded")
+            time.sleep(2)
+            continue
         htmls.append(r.text)
         time.sleep(1)
     today = datetime.date.today()
@@ -64,9 +69,14 @@ def harvest():
     return htmls
 
 def parse_results(eudract):
+    res = {}
     url = "https://www.clinicaltrialsregister.eu/ctr-search/trial/{}/results".format(eudract)
-
-    r = requests_retry_session().get(url, verify=False)
+    try:
+        r = requests_retry_session().get(url, verify=False)
+    except:
+        logger.debug(f"ignoring page {url} that cannot be downloaded")
+        time.sleep(2)
+        return res
     html = r.text
 
     soup = BeautifulSoup(html)
@@ -77,7 +87,6 @@ def parse_results(eudract):
         value_col = tr.find(class_="valueColumn")
         if label_col and value_col:
             infos[label_col.get_text(" ").strip()] = value_col.get_text(" ").strip()
-    res = {}
     res['results_first_submit_date'] = my_parse_date(infos.get('First version publication date'), dayfirst=True)
     res['study_start_date'] = my_parse_date(infos.get('Actual start date of recruitment'), dayfirst=True)
     if len(infos.get('US NCT number', ''))>3:
