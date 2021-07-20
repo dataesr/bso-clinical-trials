@@ -27,8 +27,8 @@ def create_task_transform_load(args: dict) -> dict:
     harvest_date = args.get('harvest_date', today)
     merged_ct = merge_all(harvest_date)
     data = enrich(merged_ct)
-    current_month = datetime.date.today().isoformat()[0:7]
-    index = args.get('index', f'bso-clinical-trials-{current_month}')
+    current_date = datetime.date.today().isoformat()
+    index = args.get('index', f'bso-clinical-trials-{current_date}')
     reset_index(index=index)
     load_in_es(data=data, index=index)
     alias = 'bso-clinical-trials'
