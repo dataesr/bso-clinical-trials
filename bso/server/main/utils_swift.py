@@ -2,6 +2,7 @@ import swiftclient
 import json
 import pandas as pd
 import gzip
+from retry import retry
 from io import BytesIO, TextIOWrapper
 import os
 
@@ -32,6 +33,7 @@ conn = swiftclient.Connection(
     auth_version='3'
     )
 
+@retry(delay=2, tries=50)
 def upload_object(container, filename):
     object_name = filename.split('/')[-1]
     logger.debug(f"uploading {filename} in {container} as {object_name}")
@@ -47,6 +49,7 @@ def upload_object(container, filename):
     os.system(cmd)
     return f"https://storage.gra.cloud.ovh.net/v1/AUTH_{project_id}/{container}/{object_name}"
 
+@retry(delay=2, tries=50)
 def download_object(container, filename, out):
     logger.debug(f"downloading {filename} from {container} to {out}")
     cmd = f"swift --os-auth-url https://auth.cloud.ovh.net/v3 --auth-version 3\
@@ -59,6 +62,7 @@ def download_object(container, filename, out):
     cmd = cmd + f" download {container} {filename} -o {out}"
     os.system(cmd)
 
+@retry(delay=2, tries=50)
 def exists_in_storage(container, filename):
     try:
         conn.head_object(container, filename)
@@ -66,6 +70,7 @@ def exists_in_storage(container, filename):
     except:
         return False
     
+@retry(delay=2, tries=50)
 def get_objects(container, path):
     try:
         df = pd.read_json(BytesIO(conn.get_object(container, path)[1]), compression='gzip')
@@ -73,6 +78,7 @@ def get_objects(container, path):
         df = pd.DataFrame([])
     return df.to_dict("records")
     
+@retry(delay=2, tries=50)
 def set_objects(all_objects, container, path):
     logger.debug(f"setting object {container} {path}")
     if isinstance(all_objects, list):
@@ -87,6 +93,7 @@ def set_objects(all_objects, container, path):
     return
 
 
+@retry(delay=2, tries=50)
 def delete_folder(cont_name, folder):
     cont = conn.get_container(cont_name)
     for n in [e['name'] for e in cont[1] if folder in e['name']]:
