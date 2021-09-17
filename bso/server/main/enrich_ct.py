@@ -21,14 +21,8 @@ def enrich(all_ct):
         enriched = enrich_ct(ct)
         references = enriched.get('references', [])
         for r in references:
-            if 'doi:' in r.get('ReferenceCitation', '').lower():
-                doi = re.sub(".*doi:", '', r.get('ReferenceCitation', '')).strip().lower()
-                doi = doi.split(" ")[0]
-                if doi[-1] == ".":
-                    doi = doi[:-1]
-                r['doi'] = doi
-                if r.get('ReferenceType') in ['result', 'derived']:
-                    dois_to_get.append(doi)
+            if r.get('doi') and r.get('ReferenceType') in ['result', 'derived']:
+                dois_to_get.append(r['doi'])
         res.append(enriched)
     dois_info_dict = {}
     for c in chunks(list(set(dois_to_get)), 1000):

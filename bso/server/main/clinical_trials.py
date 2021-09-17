@@ -132,9 +132,26 @@ def parse_study(input_study):
    
 
     elt['references'] = references    
+    for r in references:
+        if 'doi:' in r.get('ReferenceCitation', '').lower():
+            doi = re.sub(".*doi:", '', r.get('ReferenceCitation', '')).strip().lower()
+            doi = doi.split(" ")[0]
+            if doi[-1] == ".":
+                doi = doi[:-1]
+            r['doi'] = doi
    
     # type can be result, derived or background
-    elt['publications_result'] = [p['doi'] for p in references if p.get('ReferenceType') == 'result' and 'doi' in p] 
+    elt['publications_result'] = []
+    for r in references:
+        if r.get('ReferenceType') == 'result':
+            if 'doi' in r:
+                elt['publications_result'].append(r['doi'])
+            elif 'ReferencePMID' in r:
+                elt['publications_result'].append(r['ReferencePMID'])
+            elif 'ReferenceCitation' in r:
+                elt['publications_result'].append(r['ReferenceCitation'])
+            else:
+                elt['publications_result'].append('other')
 
     elt['has_publications_result'] = len(elt['publications_result']) > 0
 
