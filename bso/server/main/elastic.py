@@ -6,13 +6,16 @@ from bso.server.main.logger import get_logger
 
 client = None
 logger = get_logger(__name__)
+timeout = 60
 
 
 @exception_handler
 def get_client():
     global client
     if client is None:
-        client = Elasticsearch(ES_URL, http_auth=(ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK))
+        client = Elasticsearch(hosts=ES_URL,
+                               http_auth=(ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK),
+                               timeout=timeout)
     return client
 
 
@@ -55,7 +58,7 @@ def reset_index(index: str) -> None:
 def load_in_es(data: list, index: str) -> None:
     es = get_client()
     actions = [{'_index': index, '_source': datum} for datum in data]
-    for success, info in helpers.parallel_bulk(client=es, actions=actions, chunk_size=500, request_timeout=60):
+    for success, info in helpers.parallel_bulk(client=es, actions=actions, chunk_size=500, request_timeout=timeout):
         if not success:
             logger.debug(f'A document failed: {info}')
     logger.debug(f'{len(data)} elements imported into {index}')
