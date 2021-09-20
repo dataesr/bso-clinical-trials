@@ -1,24 +1,18 @@
-import swiftclient
-import json
-import pandas as pd
 import gzip
-from retry import retry
-from io import BytesIO, TextIOWrapper
 import os
+import pandas as pd
+import swiftclient
+
+from io import BytesIO, TextIOWrapper
+from retry import retry
 
 from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
-
 user = "{}:{}".format(os.getenv("OS_TENANT_NAME"), os.getenv("OS_USERNAME"))
 key = os.getenv("OS_PASSWORD")
 project_id = os.getenv("OS_TENANT_ID")
 project_name = os.getenv("OS_PROJECT_NAME")
-
-#user=":"
-#key=""
-#project_id=""
-#project_name="Alvitur"
 
 conn = swiftclient.Connection(
     authurl='https://auth.cloud.ovh.net/v3',
@@ -27,11 +21,12 @@ conn = swiftclient.Connection(
     os_options={
             'user_domain_name': 'Default',
             'project_domain_name': 'Default',
-            'project_id':project_id,
+            'project_id': project_id,
             'project_name': project_name,
-            'region_name':'GRA'},
+            'region_name': 'GRA'},
     auth_version='3'
-    )
+)
+
 
 @retry(delay=2, tries=50)
 def upload_object(container, filename):
@@ -49,6 +44,7 @@ def upload_object(container, filename):
     os.system(cmd)
     return f"https://storage.gra.cloud.ovh.net/v1/AUTH_{project_id}/{container}/{object_name}"
 
+
 @retry(delay=2, tries=50)
 def download_object(container, filename, out):
     logger.debug(f"downloading {filename} from {container} to {out}")
@@ -62,6 +58,7 @@ def download_object(container, filename, out):
     cmd = cmd + f" download {container} {filename} -o {out}"
     os.system(cmd)
 
+
 @retry(delay=2, tries=50)
 def exists_in_storage(container, filename):
     try:
@@ -69,7 +66,8 @@ def exists_in_storage(container, filename):
         return True
     except:
         return False
-    
+
+
 @retry(delay=2, tries=50)
 def get_objects(container, path):
     try:
@@ -77,7 +75,8 @@ def get_objects(container, path):
     except:
         df = pd.DataFrame([])
     return df.to_dict("records")
-    
+
+
 @retry(delay=2, tries=50)
 def set_objects(all_objects, container, path):
     logger.debug(f"setting object {container} {path}")
