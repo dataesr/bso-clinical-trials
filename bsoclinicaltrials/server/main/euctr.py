@@ -4,9 +4,10 @@ import re
 from bs4 import BeautifulSoup
 import time
 import datetime
-from bso.server.main.logger import get_logger
-from bso.server.main.utils_swift import set_objects, get_objects
-from bso.server.main.utils import my_parse_date, requests_retry_session
+
+from bsoclinicaltrials.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.utils_swift import set_objects, get_objects
+from bsoclinicaltrials.server.main.utils import my_parse_date, requests_retry_session
 
 logger = get_logger(__name__)
 

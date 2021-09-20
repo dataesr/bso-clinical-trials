@@ -24,7 +24,7 @@ def create_app(script_info=None):
     bootstrap.init_app(app)
 
     # register blueprints
-    from bso.server.main.views import main_blueprint
+    from bsoclinicaltrials.server.main.views import main_blueprint
 
     app.register_blueprint(main_blueprint)
 

@@ -1,8 +1,8 @@
 import pandas as pd
 import re
 
-from bso.server.main.utils import chunks, get_dois_info
-from bso.server.main.strings import normalize
+from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
+from bsoclinicaltrials.server.main.strings import normalize
 
 
 def tag_sponsor(x):

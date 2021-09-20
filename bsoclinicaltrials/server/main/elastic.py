@@ -1,8 +1,8 @@
 from elasticsearch import Elasticsearch, helpers
 
-from bso.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL
-from bso.server.main.decorator import exception_handler
-from bso.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL
+from bsoclinicaltrials.server.main.decorator import exception_handler
+from bsoclinicaltrials.server.main.logger import get_logger
 
 client = None
 logger = get_logger(__name__)

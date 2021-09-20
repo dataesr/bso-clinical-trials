@@ -4,8 +4,9 @@ import requests
 import os
 import dateutil.parser
 from requests.adapters import HTTPAdapter
+
 from requests.packages.urllib3.util.retry import Retry
-from bso.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
 

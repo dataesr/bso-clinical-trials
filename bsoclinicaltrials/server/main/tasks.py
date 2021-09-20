@@ -1,10 +1,10 @@
 import datetime
 
-from bso.server.main.clinical_trials import harvest_parse_clinical_trials
-from bso.server.main.elastic import load_in_es, reset_index, update_alias
-from bso.server.main.enrich_ct import enrich
-from bso.server.main.euctr import harvest_parse_euctr
-from bso.server.main.merge_sources import merge_all
+from bsoclinicaltrials.server.main.clinical_trials import harvest_parse_clinical_trials
+from bsoclinicaltrials.server.main.elastic import load_in_es, reset_index, update_alias
+from bsoclinicaltrials.server.main.enrich_ct import enrich
+from bsoclinicaltrials.server.main.euctr import harvest_parse_euctr
+from bsoclinicaltrials.server.main.merge_sources import merge_all
 
 
 def create_task_harvest(args: dict) -> dict:

@@ -3,7 +3,7 @@ import redis
 from flask import Blueprint, current_app, jsonify, render_template, request
 from rq import Connection, Queue
 
-from bso.server.main.tasks import create_task_harvest, create_task_transform_load
+from bsoclinicaltrials.server.main.tasks import create_task_harvest, create_task_transform_load
 
 main_blueprint = Blueprint('main', __name__, )
 

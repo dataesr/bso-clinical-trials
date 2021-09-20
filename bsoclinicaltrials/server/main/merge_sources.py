@@ -1,6 +1,7 @@
 import pandas as pd
-from bso.server.main.logger import get_logger
-from bso.server.main.utils_swift import get_objects, set_objects
+
+from bsoclinicaltrials.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 

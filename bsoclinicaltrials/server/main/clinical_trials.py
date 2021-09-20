@@ -3,9 +3,9 @@ import math
 import re
 import dateutil.parser
 import datetime
-from bso.server.main.logger import get_logger
-from bso.server.main.utils_swift import set_objects, get_objects
-from bso.server.main.utils import my_parse_date 
+from bsoclinicaltrials.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.utils_swift import set_objects, get_objects
+from bsoclinicaltrials.server.main.utils import my_parse_date
 
 logger = get_logger(__name__)
 

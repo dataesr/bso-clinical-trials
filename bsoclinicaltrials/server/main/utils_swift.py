@@ -6,7 +6,7 @@ from retry import retry
 from io import BytesIO, TextIOWrapper
 import os
 
-from bso.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
 
