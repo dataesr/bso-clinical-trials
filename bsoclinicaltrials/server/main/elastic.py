@@ -1,21 +1,18 @@
 from elasticsearch import Elasticsearch, helpers
 
-from bsoclinicaltrials.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL
-from bsoclinicaltrials.server.main.decorator import exception_handler
-from bsoclinicaltrials.server.main.logger import get_logger
+from bso.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL
+from bso.server.main.decorator import exception_handler
+from bso.server.main.logger import get_logger
 
 client = None
 logger = get_logger(__name__)
-timeout = 60
 
 
 @exception_handler
 def get_client():
     global client
     if client is None:
-        client = Elasticsearch(hosts=ES_URL,
-                               http_auth=(ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK),
-                               timeout=timeout)
+        client = Elasticsearch(ES_URL, http_auth=(ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK))
     return client
 
 
@@ -58,7 +55,13 @@ def reset_index(index: str) -> None:
 def load_in_es(data: list, index: str) -> None:
     es = get_client()
     actions = [{'_index': index, '_source': datum} for datum in data]
-    for success, info in helpers.parallel_bulk(client=es, actions=actions, chunk_size=500, request_timeout=timeout):
+    ix = 0
+    indexed = []
+    for success, info in helpers.parallel_bulk(client=es, actions=actions, chunk_size=500, request_timeout=60, raise_on_error=False):
         if not success:
             logger.debug(f'A document failed: {info}')
+        else:
+            indexed.append(data[ix])
+        ix += 1
     logger.debug(f'{len(data)} elements imported into {index}')
+    return indexed
