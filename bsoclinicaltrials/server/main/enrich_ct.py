@@ -73,7 +73,7 @@ def enrich(all_ct):
 def enrich_ct(ct):
     if isinstance(ct.get('study_start_date'), str) and isinstance(ct.get('study_first_submit_date'), str):
         delay_submission_start = (
-                pd.to_datetime(ct['study_start_date']) - pd.to_datetime(ct['study_first_submit_date'])).days
+                pd.to_datetime(ct['study_first_submit_date']) - pd.to_datetime(ct['study_start_date'])).days
         ct['delay_submission_start'] = delay_submission_start
     if isinstance(ct.get('study_start_date'), str) and isinstance(ct.get('study_first_submit_date'), str) \
             and ct['study_start_date'] > ct['study_first_submit_date']:
