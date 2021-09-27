@@ -63,8 +63,8 @@ def enrich(all_ct):
             p['first_results_or_publication_date'] = p['first_publication_date']
         if isinstance(p.get('first_results_or_publication_date'), str) and isinstance(p.get('study_completion_date'),
                                                                                       str):
-            p['delay_first_results_completion'] = (pd.to_datetime(p['study_completion_date']) - pd.to_datetime(
-                p['first_results_or_publication_date'])).days
+            p['delay_first_results_completion'] = (pd.to_datetime(p['first_results_or_publication_date']) - pd.to_datetime(
+                p['study_completion_date'])).days
         p['has_publication_oa'] = has_publication_oa
         p['publication_access'] = publication_access
     return res
