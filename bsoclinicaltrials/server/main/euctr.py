@@ -133,7 +133,7 @@ def parse_euctr(html):
         except:
             continue
     res = {
-        'AudraCT': infos.get('A.2;EudraCT number'),
+        'eudraCT': infos.get('A.2;EudraCT number'),
         'has_results': summary_infos.get('Trial results') == 'View results'
     }
     res['has_results_or_publications'] = res['has_results']
