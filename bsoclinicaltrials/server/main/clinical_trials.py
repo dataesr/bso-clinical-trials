@@ -24,31 +24,34 @@ def harvest():
     return data
 
 
-def parse_all(harvested_data):
+def parse_all(harvested_data, harvest_date = None):
     parsed_data = []
     for d in harvested_data:
         parsed = parse_study(d)
         if 'France' in parsed.get('location_country', []):
             parsed_data.append(parsed)
-    today = datetime.date.today()
-    set_objects(parsed_data, 'clinical-trials', f'clinical_trials_parsed_{today}.json.gz')
+    if harvest_date is None:
+        today = datetime.date.today()
+        harvest_date = f'{today}'
+    set_objects(parsed_data, 'clinical-trials', f'clinical_trials_parsed_{harvest_date}.json.gz')
     return {
         'status': 'ok',
+        'harvest_date': f'{harvest_date}',
         'source': 'clinical-trials',
         'nb_studies_harvested': len(harvested_data),
         'nb_studies_parsed': len(parsed_data)
     }
 
 
-def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=''):
+def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=None):
     if to_harvest:
         harvested_data = harvest()
         if to_parse:
-            parse_all(harvested_data)
+            return parse_all(harvested_data, harvest_date)
     else:
         if to_parse:
-            harvested_data = get_objects('clinical-trials', f'Clinical_trials_raw_{harvest_date}.json.gz')
-            parse_all(harvested_data)
+            harvested_data = [x[0] for x in get_objects('clinical-trials', f'Clinical_trials_raw_{harvest_date}.json.gz')]
+            return parse_all(harvested_data, harvest_date)
 
 
 def parse_study(input_study):

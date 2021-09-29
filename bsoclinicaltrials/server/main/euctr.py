@@ -10,30 +10,33 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 logger = get_logger(__name__)
 
 
-def parse_all(harvested_data):
+def parse_all(harvested_data, harvest_date = None):
+    if harvest_date is None:
+        today = datetime.date.today()
+        harvest_date = f'{today}'
     parsed_data = []
     for d in harvested_data:
         parsed = parse_euctr(d)
         parsed_data.append(parsed)
-    today = datetime.date.today()
-    set_objects(parsed_data, 'clinical-trials', f'euctr_parsed_{today}.json.gz')
+    set_objects(parsed_data, 'clinical-trials', f'euctr_parsed_{harvest_date}.json.gz')
     return {
         'status': 'ok',
+        'harvest_date': f'{harvest_date}',
         'source': 'euctr',
         'nb_studies_harvested': len(harvested_data),
         'nb_studies_parsed': len(parsed_data)
     }
 
 
-def harvest_parse_euctr(to_harvest=True, to_parse=True, harvest_date=""):
+def harvest_parse_euctr(to_harvest=True, to_parse=True, harvest_date=None):
     if to_harvest:
         harvested_data = harvest()
         if to_parse:
-            parse_all(harvested_data)
+            return parse_all(harvested_data, harvest_date)
     else:
         if to_parse:
-            harvested_data = get_objects("clinical-trials", f"euctr_raw_{harvest_date}.json.gz")
-            parse_all(harvested_data)
+            harvested_data = [x[0] for x in get_objects("clinical-trials", f"euctr_raw_{harvest_date}.json.gz")]
+            return parse_all(harvested_data, harvest_date)
 
 
 def harvest():
@@ -85,7 +88,7 @@ def parse_results(eudract):
         return res
     html = r.text
 
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'lxml')
     trs = soup.find_all('tr')
     infos = {}
     for tr in trs:
@@ -109,7 +112,7 @@ def parse_results(eudract):
 
 
 def parse_euctr(html):
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'lxml')
     summary_infos = {}
     try:
         tr_summary = soup.find(class_="section summary").find_all('tr')

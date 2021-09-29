@@ -6,15 +6,15 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 logger = get_logger(__name__)
 
 
-def get_each_sources(today):
+def get_each_sources(date_ct, date_euctr):
     raw_trials = {}
-    df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{today}.json.gz"))
+    df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{date_ct}.json.gz"))
     df_ct['source'] = 'clinical_trials'
     raw_trials['NCTId'] = df_ct.to_dict(orient='records')
     nb_ct_clinical_trials = len(raw_trials['NCTId'])
     logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
     
-    df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{today}.json.gz"))
+    df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
     df_euctr['source'] = 'euctr'
     raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
     nb_ct_euctr = len(raw_trials['eudraCT'])
@@ -22,8 +22,8 @@ def get_each_sources(today):
     return raw_trials
 
 
-def merge_all(today):
-    raw_trials = get_each_sources(today)
+def merge_all(date_ct, date_euctr):
+    raw_trials = get_each_sources(date_ct, date_euctr)
     ct_transformed = {}
     for k in raw_trials:
         ct_transformed[k] = {}
@@ -55,8 +55,8 @@ def merge_all(today):
                 known_ids.add(i)
     all_ct_final = [untransform_ct(e) for e in all_ct]
     for ct in all_ct_final:
-        ct['snapshot_date'] = today
-    set_objects(all_ct_final, "clinical-trials", f"merged_ct_{today}.json.gz")
+        ct['snapshot_date'] = max(date_ct, date_euctr)
+    set_objects(all_ct_final, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
     return all_ct_final
 
 
