@@ -20,14 +20,13 @@ def create_task_harvest(args: dict) -> dict:
 
 
 def create_task_transform_load(args: dict) -> dict:
+    today = datetime.date.today()
+    harvest_date_ct = args.get('harvest_date_ct', f'{today}')
+    harvest_date_euctr = args.get('harvest_date_euctr', f'{today}')
     if args.get('harvest', True):
-        today = datetime.date.today()
-        harvest_date_ct = args.get('harvest_date_ct', today)
         res_ct = harvest_parse_clinical_trials(harvest=True, parse=True, harvest_date = harvest_date_ct)
-        today = datetime.date.today()
-        harvest_date_euctr = args.get('harvest_date_euctr', today)
         res_euctr = harvest_parse_euctr(harvest=True, parse=True, harvest_date = harvest_date_euctr)
-    merged_ct = merge_all(res_ct['harvest_date'], res_euctr['harvest_date'])
+    merged_ct = merge_all(harvest_date_ct, harvest_date_euctr)
     data = enrich(merged_ct)
     current_date = datetime.date.today().isoformat()
     index = args.get('index', f'bso-clinical-trials-{current_date}')
