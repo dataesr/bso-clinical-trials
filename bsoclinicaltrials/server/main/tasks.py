@@ -33,5 +33,6 @@ def create_task_transform_load(args: dict) -> dict:
     reset_index(index=index)
     load_in_es(data=data, index=index)
     alias = 'bso-clinical-trials'
-    update_alias(alias=alias, old_index='bso-clinical-trials-*', new_index=index)
+    # alias update should be done manually !
+    # update_alias(alias=alias, old_index='bso-clinical-trials-*', new_index=index)
     return {'nb_data': len(data), 'index': index, 'alias': alias}
