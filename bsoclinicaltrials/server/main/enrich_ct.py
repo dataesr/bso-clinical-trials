@@ -73,10 +73,10 @@ def enrich(all_ct):
 def enrich_ct(ct):
     ct['study_start_year'] = None
     if isinstance(ct.get('study_start_date'), str):
-        ct['study_start_year'] = ct['study_start_date'][0:4]
+        ct['study_start_year'] = int(ct['study_start_date'][0:4])
     ct['study_completion_year'] = None
     if isinstance(ct.get('study_completion_date'), str):
-        ct['study_completion_year'] = ct['study_completion_date'][0:4]
+        ct['study_completion_year'] = int(ct['study_completion_date'][0:4])
     if isinstance(ct.get('study_start_date'), str) and isinstance(ct.get('study_first_submit_date'), str):
         delay_submission_start = (
                 pd.to_datetime(ct['study_first_submit_date']) - pd.to_datetime(ct['study_start_date'])).days
