@@ -82,9 +82,6 @@ def parse_study(input_study):
     elt['study_start_date'] = my_parse_date(study_start_date)
     elt['study_start_date_type'] = study_start_date_type
     elt['status'] = status_module.get("OverallStatus")
-    elt['study_start_year'] = None
-    if elt['study_start_date']:
-        elt['study_start_year'] = elt['study_start_date'][0:4]
     study_completion_date = status_module.get('CompletionDateStruct', {}).get('CompletionDate')
     study_completion_date_type = status_module.get('CompletionDateStruct', {}).get('CompletionDateType')
     elt['study_completion_date'] = my_parse_date(study_completion_date)

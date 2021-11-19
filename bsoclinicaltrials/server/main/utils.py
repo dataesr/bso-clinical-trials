@@ -30,7 +30,7 @@ def get_dois_info(publications):
         return publications
     logger.debug(f"getting doi info for {nb} publications")
     url_upw = os.getenv("PUBLICATIONS_MONGO_SERVICE")
-    r = requests.post(f"{url_upw}/enrich", json={"publications":publications})
+    r = requests.post(f"{url_upw}/enrich", json={"publications":publications, "last_observation_date_only": True})
     task_id = r.json()['data']['task_id']
     for i in range(0, 10000):
         r_task = requests.get(f"{url_upw}/tasks/{task_id}").json()
