@@ -1,3 +1,23 @@
+# Python
+*.pyc
+*.mypy_cache*
+.mypy*
 venv
-.idea
+
+# Unit tests
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
 notebooks/*
+
+# IDE
+.idea
+.vscode
+
+# Logs
+*.log
+
+# Build
+dist
+*.egg-info
