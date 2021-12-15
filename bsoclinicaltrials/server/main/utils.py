@@ -87,10 +87,25 @@ def dump_to_object_storage(args: dict) -> list:
     os.system(cmd_elasticdump)
     logger.debug('Elasticdump is done')
     # 2. Convert JSON file into CSV by selecting fields
-    cmd_header = f"echo 'NCTId' > {output_csv_file}"
+    cmd_header = f"echo 'ISRCTN,NCTId,WHO,acronym,all_sources," \
+        f"delay_first_results_completion,delay_start_completion," \
+        f"delay_submission_start,design_allocation,enrollment_count," \
+        f"enrollment_type,eudraCT,first_publication_date," \
+        f"first_results_or_publication_date,french_location_only," \
+        f"has_publication_oa,has_publications_result,has_results," \
+        f"has_results_or_publications,intervention_type,ipd_sharing," \
+        f"lead_sponsor,lead_sponsor_type,location_country,location_facility," \
+        f"other_ids,primary_purpose,publication_access,publications_result," \
+        f"references,results_first_submit_date,results_first_submit_qc_date," \
+        f"snapshot_date,status,status_simplified,study_completion_date," \
+        f"study_completion_date_type,study_completion_year," \
+        f"study_first_submit_date,study_first_submit_qc_date," \
+        f"study_start_date,study_start_date_type,study_start_year," \
+        f"study_type,submission_temporality,time_perspective,title'" \
+        f" > {output_csv_file}"
     logger.debug(cmd_header)
     os.system(cmd_header)
-    cmd_jq = f"zcat {output_json_file} | jq -rc '[.NCTId]|flatten|@csv' >> {output_csv_file}"
+    cmd_jq = f"zcat {output_json_file} | jq -rc '[.ISRCTN,.NCTId,.WHO,.acronym,((.all_sources)?|join(\";\"))//null,.delay_first_results_completion,.delay_start_completion,.delay_submission_start,.design_allocation,.enrollment_count,.enrollment_type,.eudraCT,.first_publication_date,.first_results_or_publication_date,.french_location_only,.has_publication_oa,.has_publications_result,.has_results,.has_results_or_publications,.intervention_type,.ipd_sharing,.lead_sponsor,.lead_sponsor_type,((.location_country)?|join(\";\"))//null,((.location_facility)?|join(\";\"))//null,((.other_ids)?|join(\";\"))//null,.primary_purpose,((.publication_access)?|join(\";\"))//null,.publications_result,((.references)?|join(\";\"))//null,.results_first_submit_date,.results_first_submit_qc_date,.snapshot_date,.status,.status_simplified,.study_completion_date,.study_completion_date_type,.study_completion_year,.study_first_submit_date,.study_first_submit_qc_date,.study_start_date,.study_start_date_type,.study_start_year,.study_type,.submission_temporality,.time_perspective,.title]|flatten|@csv' >> {output_csv_file}"
     logger.debug(cmd_jq)
     os.system(cmd_jq)
     local_bso_filenames = []
