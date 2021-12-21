@@ -75,6 +75,11 @@ def parse_study(input_study):
                 elt['eudraCT'] = second_id_elt.get("SecondaryId")
     elt['title'] = identification_module.get('OfficialTitle')
     elt['acronym'] = identification_module.get('Acronym')
+    #description
+    description_module = protocol.get('DescriptionModule', {})
+    summary = description_module.get('BriefSummary')
+    if summary:
+        elt['summary'] = summary
     # Status
     status_module = protocol.get('StatusModule', {})
     study_start_date = status_module.get('StartDateStruct', {}).get('StartDate')
