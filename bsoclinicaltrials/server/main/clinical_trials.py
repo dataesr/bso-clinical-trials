@@ -128,7 +128,7 @@ def parse_study(input_study):
     # Type can be result, derived or background
     elt['publications_result'] = []
     for r in references:
-        if r.get('ReferenceType') == 'result':
+        if r.get('ReferenceType') in ['result', 'derived']:
             if 'doi' in r:
                 elt['publications_result'].append(r['doi'])
             elif 'ReferencePMID' in r:
