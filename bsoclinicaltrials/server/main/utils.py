@@ -108,27 +108,6 @@ def dump_to_object_storage(args: dict) -> list:
     cmd_jq = f"zcat {output_json_file} | jq -rc '[.ISRCTN,.NCTId,.WHO,.acronym,((.all_sources)?|join(\";\"))//null,.delay_first_results_completion,.delay_start_completion,.delay_submission_start,.design_allocation,.enrollment_count,.enrollment_type,.eudraCT,.first_publication_date,.first_results_or_publication_date,.french_location_only,.has_publication_oa,.has_publications_result,.has_results,.has_results_or_publications,.intervention_type,.ipd_sharing,.lead_sponsor,.lead_sponsor_type,((.location_country)?|join(\";\"))//null,((.location_facility)?|join(\";\"))//null,((.other_ids)?|join(\";\"))//null,.primary_purpose,((.publication_access)?|join(\";\"))//null,.publications_result,((.references)?|join(\";\"))//null,.results_first_submit_date,.results_first_submit_qc_date,.snapshot_date,.status,.status_simplified,.study_completion_date,.study_completion_date_type,.study_completion_year,.study_first_submit_date,.study_first_submit_qc_date,.study_start_date,.study_start_date_type,.study_start_year,.study_type,.submission_temporality,.time_perspective,.title]|flatten|@csv' >> {output_csv_file}"
     logger.debug(cmd_jq)
     os.system(cmd_jq)
-    local_bso_filenames = []
-    for page in range(1, 1000000):
-        filenames = get_objects_by_page(container='bso-local', page=page, full_objects=False)
-        if len(filenames) == 0:
-            break
-        for filename in filenames:
-            logger.debug(f'Dump bso-local {filename}')
-            local_bso_filenames += filename.split('.')[0].split('_')
-    local_bso_filenames = list(set(local_bso_filenames))
-    for local_affiliation in local_bso_filenames:
-        logger.debug(f'bso-local files creation for {local_affiliation}')
-        cmd_local_json = f'zcat {output_json_file} | fgrep {local_affiliation} > enriched_{local_affiliation}.jsonl'
-        cmd_local_csv_header = f'head -n 1 {output_csv_file} > enriched_{local_affiliation}.csv'
-        cmd_local_csv = f'cat {output_csv_file} | fgrep {local_affiliation} >> enriched_{local_affiliation}.csv'
-        os.system(cmd_local_json)
-        os.system(cmd_local_csv_header)
-        os.system(cmd_local_csv)
-        upload_object(container=container, filename=f'enriched_{local_affiliation}.jsonl')
-        upload_object(container=container, filename=f'enriched_{local_affiliation}.csv')
-        os.system(f'rm -rf enriched_{local_affiliation}.jsonl')
-        os.system(f'rm -rf enriched_{local_affiliation}.csv')
     cmd_gzip = f'gzip {output_csv_file}'
     logger.debug(cmd_gzip)
     os.system(cmd_gzip)

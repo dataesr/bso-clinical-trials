@@ -50,7 +50,8 @@ def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=N
             return parse_all(harvested_data, harvest_date)
     else:
         if to_parse:
-            harvested_data = [x[0] for x in get_objects('clinical-trials', f'Clinical_trials_raw_{harvest_date}.json.gz')]
+            # harvested_data = [x[0] for x in get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')]
+            harvested_data = get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')
             return parse_all(harvested_data, harvest_date)
 
 
