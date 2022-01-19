@@ -144,6 +144,9 @@ def parse_study(input_study):
     ipd_module = protocol.get('IPDSharingStatementModule', {})
     ipd_sharing = ipd_module.get('IPDSharing')
     elt['ipd_sharing'] = ipd_sharing
+    ipd_sharing_description = ipd_module.get('IPDSharingDescription')
+    elt['ipd_sharing'] = ipd_sharing
+    elt['ipd_sharing_description'] = ipd_sharing_description
     # Sponsor
     sponsor_module = protocol.get('SponsorCollaboratorsModule', {})
     lead_sponsor = sponsor_module.get('LeadSponsor', {}).get('LeadSponsorName')
