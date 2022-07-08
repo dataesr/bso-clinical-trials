@@ -118,4 +118,5 @@ def enrich_ct(ct):
     elif current_status in ['Ongoing', 'Recruiting', 'Active, not recruiting', 'Not yet recruiting']:
         status_simplified = 'Ongoing'
     ct['status_simplified'] = status_simplified
+    ct['bso_country'] = ['fr']
     return ct
