@@ -151,6 +151,13 @@ def parse_study(input_study):
     sponsor_module = protocol.get('SponsorCollaboratorsModule', {})
     lead_sponsor = sponsor_module.get('LeadSponsor', {}).get('LeadSponsorName')
     elt['lead_sponsor'] = lead_sponsor
+    collaborators = sponsor_module.get('CollaboratorList', [])
+    elt['collaborators'] = []
+    if collaborators:
+        for k in collaborators.get('Collaborator', []):
+            if k.get('CollaboratorName') and k not in elt['collaborators']:
+                elt['collaborators'].append(k.get('CollaboratorName'))
+    elt['sponsor_collaborators'] = [elt['lead_sponsor']] + elt['collaborators']
     # ContactLocation
     locations_module = protocol.get('ContactsLocationsModule', {})
     locations = locations_module.get('LocationList', {}).get('Location', [])
