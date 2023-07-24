@@ -31,6 +31,7 @@ def enrich(all_ct):
             dois_info_dict[doi] = info
     for p in res:
         has_publication_oa = None
+        p['has_results_or_publications_within_2y'] = False
         publication_access = []
         publications_date = []
         for r in p['references']:
@@ -65,6 +66,7 @@ def enrich(all_ct):
                                                                                       str):
             p['delay_first_results_completion'] = (pd.to_datetime(p['first_results_or_publication_date']) - pd.to_datetime(
                 p['study_completion_date'])).days
+            p['has_results_or_publications_within_2y'] = (p['delay_first_results_completion'] <= 365 * 2)
         p['has_publication_oa'] = has_publication_oa
         p['publication_access'] = publication_access
     return res
