@@ -8,12 +8,14 @@ logger = get_logger(__name__)
 
 def get_each_sources(date_ct, date_euctr):
     raw_trials = {}
+    logger.debug(f'getting clinicaltrials data from {date_ct}')
     df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{date_ct}.json.gz"))
     df_ct['source'] = 'clinical_trials'
     raw_trials['NCTId'] = df_ct.to_dict(orient='records')
     nb_ct_clinical_trials = len(raw_trials['NCTId'])
     logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
     
+    logger.debug(f'getting euctr data from {date_euctr}')
     df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
     df_euctr['source'] = 'euctr'
     raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
@@ -23,6 +25,8 @@ def get_each_sources(date_ct, date_euctr):
 
 
 def merge_all(date_ct, date_euctr):
+    # each field is transformed (transform_ct function) to become a list of element, each element with a source
+    # after merge, the untransform_ct function turns back to a proper schema
     raw_trials = get_each_sources(date_ct, date_euctr)
     ct_transformed = {}
     for k in raw_trials:
@@ -61,6 +65,8 @@ def merge_all(date_ct, date_euctr):
 
 
 def untransform_ct(ct):
+    list_of_dict = ['references', 'other_ids']
+    list_of_str = ['location_country', 'location_facility', 'collaborators', 'sponsor_collaborators']
     new_ct = {}
     all_sources = [e['source'] for e in ct['source']]
     all_sources.sort()
@@ -70,9 +76,9 @@ def untransform_ct(ct):
             continue
         elif len(ct[f]) == 0:
             new_ct[f] = None
-        elif f in ['references', 'other_ids']:
+        elif f in list_of_dict:
             new_ct[f] = ct[f]
-        elif f in ['location_country', 'location_facility']:
+        elif f in list_of_str:
             new_ct[f] = [elt[f] for elt in ct[f]]
         elif len(ct[f]) == 1:
             new_ct[f] = ct[f][0][f]

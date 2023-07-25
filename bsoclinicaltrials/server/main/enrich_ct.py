@@ -25,7 +25,7 @@ def enrich(all_ct):
         res.append(enriched)
     dois_info_dict = {}
     for c in chunks(list(set(dois_to_get)), 1000):
-        dois_info = get_dois_info([{'doi': doi} for doi in c])
+        dois_info = get_dois_info([{'doi': doi, 'id': f'doi{doi}'} for doi in c])
         for info in dois_info:
             doi = info['doi']
             dois_info_dict[doi] = info
@@ -39,7 +39,7 @@ def enrich(all_ct):
                 doi = r.get('doi')
                 if doi in dois_info_dict:
                     r.update(dois_info_dict[doi])
-                if r.get('ReferenceType') in ['result']:
+                if r.get('ReferenceType') in ['result', 'derived']:
                     if isinstance(r.get('published_date'), str):
                         publications_date.append(r.get('published_date'))
                     if has_publication_oa is None:

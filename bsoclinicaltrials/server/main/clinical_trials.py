@@ -158,6 +158,7 @@ def parse_study(input_study):
             if k.get('CollaboratorName') and k not in elt['collaborators']:
                 elt['collaborators'].append(k.get('CollaboratorName'))
     elt['sponsor_collaborators'] = [elt['lead_sponsor']] + elt['collaborators']
+    assert(isinstance(elt['sponsor_collaborators'], list))
     # ContactLocation
     locations_module = protocol.get('ContactsLocationsModule', {})
     locations = locations_module.get('LocationList', {}).get('Location', [])
