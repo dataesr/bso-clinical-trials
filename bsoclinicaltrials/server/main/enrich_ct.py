@@ -38,7 +38,9 @@ def enrich(all_ct):
             if r.get('doi'):
                 doi = r.get('doi')
                 if doi in dois_info_dict:
-                    r.update(dois_info_dict[doi])
+                    for f in ['year', 'published_date', 'oa_details', 'publisher_dissemination', 'observation_dates']:
+                        if f in dois_info_dict[doi]:
+                            r[f] = dois_info_dict[doi][f]
                 if r.get('ReferenceType') in ['result', 'derived']:
                     if isinstance(r.get('published_date'), str):
                         publications_date.append(r.get('published_date'))

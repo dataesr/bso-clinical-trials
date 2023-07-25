@@ -65,7 +65,7 @@ def merge_all(date_ct, date_euctr):
 
 
 def untransform_ct(ct):
-    list_of_dict = ['references', 'other_ids']
+    list_of_dict = ['references', 'other_ids', 'publications_result']
     list_of_str = ['location_country', 'location_facility', 'collaborators', 'sponsor_collaborators']
     new_ct = {}
     all_sources = [e['source'] for e in ct['source']]
