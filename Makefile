@@ -16,8 +16,8 @@ docker-push:
 	@echo Pushing a new docker image
 	docker tag $(DOCKER_IMAGE_NAME) $(GHCR_IMAGE_NAME):$(CURRENT_VERSION)
 	docker tag $(DOCKER_IMAGE_NAME) $(GHCR_IMAGE_NAME):latest
-	docker push $(DOCKER_IMAGE_NAME):$(CURRENT_VERSION)
-	docker push $(DOCKER_IMAGE_NAME):latest
+	docker push $(GHCR_IMAGE_NAME):$(CURRENT_VERSION)
+	docker push $(GHCR_IMAGE_NAME):latest
 	@echo Docker image pushed
 
 release:
