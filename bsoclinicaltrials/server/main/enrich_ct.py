@@ -13,10 +13,10 @@ def tag_sponsor(x):
     return 'industriel'
 
 
-def enrich(all_ct):
+def enrich(args: dict):
     res = []
     dois_to_get = []
-    for ct in all_ct:
+    for ct in args.get('ct', []):
         enriched = enrich_ct(ct)
         references = enriched.get('references', [])
         for r in references:
@@ -24,11 +24,12 @@ def enrich(all_ct):
                 dois_to_get.append(r['doi'])
         res.append(enriched)
     dois_info_dict = {}
-    for c in chunks(list(set(dois_to_get)), 1000):
-        dois_info = get_dois_info([{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
-        for info in dois_info:
-            doi = info['doi']
-            dois_info_dict[doi] = info
+    if args.get('retrieve_publications_info', True):
+        for c in chunks(list(set(dois_to_get)), 1000):
+            dois_info = get_dois_info([{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
+            for info in dois_info:
+                doi = info['doi']
+                dois_info_dict[doi] = info
     for p in res:
         has_publication_oa = None
         p['has_results_or_publications_within_2y'] = False
