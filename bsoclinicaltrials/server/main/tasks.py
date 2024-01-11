@@ -23,12 +23,11 @@ def create_task_transform_load(args: dict) -> dict:
     today = datetime.date.today()
     harvest_date_ct = args.get('harvest_date_ct', f'{today}')
     harvest_date_euctr = args.get('harvest_date_euctr', f'{today}')
-    retrieve_publications_info = args.get('retrieve_publications_info', True)
     if args.get('harvest', True) or args.get('parse', True):
         res_ct = harvest_parse_clinical_trials(to_harvest=args.get('harvest', True), to_parse=args.get('parse', True), harvest_date = harvest_date_ct)
         res_euctr = harvest_parse_euctr(to_harvest=args.get('harvest', True), to_parse=args.get('parse', True), harvest_date = harvest_date_euctr)
     merged_ct = merge_all(harvest_date_ct, harvest_date_euctr)
-    data = enrich({ 'ct': merged_ct, 'retrieve_publications_info': retrieve_publications_info })
+    data = enrich(merged_ct)
     current_date = datetime.date.today().isoformat()
     index = args.get('index', f'bso-clinical-trials-{current_date}')
     reset_index(index=index)
