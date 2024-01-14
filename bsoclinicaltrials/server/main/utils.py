@@ -14,6 +14,7 @@ from bsoclinicaltrials.server.main.utils_swift import upload_object, get_objects
 
 logger = get_logger(__name__)
 
+PUBLIC_API_PASSWORD = os.getenv('PUBLIC_API_PASSWORD')
 
 def my_parse_date(x, dayfirst=False):
     if x:
@@ -34,7 +35,7 @@ def get_dois_info(publications):
         return publications
     logger.debug(f"getting doi info for {nb} publications")
     url_upw = os.getenv("PUBLICATIONS_MONGO_SERVICE")
-    r = requests.post(f"{url_upw}/enrich", json={"publications": publications, "last_observation_date_only": True})
+    r = requests.post(f"{url_upw}/enrich", json={"publications": publications, "last_observation_date_only": True, "PUBLIC_API_PASSWORD": PUBLIC_API_PASSWORD})
     task_id = r.json()['data']['task_id']
     for i in range(0, 10000):
         r_task = requests.get(f"{url_upw}/tasks/{task_id}").json()
