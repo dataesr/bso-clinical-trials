@@ -5,7 +5,9 @@ from bsoclinicaltrials.server.main.elastic import load_in_es, reset_index, updat
 from bsoclinicaltrials.server.main.enrich_ct import enrich
 from bsoclinicaltrials.server.main.euctr import harvest_parse_euctr
 from bsoclinicaltrials.server.main.merge_sources import merge_all
+from bsoclinicaltrials.server.main.logger import get_logger
 
+logger = get_logger(__name__)
 
 def create_task_harvest(args: dict) -> dict:
     source = args.get('source', '').lower()

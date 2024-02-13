@@ -2,7 +2,7 @@ import pandas as pd
 
 from bsoclinicaltrials.server.main.strings import normalize
 from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
-
+from bsoclinicaltrials.server.main.sirano import get_sirano
 
 def tag_sponsor(x):
     x_normalized = normalize(x)
@@ -16,8 +16,9 @@ def tag_sponsor(x):
 def enrich(all_ct):
     res = []
     dois_to_get = []
+    sirano_dict = get_sirano()
     for ct in all_ct:
-        enriched = enrich_ct(ct)
+        enriched = enrich_ct(ct, sirano_dict)
         references = enriched.get('references', [])
         for r in references:
             if r.get('doi') and r.get('ReferenceType') in ['result', 'derived']:
@@ -76,7 +77,7 @@ def enrich(all_ct):
     return res
 
 
-def enrich_ct(ct):
+def enrich_ct(ct, sirano_dict):
     ct['study_start_year'] = None
     if isinstance(ct.get('study_start_date'), str):
         ct['study_start_year'] = int(ct['study_start_date'][0:4])
@@ -125,4 +126,6 @@ def enrich_ct(ct):
         status_simplified = 'Ongoing'
     ct['status_simplified'] = status_simplified
     ct['bso_country'] = ['fr']
+    if isinstance(ct.get('NCTId'), str) and ct['NCTId'] in sirano_dict:
+        ct.update(sirano_dict[ct['NCTId']])
     return ct
