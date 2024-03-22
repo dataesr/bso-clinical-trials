@@ -83,9 +83,10 @@ def pandas_to_csv(df):
             'enrollment_type', 'eudraCT', 'first_publication_date',
             'first_results_or_publication_date', 'french_location_only',
             'has_publication_oa', 'has_publications_result', 'has_results',
-            'has_results_or_publications', 'intervention_type', 'ipd_sharing', 'ipd_sharing_description',
-            'lead_sponsor', 'lead_sponsor_type', 'location_country', 'location_facility',
-            'other_ids', 'primary_purpose', 'publication_access', 'publications_result',
+            'has_results_or_publications', 'has_results_or_publications_within_1y',
+            'has_results_or_publications_within_3y', 'intervention_type', 'ipd_sharing',
+            'ipd_sharing_description', 'lead_sponsor', 'lead_sponsor_type', 'location_country',
+            'location_facility', 'other_ids', 'primary_purpose', 'publication_access', 'publications_result',
             'references', 'results_first_submit_date', 'results_first_submit_qc_date',
             'snapshot_date', 'status', 'status_simplified', 'study_completion_date',
             'study_completion_date_type', 'study_completion_year',
@@ -130,7 +131,7 @@ def dump_to_object_storage(args: dict) -> list:
     os.system(cmd_elasticdump)
     logger.debug('Elasticdump is done')
     # 2. Convert JSON file into CSV by selecting fields
-    df_json=pd.read_json(output_json_file, lines=True)
+    df_json = pd.read_json(output_json_file, lines=True)
     df_csv = pandas_to_csv(df_json)
     df_csv.to_csv(output_csv_file, index=False, sep=',')
     cmd_gzip = f'gzip {output_csv_file}'

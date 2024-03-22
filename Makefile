@@ -14,8 +14,7 @@ docker-build:
 
 docker-push:
 	@echo Pushing a new docker image
-	docker push $(GHCR_IMAGE_NAME):$(CURRENT_VERSION)
-	docker push $(GHCR_IMAGE_NAME):latest
+	docker push --all-tags $(GHCR_IMAGE_NAME)
 	@echo Docker image pushed
 
 release:
