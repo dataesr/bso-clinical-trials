@@ -3,7 +3,7 @@ from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
 
-url = "https://www.data.gouv.fr/fr/datasets/r/c156ce7f-1ec8-4381-b8b9-fe5d2f933168"
+url = "https://www.data.gouv.fr/fr/datasets/r/c5d8ca9b-39cb-45eb-817a-e5d41154d732"
 
 def get_sirano():
     df = pd.read_csv(url, sep=';', encoding='iso-8859-1')
