@@ -8,16 +8,19 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
+countries = ["France", "Guadeloupe", "Martinique", "Mayotte", "French Guiana", "Réunion"]
+
 
 def harvest():
-    url = "https://clinicaltrials.gov/api/v2/studies?query.term=france&countTotal={}&pageSize=1000"
-    r = requests.get(url.format("true")).json()
+    countries_query = ' OR '.join([country.lower() for country in countries])
+    url = "https://clinicaltrials.gov/api/v2/studies?query.term={}&countTotal={}&pageSize=1000"
+    r = requests.get(url.format(countries_query, "true")).json()
     count = r.get("totalCount")
     nextToken = r.get("nextPageToken")
     logger.debug(f"{count} studies found")
     data = r.get("studies")
     while nextToken:
-        r = requests.get(f"{url}&pageToken={nextToken}".format("false")).json()
+        r = requests.get(f"{url}&pageToken={nextToken}".format(countries_query, "false")).json()
         nextToken = r.get("nextPageToken")
         data += r.get("studies")
     today = datetime.date.today()
@@ -29,8 +32,9 @@ def parse_all(harvested_data, harvest_date = None):
     parsed_data = []
     for d in harvested_data:
         parsed = parse_study(d)
-        if 'France' in parsed.get('location_country', []):
-            parsed_data.append(parsed)
+        for country in countries:
+            if country in parsed.get('location_country', []):
+                parsed_data.append(parsed)
     if harvest_date is None:
         today = datetime.date.today()
         harvest_date = f'{today}'
