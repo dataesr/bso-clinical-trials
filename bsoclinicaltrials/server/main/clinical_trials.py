@@ -62,10 +62,9 @@ def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=N
 
 # See data model : https://clinicaltrials.gov/data-api/about-api/study-data-structure
 def parse_study(input_study):
-    x = input_study.get('Study')
     protocol = input_study.get('protocolSection', {})
     # Results
-    results = x.get('resultsSection')
+    results = input_study.get('resultsSection')
     elt = {'has_results': (results is not None)}
     # Identification
     identification_module = protocol.get('identificationModule', {})
@@ -107,7 +106,7 @@ def parse_study(input_study):
     elt['results_first_submit_qc_date'] = my_parse_date(results_first_submit_qc_date)
     # Design
     design_module = protocol.get('designModule', {})
-    study_type = design_module.get('studyType')
+    study_type = design_module.get('studyType').capitalize()
     elt['study_type'] = study_type
     design_info = design_module.get('designInfo', {})
     time_perspective = design_info.get('timePerspective')
