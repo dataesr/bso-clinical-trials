@@ -91,7 +91,7 @@ def parse_study(input_study):
     study_start_date_type = status_module.get('startDateStruct', {}).get('type')
     elt['study_start_date'] = my_parse_date(study_start_date)
     elt['study_start_date_type'] = study_start_date_type
-    elt['status'] = status_module.get("overallStatus")
+    elt['status'] = status_module.get("overallStatus").capitalize()
     study_completion_date = status_module.get('completionDateStruct', {}).get('date')
     study_completion_date_type = status_module.get('completionDateStruct', {}).get('type')
     elt['study_completion_date'] = my_parse_date(study_completion_date)
