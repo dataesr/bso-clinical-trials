@@ -77,7 +77,7 @@ def pandas_to_csv(df):
     csv_data = []
     for d in data:
         elt = {}
-        for f in ['ISRCTN', 'NCTId', 'WHO', 'acronym' ,'all_sources',
+        for field in ['ISRCTN', 'NCTId', 'WHO', 'acronym' ,'all_sources',
                       'delay_first_results_completion', 'delay_start_completion',
                  'delay_submission_start', 'design_allocation', 'enrollment_count',
             'enrollment_type', 'eudraCT', 'first_publication_date',
@@ -85,7 +85,7 @@ def pandas_to_csv(df):
             'has_publication_oa', 'has_publications_result', 'has_results',
             'has_results_or_publications', 'has_results_or_publications_within_1y',
             'has_results_or_publications_within_3y', 'intervention_type', 'ipd_sharing',
-            'ipd_sharing_description', 'lead_sponsor', 'lead_sponsor_type', 'location_country',
+            'ipd_sharing_description', 'lead_sponsor', 'lead_sponsor_type', 'sponsor_collaborators', 'location_country',
             'location_facility', 'other_ids', 'primary_purpose', 'publication_access', 'publications_result',
             'references', 'results_first_submit_date', 'results_first_submit_qc_date',
             'snapshot_date', 'status', 'status_simplified', 'study_completion_date',
@@ -93,22 +93,22 @@ def pandas_to_csv(df):
             'study_first_submit_date', 'study_first_submit_qc_date',
             'study_start_date', 'study_start_date_type', 'study_start_year',
             'study_type', 'submission_temporality', 'time_perspective', 'title']:
-            if isinstance(d.get(f), str) or isinstance(d.get(f), int) or isinstance(d.get(f), float):
-                elt[f] = d[f]
-            elif isinstance(d.get(f), list):
-                if f == 'other_ids':
-                    elt[f] = '|'.join([k['id'] for k in d[f]])
-                elif f == 'references':
-                    elt[f] = '|'.join([k.get('doi') for k in d[f] if k.get('doi')])
-                elif f == 'publication_access':
-                    elt[f] = '|'.join(str(d[f]))
+            if isinstance(d.get(field), str) or isinstance(d.get(field), int) or isinstance(d.get(field), float):
+                elt[field] = d[field]
+            elif isinstance(d.get(field), list):
+                if field == 'other_ids':
+                    elt[field] = '|'.join([k['id'] for k in d[field]])
+                elif field == 'references':
+                    elt[field] = '|'.join([k.get('doi') for k in d[field] if k.get('doi')])
+                elif field == 'publication_access':
+                    elt[field] = '|'.join(str(d[field]))
                 else:
-                    elt[f] = '|'.join(d[f])
-            elif d.get(f) is None:
-                elt[f] = None
+                    elt[field] = '|'.join(d[field])
+            elif d.get(field) is None:
+                elt[field] = None
             else:
-                print(f)
-                print(type(d[f]))
+                print(field)
+                print(type(d[field]))
                 assert(False)
         csv_data.append(elt)
     df_csv = pd.DataFrame(csv_data)
