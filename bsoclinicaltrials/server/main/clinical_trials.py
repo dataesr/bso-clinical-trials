@@ -132,7 +132,7 @@ def parse_study(input_study):
     # Type can be result, derived or background
     elt['publications_result'] = []
     for r in references:
-        if r.get('type') in ['result', 'derived'] and 'protocol' not in r['citation'].lower():
+        if r.get('type').lower() in ['result', 'derived'] and 'protocol' not in r['citation'].lower():
             if 'doi' in r:
                 elt['publications_result'].append(r['doi'])
             elif 'pmid' in r:
