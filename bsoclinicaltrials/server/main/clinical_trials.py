@@ -119,16 +119,20 @@ def parse_study(input_study):
     elt['enrollment_count'] = enrollment_count
     elt['enrollment_type'] = enrollment_type
     # References
-    ref_module = protocol.get('referencesModule', {})
-    references = ref_module.get('references', [])
-    elt['references'] = references
+    ref_module = protocol.get("referencesModule", {})
+    references = ref_module.get("references", [])
+    elt["references"] = []
     for r in references:
-        if 'doi:' in r.get('citation', '').lower():
-            doi = re.sub(".*doi:", '', r.get('citation', '')).strip().lower()
+        if r.get("type"):
+            r["type"] = r.get("type").lower()
+        elt["references"].append(r)
+    for r in references:
+        if "doi:" in r.get("citation", "").lower():
+            doi = re.sub(".*doi:", "", r.get("citation", "")).strip().lower()
             doi = doi.split(" ")[0]
             if doi[-1] == ".":
                 doi = doi[:-1]
-            r['doi'] = doi
+            r["doi"] = doi
     # Type can be result, derived or background
     elt['publications_result'] = []
     for r in references:
@@ -145,8 +149,7 @@ def parse_study(input_study):
     elt['has_results_or_publications'] = elt['has_results'] or elt['has_publications_result']
     # IPD individual patient data
     ipd_module = protocol.get('ipdSharingStatementModule', {})
-    ipd_sharing = ipd_module.get('ipdSharing')
-    elt['ipd_sharing'] = ipd_sharing
+    elt['ipd_sharing'] = ipd_module.get('ipdSharing').capitalize() if isinstance(ipd_module.get('ipdSharing'), str) else ipd_module.get('ipdSharing')
     ipd_sharing_description = ipd_module.get('description')
     elt['ipd_sharing_description'] = ipd_sharing_description
     # Sponsor

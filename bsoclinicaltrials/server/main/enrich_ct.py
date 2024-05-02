@@ -21,7 +21,7 @@ def enrich(all_ct):
         enriched = enrich_ct(ct, sirano_dict)
         references = enriched.get('references', [])
         for r in references:
-            if r.get('doi') and r.get('ReferenceType') in ['result', 'derived']:
+            if r.get('doi') and r.get('type') in ['result', 'derived']:
                 dois_to_get.append(r['doi'])
         res.append(enriched)
     dois_info_dict = {}
@@ -43,7 +43,7 @@ def enrich(all_ct):
                     for f in ['year', 'published_date', 'oa_details', 'publisher_dissemination', 'observation_dates']:
                         if f in dois_info_dict[doi]:
                             r[f] = dois_info_dict[doi][f]
-                if r.get('ReferenceType') in ['result', 'derived']:
+                if r.get('type') in ['result', 'derived']:
                     if isinstance(r.get('published_date'), str):
                         publications_date.append(r.get('published_date'))
                     if has_publication_oa is None:
