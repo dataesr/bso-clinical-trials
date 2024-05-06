@@ -1,21 +1,23 @@
 import datetime
 import os
+import pandas as pd
 import requests
 import time
-import pandas as pd
 
 from dateutil import parser
+from functools import reduce
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 from urllib import parse
 
 from bsoclinicaltrials.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL, MOUNTED_VOLUME
 from bsoclinicaltrials.server.main.logger import get_logger
-from bsoclinicaltrials.server.main.utils_swift import upload_object, get_objects_by_page
+from bsoclinicaltrials.server.main.utils_swift import upload_object
 
 logger = get_logger(__name__)
 
 PUBLIC_API_PASSWORD = os.getenv('PUBLIC_API_PASSWORD')
+
 
 def my_parse_date(x, dayfirst=False):
     if x:
@@ -36,7 +38,8 @@ def get_dois_info(publications):
         return publications
     logger.debug(f"getting doi info for {nb} publications")
     url_upw = os.getenv("PUBLICATIONS_MONGO_SERVICE")
-    r = requests.post(f"{url_upw}/enrich", json={"publications": publications, "last_observation_date_only": True, "PUBLIC_API_PASSWORD": PUBLIC_API_PASSWORD})
+    r = requests.post(f"{url_upw}/enrich", json={"publications": publications,
+                      "last_observation_date_only": True, "PUBLIC_API_PASSWORD": PUBLIC_API_PASSWORD})
     task_id = r.json()['data']['task_id']
     for i in range(0, 10000):
         r_task = requests.get(f"{url_upw}/tasks/{task_id}").json()
@@ -57,7 +60,7 @@ def get_dois_info(publications):
     logger.debug(f"time to get doi info : {delta}")
     return ans
 
-    
+
 def requests_retry_session(retries=10, backoff_factor=0.6, status_forcelist=(500, 502, 504), session=None,):
     session = session or requests.Session()
     retry = Retry(
@@ -72,43 +75,54 @@ def requests_retry_session(retries=10, backoff_factor=0.6, status_forcelist=(500
     session.mount('https://', adapter)
     return session
 
+
 def pandas_to_csv(df):
+    def dict_get_dot_notation(dict, field):
+        if isinstance(dict, list) and isinstance(int(field), int):
+            return dict[int(field)]
+        return dict.get(field)
+
     data = df.to_dict(orient='records')
     csv_data = []
     for d in data:
         elt = {}
         for field in ['ISRCTN', 'NCTId', 'WHO', 'acronym' ,'all_sources',
-                      'delay_first_results_completion', 'delay_start_completion',
-                 'delay_submission_start', 'design_allocation', 'enrollment_count',
-            'enrollment_type', 'eudraCT', 'first_publication_date',
-            'first_results_or_publication_date', 'french_location_only',
-            'has_publication_oa', 'has_publications_result', 'has_results',
-            'has_results_or_publications', 'has_results_or_publications_within_1y',
-            'has_results_or_publications_within_3y', 'intervention_type', 'ipd_sharing',
-            'ipd_sharing_description', 'lead_sponsor', 'lead_sponsor_type', 'sponsor_collaborators', 'location_country',
-            'location_facility', 'other_ids', 'primary_purpose', 'publication_access', 'publications_result',
-            'references', 'results_first_submit_date', 'results_first_submit_qc_date',
-            'snapshot_date', 'status', 'status_simplified', 'study_completion_date',
-            'study_completion_date_type', 'study_completion_year',
-            'study_first_submit_date', 'study_first_submit_qc_date',
-            'study_start_date', 'study_start_date_type', 'study_start_year',
-            'study_type', 'submission_temporality', 'time_perspective', 'title']:
-            if isinstance(d.get(field), str) or isinstance(d.get(field), int) or isinstance(d.get(field), float):
-                elt[field] = d[field]
-            elif isinstance(d.get(field), list):
+                'delay_first_results_completion', 'delay_start_completion',
+                'delay_submission_start', 'design_allocation', 'enrollment_count',
+                'enrollment_type', 'eudraCT', 'first_publication_date',
+                'first_results_or_publication_date', 'french_location_only',
+                'has_publication_oa', 'has_publications_result', 'has_results',
+                'has_results_or_publications', 'has_results_or_publications_within_1y',
+                'has_results_or_publications_within_3y', 'intervention_type', 'ipd_sharing',
+                'ipd_sharing_description', 'lead_sponsor', 'lead_sponsor_type', 'sponsor_collaborators', 'location_country',
+                'location_facility', 'other_ids', 'primary_purpose', 'publication_access', 'publications_result',
+                'references', 'results_first_submit_date', 'results_first_submit_qc_date',
+                'snapshot_date', 'status', 'status_simplified', 'study_completion_date',
+                'study_completion_date_type', 'study_completion_year',
+                'study_first_submit_date', 'study_first_submit_qc_date',
+                'study_start_date', 'study_start_date_type', 'study_start_year',
+                'study_type', 'submission_temporality', 'time_perspective', 'title',
+                'financement_total', 'financements.0.appel_a_projets', 'financements.0.annee_de_selection', 'financements.0.region',
+                'financements.0.nom_etablissement', 'financements.0.finess', 'financements.0.type_etablissement', 'financements.0.acronyme',
+                'financements.0.titre', 'financements.0.discipline_principale', 'financements.0.nom_porteur', 'financements.0.prenom_porteur',
+                'financements.0.financement_total', 'financements.0.numero_registre_essais', 'financements.0.numero_tranche']:
+            value = reduce(dict_get_dot_notation, field.split("."), d)
+            if isinstance(value, str) or isinstance(value, int) or isinstance(value, float):
+                elt[field] = value
+            elif isinstance(value, list):
                 if field == 'other_ids':
-                    elt[field] = '|'.join([k['id'] for k in d[field]])
+                    elt[field] = '|'.join([k['id'] for k in value])
                 elif field == 'references':
-                    elt[field] = '|'.join([k.get('doi') for k in d[field] if k.get('doi')])
+                    elt[field] = '|'.join([k.get('doi') for k in value if k.get('doi')])
                 elif field == 'publication_access':
-                    elt[field] = '|'.join(str(d[field]))
+                    elt[field] = '|'.join(str(value))
                 else:
-                    elt[field] = '|'.join(d[field])
-            elif d.get(field) is None:
+                    elt[field] = '|'.join(value)
+            elif value is None:
                 elt[field] = None
             else:
                 print(field)
-                print(type(d[field]))
+                print(type(value))
                 assert(False)
         csv_data.append(elt)
     df_csv = pd.DataFrame(csv_data)
