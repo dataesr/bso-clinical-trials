@@ -8,7 +8,7 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
-countries = ["France", "Guadeloupe", "Martinique", "Mayotte", "French Guiana", "Réunion"]
+countries = ["france", "guadeloupe", "martinique", "mayotte", "french guiana", "réunion", "inserm"]
 
 
 def harvest():
@@ -33,18 +33,18 @@ def parse_all(harvested_data, harvest_date = None):
     for d in harvested_data:
         parsed = parse_study(d)
         for country in countries:
-            if country in parsed.get('location_country', []):
+            if country in parsed.get("location_country", []) or "inserm" in parsed.get("collaborators"):
                 parsed_data.append(parsed)
     if harvest_date is None:
         today = datetime.date.today()
-        harvest_date = f'{today}'
-    set_objects(parsed_data, 'clinical-trials', f'clinical_trials_parsed_{harvest_date}.json.gz')
+        harvest_date = f"{today}"
+    set_objects(parsed_data, "clinical-trials", f"clinical_trials_parsed_{harvest_date}.json.gz")
     return {
-        'status': 'ok',
-        'harvest_date': f'{harvest_date}',
-        'source': 'clinical-trials',
-        'nb_studies_harvested': len(harvested_data),
-        'nb_studies_parsed': len(parsed_data)
+        "status": "ok",
+        "harvest_date": f"{harvest_date}",
+        "source": "clinical-trials",
+        "nb_studies_harvested": len(harvested_data),
+        "nb_studies_parsed": len(parsed_data)
     }
 
 
@@ -55,7 +55,6 @@ def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=N
             return parse_all(harvested_data, harvest_date)
     else:
         if to_parse:
-            # harvested_data = [x[0] for x in get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')]
             harvested_data = get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')
             return parse_all(harvested_data, harvest_date)
 
@@ -160,7 +159,7 @@ def parse_study(input_study):
     elt['collaborators'] = []
     for k in collaborators:
         if k.get('name') and k.get('name') not in elt['collaborators']:
-            elt['collaborators'].append(k.get('name'))
+            elt['collaborators'].append(k.get('name').lower())
     elt['sponsor_collaborators'] = [elt['lead_sponsor']] + elt['collaborators']
     assert(isinstance(elt['sponsor_collaborators'], list))
     # ContactLocation
