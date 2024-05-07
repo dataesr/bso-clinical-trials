@@ -154,7 +154,7 @@ def parse_study(input_study):
     elt['ipd_sharing'] = ipd_module.get('ipdSharing').capitalize() if isinstance(ipd_module.get('ipdSharing'), str) else ipd_module.get('ipdSharing')
     ipd_sharing_description = ipd_module.get('description')
     elt['ipd_sharing_description'] = ipd_sharing_description
-    # Sponsor
+    # Sponsors
     sponsor_module = protocol.get('sponsorCollaboratorsModule', {})
     lead_sponsor = sponsor_module.get('leadSponsor', {}).get('name')
     elt['lead_sponsor'] = lead_sponsor
@@ -165,19 +165,11 @@ def parse_study(input_study):
             elt['collaborators'].append(k.get('name').lower())
     elt['sponsor_collaborators'] = [elt['lead_sponsor']] + elt['collaborators']
     assert(isinstance(elt['sponsor_collaborators'], list))
-    # ContactLocation
-    locations_module = protocol.get('contactsLocationsModule', {})
-    locations = locations_module.get('locations', [])
-    location_country = list(set(
-        [x.get('country') for x in locations if "country" in x]))
-    location_facility = list(set(
-        [x.get('facility') for x in locations if "facility" in x]))
-    elt['location_country'] = location_country
-    elt['location_facility'] = location_facility
-    # Intervention
-    intervention_module = protocol.get('armsInterventionsModule', {})
-    interventions = intervention_module.get('interventions', [])
-    intervention_type = list(set(
-        [w.get('type') for w in interventions if 'type' in w]))
-    elt['intervention_type'] = intervention_type
+    # ContactsLocations
+    locations = protocol.get("contactsLocationsModule", {}).get("locations", [])
+    elt["location_country"] = list(set([location.get("country").lower() for location in locations if "country" in location]))
+    elt["location_facility"] = list(set([location.get("facility") for location in locations if "facility" in location]))
+    # Interventions
+    interventions = protocol.get("armsInterventionsModule", {}).get("interventions", [])
+    elt["intervention_type"] = list(set([intervention.get("type") for intervention in interventions if "type" in intervention]))
     return elt
