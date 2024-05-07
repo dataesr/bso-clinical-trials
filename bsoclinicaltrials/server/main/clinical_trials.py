@@ -32,9 +32,12 @@ def parse_all(harvested_data, harvest_date = None):
     parsed_data = []
     for d in harvested_data:
         parsed = parse_study(d)
-        for country in countries:
-            if country in parsed.get("location_country", []) or "inserm" in parsed.get("collaborators"):
-                parsed_data.append(parsed)
+        if "inserm" in parsed.get("collaborators", []):
+            parsed_data.append(parsed)
+        else:
+            for country in countries:
+                if country in parsed.get("location_country", []):
+                    parsed_data.append(parsed)
     if harvest_date is None:
         today = datetime.date.today()
         harvest_date = f"{today}"
