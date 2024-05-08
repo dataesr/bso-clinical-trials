@@ -8,19 +8,21 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
-countries = ["france", "guadeloupe", "martinique", "mayotte", "french guiana", "réunion", "inserm"]
+countries = ["france", "french guiana", "guadeloupe", "martinique", "mayotte", "réunion"]
+inserms = ["inserm", "institut national de la santé Et de la recherche médicale"]
 
 
 def harvest():
-    countries_query = ' OR '.join([country.lower() for country in countries])
+    queries = countries + inserms
+    queries = ' OR '.join([country.lower() for country in queries])
     url = "https://clinicaltrials.gov/api/v2/studies?query.term={}&countTotal={}&pageSize=1000"
-    r = requests.get(url.format(countries_query, "true")).json()
+    r = requests.get(url.format(queries, "true")).json()
     count = r.get("totalCount")
     nextToken = r.get("nextPageToken")
     logger.debug(f"{count} studies found")
     data = r.get("studies")
     while nextToken:
-        r = requests.get(f"{url}&pageToken={nextToken}".format(countries_query, "false")).json()
+        r = requests.get(f"{url}&pageToken={nextToken}".format(queries, "false")).json()
         nextToken = r.get("nextPageToken")
         data += r.get("studies")
     today = datetime.date.today()
@@ -32,12 +34,15 @@ def parse_all(harvested_data, harvest_date = None):
     parsed_data = []
     for d in harvested_data:
         parsed = parse_study(d)
-        if "inserm" in parsed.get("collaborators", []):
-            parsed_data.append(parsed)
-        else:
-            for country in countries:
-                if country in parsed.get("location_country", []):
-                    parsed_data.append(parsed)
+        added = False
+        for country in countries:
+            if (not added) and (country in parsed.get("location_country", [])):
+                added = True
+                parsed_data.append(parsed)
+        for inserm in inserms:
+            if (not added) and (inserm in parsed.get("collaborators", [])):
+                added = True
+                parsed_data.append(parsed)
     if harvest_date is None:
         today = datetime.date.today()
         harvest_date = f"{today}"
