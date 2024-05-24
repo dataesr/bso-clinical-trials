@@ -9,11 +9,15 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 logger = get_logger(__name__)
 
 countries = ["france", "french guiana", "guadeloupe", "martinique", "mayotte", "réunion"]
-inserms = ["inserm", "institut national de la santé Et de la recherche médicale"]
-
+sponsors = [
+    "anrs",
+    "inserm",
+    "institut national de la santé et de la recherche médicale",
+    "french national agency for research on aids and viral hepatitis",
+]
 
 def harvest():
-    queries = countries + inserms
+    queries = countries + sponsors
     queries = ' OR '.join([country.lower() for country in queries])
     url = "https://clinicaltrials.gov/api/v2/studies?query.term={}&countTotal={}&pageSize=1000"
     r = requests.get(url.format(queries, "true")).json()
@@ -39,8 +43,8 @@ def parse_all(harvested_data, harvest_date = None):
             if (not added) and (country in parsed.get("location_country", [])):
                 added = True
                 parsed_data.append(parsed)
-        for inserm in inserms:
-            if (not added) and (inserm in parsed.get("collaborators", [])):
+        for sponsor in sponsors:
+            if (not added) and (sponsor in parsed.get("collaborators", [])):
                 added = True
                 parsed_data.append(parsed)
     if harvest_date is None:
