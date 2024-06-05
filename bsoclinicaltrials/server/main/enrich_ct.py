@@ -18,8 +18,10 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
-    sponsors = pd.read_csv(
-        "../bsoclinicaltrials/server/bso-lead-sponsors-mapping.csv")
+    sponsors_df = pd.read_csv("../bso-lead-sponsors-mapping.csv")
+    sponsors_dict = {}
+    for _, row in sponsors_df.iterrows():
+        sponsors_dict[normalize(row.get("sponsor"))] = { "sponsor_normalized" : row.get("sponsor_normalized"), "ror": row.get("ror") }
     for ct in all_ct:
         enriched = enrich_ct(ct, sirano_dict)
         references = enriched.get('references', [])
@@ -83,9 +85,8 @@ def enrich(all_ct):
         p['publication_access'] = publication_access
         lead_sponsor = p.get("lead_sponsor")
         if lead_sponsor:
-            lead_sponsor_normalized = sponsors.loc[sponsors["sponsor"] == lead_sponsor]
-            if len(lead_sponsor_normalized) > 0:
-                lead_sponsor_normalized = lead_sponsor_normalized.iloc[0]
+            lead_sponsor_normalized = sponsors_dict.get(normalize(lead_sponsor))
+            if lead_sponsor_normalized:
                 p["lead_sponsor_normalized"] = lead_sponsor_normalized.get("sponsor_normalized")
                 p["ror"] = lead_sponsor_normalized.get("ror")
             else:
