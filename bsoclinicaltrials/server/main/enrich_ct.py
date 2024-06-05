@@ -1,8 +1,9 @@
 import pandas as pd
 
+from bsoclinicaltrials.server.main.sirano import get_sirano
 from bsoclinicaltrials.server.main.strings import normalize
 from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
-from bsoclinicaltrials.server.main.sirano import get_sirano
+
 
 def tag_sponsor(x):
     x_normalized = normalize(x)
@@ -17,6 +18,8 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
+    sponsors = pd.read_csv(
+        "../bsoclinicaltrials/server/bso-lead-sponsors-mapping.csv")
     for ct in all_ct:
         enriched = enrich_ct(ct, sirano_dict)
         references = enriched.get('references', [])
@@ -26,7 +29,8 @@ def enrich(all_ct):
         res.append(enriched)
     dois_info_dict = {}
     for c in chunks(list(set(dois_to_get)), 1000):
-        dois_info = get_dois_info([{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
+        dois_info = get_dois_info(
+            [{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
         for info in dois_info:
             doi = info['doi']
             dois_info_dict[doi] = info
@@ -61,7 +65,8 @@ def enrich(all_ct):
         if publications_date:
             p['first_publication_date'] = min(publications_date)
         if isinstance(p.get('results_first_submit_date'), str) and isinstance(p.get('first_publication_date'), str):
-            p['first_results_or_publication_date'] = min(p['results_first_submit_date'], p['first_publication_date'])
+            p['first_results_or_publication_date'] = min(
+                p['results_first_submit_date'], p['first_publication_date'])
         elif isinstance(p.get('results_first_submit_date'), str):
             p['first_results_or_publication_date'] = p['results_first_submit_date']
         elif isinstance(p.get('first_publication_date'), str):
@@ -70,10 +75,21 @@ def enrich(all_ct):
                                                                                       str):
             p['delay_first_results_completion'] = (pd.to_datetime(p['first_results_or_publication_date']) - pd.to_datetime(
                 p['study_completion_date'])).days
-            p['has_results_or_publications_within_1y'] = (p['delay_first_results_completion'] <= 365)
-            p['has_results_or_publications_within_3y'] = (p['delay_first_results_completion'] <= 365 * 3)
+            p['has_results_or_publications_within_1y'] = (
+                p['delay_first_results_completion'] <= 365)
+            p['has_results_or_publications_within_3y'] = (
+                p['delay_first_results_completion'] <= 365 * 3)
         p['has_publication_oa'] = has_publication_oa
         p['publication_access'] = publication_access
+        lead_sponsor = p.get("lead_sponsor")
+        if lead_sponsor:
+            lead_sponsor_normalized = sponsors.loc[sponsors["sponsor"] == lead_sponsor]
+            if len(lead_sponsor_normalized) > 0:
+                lead_sponsor_normalized = lead_sponsor_normalized.iloc[0]
+                p["lead_sponsor_normalized"] = lead_sponsor_normalized.get("sponsor_normalized")
+                p["ror"] = lead_sponsor_normalized.get("ror")
+            else:
+                p["lead_sponsor_normalized"] = lead_sponsor
     return res
 
 
