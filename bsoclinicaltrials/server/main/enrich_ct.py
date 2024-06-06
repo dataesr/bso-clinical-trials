@@ -18,7 +18,7 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
-    sponsors_df = pd.read_csv("bso-lead-sponsors-mapping.csv")
+    sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
     sponsors_dict = {}
     for _, row in sponsors_df.iterrows():
         sponsors_dict[normalize(row.get("sponsor"))] = { "sponsor_normalized" : row.get("sponsor_normalized"), "ror": row.get("ror") }
