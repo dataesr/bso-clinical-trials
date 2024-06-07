@@ -78,6 +78,8 @@ def requests_retry_session(retries=10, backoff_factor=0.6, status_forcelist=(500
 
 def pandas_to_csv(df):
     def dict_get_dot_notation(dict, field):
+        if dict is None:
+            return None
         if isinstance(dict, list) and isinstance(int(field), int):
             return dict[int(field)]
         return dict.get(field)
