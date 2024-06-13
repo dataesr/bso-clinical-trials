@@ -1,0 +1,97 @@
+Le glossaire de clinical trials est asssez complet (par exemple pour la définition des champs avec QC = contrôle de qualité) : https://clinicaltrials.gov/ct2/about-studies/glossary
+
+De plus, le code qui calcule le fichier est aussi disponible, notamment ce fichier qui calcule certains champs importants :  https://github.com/dataesr/bso-clinical-trials/blob/main/bsoclinicaltrials/server/main/enrich_ct.py
+
+Description des champs
+
+ISRCTN : identifiant dans le registre ISRCTN
+
+NCTId : identifiant NCT dans clinicaltrials.gov
+
+WHO : identifiant WHO (OMS)
+
+acronym : acronym de l'essai
+
+all_sources : sources utilisées (clinicaltrials et/ou EUCTR)
+
+delay_first_results_completion : nombre de jours entre la fin de l'essai (completion) et la première date de communication des résultats (publication dans une revue ou dépôt d'une synthèse)
+
+delay_start_completion : nombre de jours entre le début et la fin de l'essai
+
+design_allocation : randomisé / non randomisé
+
+enrollment_count : nombre de participants
+
+eudraCT : identifiant eudraCT
+
+first_publication_date : première date de communication des résultats dans une publication scientifique
+
+first_results_or_publication_date : première date de communication des résultats (dépôt de synthèse ou publication scientifique)
+
+french_location_only : booléen, VRAI si tous les sites mentionnés sont en France, FAUX sinon
+
+has_publication_oa : booléen, si communication des résultats dans une publication, VRAI si au moins une publication en accès ouvert, FAUX sinon
+
+has_publications_result : booléen, VRAI si communication des résultats dans une publication scientifique
+
+has_results : booléen, VRAI si communication des résultats avec dépot d'une synthèse
+
+has_results_or_publications : booléen, VRAI si communication des résultats (publication et/ou dépot de synthèse)
+
+intervention_type : type d'essai clinique
+
+ipd_sharing : Individual Participant Data (IPD) Sharing 
+
+ipd_sharing_description : texte décrivant Individual Participant Data (IPD) Sharing 
+
+lead_sponsor : promoteur
+
+lead_sponsor_type : type de promoteur (industriel / académique)
+
+location_country : liste (séparée par des ';') des pays où s'est déroulé l'essai
+
+location_facility : liste (séparée par des ';') des établissements ou s'est déroulé l'essai
+
+other_ids : autres identifiants
+
+primary_purpose : but principal de l'essai
+
+publication_access : non renseigné
+
+publications_result : liste (séparée par des ';') des publications faisant communication des résultats de l'essai
+
+references : non renseigné dans le CSV
+
+results_first_submit_date : première date ou le promoteur ou PI a soumis le dépot d'une synthèse de résultats
+
+results_first_submit_qc_date : première date ou le promoteur ou PI a soumis le dépot d'une synthèse de résultats vérifiant les critères de controles (cf doc clinical trials)
+
+snapshot_date : date de moissonage des données
+
+status : statut de l'essai
+
+status_simplified : statut de l'essai (version simplifiée avec moins de modalités)
+
+study_completion_date : date de fin de l'essai
+
+study_completion_date_type : type de date de fin d'essai (réelle ou prévue)
+
+study_completion_year : année de fin de l'essai
+
+study_first_submit_date : première date de soumission par le promoteur ou PI d'un enregistrement dans le registre
+
+study_first_submit_qc_date : première date de soumission par le promoteur ou PI d'un enregistrement qui vérifie les controles de qualité dans le registre
+
+study_start_date : date de début de l'essai
+
+study_start_date_type : type de date de début de l'essai (réelle ou prévue)
+
+study_start_year : année de début de l'essai
+
+study_type : type d'étude (interventional vs observational)
+
+submission_temporality : enregistrement dans le registre avant / pendant / après l'étude
+
+time_perspective : Relation temporelle entre la période d'observation et le moment où le participant s'inscrit. (pour les études observationnelles)
+
+title : titre de l'étude
