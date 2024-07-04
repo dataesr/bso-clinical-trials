@@ -82,7 +82,10 @@ def pandas_to_csv(df):
             return None
         if isinstance(dict, list) and isinstance(int(field), int):
             return dict[int(field)]
-        return dict.get(field)
+        try:
+            return dict.get(field)
+        except Exception:
+            return ""
 
     data = df.to_dict(orient='records')
     csv_data = []
