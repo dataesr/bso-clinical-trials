@@ -1,15 +1,15 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier Régional Metz-Thionville,2019.0,NCT02884297,,Interventional,Completed,False,True,True,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2023.0,NCT05265832,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2021.0,NCT02886468,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2018.0,NCT02535819,,Interventional,Completed,True,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2019.0,NCT02818374,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2023.0,NCT03898453,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2017.0,NCT01526915,,Interventional,Completed,True,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2018.0,NCT03271476,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2018.0,NCT02818101,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2016.0,NCT02075424,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2021.0,NCT03815227,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2021.0,NCT02956265,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2022.0,NCT04915274,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
-Centre Hospitalier Régional Metz-Thionville,2016.0,NCT02279121,,Interventional,Completed,False,False,False,Centre Hospitalier Régional Metz-Thionville,Centre Hospitalier Régional Metz-Thionville,https://ror.org/02d741577,both,02d741577
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT02075424,,2016.0,False,False,False
+NCT02279121,,2016.0,False,False,False
+NCT01526915,,2017.0,True,False,False
+NCT02535819,,2018.0,True,False,False
+NCT03271476,,2018.0,False,False,False
+NCT02818101,,2018.0,False,False,False
+NCT02884297,,2019.0,False,True,True
+NCT02818374,,2019.0,False,False,False
+NCT02886468,,2021.0,False,False,False
+NCT03815227,,2021.0,False,False,False
+NCT02956265,,2021.0,False,False,False
+NCT04915274,,2022.0,False,False,False
+NCT05265832,,2023.0,False,False,False
+NCT03898453,,2023.0,False,False,False

@@ -1,5 +1,5 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier Metropole Savoie,2022.0,NCT05421182,,Interventional,Completed,False,False,False,Centre Hospitalier Metropole Savoie,Centre hospitalier Métropole Savoie,https://ror.org/01r35jx22,both,01r35jx22
-Centre Hospitalier Metropole Savoie,2021.0,NCT03934281,,Interventional,Completed,False,False,False,Centre Hospitalier Metropole Savoie,Centre hospitalier Métropole Savoie,https://ror.org/01r35jx22,both,01r35jx22
-Centre Hospitalier Metropole Savoie,2022.0,NCT04791241,,Interventional,Completed,False,False,False,Centre Hospitalier Metropole Savoie,Centre hospitalier Métropole Savoie,https://ror.org/01r35jx22,both,01r35jx22
-Centre Hospitalier Metropole Savoie,2022.0,NCT04747405,,Interventional,Completed,False,False,False,Centre Hospitalier Metropole Savoie,Centre hospitalier Métropole Savoie,https://ror.org/01r35jx22,both,01r35jx22
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT03934281,,2021.0,False,False,False
+NCT05421182,,2022.0,False,False,False
+NCT04791241,,2022.0,False,False,False
+NCT04747405,,2022.0,False,False,False

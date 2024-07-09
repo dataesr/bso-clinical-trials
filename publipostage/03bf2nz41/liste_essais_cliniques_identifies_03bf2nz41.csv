@@ -1,4 +1,4 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier le Mans,2021.0,NCT03071601,,Interventional,Completed,True,True,True,Centre Hospitalier le Mans,Centre Hospitalier le Mans,https://ror.org/03bf2nz41,both,03bf2nz41
-Centre Hospitalier le Mans,2020.0,NCT04560153,,Interventional,Completed,False,False,False,Centre Hospitalier le Mans,Centre Hospitalier le Mans,https://ror.org/03bf2nz41,both,03bf2nz41
-Centre Hospitalier le Mans,2020.0,NCT03335345,,Interventional,Completed,False,True,True,Centre Hospitalier le Mans,Centre Hospitalier le Mans,https://ror.org/03bf2nz41,both,03bf2nz41
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT04560153,,2020.0,False,False,False
+NCT03335345,,2020.0,False,True,True
+NCT03071601,,2021.0,True,True,True

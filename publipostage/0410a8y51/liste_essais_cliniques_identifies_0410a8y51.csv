@@ -1,5 +1,5 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre hospitalier de l'Université de Montréal (CHUM),2022.0,NCT04586556,,Interventional,Completed,False,False,False,Centre hospitalier de l'Université de Montréal (CHUM),Centre hospitalier de l'Université de Montréal,https://ror.org/0410a8y51,both,0410a8y51
-Centre hospitalier de l'Université de Montréal (CHUM),2015.0,NCT01670448,2013-002764-12,Interventional,Completed,True,False,False,Centre hospitalier de l'Université de Montréal (CHUM),Centre hospitalier de l'Université de Montréal,https://ror.org/0410a8y51,both,0410a8y51
-Centre hospitalier de l'Université de Montréal (CHUM),2023.0,NCT01340612,,Interventional,Completed,True,True,True,Centre hospitalier de l'Université de Montréal (CHUM),Centre hospitalier de l'Université de Montréal,https://ror.org/0410a8y51,both,0410a8y51
-Centre hospitalier de l'Université de Montréal (CHUM),2015.0,NCT00626912,,Interventional,Completed,True,True,True,Centre hospitalier de l'Université de Montréal (CHUM),Centre hospitalier de l'Université de Montréal,https://ror.org/0410a8y51,both,0410a8y51
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT01670448,2013-002764-12,2015.0,True,False,False
+NCT00626912,,2015.0,True,True,True
+NCT04586556,,2022.0,False,False,False
+NCT01340612,,2023.0,True,True,True

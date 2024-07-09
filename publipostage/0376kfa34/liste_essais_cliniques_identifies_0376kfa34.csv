@@ -1,2 +1,2 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-University Hospital Center of Martinique,2023.0,NCT05564546,,Interventional,Completed,False,False,False,University Hospital Center of Martinique,Centre hospitalier universitaire de Martinique,https://ror.org/0376kfa34,both,0376kfa34
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT05564546,,2023.0,False,False,False

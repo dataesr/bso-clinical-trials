@@ -1,10 +1,10 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier St Anne,2022.0,NCT02476435,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2017.0,NCT03084848,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2021.0,NCT04350580,2020-001570-30,Interventional,Completed,True,True,True,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2016.0,NCT02476188,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2017.0,NCT02602951,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2014.0,NCT01964456,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2019.0,NCT04008719,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier St Anne,2016.0,NCT01437527,,Interventional,Completed,False,False,False,Centre Hospitalier St Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
-Centre Hospitalier Sainte-Anne,,,2017-001019-35,Interventional,Completed,False,False,False,Centre Hospitalier Sainte-Anne,Centre hospitalier Sainte-Anne - GHU Paris,https://ror.org/02kxjxy06,both,02kxjxy06
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT01964456,,2014.0,False,False,False
+NCT02476188,,2016.0,False,False,False
+NCT01437527,,2016.0,False,False,False
+NCT03084848,,2017.0,False,False,False
+NCT02602951,,2017.0,False,False,False
+NCT04008719,,2019.0,False,False,False
+NCT04350580,2020-001570-30,2021.0,True,True,True
+NCT02476435,,2022.0,False,False,False
+,2017-001019-35,,False,False,False

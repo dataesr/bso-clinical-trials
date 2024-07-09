@@ -1,183 +1,183 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-"University Hospital, Clermont-Ferrand",2022.0,NCT05085119,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04551326,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT03971513,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01906203,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT05225376,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02844088,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01392872,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04923555,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT02799186,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04880759,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03378895,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT03339141,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT03987789,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT02555982,2015-000162-59,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04268875,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT02819778,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2007.0,NCT00241566,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT03887000,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02474745,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04624581,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04753580,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03113903,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01334645,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01272167,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT00750529,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00750347,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT06017440,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT05365113,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT03277963,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03453918,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03420261,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02824341,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02763592,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02678559,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT02664844,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02662816,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT02618720,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02598804,,Interventional,Completed,False,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02596360,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02569424,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT02502773,2014-005575-84,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT03923244,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04399278,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04391452,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04368858,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT03807609,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT04334083,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT03745742,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT03742622,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT03229148,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01282996,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT01249326,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01226381,2010-020509-34,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01225419,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01206985,2010-018746-30,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2010.0,NCT01196767,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT01196754,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01156766,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01139671,2010-018751-10,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT01121653,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT01116596,2006-006564-36,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT01888094,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT01887015,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01874704,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01053845,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2010.0,NCT01053650,2009-015610-22,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01017744,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2010.0,NCT00983125,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01800851,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01794273,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01794195,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT01793363,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01785693,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT01775449,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01766531,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01747759,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01718249,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01702779,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01699269,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01685476,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01643395,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02174068,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02166853,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT02149589,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT02126332,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT02123940,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02100046,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02094313,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02082834,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02076737,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT02048683,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT02042612,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02006810,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01955018,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01935570,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT01935544,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT02973503,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT03166644,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02904538,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03125083,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT03101410,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT02847611,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT04189380,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT04438317,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04371016,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT03818243,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04355312,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT03338179,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT03317067,,Interventional,Completed,False,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT05188755,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT05160298,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04246788,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04236518,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT04174209,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT04041817,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2019.0,NCT03967782,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT03966092,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT03045822,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT02970513,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04935814,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04903860,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT04902001,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2023.0,NCT04864028,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04495504,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04492813,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04482530,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04739189,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04734639,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2022.0,NCT05147610,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT04700150,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2020.0,NCT03840785,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT03838939,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01602185,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2021.0,NCT02340403,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01586143,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01562704,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01543386,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01536314,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT02255370,2014-000261-51,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02206178,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT02359461,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT02350244,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01600651,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01560390,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01536470,2011-004232-66,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01520792,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT02202720,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2014.0,NCT01437371,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01429909,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT01426178,,Interventional,Completed,True,True,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT01390623,2010-023697-39,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT01349179,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2016.0,NCT01887028,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2007.0,NCT01874717,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT00917917,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT00875069,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00852735,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00852384,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00750048,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2013.0,NCT00690209,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00664157,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00639574,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00560092,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2018.0,NCT00529724,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00488410,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00487812,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00487175,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00487110,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT00484549,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2007.0,NCT00355277,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2006.0,NCT00337623,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2011.0,NCT00333099,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2008.0,NCT00313378,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2009.0,NCT01014299,,Interventional,Completed,True,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2015.0,NCT01828788,,Interventional,Completed,True,False,True,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2012.0,NCT00980616,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-"University Hospital, Clermont-Ferrand",2017.0,NCT01811251,,Interventional,Completed,False,False,False,"University Hospital, Clermont-Ferrand",Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-CHU de clermont-Ferrand,,,2012-002123-15,Interventional,Completed,False,False,False,CHU de clermont-Ferrand,Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-CHU Clermont-Ferrand,,,2012-002768-28,Interventional,Completed,False,False,False,CHU Clermont-Ferrand,Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-CHU Clermont-Ferrand,,,2015-005601-37,Interventional,Completed,False,False,False,CHU Clermont-Ferrand,Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-CHU Clermont-Ferrand,2020.0,,2016-002805-21,Interventional,Completed,False,False,False,CHU Clermont-Ferrand,Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
-CHU Clermont-Ferrand,2013.0,,2010-024547-32,Interventional,Completed,False,False,False,CHU Clermont-Ferrand,Centre hospitalier universitaire de Clermont-Ferrand,https://ror.org/02tcf7a68,both,02tcf7a68
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT00337623,,2006.0,False,False,False
+NCT01874717,,2007.0,True,False,False
+NCT00241566,,2007.0,False,False,False
+NCT00355277,,2007.0,True,False,False
+NCT00750048,,2008.0,False,False,False
+NCT00750347,,2008.0,False,False,False
+NCT01116596,2006-006564-36,2008.0,False,False,False
+NCT00560092,,2008.0,False,False,False
+NCT00487812,,2008.0,True,False,False
+NCT00487175,,2008.0,False,False,False
+NCT01121653,,2008.0,False,False,False
+NCT00313378,,2008.0,True,False,False
+NCT00484549,,2009.0,False,False,False
+NCT00488410,,2009.0,False,False,False
+NCT01014299,,2009.0,True,False,False
+NCT00639574,,2009.0,True,False,False
+NCT00664157,,2009.0,False,False,False
+NCT01196754,,2009.0,False,False,False
+NCT00487110,,2009.0,False,False,False
+NCT00852384,,2009.0,True,False,False
+NCT00852735,,2009.0,False,False,False
+NCT01196767,,2010.0,True,False,False
+NCT01053650,2009-015610-22,2010.0,False,False,False
+NCT00983125,,2010.0,True,False,False
+NCT01225419,,2011.0,False,False,False
+NCT00333099,,2011.0,True,False,True
+NCT00917917,,2011.0,True,False,True
+NCT01226381,2010-020509-34,2011.0,False,False,False
+NCT01349179,,2011.0,False,False,False
+NCT01053845,,2011.0,False,False,False
+NCT01429909,,2011.0,False,False,False
+NCT01874704,,2011.0,True,False,False
+NCT01139671,2010-018751-10,2011.0,False,False,False
+NCT01206985,2010-018746-30,2011.0,False,False,False
+NCT01272167,,2011.0,True,False,False
+NCT01562704,,2012.0,True,False,False
+NCT01543386,,2012.0,True,False,False
+NCT01560390,,2012.0,False,False,False
+NCT01766531,,2012.0,False,False,False
+NCT01426178,,2012.0,True,True,True
+NCT01282996,,2012.0,True,True,True
+NCT01334645,,2012.0,True,False,True
+NCT01800851,,2012.0,False,False,False
+NCT00980616,,2012.0,False,False,False
+NCT01747759,,2012.0,True,False,False
+NCT01685476,,2012.0,True,False,False
+NCT01156766,,2013.0,False,False,False
+NCT01017744,,2013.0,False,False,False
+NCT01702779,,2013.0,False,False,False
+,2010-024547-32,2013.0,False,False,False
+NCT01643395,,2013.0,False,False,False
+NCT01906203,,2013.0,False,False,False
+NCT00690209,,2013.0,False,False,False
+NCT00875069,,2013.0,True,False,True
+NCT00750529,,2013.0,False,False,False
+NCT01390623,2010-023697-39,2013.0,True,False,True
+NCT01520792,,2013.0,True,False,False
+NCT01699269,,2013.0,False,False,False
+NCT01600651,,2013.0,True,False,True
+NCT01794273,,2013.0,False,False,False
+NCT01536314,,2013.0,True,True,True
+NCT01586143,,2013.0,True,False,False
+NCT01935570,,2013.0,False,False,False
+NCT01955018,,2013.0,True,True,True
+NCT01794195,,2013.0,False,False,False
+NCT02202720,,2014.0,False,False,False
+NCT01437371,,2014.0,False,False,False
+NCT02082834,,2014.0,False,False,False
+NCT02094313,,2014.0,True,True,True
+NCT02174068,,2014.0,False,False,False
+NCT02206178,,2014.0,False,False,False
+NCT02076737,,2014.0,False,False,False
+NCT01793363,,2014.0,False,False,False
+NCT02664844,,2015.0,False,False,False
+NCT01775449,,2015.0,False,True,True
+NCT01887015,,2015.0,True,True,True
+NCT01888094,,2015.0,False,True,True
+NCT02048683,,2015.0,True,False,False
+NCT01249326,,2015.0,True,False,False
+NCT02350244,,2015.0,True,False,True
+NCT01828788,,2015.0,True,False,True
+NCT02042612,,2015.0,False,False,False
+NCT01392872,,2016.0,True,False,True
+NCT02847611,,2016.0,True,True,True
+NCT02569424,,2016.0,False,False,False
+NCT01785693,,2016.0,True,False,False
+NCT01887028,,2016.0,False,False,False
+NCT02678559,,2016.0,False,False,False
+NCT01536470,2011-004232-66,2016.0,True,False,True
+NCT02662816,,2016.0,False,False,False
+NCT01602185,,2016.0,True,True,True
+NCT03338179,,2016.0,False,False,False
+NCT02844088,,2016.0,False,False,False
+NCT02596360,,2016.0,False,False,False
+NCT01718249,,2016.0,False,False,False
+NCT02166853,,2016.0,True,False,True
+NCT03745742,,2017.0,False,False,False
+NCT01811251,,2017.0,False,False,False
+NCT02904538,,2017.0,True,True,True
+NCT02474745,,2017.0,True,True,True
+NCT02763592,,2017.0,True,False,True
+NCT02824341,,2017.0,False,False,False
+NCT02598804,,2017.0,False,False,True
+NCT02100046,,2017.0,False,True,True
+NCT02970513,,2017.0,False,False,False
+NCT03045822,,2017.0,True,False,True
+NCT03277963,,2017.0,False,False,False
+NCT02006810,,2017.0,False,False,False
+NCT03113903,,2018.0,True,False,False
+NCT03420261,,2018.0,False,False,False
+NCT02149589,,2018.0,True,True,True
+NCT03453918,,2018.0,False,False,False
+NCT02255370,2014-000261-51,2018.0,False,False,False
+NCT02359461,,2018.0,False,False,False
+NCT00529724,,2018.0,False,False,False
+NCT02123940,,2018.0,False,False,False
+NCT02502773,2014-005575-84,2018.0,True,True,True
+NCT03378895,,2018.0,False,False,False
+NCT03101410,,2018.0,False,False,False
+NCT03125083,,2018.0,False,False,False
+NCT02799186,,2019.0,False,False,False
+NCT04189380,,2019.0,False,False,False
+NCT03807609,,2019.0,True,True,True
+NCT03166644,,2019.0,False,False,False
+NCT02973503,,2019.0,True,False,True
+NCT03742622,,2019.0,False,False,False
+NCT01935544,,2019.0,False,True,True
+NCT02126332,,2019.0,False,True,True
+NCT03967782,,2019.0,True,True,True
+NCT03923244,,2020.0,False,False,False
+,2016-002805-21,2020.0,False,False,False
+NCT03229148,,2020.0,True,True,True
+NCT02618720,,2020.0,True,True,True
+NCT04174209,,2020.0,True,False,True
+NCT03887000,,2020.0,False,False,False
+NCT03840785,,2020.0,False,False,False
+NCT03339141,,2021.0,False,True,True
+NCT04880759,,2021.0,False,False,False
+NCT04482530,,2021.0,False,False,False
+NCT03838939,,2021.0,False,False,False
+NCT04246788,,2021.0,False,False,False
+NCT04371016,,2021.0,False,False,False
+NCT04391452,,2021.0,False,False,False
+NCT04495504,,2021.0,False,False,False
+NCT04399278,,2021.0,False,False,False
+NCT04739189,,2021.0,False,False,False
+NCT04734639,,2021.0,False,False,False
+NCT04700150,,2021.0,False,False,False
+NCT04492813,,2021.0,False,False,False
+NCT02340403,,2021.0,False,False,False
+NCT04368858,,2022.0,False,False,False
+NCT05188755,,2022.0,False,False,False
+NCT04923555,,2022.0,False,False,False
+NCT04551326,,2022.0,False,False,False
+NCT04355312,,2022.0,False,False,False
+NCT03987789,,2022.0,False,True,True
+NCT02555982,2015-000162-59,2022.0,False,False,False
+NCT04268875,,2022.0,False,False,False
+NCT02819778,,2022.0,False,True,True
+NCT05160298,,2022.0,False,False,False
+NCT04753580,,2022.0,False,False,False
+NCT05147610,,2022.0,False,False,False
+NCT04902001,,2022.0,False,False,False
+NCT04903860,,2022.0,False,False,False
+NCT04624581,,2022.0,False,False,False
+NCT04935814,,2022.0,False,False,False
+NCT04236518,,2022.0,False,False,False
+NCT05365113,,2022.0,False,False,False
+NCT05085119,,2022.0,False,False,False
+NCT03818243,,2023.0,False,False,False
+NCT03966092,,2023.0,False,False,False
+NCT04438317,,2023.0,False,False,False
+NCT03317067,,2023.0,False,True,True
+NCT05225376,,2023.0,True,True,True
+NCT03971513,,2023.0,False,False,False
+NCT04864028,,2023.0,False,False,False
+NCT06017440,,2023.0,False,False,False
+NCT04334083,,2023.0,False,False,False
+NCT04041817,,2023.0,False,False,False
+,2012-002123-15,,False,False,False
+,2012-002768-28,,False,False,False
+,2015-005601-37,,False,False,False

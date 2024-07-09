@@ -1,5 +1,5 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier Henri Laborit,2022.0,NCT05464550,,Interventional,Completed,False,False,False,Centre Hospitalier Henri Laborit,Centre Hospitalier Henri Laborit,https://ror.org/03ytpa045,both,03ytpa045
-Centre Hospitalier Henri Laborit,2022.0,NCT03304600,,Interventional,Completed,False,False,False,Centre Hospitalier Henri Laborit,Centre Hospitalier Henri Laborit,https://ror.org/03ytpa045,both,03ytpa045
-Centre Hospitalier Henri Laborit,2020.0,NCT03277339,,Interventional,Completed,False,False,False,Centre Hospitalier Henri Laborit,Centre Hospitalier Henri Laborit,https://ror.org/03ytpa045,both,03ytpa045
-Centre Hospitalier Henri Laborit,2017.0,NCT03284671,,Interventional,Completed,False,False,False,Centre Hospitalier Henri Laborit,Centre Hospitalier Henri Laborit,https://ror.org/03ytpa045,both,03ytpa045
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT03284671,,2017.0,False,False,False
+NCT03277339,,2020.0,False,False,False
+NCT05464550,,2022.0,False,False,False
+NCT03304600,,2022.0,False,False,False

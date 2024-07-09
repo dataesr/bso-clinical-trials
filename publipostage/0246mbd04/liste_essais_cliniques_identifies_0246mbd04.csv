@@ -1,5 +1,5 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier Sud Francilien,2018.0,NCT03142230,,Interventional,Completed,False,False,False,Centre Hospitalier Sud Francilien,Centre Hospitalier Sud Francilien,https://ror.org/0246mbd04,both,0246mbd04
-Centre Hospitalier Sud Francilien,2019.0,NCT04128033,,Interventional,Completed,False,False,False,Centre Hospitalier Sud Francilien,Centre Hospitalier Sud Francilien,https://ror.org/0246mbd04,both,0246mbd04
-Centre Hospitalier Sud Francilien,2022.0,NCT04893135,,Interventional,Completed,False,False,False,Centre Hospitalier Sud Francilien,Centre Hospitalier Sud Francilien,https://ror.org/0246mbd04,both,0246mbd04
-Centre Hospitalier Sud Francilien,2021.0,NCT04744168,,Interventional,Completed,False,False,False,Centre Hospitalier Sud Francilien,Centre Hospitalier Sud Francilien,https://ror.org/0246mbd04,both,0246mbd04
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT03142230,,2018.0,False,False,False
+NCT04128033,,2019.0,False,False,False
+NCT04744168,,2021.0,False,False,False
+NCT04893135,,2022.0,False,False,False

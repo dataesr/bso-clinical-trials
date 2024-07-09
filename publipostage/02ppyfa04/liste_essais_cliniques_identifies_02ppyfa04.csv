@@ -1,121 +1,121 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-"University Hospital, Lille",2021.0,NCT03048240,2016-002706-39,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT01123187,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2009.0,NCT00446264,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2006.0,NCT00682292,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT00642980,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02621775,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2022.0,NCT01423396,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03286660,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT01622400,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2022.0,NCT03556696,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02662504,2015-001554-15,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT01214226,2006-006944-78,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT04231656,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2005.0,NCT00367185,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT00639964,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03565822,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03158376,2014-005226-35,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03315819,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",1999.0,NCT01512277,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2007.0,NCT00122057,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03808246,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02364908,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02891330,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT01488214,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT00766519,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02667574,2013-004338-13,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT02662725,2012-000852-32,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02302469,2008-006370-15,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT01123174,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02272361,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01637441,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02655315,2015-003679-31,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02626481,2015-002221-19,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2010.0,NCT01082666,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT02086214,,Interventional,Completed,False,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2010.0,NCT01487590,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2022.0,NCT01373866,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT01279096,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02154178,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02242955,2012-003336-23,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT03012490,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02881437,2016-001480-36,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2009.0,NCT02385565,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT03255863,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT02749110,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02902016,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03076892,,Interventional,Completed,False,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT00937456,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02281916,2013-000595-15,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT01295736,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT01487395,2010-023989-51,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2013.0,NCT01415219,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT04173364,2019-001984-62,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT02281929,2014-002536-13,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT03164746,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT01756794,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT05994196,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03509805,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT02821169,2013-004410-17,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02812901,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02778178,2015-002143-34,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02750150,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02702128,2015-002175-24,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01745640,2011-002081-20,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01053949,2009-013319-36,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02891395,2012-000770-36,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2018.0,NCT02525705,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01948635,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT03946046,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT04146675,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT03751787,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03749304,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03743831,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2022.0,NCT03741569,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT03735043,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT03726203,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03710096,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03238430,2014-003317-28,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03232697,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2010.0,NCT01108029,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01713504,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT01679093,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT01641627,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02193412,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02164253,2013-001228-21,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT01965821,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03280290,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02969733,2009-017682-33,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT03200769,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT03066375,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT03066362,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT02884557,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02880033,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT02849236,2016-000157-12,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT02844101,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT04181502,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT04381637,,Interventional,Completed,True,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT03801941,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT04354311,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03381456,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03370627,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03342820,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT03980210,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT02994017,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT03185403,2013-002317-36,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2017.0,NCT02905071,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2021.0,NCT04535115,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2020.0,NCT03261414,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2019.0,NCT01594450,,Interventional,Completed,False,True,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2015.0,NCT02250755,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT02213302,,Interventional,Completed,True,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT01351259,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2014.0,NCT01341002,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2016.0,NCT00946959,,Interventional,Completed,False,False,False,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT00943748,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2011.0,NCT00914095,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-"University Hospital, Lille",2012.0,NCT00767091,,Interventional,Completed,True,False,True,"University Hospital, Lille",Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-Centre Hospitalier Régional et Universitaire de Lille,2011.0,,2008-005801-20,Interventional,Completed,True,False,False,Centre Hospitalier Régional et Universitaire de Lille,Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-CHRU de Lille,2011.0,,2008-005131-15,Interventional,Completed,True,False,False,CHRU de Lille,Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
-CHRU de Lille,2010.0,,2006-004784-58,Interventional,Completed,True,False,False,CHRU de Lille,Centre hospitalier régional universitaire de Lille,https://ror.org/02ppyfa04,both,02ppyfa04
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT01512277,,1999.0,True,False,False
+NCT00367185,,2005.0,True,False,False
+NCT00682292,,2006.0,False,False,False
+NCT00122057,,2007.0,True,False,False
+NCT00446264,,2009.0,True,True,True
+NCT02385565,,2009.0,False,False,False
+NCT01082666,,2010.0,False,False,False
+NCT01108029,,2010.0,True,False,False
+NCT01487590,,2010.0,True,False,False
+,2006-004784-58,2010.0,True,False,False
+,2008-005801-20,2011.0,True,False,False
+NCT00943748,,2011.0,True,False,True
+,2008-005131-15,2011.0,True,False,False
+NCT01351259,,2011.0,True,False,True
+NCT00914095,,2011.0,True,False,True
+NCT00642980,,2011.0,True,False,False
+NCT01214226,2006-006944-78,2011.0,True,False,True
+NCT01679093,,2011.0,False,False,False
+NCT00767091,,2012.0,True,False,True
+NCT01279096,,2013.0,False,False,False
+NCT01415219,,2013.0,True,False,False
+NCT01487395,2010-023989-51,2013.0,False,False,False
+NCT01295736,,2013.0,True,False,True
+NCT00766519,,2013.0,False,False,False
+NCT00639964,,2013.0,False,False,False
+NCT01123174,,2014.0,True,False,False
+NCT03066362,,2014.0,False,False,False
+NCT01965821,,2014.0,True,False,True
+NCT04354311,,2014.0,True,False,False
+NCT03164746,,2014.0,True,False,False
+NCT01341002,,2014.0,False,False,False
+NCT00937456,,2015.0,True,False,False
+NCT01641627,,2015.0,False,False,False
+NCT01053949,2009-013319-36,2015.0,True,True,True
+NCT01745640,2011-002081-20,2015.0,True,True,True
+NCT01713504,,2015.0,False,False,False
+NCT01948635,,2015.0,True,False,True
+NCT01637441,,2015.0,False,False,False
+NCT03066375,,2015.0,False,False,False
+NCT02844101,,2015.0,True,False,True
+NCT02662725,2012-000852-32,2015.0,False,False,False
+NCT02250755,,2015.0,False,False,False
+NCT02154178,,2016.0,True,True,True
+NCT01123187,,2016.0,True,True,True
+NCT01622400,,2016.0,False,False,False
+NCT00946959,,2016.0,False,False,False
+NCT02213302,,2016.0,True,False,False
+NCT04146675,,2016.0,False,False,False
+NCT03751787,,2016.0,False,False,False
+NCT02364908,,2016.0,False,False,False
+NCT02164253,2013-001228-21,2016.0,False,False,False
+NCT02242955,2012-003336-23,2016.0,False,False,False
+NCT02750150,,2016.0,False,False,False
+NCT02905071,,2017.0,True,False,True
+NCT03749304,,2017.0,False,False,False
+NCT03185403,2013-002317-36,2017.0,False,False,False
+NCT03381456,,2017.0,False,False,False
+NCT02969733,2009-017682-33,2017.0,False,False,False
+NCT02193412,,2017.0,False,False,False
+NCT02891395,2012-000770-36,2017.0,False,False,False
+NCT03280290,,2017.0,False,False,False
+NCT02812901,,2017.0,True,True,True
+NCT03509805,,2017.0,False,False,False
+NCT03286660,,2017.0,True,False,True
+NCT01488214,,2017.0,True,False,False
+NCT02302469,2008-006370-15,2017.0,True,True,True
+NCT02778178,2015-002143-34,2017.0,False,False,False
+NCT02902016,,2017.0,False,False,False
+NCT03076892,,2017.0,False,False,True
+NCT02702128,2015-002175-24,2018.0,False,False,False
+NCT02621775,,2018.0,True,True,True
+NCT02662504,2015-001554-15,2018.0,False,False,False
+NCT02881437,2016-001480-36,2018.0,False,False,False
+NCT02272361,,2018.0,False,False,False
+NCT02281916,2013-000595-15,2018.0,True,False,True
+NCT02525705,,2018.0,True,False,True
+NCT02281929,2014-002536-13,2019.0,False,False,False
+NCT02884557,,2019.0,False,False,False
+NCT01594450,,2019.0,False,True,True
+NCT01756794,,2019.0,True,False,True
+NCT03565822,,2019.0,False,False,False
+NCT03370627,,2019.0,False,False,False
+NCT03342820,,2019.0,False,False,False
+NCT03315819,,2019.0,True,False,True
+NCT03980210,,2019.0,False,False,False
+NCT03808246,,2019.0,False,False,False
+NCT03743831,,2019.0,False,False,False
+NCT03232697,,2019.0,False,False,False
+NCT03238430,2014-003317-28,2019.0,False,False,False
+NCT03710096,,2019.0,False,False,False
+NCT02821169,2013-004410-17,2019.0,True,False,True
+NCT02994017,,2019.0,False,False,False
+NCT03158376,2014-005226-35,2019.0,False,False,False
+NCT02891330,,2020.0,False,False,False
+NCT02667574,2013-004338-13,2020.0,False,False,False
+NCT03735043,,2020.0,True,False,True
+NCT03946046,,2020.0,False,False,False
+NCT02849236,2016-000157-12,2020.0,False,False,False
+NCT02880033,,2020.0,False,False,False
+NCT02655315,2015-003679-31,2020.0,True,True,True
+NCT02626481,2015-002221-19,2020.0,False,False,False
+NCT04231656,,2020.0,False,False,False
+NCT03012490,,2020.0,False,False,False
+NCT04173364,2019-001984-62,2020.0,False,False,False
+NCT03255863,,2020.0,False,False,False
+NCT04181502,,2020.0,False,False,False
+NCT03261414,,2020.0,False,False,False
+NCT05994196,,2021.0,False,False,False
+NCT04381637,,2021.0,True,True,True
+NCT03801941,,2021.0,False,False,False
+NCT03200769,,2021.0,False,False,False
+NCT02086214,,2021.0,False,True,True
+NCT02749110,,2021.0,True,True,True
+NCT03726203,,2021.0,False,False,False
+NCT04535115,,2021.0,False,False,False
+NCT03048240,2016-002706-39,2021.0,True,True,True
+NCT03741569,,2022.0,False,False,False
+NCT01373866,,2022.0,True,True,True
+NCT03556696,,2022.0,False,False,False
+NCT01423396,,2022.0,False,False,False

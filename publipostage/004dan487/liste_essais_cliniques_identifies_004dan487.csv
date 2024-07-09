@@ -1,10 +1,10 @@
-lead_sponsor,study_completion_year,NCTId,eudraCT,study_type,status_simplified,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y,sponsor,sponsor_normalized,ror,_merge,ror_simple
-Centre Hospitalier Universitaire de la Réunion,2021.0,NCT04459221,2020-002332-73,Interventional,Completed,False,True,True,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2016.0,NCT01425866,,Interventional,Completed,True,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2011.0,NCT00551551,,Interventional,Completed,True,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2016.0,NCT02000674,2013-001438-16,Interventional,Completed,True,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2013.0,NCT01794377,,Interventional,Completed,False,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2017.0,NCT02900989,,Interventional,Completed,False,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2019.0,NCT01537601,,Interventional,Completed,True,False,True,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2014.0,NCT02275429,,Interventional,Completed,False,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
-Centre Hospitalier Universitaire de la Réunion,2012.0,NCT01464073,,Interventional,Completed,True,False,False,Centre Hospitalier Universitaire de la Réunion,Centre Hospitalier Universitaire de la Réunion,https://ror.org/004dan487,both,004dan487
+NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+NCT00551551,,2011.0,True,False,False
+NCT01464073,,2012.0,True,False,False
+NCT01794377,,2013.0,False,False,False
+NCT02275429,,2014.0,False,False,False
+NCT01425866,,2016.0,True,False,False
+NCT02000674,2013-001438-16,2016.0,True,False,False
+NCT02900989,,2017.0,False,False,False
+NCT01537601,,2019.0,True,False,True
+NCT04459221,2020-002332-73,2021.0,False,True,True
