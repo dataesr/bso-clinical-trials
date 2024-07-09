@@ -1,5 +1,6 @@
 NCTId,eudraCT,study_completion_year,has_results_or_publications,has_results_or_publications_within_1y,has_results_or_publications_within_3y
 NCT01670448,2013-002764-12,2015.0,True,False,False
 NCT00626912,,2015.0,True,True,True
+NCT02112435,,2018.0,False,False,False
 NCT04586556,,2022.0,False,False,False
 NCT01340612,,2023.0,True,True,True
