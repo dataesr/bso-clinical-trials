@@ -69,7 +69,7 @@ def parse_ctis(ct):
         "trialDetails", {}).get("clinicalTrialIdentifiers", {}).get("fullTitle")
     res["study_start_dat"] = ct.get("startDateEU")
     countries = ct.get("authorizedApplication").get("authorizedPartsII")
-    res["enrollment_count"] = sum([country.get("recruitmentSubjectCount") for country in countries])
+    res["enrollment_count"] = sum([country.get("recruitmentSubjectCount", 0) for country in countries])
     # Results
     results = ct.get("results", {})
     results = results.get("summaryResults", []) + results.get(
