@@ -26,7 +26,7 @@ def get_each_sources(date_ct, date_euctr, date_ctis):
     df_ctis = pd.DataFrame(get_objects("clinical-trials", f"ctis_parsed_{date_ctis}.json.gz"))
     df_ctis['source'] = 'ctis'
     raw_trials['CTIS'] = df_ctis.to_dict(orient='records')
-    nb_ct_ctis = len(raw_trials['ctis'])
+    nb_ct_ctis = len(raw_trials['CTIS'])
     logger.debug(f"Nb CT from ctis: {nb_ct_ctis}")
 
     return raw_trials
