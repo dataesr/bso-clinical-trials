@@ -6,7 +6,7 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 logger = get_logger(__name__)
 
 
-def get_each_sources(date_ct, date_euctr):
+def get_each_sources(date_ct, date_euctr, date_ctis):
     raw_trials = {}
     logger.debug(f'getting clinicaltrials data from {date_ct}')
     df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{date_ct}.json.gz"))
@@ -21,24 +21,33 @@ def get_each_sources(date_ct, date_euctr):
     raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
     nb_ct_euctr = len(raw_trials['eudraCT'])
     logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
+
+    logger.debug(f'getting ctis data from {date_ctis}')
+    df_ctis = pd.DataFrame(get_objects("clinical-trials", f"ctis_parsed_{date_ctis}.json.gz"))
+    df_ctis['source'] = 'ctis'
+    raw_trials['CTIS'] = df_ctis.to_dict(orient='records')
+    nb_ct_ctis = len(raw_trials['ctis'])
+    logger.debug(f"Nb CT from ctis: {nb_ct_ctis}")
+
     return raw_trials
 
 
-def merge_all(date_ct, date_euctr):
+def merge_all(date_ct, date_euctr, date_ctis):
     # each field is transformed (transform_ct function) to become a list of element, each element with a source
     # after merge, the untransform_ct function turns back to a proper schema
-    raw_trials = get_each_sources(date_ct, date_euctr)
+    raw_trials = get_each_sources(date_ct, date_euctr, date_ctis)
     ct_transformed = {}
     for k in raw_trials:
         ct_transformed[k] = {}
         for ct in raw_trials[k]:
             ct_transformed[k][ct[k]] = transform_ct(ct)
     matches = {}
-    matches = update_matches(matches, raw_trials['NCTId'], 'NCTId', ['eudraCT'])
-    matches = update_matches(matches, raw_trials['eudraCT'], 'eudraCT', ['NCTId'])
+    matches = update_matches(matches, raw_trials["NCTId"], "NCTId", ["eudraCT"])
+    matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", ["NCTId"])
+    matches = update_matches(matches, raw_trials["CTIS"], "CTIS", ["NCTId"])
     known_ids = set([])
     all_ct = []
-    for current_id_type in ['NCTId', 'eudraCT']:
+    for current_id_type in ["NCTId", "eudraCT", "CTIS"]:
         for ct in raw_trials[current_id_type]:
             if ct[current_id_type] in known_ids:
                 continue
