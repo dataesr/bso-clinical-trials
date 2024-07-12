@@ -1,0 +1,21 @@
+S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+🟥,NCT03554863,,2019,"Does Optiflow Anesthesia Allow Anethesia Induction ""Without Hands"" ?",OPTIFLOW,False,False
+🟩,NCT03098524,,2019,Low Tidal MEChanical Ventilation Against NO Ventilation During Cardiopulmonary Bypass Heart Surgery : a Randomized Controlled Trial,MECANO,True,True
+🟥,NCT03504462,,2019,Specific Block of the Plantar Branches of the Tibial Nerve Under Ultrasound for Foot Surgery : A Monocentric Pilot Study,DISTIB,False,False
+🟩,NCT03734159,2018-002842-35,2019,Interest of Parasternal Block to Limit the Doses of Anesthetics Necessary for the Maintenance of Arterial Blood Pressure and Heart Rate in the Recommended Values During Sternotomy in Patients Undergoing Coronary Artery Bypass Graft,PARA,True,True
+🟥,NCT03566121,,2020,Prediction of the Severity of Female SUI by Measuring New Static and Dynamic Ultrasound Parameters of the Urethra,PRESIUS,False,False
+🟩,NCT03834129,,2020,"Interest of Intravenous Dexmedetomidine (Dexdor®) in the Knee Replacement Surgery Performed Under Locoregional Anesthesia: a Randomized, Double Blind, Controlled Clinical Trial",DIVA,True,True
+🟥,NCT04213781,,2020,Does Audiovisual Distraction Decrease the Use of Hypnotic Drugs During Oocyte Retrieval?,Happy-Fiv,False,False
+🟩,NCT03956264,,2020,Interest of Virtual Reality in the Management of Anxiety and Pain Related to Post-cardiac Surgery Care,ARVACC,True,True
+🟥,NCT03926910,,2020,Test of Ventricular Stimulation as Immediate Predictor of Hypovolemia After Cardiac Surgery: Non-randomized Open Label Trial.,TESTI,False,False
+🟥,NCT04494100,,2021,WALANT Technique (Wide Awake Local Anesthesia No Tourniquet) in Association With Analgesic Troncular Blocks at the Wirst for Carpal Tunnel Release.,WALA,False,False
+🟧,NCT04433390,2020-000087-26,2022,Time to Transit Recovery After Treatment With Naloxegol in Cardiac Surgery Intensive Care Trial,TRANSIT,False,True
+🟥,NCT05306262,,2022,"Effects of Catalepsy on the Parasympathetic Tone Assessed by ANI (Analgesia/Nociception Index) and on Absorption, Dissociation and Perception of Time During the Hypnotic Trance.",CATALHYPNOANI,False,False
+🟥,NCT04046744,,2022,Axillary Block in Association With Analgesic Truncal Blocks of the Median and Radial Nerves at the Elbow for Wrist Surgery.,BAXASSO,False,False
+🟥,NCT04890860,,2022,Detection of Right Ventricular Dysfunction by Portal Vein Doppler After Cardiac Surgery,DVDDP,False,False
+🟥,NCT04593953,,2022,Efficacy of Thoraco-Lumbar Interfascial Plane (TLIP) Block for Postoperative Analgesia of Lumbar Spinal Fusion,ETLA,False,False
+🟩,NCT05072704,2021-003703-18,2023,"Opioid Free Anesthesia in Total Hip Arthroplasty. A Randomized, Controlled and Triple-blind Clinical Trial",OFATHA,True,True
+🟥,NCT04206371,,2023,Longitudinal Follow-up of Patients With Defibrillator Threshold Testing During Implantable Cardioverter Defibrillator (ICD) Replacement,T-DEF,False,False
+🟥,NCT05068219,,2023,Efficacy of a Contract-Relax Technique in the Physical Therapy Management of Diaphragmatic Paresis After Cardiac Surgery,COREDIA,False,False
+🟩,NCT03773822,,2023,"Low Dose of Hydrocortisone and Fludrocortisone in Adult Cardiogenic Shock. A Multicenter, Prospective, Double-blind, Randomized, Placebo-controlled Study",COCCA,True,True
+🟥,NCT04607122,,2023,Interest of Low-dose Landiolol Administration After Cardiac Surgery for the Prevention of Postoperative Atrial Fibrillation,LANDIPROTEC,False,False

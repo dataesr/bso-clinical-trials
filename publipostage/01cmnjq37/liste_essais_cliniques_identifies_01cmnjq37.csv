@@ -1,0 +1,86 @@
+S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+🟥,NCT00291369,,2005,"PERCY QUATTRO: Medroxyprogesterone, Interferon Alpha-2a, Interleukin 2 or Combination of Both Cytokines in Patients With Metastatic Renal Carcinoma of Intermediate Prognosis",,False,False
+🟥,NCT00409071,,2008,Placebo-controlled Evaluation of Homeopathic Remedy (Cocculine®) Efficacy in the Management of Nausea After Adjuvant Chemotherapy in Non Metastatic Breast Cancer.,,False,False
+🟥,NCT01070537,,2009,INVIBO: Evaluation of the Feasibility and Tolerance of an Intubation Procedure Performed by Means of the Bonfils Fiberscope in Awake Patients With Predicted Difficult Intubation in the Context of ENT Cancer Surgery,INVIBO,False,False
+🟥,NCT00973882,,2010,Phase II Multicenter Study Evaluating the Efficacy of Carboplatin-Etoposide Combination in Hormone-resistant Prostate Cancers With Neuroendocrine Differentiation.,,False,False
+🟥,NCT00794261,,2010,"Assessment of the Efficacy and Tolerance, and Health Economic Study of a Single Administration of Pegfilgrastim in Lymphoma or Myeloma Patients Treated With Intensive Chemotherapy and Autologous Peripheral Stem Cell Transplantation",PALM,False,False
+🟥,NCT00636467,,2011,Evaluation of the Technique of Axillary Sentinel Lymph Node (SLN) Detection in Breast Cancers > 2 cm,GAS2PLUS,False,False
+🟥,NCT00619268,,2012,"Open Label, Randomized, Multicenter Phase II Study of a Combination of Torisel® (Temsirolimus) and Avastin® (Bevacizumab) Versus Sutent® (Sunitinib) and Versus a Combination of Avastin® (Bevacizumab) and Roféron® (Interferon Alpha-2a) in First-line Treatment of Patients With Metastatic Renal Cell Carcinoma.",TORAVA,False,False
+🟥,,2009-011280-37,2012,"Efficacy and safety assessment of oral LBH589 in adult patients with advanced soft tissue sarcoma after doxorubicin failure: an open-label, multi-centric phase II study",ESTIM,False,False
+🟩,NCT01136499,,2013,"Efficacy and Safety Assessment of Oral LBH589 in Adult Patients With Advanced Soft Tissue Sarcoma After Pre-treatment Failure: an Open-label, Multicenter Phase II Study",ESTIM-LBH,True,True
+🟧,NCT00367861,,2013,A Prospective Multicentric Randomized Study of Glivec® in Patients With Advanced Gastrointestinal Stromal Tumors Expressing C-kit Comparing Treatment Interruption After 5 Years vs Treatment Maintenance,,False,True
+🟧,NCT01202032,,2013,Bevacizumab in Patients With Metastatic Renal Cell Carcinoma or Others Advanced Solid Tumors,PARASOL,False,True
+🟥,NCT01261429,2010-018869-29,2013,Phase II Study of Nilotinib Efficacy in Pigmented Villo-Nodular Synovitis/ Tenosynovial Giant Cell Tumour (PVNS/TGCT),PVNS,False,False
+🟥,NCT01314300,2010-023461-22,2014,"VERSATIS - Efficacy and Safety of Lidocaine 5% Plasters (Versatis® 5%) in Child, Adolescents and Young Adults With Neuropathic Pains or Vasoocclusive Sickle Cell Crisis Pains",VERSATIS,False,False
+🟥,NCT00905281,,2014,"Randomized Controlled Trial Assessing the Impact of Routine ""Oncologist-supportive Care Team"" Consultation on the Use of an Additional Line of Chemotherapy in Metastatic Breast Cancer Patients",,False,False
+🟥,NCT01405430,,2014,"Exploration of New Biologic Factors' Predictive Value , Especially Circulating VE-cadherin in Metastatic Colorectal Adenocarcinoma Patients Treated With Bevacizumab",AVECC,False,False
+🟥,NCT01246427,2009-009867-70,2014,Placebo-controlled Evaluation of the Homeopathic Drug BRN01 for the Treatment of Hot Flashes in Women With Non Metastatic Breast Cancer Treated by Adjuvant Hormonal Therapy,HBC,False,False
+🟥,NCT01368107,,2014,"A Randomised, Multicentric, Phase 2a Study Evaluating the Impact of an Immunotherapy by IL-7 on CD4 Lymphopenia, Risks of Severe Haematological Toxicity and Tumor Progression in Metastatic Breast Cancer Patients",,False,False
+🟥,NCT00349102,,2014,Evaluation of the Interest of Breath Holding for the Prevention of Radiation Pneumonitis Following Conformal Radiation Therapy,,False,False
+🟥,NCT01331772,,2014,Randomized Controlled Study Assessing the Feasibility and the Medico-economic Impact of Nutritional Intervention in Women With Breast Cancer Under Adjuvant Chemotherapy,PASAPAS,False,False
+🟥,NCT01696630,,2014,"Phase II Study, Randomized, Monocentric, Single-blind, Comparing the Efficacy of Xenon and Desflurane, in Association With a Thoracic Epidural Analgesia in the Maintenance Phase of a Colorectal Oncologic Surgery",,False,False
+🟥,NCT01194843,,2015,A Double-blind Placebo-controlled Evaluation of Ropivacaine Efficacy by Local Per and Post Hepatectomy Infiltrations for Adult Pain Management,DPO,False,False
+🟥,NCT01738217,,2015,"Evaluation, for Patients Requiring a Liver Cancer Surgery, of the Use of Fluorescence Imaging Device: Faisability and Efficiency of Lesional and/or Anatomical Marking",HEPATOFLUO,False,False
+🟩,NCT01323400,,2016,"A Phase II Randomized Multicentre Study Evaluating the Efficacy of Pazopanib+Best Supportive Care (BSC) Versus BSC Alone in Metastatic and/or Locally Advanced Unresectable GIST, Resistant to Imatinib and Sunitinib",PAZOGIST,True,True
+🟥,NCT01308034,,2016,Phase I Study of Continuous Dosing of Sunitinib in Non GIST Sarcomas With Concomitant Radiotherapy,,False,False
+🟥,NCT01460186,,2017,Evaluation of the Predictive and Prognostic Value of Germ-line Polymorphisms in Patients With Metastatic Breast Cancer : a Multicenter Non-randomized Prospective Cohort Study,StoRM,False,False
+🟩,NCT03148886,,2018,Advanced Breast Cancer and Lifestyle Exercise Study,ABLE,True,True
+🟥,NCT03418597,,2018,"Randomized, Monocentric, Controlled, Superiority Phase II Trial Evaluating Clinical Hypnosis Using Virtural Reality vs Standard Pain Management Procedure During a Musculoskelettal Biopsy",REVENRI,False,False
+🟧,NCT00978471,2009-009899-12,2018,Efficacy and Tolerance Adjuvant High-Dose Thiotepa With Peripheral Stem Cell Rescue Associated With Conventional Chemotherapy in Children and Adults With Relapsed Osteosarcoma,OSII-TTP,False,True
+🟥,NCT03336905,,2019,Implementation of a Program Based on Adapted Physical Activity and Recommendations for Second Cancers Prevention for Teenagers and Young Adults With Cancer,PREVAPAJA,False,False
+🟧,NCT03139851,2016-002736-33,2019,CHEMOIMMUNE - A Phase II Study Evaluating an Anti-PD1 Monoclonal Antibody (Pembrolizumab) in Lymphopenic Metastatic Breast Cancer Patients Treated With Metronomic Cyclophosphamide,CHEMOIMMUNE,False,True
+🟥,NCT03330730,,2019,"A Randomized, Controlled, Multicenter, Prospective, Open Study Evaluating the Efficiency of the IsereADOM Home-care Service Package in the Prevention of Unplanned Hospitalizations of Patients With Cancer",IsereADOM,False,False
+🟥,NCT02777710,,2019,A Dose Escalation Phase I Study With an Extension Part Evaluating the Safety and Activity of an Anti-PDL1 Antibody (DURVALUMAB) Combined With a Small Molecule CSF-1R Tyrosine Kinase Inhibitor (PEXIDARTINIB) in Patients With Metastatic/Advanced Pancreatic or Colorectal Cancers,MEDIPLEX,False,False
+🟧,NCT01813136,2012-003162-41,2019,"A Randomized, Multicenter, Open-label, Phase II Study of the Optimal Scheme of Administration of Pazopanib in Thyroid Carcinoma","PAZOTHYR 
+ 
+ 
+ PAZOTHYR",False,True
+🟧,NCT01737450,2012-002403-18,2019,"A Phase II, Multicenter Trial Aiming to Evaluate the Clinical Interest of a Monotherapy With BKM120 , a Phosphoinositide 3-kinase (PI3K) Inhibitor in Patient With Metastatic Head and Neck Cancer Recurrent or Progressive Under Platin and Cetuximab-based Chemotherapy",PIK-ORL,False,True
+🟥,NCT02489695,,2019,Multicenter Phase II Study of Axitinib in First Line Treatment for Patients With Locally Advanced or Metastatic Papillary Renal Cell Carcinoma (PRCC),AXIPAP,False,False
+🟥,NCT02576106,,2020,Evaluation of Percutaneous Treatment by Cryoablation of Unifocal Invasive Breast Carcinoma in Menopausal Women With Indication of Lumpectomy,CRYOSE01,False,False
+🟥,NCT01635270,,2020,Randomized Phase 2 Study Evaluating the Interest of Mid-position Strategy Versus ITV (Internal Target Volume) Strategy in Radiotherapy Treatment for Patients With a Locally Advanced Non-resected Non-small Cell Lung Carcinoma (NSCLC).,midP,False,False
+🟥,NCT04510454,,2021,Evaluation of a ddPCR Technology for the SARS-CoV-2 Detection in Symptomatic Patients With Suspicion of COVID-19,ONCOVID-21,False,False
+🟥,NCT03421912,,2021,"Comparative Monocentric Randomized Study Evaluating the Satisfaction and Quality of Life of Patients Using Cicaplast Baume B5 Versus Dexeryl for the Management of Cutaneous Toxicities Induced by Epidermal Growth Factor Receptor Inhibitors (iEGRF) in Carcinomas Squamous Cells of the Head and Neck, Colorectal Cancers or Lung Cancers",CICAFIX,False,False
+🟧,NCT01427478,2010-023265-22,2021,"A Randomized, Double-blind, Placebo-controlled Phase III Study, to Evaluate the Efficacy of Afatinib (BIBW2992) in Maintenance Therapy After Post- Operative Radio-chemotherapy in Squamous-cell Carcinoma of the Head and Neck: GORTEC 2010-02",BIBW2992ORL,False,True
+🟥,NCT03163732,,2021,"A Multicentric, Prospective Cohort Study Aiming to Evaluate the Added Value of a Large Molecular Profiling Panel (Panel FoundationOne) Versus a Limited Molecular Profiling Panel (Panel CONTROL) in Advanced Solid Tumors.",PROFILER 02,False,False
+🟧,,2019-001711-23,2021,"CICA-RT – Phase III randomized multicenter study evaluating Cicaderma® ointment efficacy versus the current practice of each center for the radiation dermatitis prevention in patients with non-metastatic breast cancer after adjuvant post-operative breast irradiation  
+ 
+ 
+ CICA-RT – Etude multicentrique randomisée de phase III évaluant l’efficacité de la pommade Cicaderma® versus la pratique courante de chaque centre sur la prévention des radiodermites après prise en charge adjuvante par irradiation mammaire post-opératoire chez des patientes atteintes d’un cancer du sein non métastatique","CICA-RT 
+ 
+ 
+ CICA-RT",False,True
+🟥,NCT02013297,,2021,"Hypofractionated Stereotactic Radiation Treatments (SBRT) on Children, Teenagers and Young Adults Malignant Tumors",SBRT,False,False
+🟥,NCT02104986,,2021,A Multicenter Study to Evaluate a Risk-adapted Strategy for Treatment of Extra Cranial Non Seminomateous Malignant Germ Cell Tumour in Children and Adolescent,,False,False
+🟥,NCT04333914,,2021,"A Prospective, Controlled, Randomized, Multicenter Study of the Efficacy of an Autophagy Inhibitor (GNS561), an Anti-NKG2A (Monalizumab) and an Anti-C5aR (Avdoralimab) Compared to the Standard of Care in Patients With Advanced or Metastatic Cancer and SARS-CoV-2 (COVID-19) Infection.",IMMUNONCOVID,False,False
+🟩,NCT02977195,,2022,"NP137 - An Open-label, First in Human, Phase I Trial Aiming to Evaluate the Safety, Pharmacokinetics, and Clinical Activity of a Humanized Monoclonal Antibody Targeting Netrin 1 (NP137) in Patients With Advanced/Metastatic Solid Tumors.",NP137,True,True
+🟥,NCT03356223,,2022,"A Phase II Trial Aiming to Evaluate the Clinical Interest of ABEMACICLIB Monotherapy in Patients With Locally Advanced/Metastatic Head and Neck Cancer After Failure of Platinum and Cetuximab or Anti-EGFR-based Therapy and Harboring an Homozygous Deletion of CDKN2A, and/or an Amplification of CCND1 and/or of CDK6",ABORL,False,False
+🟥,NCT02977156,,2022,A Phase I Dose Escalation Trial Evaluating the Impact of an in Situ Immunization Strategy With Intra-Tumoral Injections of Pexa-Vec in Combination With Ipilimumab in Metastatic / Advanced Solid Tumors With Injectable Lesions.,ISI-JX,False,False
+🟩,NCT03871959,,2022,CATRIPCA - A Phase I Study of PD1 Monoclonal Antibody (Pembrolizumab) In Combination With a IAP Antagonist (Debio 1143) In (Exocrine) Pancreatic And Colorectal Non MSI-high Advanced/Metastatic Adenocarcinoma.,CATRIPCA,True,True
+🟩,NCT03529383,,2022,Randomized Controlled Trial Evaluating the Efficacy of an Adapted Physical Activity Program Using a Connected Device With Activity Trackers and a Therapeutic Education Program Among Women With Localized Breast Cancer,DISCO,True,True
+🟩,NCT04052126,,2023,An Interventional Prospective Study to Test the Feasibility of an Individualized Physical Activity Program in Patients Over 65 Years of Age With Hematologic Malignancies: the OCAPI Project.,OCAPI,True,True
+🟥,NCT03721120,,2023,A Randomized Phase III Clinical Trial to Evaluate the Feasibility and Clinical Relevance of Liquid Biopsy in Patients With Suspicious Metastatic Lung Cancer,LIBELULE,False,False
+🟥,NCT05273931,,2023,Evaluation of a Lifestyle Intervention Among Participants of the French Colorectal Cancer Screening Program (LIFE-SCREEN Pilot),,False,False
+🟥,NCT05568667,,2023,"Pilot Study to Improve Primary Prevention of Colorectal Cancer by Motivational and Community-based Approaches, According to Individual Risk Level, in People Undergoing Colonoscopy",,False,False
+🟥,NCT03714958,,2023,"A Single-center, Phase 1 Dose Escalation Study of Trametinib Combined With HDM201 in Patients With RAS/RAF Mutant and TP53 Wild-type Advanced/Metastatic Colorectal Cancer.",TRAHD,False,False
+🟥,NCT05881148,,2023,"Carbon "" Super Spikes "" Performances on Sprint Acceleration : Just Use it? A Multiple N-of-1 Trial. A Multiple N-of-1 Trial in Healthy Athletes",CS3T,False,False
+🟥,NCT02260505,,2023,A Randomized Multicenter Phase III Trial Evaluating the Interest of Imatinib Treatment Maintenance or Interruption After 3 Years of Adjuvant Treatment in Patients With Gastrointestinal Stromal Tumours (GIST),ImadGist,False,False
+🟥,NCT03723967,,2024,Multicenter Prospective Single Arm Phase II Study Evaluating Efficacy & Safety of Durvalumab With Carboplatin/Paclitaxel as First Line Treatment in Patients With Recurrent/Metastatic SCCHN Not Eligible to Standard Chemotherapy,FRAIL-IMMUNE,False,False
+🟥,,2018-000414-38,2024,"Frail-Immune (GORTEC-2018-03) - A multicenter, prospective, single arm phase II study evaluating the efficacy and safety of the combination of Durvalumab with carboplatin and paclitaxel as first line treatment in patients with recurrent/metastatic squamous cell carcinoma of the head and neck not eligible to standard chemotherapy 
+ 
+ 
+ Frail-Immune (GORTEC-2018-03) - Etude de phase II, monobras, prospective, multicentrique évaluant l’efficacité et la tolérance de l’association du Durvalumab avec la Carboplatine et le Paclitaxel, en traitement de première ligne chez des patients porteurs d’un carcinome   épidermoïde de la tête et du cou récurrent / métastatique non éligibles à la chimiothérapie standard","Frail-Immune 
+ 
+ 
+ Frail-Immune",False,False
+🟩,NCT04676009,,2024,Feasibility of an Acute Physical Exercise Before Immunotherapy and Chemotherapy Infusion for Metastatic Non-small-cell Lung Cancer Patients: Protocol ERICA Study,ERICA,True,True
+🟥,NCT00775112,,,Randomized Evaluation of a Positioning Pillow for Lumbar Puncture in Paediatric Hematology-Oncology,,False,False
+🟥,NCT00820963,,,Randomized Study of Normal-fractionated Radiotherapy Versus Hypofractionated Radiotherapy Versus Chemotherapy in Patients Over 60 Years With Malignant Glioma,,False,False
+🟥,NCT01262417,,,Evaluationof the Efficiency of a Resorbable Barrier Membrane for the Prevention of Abdominal and Peri-hepatic Adhesion in Patients With Colorectal Cancer Requiring Two-stage Surgery for the Resection of Hepatic Metastases,SEPRAC2T,False,False
+🟥,,2016-004537-25,,"An Phase II trial aiming to evaluate the clinical interest of ABEMACICLIB monotherapy in patients with locally advanced/metastatic head and neck cancer after failure of platinum and cetuximab or anti-EGFR-based therapy and harboring an homozygous deletion of CDKN2A, and/or an amplification of CCND1 and/or of CDK6 
+ 
+ 
+ AB-ORL - Etude de Phase II visant à évaluer l’intérêt clinique d’une monothérapie par abemaciclib chez des patients atteints d’un cancer de la tête et du cou localement avancé ou métastatique après échec d’une thérapie à base de platine et de cetuximab ou anti-EGFR, et présentant une délétion homozygote du gène CDKN2A, et/ou une amplification du gène CCND1 et/ou du gène CDK6.","ABORL 
+ 
+ 
+ ABORL",False,False

@@ -1,0 +1,166 @@
+S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+🟥,NCT00134212,,2004,"Prospective, Randomized Study on Two Parallel Groups Comparing Dopexamine and Norepinephrine in Combination to Epinephrine Alone on Systemic and Pulmonary Hemodynamics, Gastric Mucosal Perfusion, and Oxidative Stress in Septic Shock",,False,False
+🟥,NCT00151606,,2004,Evaluation of Two Protocols to Prevent the Acquisition of Methicillin-Resistant Staphylococcus Aureus in Intensive Care Units.,,False,False
+🟥,NCT00138684,,2006,Cytochrome P450 2E1 and Iron Overload,,False,False
+🟥,NCT00151567,,2006,Interest of a Treatment With the alpha1-blocker Tamsulosin in the Elimination of Pelvis Ureteral Stones,TAMSULOSINE,False,False
+🟥,NCT00151580,,2006,"Comparison of Maintenance Treatment by Ribavirin to a Placebo, After an Initial One-year Treatment With Pegylated Interferon-α2a - Ribavirin Association in Hepatitis C Viral Recurrence After Liver Transplantation",TRANSPEG,False,False
+🟥,NCT00151593,,2006,Celsior®: Evaluation of an Organ Preservation Solution in Liver Transplantation.,,False,False
+🟥,NCT00219856,,2006,"Prospective, Randomized, Simple Blind Study Comparing the Effects of an Anaesthesia With Propofol to an Anaesthesia With Desflurane on Oxydative Stress and Liver Function Recovery After Hepatectomy",,False,False
+🟥,NCT00305916,,2008,"Accuracy of Multislice Spiral Computed Tomography in Diagnosis of Coronary Artery Disease Associated to Idiopathic Cardiomyopathy in Sinus Rhythm (""MSCT-IC Study"").",CMD-scanner,False,False
+🟥,NCT00280592,,2008,"Prospective, Randomized, Double-blind, Placebo-controlled Study on Parallel Groups Evaluating the Efficacy and Safety of Cranberry (Vaccinium Macrocarpon) in Prevention of Urinary Tract Infections in Multiple Sclerosis Patients.",CANNEBERGE,False,False
+🟥,NCT00598026,,2011,"Evaluation of the "" Tele-follow-up "" for the Follow-up of Implantable Defibrillators",EVATEL,False,False
+🟥,NCT01282567,,2011,Preliminary Study for the Artificial Pancreas Project : Determination of a Tuning Strategy of Metabolic Profiles,,False,False
+🟥,NCT01435668,,2012,"Impact Evaluation at 3 Months Follow-up of a Brief Motivational Intervention in Reducing Alcohol Consumption Versus Simple Written Advice Only Among Adolescents Aged 16-24 in Pontchaillou Hospital Emergency Department in Rennes, France",AURAIA,False,False
+🟥,NCT01437917,,2012,NOMAC : New Tools for Managing the Fate of Cereal Nutrients in the Gut : Effects of Amylose Content on Glycemic Index.,NOMAC,False,False
+🟥,NCT01780883,,2013,Melatonin Dose-effect Relation in Childhood Autism,MELADOSE,False,False
+🟧,NCT01883024,,2013,"Prospective Study, Insulin Pump-RT Advisor (IPRA©): a Decision Support Software for Diabetic Patients Treated by Insulin Pump and Using Continuous Glucose Monitoring. Experimental Study. Evaluation by an Expert Patient Panel.",IPRA,False,True
+🟥,,2008-008372-13,2013,"Etude de phase III randomisée, ouverte, multicentrique comparant chez des sujets âgés de plus de 70 ans atteints de cancer bronchique non à petites cellules de stade IV ou IIIb (T4 plèvre ou péricarde) une stratégie « classique » d’attribution d’un traitement par bithérapie à base de carboplatine ou une monothérapie par Docetaxel seul basée sur le PS et l’âge à une stratégie « optimisée » utilisant les mêmes drogues attribuées selon une échelle gériatrique simplifiée de dépistage plus ou moins complétée d’une évaluation gériatrique approfondie",esogia,False,False
+🟥,NCT00401336,,2013,Quantification of Liver Iron Overload and Steatosis Using a New Magnetic Resonance Imaging Multiecho Gradient-echo Sequence,SURFER,False,False
+🟥,NCT01282554,,2013,Evaluation of Electrostimulation Program During Dialysis Sessions in Chronic Renal Failure Patients,EMS-Dialyse,False,False
+🟥,,2008-006045-10,2014,Effet de la stimulation dopaminergique continue par pompe à apomorphine sur les fluctuations cognitives et psychiques des patients parkinsoniens: étude clinique et métabolique cérébrale par TEP au 18FDG,APO TEP,False,False
+🟩,NCT02304874,,2014,Evaluation of Body Iron Stores in Overweight Healthy Volunteers,FERNORM,True,True
+🟧,NCT01257139,,2014,,ESOGIA,False,True
+🟧,NCT02061488,,2014,"Prospective, Monocentric, Crossover Randomized Trial, to Assess a New Closed-loop Algorithm in Type 1 Diabetes (Saddle Point Model Predictive Control : SP-MPC)",PPA,False,True
+🟩,NCT01543113,,2014,"cKIT, BRAF/NRAS Mutations in Advanced Melanoma : Clinical Outcome in Response to Tyrosine-kinase Inhibitors - KitMel Project",KitMel,True,True
+🟥,NCT01543100,,2014,Prognostic Study of Markers of Angiogenesis and Coagulability in Patients With Monoclonal Gammopathy,PACMoG,False,False
+🟥,NCT01673230,,2015,"Hemodynamic Indices Predictive of a Beneficial Response to Fluid Expansion in Case of Hemodynamic Failure After Cardiac Surgery With Altered Preoperative Ejection Fraction (LVEF≤45%): Sensibility and Specificity of Respiratory Variations of Pulse Pressure (∆PP), Photoplethysmography (∆POP), Perfusion Index (PVI), Before and After Fluid Expansion.",ALTERVOL,False,False
+🟥,NCT02060578,,2015,DELI-DEVI : Determinants of End-of-life Place of Care for Children Suffering From Cancer.,DELI-DEVI,False,False
+🟥,NCT01576315,,2015,Efficacy of Itraconazole and of Voriconazole in Patients With Cystic Fibrosis and Presenting With Persistent Positive Sputums for Aspergillus.,ATCF,False,False
+🟥,NCT02096367,,2015,Immediate Effect of Cervical Posterior Muscles' and Gluteus Medius Muscle's Vibrations on Gait in Chronic Vascular Hemiplegia,VIBR-AVC,False,False
+🟥,NCT02149862,,2015,FIRBladd - Use of Infrared Spectroscopy in the Diagnosis of Bladder Tumors,FIRBladd,False,False
+🟧,NCT01039090,,2015,"Prospective, Randomised, Comparative Study Comparing Efficacy of Continuous Apomorphine Infusion Versus Usual Dopaminergic Per os Treatment on Cognitive and Neuropsychological Functions in Parkinson's Disease: a Clinical and PET-scan Study",APO-TEP,False,True
+🟩,NCT02067455,,2015,"This is a Non-randomized, Single-center, Prospective Investigation on Exercise Capacities of Left Ventricular Assist Devices Recipients",REVADE,True,True
+🟥,NCT01572818,,2015,Effects of Phlebotomy on Insulin Sensitivity in Insulin Resistance-associated Hepatic Iron Overload Patients,SAINPOS,False,False
+🟥,NCT02305771,,2015,Contributions From the Analysis of Graphs for Identification of Neural Cliques,BRAINGRAPH,False,False
+🟥,NCT02882399,,2015,,Shortystrap,False,False
+🟩,NCT01045525,,2015,Prospective Randomized Study Comparing the Effect of Phlebotomy and Lifestyle and Diet Advices vs Lifestyle and Diet Advices Only on Glycemia in Patients With Dysmetabolic Liversiderosis,SAIGNEES,True,True
+🟥,NCT02350556,,2016,Interest of Evaluating the Movement of the Center of Mass in a Dynamic Avoidance Task as the Endpoint of the Dynamic Equilibrium of Hemiplegic Patients,EQHEM,False,False
+🟥,NCT02140918,,2016,Hemodynamic and Biological Effects of 3 Increasing Doses of Fludrocortisone in Healthy Volunteers,AFLUCO4,False,False
+🟩,NCT02112331,,2016,Influence of Physical Treatments of Human Milk on the Kinetics of Gastric Lipolysis in Preterm Newborns,ARCHILACT,True,True
+🟥,NCT02357407,,2016,Development of an Adjustment Assistance Tool Dosage of Fluoroquinolones in a Population Pharmacokinetic Model,FLUO-POP,False,False
+🟥,NCT03274843,,2016,Evaluation of the Improvement of Independence by the Resumption of a Significant Activity Such as a Cooking Workshop in Adult Patients With Stroke Benefiting From Traditional Rehabilitation,EVIC-AVC,False,False
+🟩,NCT01738516,,2016,Contribution of High Resolution EEG Functional Connectivity Measures to Presurgical Evaluation of Patients With Intractable Epilepsy,conneXion,True,True
+🟥,NCT01743703,,2016,Utility of Whole-body MRI (STIR and Diffusion Weighted) in the Detection of Traumatic Injuries of Undetermined Origin in Children,PEDIMA,False,False
+🟥,NCT02018484,,2016,Positioning of the Tibial Cut in Unicompartmental Medial Knee Replacement by Using Patient Specific Cutting Guides.,PSI-PUC,False,False
+🟥,NCT00925691,,2016,Comparison of SEPTal and Apical Pacing Sites in PerManent Right Ventricular Pacing,SEPTAL-PM,False,False
+🟥,NCT01677078,,2017,Assessment of the Neuronavigation System Coupled With Repetitive Transcranial Magnetic Stimulation. A Randomized Double Blind Study,TMS,False,False
+🟩,NCT02131909,,2017,PC MIROIR : Effects of Mirror Therapy in Children With Hemiplegic Cerebral Palsy,PC MIROIR,True,True
+🟧,NCT02662322,,2017,Effect of Language and Confusion on Pain During Peripheral Intravenous,KTHYPE,False,True
+🟩,NCT01789008,,2017,Interest of Transient Elastography in the Determination of Advanced Fibrosis in Alcoholic Liver Didease in Alcoholic Patients in Weaning.,FIBR-OH,True,True
+🟥,NCT02099214,,2017,Estimation of Myocardial Iron Overload by 3 Tesla MRI and Cardiac Functional Consequences in Patients With HFE Hereditary Haemochromatosis. Pilot Study,HEMOCOEUR,False,False
+🟥,NCT01569724,,2017,Estimation of Carbohydrate Metabolism Disorder Frequency in Hypertriglyceridemia Induced by Bexarotene Treatment of Cutaneous T Cell Lymphoma - Pilote Study,TgBEX,False,False
+🟥,NCT03651960,,2017,Mobile and Interactive Robot's Social Acceptability for Balance and Gait,ROBO-K,False,False
+🟧,NCT00287105,,2017,"An Open-label, Phase II Study to Explore the Safety and Efficacy of Imatinib With Chemotherapy in Pediatric Patients With Ph+ / BCR-ABL+ Acute Lymphoblastic Leukemia (Ph+ALL)",ESPHALL,False,True
+🟥,NCT02492529,,2017,Knowing and Remembering: Cognitive and Neural Influences of Familiarity on Recognition Memory in Early Alzheimer's Disease,EPMR-MA,False,False
+🟧,NCT02125110,,2017,Effect of Prenatal Exposure to Neurotoxicants on the Developing Brain: an MRI Study,PERINE,False,True
+🟩,NCT02041169,,2018,"Lower Extremity Peripheral Arterial Disease and Exercise Ischemia: Walking Capacity Variability, Pain Evolution and Pathophysiological Responses. The CLASH Study.",CLASH,True,True
+🟥,NCT02857205,,2018,MICROPRUNG : Intestinal Microbiota Analysis in Patients With or Without Hirschsprung's Associated EnteroColitis,MICROPRUNG,False,False
+🟥,NCT01148069,,2018,Surgery Combined With IMRT-IGRT in Locally-advanced Prostate Cancers,TARGET,False,False
+🟥,NCT02990195,,2018,Restoring the Beneficial Effects of Enterohepatic Bile Salt Signalling by Chyme Reinfusion in Patients With a Double Enterostomy,RESCUE,False,False
+🟥,NCT02753387,,2018,Effect of Oral Preparation on Bacterial Colonization of the Pharyngeal Mucosa in Surgery of Head and Neck Cancer,ORAL-ISO,False,False
+🟧,NCT03484052,,2018,Place of Jugular Ultrasound in the Evaluation of the Volemia by a Clinician Doctor in Routine Care (JUVIA),JUVIA,False,True
+🟩,NCT02528032,,2018,Revisit the Value of Imaging in Best Using CArdiac Resynchronization Therapy,RICART,True,True
+🟧,NCT03174327,,2018,Evaluation of Hepatic Rigidity by Ultrasonic Impulse Elastography in Liver Transplant Patients (SUPERSONIC),SUPERSONIC,False,True
+🟥,NCT01973478,,2018,Deep Brain Stimulation in Patients With Chronic Treatment Resistant Depression,STHYM,False,False
+🟥,NCT02465970,,2018,BRAINSTIM : Effects of Transcranial Direct Current Stimulation (TDCS) in Drug-resistant Partial Epilepsy,BRAINSTIM,False,False
+🟥,NCT02398474,,2018,Intérêt du TFP (Transversalis Fascia Plane) Bloc échoguidé Pour l'analgésie du prélèvement Osseux de crête Iliaque,TFP,False,False
+🟧,NCT02594956,,2018,Impact of the Absence of Nasogastric Decompression After Pancreaticoduodenectomy : A Prospective and Randomized Study,IPOD,False,True
+🟧,NCT01388387,,2018,Impact of Donor and Recipient CYP3A5 Genetic Polymorphism on Tacrolimus Exposure in Patients With Hepatic Transplant,,False,True
+🟩,NCT01282593,,2018,Potential Role of CD9 and Implication of Motility Process in Pathogenesis of TEL/ALM1-positive ALL Relapses (LAL TEL/ALM1 and CD9).,LAL TEL/ALM1,True,True
+🟥,NCT01949467,,2018,"Prospective, Comparative (5 Groups), Non-randomized, Multicenter, Physiopathological Study, Evaluating Pharmacokinetic Characteristics of Serum Hepcidin Level in Response to Iron Oral Intake in Order to Evaluate Their Interest to Discriminate Patients With Dysmetabolic Hepatosiderosis or Ferroportin Disease.",,False,False
+🟥,NCT03638921,,2019,35RC17_8826_NEPHROPAIN Phase APRES : Interest of the Equimolar Oxygen Nitride Mixture (MEOPA) in the Treatment of Pain in Patients Presenting to the Emergency Department for Suspected Renal Colic: a Study BEFORE AFTER,NEPHROPAIN,False,False
+🟧,NCT03376074,,2019,Interest of Oxygenated Hypothermic Perfusion in Preservation of Hepatic Grafts From Expanded Criteria Donors. A Prospective Monocentric Study.,PERPHO,False,True
+🟧,NCT02966847,,2019,Assessment of Cone-beam Computed Tomography (CBCT) Assistance to Video-assisted Thoracoscopic Surgery,CAVIT,False,True
+🟩,NCT03673189,,2019,Sensors for HEalth Recording and Physical Activity Monitoring,SHERPAM,True,True
+🟥,NCT04079244,,2019,Analysis of the Link Between Flow State and Preoperative Anxiety in Children Undergoing Playful Distraction - Studying the Benefits of Digital Distractions in an Ambulatory Care Service,ALFA,False,False
+🟥,NCT02400047,,2019,"Dexamethasone, Can it Replace Ketoprofen in the Strategy of Intraoperative Multimodal Analgesia in Paediatric Surgery ? A Prospective Randomized Double-blinded Study. DEXA OP",DEXA OP,False,False
+🟩,NCT03046199,,2019,Detection of COPD in Primary Care,DISCO,True,True
+🟥,,2016-001413-24,2019,"Intérêt du TAP (Transverse Abdominis Plane) bloc bilatéral échoguidé pour l’analgésie post opératoire des chirurgies rachidiennes par voie antérieure. 
+ 
+ 
+ Intérêt du TAP (Transverse Abdominis Plane) bloc bilatéral échoguidé pour l’analgésie post opératoire des chirurgies rachidiennes par voie antérieure.",TAP ALIF,False,False
+🟥,NCT02884440,,2019,Transverse Abdominis Plane Block for Anterior Approach Spine Surgery: A Prospective Randomized Study,TAP ALIF,False,False
+🟩,NCT03076489,,2019,Hed-O-Shift: Hedonic and Neurocognitive Processes in Relation to Dietary Habits and Weight Status,Hed-O-Shift,True,True
+🟩,NCT01677091,,2019,Effectiveness of a Balance Rehabilitation Program With Sensory Recalibration After Stroke: A Randomized Controlled Trial.,AVCPOSTIM,True,True
+🟥,NCT03828968,,2019,Chronic Urinary Retention in Elderly Living in Homes for the Aged : Benefits of Bladder Scan Screening,RUC EHPAD,False,False
+🟥,NCT03279913,,2019,NEUROFEEDSTIM : Therapeutic Use of Neurofeedback in Depression in Association With TMS,NEUROFEEDSTIM,False,False
+🟥,NCT03818750,,2019,Impact of Marketing of Alcohol Products on Young People,IMAJ,False,False
+🟥,NCT03267927,,2019,Management of Obstructive Sleep Apnea (OSA) in Children and Maxillary and Mandibular Development,SAOS,False,False
+🟥,NCT02361450,,2019,"Retrograde Colonic Irrigation to Manage Spina Bifida Functional Digestive Sequelae: a Multicenter, Prospective, Randomized Controlled Trial",IRRICO,False,False
+🟥,NCT01810965,,2019,Impact of Bloodletting on Iron Metabolism in Type 1 Hemochromatosis: Pathophysiological and Clinical Implications. Pilot Study.,SAIFER,False,False
+🟩,NCT01613638,,2020,"Congenital Malformations and Intrauterine Pollutants Exposure (Alcohol, Solvents and Pesticides) in Brittany. Population Based Case-control Study Short Title : Malformations and Environment Acronym : PENEW for ""Pregnancy Environment and Newborn Malformations""",PENEW,True,True
+🟧,NCT02802397,,2020,AROPE : Early Ovarian Reserve Decreased : Impact of Exposure to Persistent Endocrine Disruptors and Organic Solvents,AROPE,False,True
+🟧,NCT04455308,,2020,"Chilblains, COVID-19 and Lockdown: Epidemiologic Study",ECCES,False,True
+🟥,NCT02599493,,2020,EVRIOS : Comparative Evaluation of Low Versus High Doses of Rifampicin in the Treatment of Staphylococcal Bone and Joint Infections,EVRIOS,False,False
+🟩,NCT02212483,,2020,Clinical Effectiveness and Economical Impact of Medical Indoor Environment Counselors Visiting Homes of Asthma Patients (ECENVIR Study),ECENVIR,True,True
+🟥,NCT02864017,,2020,Immuno Nutrition by L-citrulline for Critically Ill Patients,Immunocitre,False,False
+🟩,NCT04416308,,2020,COVID 19 : Seroprevalence Study of Anti SRAS-CoV-2 Antibodies in GHT Employees in Haute Bretagne,AntiCoV-HB,True,True
+🟥,NCT02937285,,2020,"National Multicenter, Controlled, Single-blind Study With Two Parallel Groups Evaluating the Safety and Efficacy of Sequential Treatment With Mitoxantrone and Interferon Beta-1a (REBIF 44mg 3 Times / Week) Versus Interferon Alone in Patients With Strong Risk of Progression in the Initial Phase of Multiple Sclerosis",MITOX-REBIF,False,False
+🟥,NCT03200457,,2020,Comparison of the Variability of Hepatic Load Quantification in Iron and Fat Estimated by MRI at 1.5 and 3 Tesla,HEMOCOMPARE,False,False
+🟩,NCT02470247,,2020,IPC-Angio Trial : Interest of Remote Ischemic Preconditioning for Prevention of Contrast Medium-induced Nephropathy (Post-diagnostic Imaging) in Patients at High Risk of Contrast-induced Nephropathy,IPC-Angio,True,True
+🟩,NCT02822144,,2020,General Anesthesia Versus Sedation During Intra-arterial Treatment for Stroke,GASS,True,True
+🟥,NCT03110094,,2020,"Investigation of Immunological and Pharmacological Factors for Response to Adalimumab in Rheumatoid Arthritis, With Analysis of CD4 + Follicular Helper T Subpopulations",PROMETHEE,False,False
+🟩,NCT02650609,2015-000927-96,2020,Treatment of Chronic Subdural Hematoma by Corticosteroids,SUCRE,True,True
+🟥,NCT03942432,,2020,"A Prospective, Mono-center, Interventional Study Evaluating the Effect of One Year Initial Care by Hygieno-dietary Advices With or Without Phlebotomy on Glycemia After at Least 5 Years in Patients With Dysmetabolic Iron Overload Syndrome",EvoHSD,False,False
+🟩,NCT03030170,,2021,Does the Strengthening of the Pancreas in Distal Pancreatectomy Using Endo GIA Reload Reinforced Reduce the Occurrence of Pancreatic Fistula? Multicenter Randomized Prospective Open Study,REPLAY,True,True
+🟥,NCT04473742,,2021,Effects of Silica and Asbestos Fibres on the Efferocytosis Capacities of Macrophages,MacFibOsis,False,False
+🟥,NCT03396770,,2021,Impact of the Early Hemodynamic Evaluation Guided by Urinary Biomarkers on the Acute Kidney Injury After Cardiac Surgery,NEPHROCAR,False,False
+🟩,NCT04373200,,2021,Human Ab Response & immunoMONItoring of COVID-19 Patients,HARMONICOV,True,True
+🟥,,2017-002842-60,2021,"Randomised phase III study testing nivolumab and ipilimumab versus a carboplatin based doublet in first line treatment of PS 2 or elderly (more than 70 years old) patients with advanced non-small cell lung cancer 
+ 
+ 
+ Etude randomisée de phase III testant l'association nivolumab et ipilimumab versus un doublet à base de carboplatine dans le traitement de première ligne du CBNPC chez des patients PS 2 ou de plus de 70 ans","Lena eNERGY 
+ 
+ 
+ Lena eNERGY",False,False
+🟥,NCT02900339,,2021,MRI Sequences Optimization in Healthy Subjects,OSS-IRM,False,False
+🟧,NCT04742465,,2021,"ARIADE : Augmented Reality for Improving Autonomy in Dementia. Creation, Implementation and Testing of an Augmented Reality Tool to Help People With Alzheimer's Type Dementia in Their Travels.",ARIADE,False,True
+🟥,NCT04771091,,2021,Correlation Between Head Perineum Distance Measured by Trans-périneal Ultrasound and Delivery Mode in Patient in the Second Stage of Labor,EchoPé,False,False
+🟥,NCT03372174,,2021,Beneficial Effects on Maintaining Mechanical Ventilation During Cardiopulmonary Bypass for Cardiac Surgery on Postoperative Infections,VECAR,False,False
+🟥,NCT03140644,,2021,SARCOLOWDOSE : Ultra-low Dose CT Scan and MRI in Thoracic Sarcoidosis,SARCOLOWDOSE,False,False
+🟥,NCT04404426,,2021,CACOLAC : Randomized Trial of Citrulline Administration in the Hospital Patient in Intensive Care for COVID-19 Acute Respiratory Distress Syndrome,CACOLAC,False,False
+🟥,NCT03454711,,2021,Functional Magnetic Resonance Imaging (fMRI) Exploration of Neurocognitive Processes Involved in Food Addiction (FA) in Obese Patients: Towards New Phenotypic Markers for an Optimized Care Pathway,AddictO,False,False
+🟩,NCT04235972,,2021,Evaluation of Staple Watson Wrist Arthrodesis,ESWWA,True,True
+🟥,NCT05891522,,2021,Pilot Study of the Use of a Portable Cranial Scanner in Intensive Care for Cerebro-injured Patients,ESPER,False,False
+🟥,NCT05234216,,2022,Comparison of a Comfort Scale and a Numerical Pain Scale on Opioid Consumption After Surgery: The COMFORT Randomized Trial,COMFORT,False,False
+🟥,NCT05170750,,2022,"Influence of Podal Sensory Information on Static and Locomotion, Using Foam and Orthopaedic Insoles",,False,False
+🟥,NCT03481686,,2022,SelfEPO - Therapeutic Education of Chronic Renal or Renal Transplant Patient in the Management of EPO Injections,SELFEPO,False,False
+🟥,NCT04211220,,2022,"Clinical Evaluation of Insulin Real-Time Advisor (IRTA©): a Decision Support Software for Insulin Therapy Combined With Freestyle Libre®, a Continuous Glucose Monitoring System: Glycemic Impact and Satisfaction in Type 1 Diabetic Patients",IRTA,False,False
+🟥,NCT04129333,,2022,HYPIC Hypnosis for Procedural Pain in the Intensive Care Unit,HYPIC,False,False
+🟥,NCT03351361,,2022,Randomized Phase III Study Testing Nivolumab and Ipilimumab Versus a Carboplatin Based Doublet in First Line Treatment of PS 2 or Elderly (More Than 70 Years Old) Patients With Advanced Non-small Cell Lung Cancer,eNERGY,False,False
+🟥,NCT03570385,,2022,Can Diffusion Tensor Imaging (DTI) of the Optic Ways Contributes to Predict the 6 Months Prognosis of Optic Neuritis (ON)?,DTI et NOI,False,False
+🟥,NCT03693872,,2022,Evaluation of the Nonmotor Symptomatology of Parkinsonian Patients Treated With Two Strategies Related to Apomorphine Pump Therapy in French Hospitals,AGAPO,False,False
+🟥,,2021-000987-31,2022,"Immunomonitoring and multiple myeloma: impact of lenalidomide on immune checkpoint expression 
+ 
+ 
+ Immunomonitoring et myélome multiple: impact du lénalidomide sur l'expression des immune checkpoint",IMMUNO-MYELO,False,False
+🟥,NCT04539899,,2022,Evaluation of the Influence of the Virtual Reality Helmet on Pain During IUD Insertion : REAVIST,REAVIST,False,False
+🟥,NCT04001556,,2022,RElevance of UltraSonography for Assessing Salivary Gland Involvement in Systemic Sclerosis (SSc),REUSSI-SSc,False,False
+🟩,NCT03795103,,2022,Effect of a Neuromuscular Electrical Stimulation Program on Walking Capacity in Peripheral Artery Disease Patients: a Randomized Controlled Trial,ELECTROPAD,True,True
+🟥,NCT04624347,,2022,NEOVIDEO : Impact of Monitoring Motor Activity by Video Analysis on the Sleep of Very Preterm Infants,,False,False
+🟥,NCT03291977,,2022,Interest of Fluorescein in Fluorescence-guided Resection of Gliomas: A Randomized Study,FLEGME,False,False
+🟥,NCT04872023,,2023,Immunomonitoring and Multiple Myeloma: Impact of Lenalidomide on Immune Checkpoint,IMMUNO-MYELO,False,False
+🟥,NCT04697407,,2023,BREGS - IL-2 Signaling and Polarization of Regulatory LBs: Involvement in Multiple Sclerosis,BREGS,False,False
+🟥,NCT04466800,,2023,Functional and Respiratory Rehabilitation and Nutritional Care of COVID-19 Patients,RECOVER-19,False,False
+🟩,NCT04130711,,2023,Preliminary Study to Evaluate the Effect of an EEG-proprioceptive Neurofeedback on Cortical Excitability and Motor Function of the Upper Limb After Stroke,HANDS,True,True
+🟥,NCT03744351,,2023,Analysis of B Cell Differentiation in Multiple Sclerosis,ABCD-SEP,False,False
+🟩,NCT02537509,,2023,"Multicentre, Cross-over, PRAgmatic Trial in Atopic Dermatitis Testing Long-term Control Effectiveness of New Phototherapy Regimen During Winter as an add-on Therapy, Coupled With Oral Vitamin D Supplementation vs. Placebo in a Randomised, Parallel-group Trial",PRADA,True,True
+🟥,NCT03807167,,2023,Apathy in Late Life Depression: New Biomarkers Using Actimetry and Magnetic Resonance Imaging,ACTIDEP,False,False
+🟥,NCT04562207,,2023,"Pre-operative Carriage of Respiratory VIRUSes, and Acute Respiratory Distress Syndrome After Heart Surgery - VIRUS-ATTAC",VIRUS-ATTAC,False,False
+🟥,NCT03436823,,2023,"Does Nurse Semi - Structured Interview Added to a Repeated Transcranial Magnetic Stimulation Improve Patients With Major Depressive Disorder? A Single Center Study, Randomized, Controlled and Single Blind",DESTIMCARE,False,False
+🟥,NCT02883504,,,Validation Study of the Accuracy of E/e' in Estimating Left Ventricular Filling Pressure,EUROFILLING,False,False
+🟥,NCT01296724,,,PREMAPIV : Intravesical Pressure Variation at Different Bladder Instillation Volumes in Newborn Children,,False,False
+🟥,,2015-000881-73,,"Multicentre, cross-over, PRAgmatic trial in Atopic Dermatitis testing long-term control effectiveness of new phototherapy regimen during winter as an add-on therapy, coupled with oral vitamin D supplementation vs. placebo in a randomised, parallel-group trial 
+ 
+ 
+ Etude PRAgmatique, multicentrique, en cross-over, évaluant chez des sujets atteints de Dermatite Atopique, l’efficacité sur le contrôle à long terme d’un nouveau protocole de photothérapie durant l’hiver, en traitement “add-on”, avec ou sans supplémentation en vitamine D dans un essai randomisé en groupe parallèle","PRADA 
+ 
+ 
+ PRADA",False,False
+🟥,,2020-001655-41,,"P-glypoprotein inhibition effect on the pharmacokinetics of two tacrolimus formulations: prolonged and extended-release  
+ 
+ 
+ Effet De l’inhibition de la glycoprotéine P sur la pharmacocinétique de deux formes galéniques de tacrolimus","DIPLOID 
+ 
+ 
+ DIPLOID",False,False

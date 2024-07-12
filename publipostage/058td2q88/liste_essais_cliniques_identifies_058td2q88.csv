@@ -1,0 +1,92 @@
+S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+🟥,NCT00392158,,2007,Target-controlled Infusion of Propofol and Remifentanil During General Anaesthesia Guided by the Index Bispectral: Comparison Between Manual Perfusion and Automated Perfusion,,False,False
+🟥,NCT00393003,,2007,Target-controlled Infusion of Propofol and Remifentanil for Postoperative Sedation Guided by the Bispectral Index: Comparison Between Manual Perfusion and Automated Perfusion,,False,False
+🟥,NCT00391885,,2007,Target-controlled Infusion of Propofol and Remifentanil During General Anaesthesia Guided by Entropy of the Electroencephalogram: Comparison Between Manual Perfusion and Automated Perfusion,,False,False
+🟥,NCT00571181,,2008,Target-Controlled Infusion of Propofol and Remifentanil During General Anaesthesia Guided by the Index Bispectral: Comparison Between Manual Perfusion and Automated Perfusion During Rigid Bronchoscopy,,False,False
+🟥,NCT00547209,,2009,"Anesthésie Totale Intraveineuse en "" Boucle d'Asservissement "" guidée Par l'Index Bispectral : Effet de l'Adjonction de Protoxyde d'Azote (Effect of Nitrous Oxide on Intravenous Closed-loop Anesthesia)",Drone-N2O,False,False
+🟥,,2007-001677-28,2009,Evaluation de l’effet anesthésique du protoxyde d’azote dans une population d’opérés recevant une anesthésie totale intraveineuse en « boucle » guidée par l’index bispectral (Effect of nitrous oxide on intra-venous closed-loop anesthesia),Drone-Proto,False,False
+🟥,NCT00772616,,2011,Influence of Intraoperative Analgesia (Sufentanil Administered According to the Usual Criteria or Remifentanil Administered by a Closed-loop System Using Bispectral Index as the Controller) on the Postoperative Morphine Consumption,,False,False
+🟥,NCT01161004,,2011,"Pilot Study of EEG Signs of Awakening Secondary to Injection of Sugammadex: Evaluation by Recording Bispectral Index and NeuroSENSE (Prospective, Double-blind Study)",Sugarecovery,False,False
+🟥,NCT01058525,,2011,Influence of Ultrasonographic Hydro-dissection With Glucose 5% Solution on Median Nerve Block Efficiency: a Prospective and Randomized Study,Hydro-Echo,False,False
+🟥,NCT01041872,,2011,Dose-effect of Propofol for Anesthetic Induction: Double-blind Comparison of Different Propofol Formulations Administered Alone or With Lidocaine,Propofols,False,False
+🟥,NCT00627081,,2011,Intravenous Opioid-sparing Effect of Thoracic Epidural Administration of Chirocaine (5 mg/ml) During Thoracotomy,Drone-APDT,False,False
+🟧,NCT00809393,,2011,Comparison of Two Tranexamic Acid Dose Regimens on Transfusion Needs During Cardiac Surgery With Cardiopulmonary Bypass,Exacylcardio,False,True
+🟥,NCT01321580,,2011,Comparison of the Hemoglobin Results Obtained With the Masimo Pronto 7 and the Clinical Laboratory Measurement Study,,False,False
+🟥,NCT00921284,,2011,Closed-Loop Delivery of Propofol and Remifentanil: Sparing Effect of Dexmedetomidine,,False,False
+🟥,NCT03357900,,2012,Closed-loop Anaesthesia for Liver Transplantation: a Pilot Study,THConcentr,False,False
+🟩,NCT01750970,,2013,"Endoscopic Resection of High Grade(TA, T1, Cis)Non-muscle Invasive Bladder Tumors: Modification of Usual Management of This Resection by Using the Blue Light and Evaluation of the Outcome: Should we Maintain the Dogma of Second Endoscopic Resection as a Principle?",,True,True
+🟥,NCT01648725,,2013,Influence of Hypnosis on the Propofol Requirement to Induce General Anesthesia,LoopHypnosis,False,False
+🟧,NCT00969683,,2013,Comparison Between Left Double-lumen Tube With or Without a Carinal Hook During Lung Surgery,,False,True
+🟥,NCT01782846,,2013,"Double Blind-randomized Study Comparing the Efficacy of Two Analgesia (Ixprim® and Dafalgan-Codeine®) , in the Emergency Unit.",Trama-Code,False,False
+🟥,NCT02951442,,2014,Identification of Markers (Klotho-FGF23 Axis) as Determinant in the Evolution of Arterial Stiffness During the First Year of Renal Transplant,KLOTHO,False,False
+🟥,NCT02663284,,2014,Evaluation of Non-invasive Monitor of Physiodoloris Pain in Patients With Complex Regional Pain Syndrome Treated by Nerve Block (Prospective Monocenter Study),ANI-ALGO,False,False
+🟥,NCT01949181,,2014,"Relationship Between Blood, Hair and Lung Metals/Metalloids Concentration (Cadmium, Iron, Copper, Nickel, Chrome, Arsenic, Vanadium, Beryllium, and Zinc) and Lung Cancer or Chronic Obstructive Pulmonary Disease.",Métaux/Poumons,False,False
+🟥,NCT01592162,,2014,Dose-effect of Propofol for Anesthetic Induction: Double-blind Comparison of Different Propofol Formulations Administered Alone or With Remifentanil,PropofolRemi,False,False
+🟥,NCT01801137,,2014,"A Multicentre Phase III Trial to Determine the Efficacy of RAD 001 (Everolimus, Afinitor) as Second Line Therapy in Patients With Transitional Cell Carcinoma TCC of the Urothelium Which Failed or Progressed After First Line Chemotherapy",AFINIVEST,False,False
+🟥,NCT02934295,,2014,"Study of Rubella Immunity. Response to Vaccination of Subjects With Very Low, Equivocal or Undetectable Titers of Rubella Virus Antibodies",ImmRubVac,False,False
+🟥,NCT01791166,,2014,Humoral Rejection - Diagnostic Markers in Pulmonary Transplant.,RHUM-TP,False,False
+🟥,,2010-020067-20,2014,"A multicentre phase II trial to determine the efficacy of RAD 001 (everolimus, Afinitor®) as second line therapy in patients with transitional cell carcinoma (TCC) of the urothelium which failed or progressed after first line chemotherapy.",AFINIVEST,False,False
+🟥,NCT02040948,,2014,Accuracy of Pulse Pressure Variation (Nexfin) and of Pleth Variability Index (Radical 7) to Predict the Response to a Fluid Challenge: Comparison With the Reference Method (Measurement of Stroke Volume by Esophageal Doppler),Nexfin2,False,False
+🟥,NCT02986880,,2014,"A Dose-response, Randomized, Double-blind Study to Evaluate the Effect of Type-A Botulinum Toxin in the Post-radiosurgical Neck Contractures",,False,False
+🟥,NCT02077101,,2014,Representations and Acceptability of HIV Therapeutic Vaccine in a Cohort of HIV-1 Infected Outpatients Followed at Hospital : Multicentric Interventional Study Qualitative and Quantitative,RAVVIH,False,False
+🟧,NCT01654913,,2014,Influence of the Inspired Oxygen Fraction on the Noninvasive Measurement of Hemoglobin Using Two Different Devices (Namely Pronto 7 and NBM-200),Hb-O2,False,True
+🟥,NCT01198639,,2015,"One-year Mortality According to the Method of Total Intravenous Anesthesia. A Prospective, Randomized and Multicenter Study",ELA,False,False
+🟥,NCT01154738,,2015,Influence of Lidocaine on a Closed-Loop Anesthesia System,LoopLido,False,False
+🟧,NCT01876290,,2015,Should we Associate Dexamethasone and Ondansetron to Closed-loop Anesthesia to Reduce the Incidence of Postoperative Nausea and Vomiting After Bariatric Surgery?,Loop-NVPO,False,True
+🟥,NCT01891838,,2015,Transsphenoidal Surgery for Pituitary Adenomas: Influence of the Ventilation Mode on Intraoperative Bleeding,Vent-Hyp,False,False
+🟧,NCT02245789,,2015,Does the Use of a Videolaryngoscope Modifies Anesthetic Induction ?,MGM-PicRemi,False,True
+🟥,NCT02564185,,2015,"Prospective, Randomized Study of the Impact of a Education Program for Patients Suffering From Low Back Pain",TENS,False,False
+🟥,NCT02593344,,2015,Peripheral Endothelial Function in Asthmatic Patients,Endothasthm,False,False
+🟥,NCT00886418,,2015,"Effect of Continuous Myorelaxation on the Need for Hypnotic Agent During Surgical Procedures Which do Not Require it (Multicenter, Randomized and Prospective Study)",Drone-Curare,False,False
+🟥,NCT02902471,,2015,Functional Evaluation of Distal Airways by Forced Oscillations: Diagnosis Help in Bronchiolitis Obliterans Syndrome in Post Bone Marrow Transplantation,OSCILLOMOELL,False,False
+🟧,NCT02249364,,2015,Interest of Hypnosis Before the Induction of Anesthesia. Study in Women Submitted to One Day Gynecological Surgical Procedures,Hypnose2,False,True
+🟥,NCT01579851,,2015,Recovery After Sugammadex(TIVA Using Propofol vs Inhalation Anesthesia Using Sevoflurane),Sugammadex2,False,False
+🟥,NCT01597466,,2015,A Comparison Study of Two Different Techniques for Identifying the Epidural Space in Patients Requiring Thoracic Epidural Analgesia: a Prospective Multicentric Randomized Study,Epidrum-Tho,False,False
+🟥,NCT01807975,,2015,,OSCILLOPOUMON,False,False
+🟥,NCT02793245,,2016,Influence of Patient Characteristics on the Tracheobronchial Anatomy Evaluated by a CT Examination,Scan-Bronchi,False,False
+🟥,NCT02834273,,2016,"Impact of Patient Education Following a Stroke on Knowledge of Risk Factors, Stroke Warning Signs and What to do in Cases of Stroke",EPIC,False,False
+🟥,NCT02778243,,2016,,STERPROSER,False,False
+🟥,NCT02899494,,2016,"Effect of the ""Adjusted Vocal Expression"" Method on the Satisfaction of Parturients About Their Childbirth (NaîtreEnchanté)",NaitreEnchan,False,False
+🟥,NCT02290054,,2016,Auriculotherapy for Prevention of Postoperative Urinary Retention in Men Receiving Postoperative Epidural Analgesia After Thoracic Surgery,RUPO,False,False
+🟥,NCT02906436,,2016,Pilot Study of Lung Transplantation After Ex-Vivo Lung Reconditioning,ExVivo,False,False
+🟥,NCT02905695,,2016,Contribution of the Local Infiltration of Chirocaine® in the Management of the Post-partum Perineal Pain After Episiotomy or First-degree Tear,EPISIO,False,False
+🟥,NCT02902627,,2016,Pain in Oncolgy: Evaluation of a Non Invasive Monitoring Device (ANI). A Monocentric Prospective Study,ANIONCO,False,False
+🟥,NCT01732133,,2016,Evaluation of the System NEXFIN for Continuous and Non-invasive Measure of the Blood Pressure During Cesarean Delivery Practised Under Spinal Anesthesia,NEXFIN-CESAR,False,False
+🟥,NCT02593357,,2017,Assessment of a Peripheral Endothelial Dysfunction in COPD (Chronic Obstructive Pulmonary Disease),endothBPCO,False,False
+🟥,NCT02413632,,2017,"Asymptomatic Sexually Transmitted Infections (STI) : Comparison of Two Screening Strategies Routine Screening Versus Screening as Reported by the Risks Taken by the Patient, in a Cohort of HIV Outpatients Men Who Have Sex With Men",DRIVER,False,False
+🟥,NCT02897882,,2017,"Acute and Chronic Pain in Lung Transplantation: Prevalence, Associated Factors, Medical Care",MUCODOULEUR,False,False
+🟥,NCT02878551,,2017,Evaluation of the Benefits of a Program of Prehabilitation: Pilot Study,PrehabPilote,False,False
+🟥,NCT00896714,,2017,Impact of Environmental and Demographic Factors on Pre-operative Doses of Anesthetic Agents (Prospective Multicenter Study),PosoAnes,False,False
+🟥,NCT02934308,,2017,Comparison of the Skin Conductance Values and Patient Pain Scores During Minor Procedures in the ICU,ICUPAIN,False,False
+🟥,NCT02237976,,2018,Interest of Learning Self-hypnosis in Patients Awaiting Lung Transplantation,SelfHypTp,False,False
+🟥,NCT03753217,,2018,Assessment of the Depth of Anesthesia During Intravenous Anesthesia: Comparison of the Bispectral Index Monitor and the qCON Monitor.,Bis-qCON-IV,False,False
+🟥,NCT02853188,,2018,Does the Measure of the Plasma Tissue Factor Allow to Predict a Venous Thromboembolism Episode for Patients Presenting a Primitive Lung Cancer?,FT-KBP,False,False
+🟥,NCT02438657,,2018,Ultrasound-guided Median Nerve Block With Dextrose 5% Hydrodissection: Determination of the Minimal Effective Volume of Local Anesthetic,VMAL,False,False
+🟥,NCT03359512,,2018,Comparison of Two Electroencephalograms (EEG) Monitors in Patients Undergoing General Anesthesia With Sevoflurane,Bis-qCon-Hal,False,False
+🟧,NCT02362815,,2018,"Fluid Intake During Labour, Ultrasound Evaluation",EGTO,False,True
+🟥,NCT03036774,,2019,Quantitative Ultrasound Assessment of Gastric Volume in Diabetic and Non Diabetic Patients Scheduled for a General Anesthesia,ECHODIABETE,False,False
+🟥,NCT02928003,,2019,Chronic Neuropathic Pain After Lung Surgery: Prevalence and Predictive Factors,DOLORPOUMON,False,False
+🟥,NCT03991767,,2019,Implementation and Evaluation of an Electronic Alert to Encourage Targeted Screening for HIV Infection at Foch Hospital According to Socio-demographic Criteria: Pilot Study,POP-UP,False,False
+🟥,NCT03901586,,2019,Satisfaction and Long-term Anatomic Efficacy Study on Patients Who Underwent a Richter Intervention in the Obstetric and Gynecology Department of Foch Hospital Since 2008,RICHTER,False,False
+🟧,NCT02926144,,2019,Can the Use of the McGRATH® MAC Videolaryngoscope Decrease the Number of People Required for Tracheal Intubation in a Population of Patients Without Predicted Difficult Intubation?,MGM3,False,True
+🟧,NCT03290885,,2020,Combined Use of Contact Aspiration and the Stent Retriever Technique Versus Stent Retriever Alone for Recanalisation in Acute Cerebral Infarction: the Randomized ASTER2 Study,ASTER2,False,True
+🟥,NCT04418973,,2020,"Analysis of Breath Volatile Organic Compounds After Dyspnea Induced in the Healthy Subject, by a Threshold Inspiratory Load and During a Maximal Breath Holding.",Volatopnee,False,False
+🟥,NCT02594059,,2020,Assessment of Peripheral Endothelial Function in Idiopathic Pulmonary Fibrosis,Endoth-FPI,False,False
+🟥,NCT03167528,,2020,Contribution of Learning and Practice of Different Complementary Therapies in Pulmonary Transplant Patients,TOOLBOX,False,False
+🟥,NCT03755817,,2020,Immediate Efficacy Assessment of SCENAR's Session on a Common Spinal Pain Syndrome,SCENAR1,False,False
+🟥,NCT04614883,,2021,Analysis of Volatile Organic Compounds in Exhaled Air and in Sweat in Patients Referred to the Emergency Reception Service for Suspected COVID-19 Infection: Diagnostic Value and for Rapid Screening,VOC-COVID-Diag,False,False
+🟥,NCT04526054,,2021,Longitudinal and Comparative Study of Morphological Abnormalities of the Olfactory Bulb on MRI and Olfactometry in Anosmic Versus Normosmic COVID-19 Patients,,False,False
+🟥,NCT04379154,,2021,Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by (SARS-CoV-2): Predictive Interest in Short-term Evolution,VOC-COVID,False,False
+🟥,NCT04526041,,2021,"Language and Music, Speech and the Human Beatbox: Theoretical Issues for Research in General and Applied Linguistics; Monocentric Exploratory Study",HBB,False,False
+🟩,NCT02235142,,2021,Localised Cancer of Prostate and Androgen Deficiency.,AndroCan,True,True
+🟥,NCT03126136,,2021,Predictive Value of a Postural Test on Pulse Pressure Variation During Labor With Epidural Analgesia on Fetal Heart Rate Abnormalities,PP-PERI,False,False
+🟥,NCT05009628,,2021,Is Routine Postoperative Oxygen Therapy Still Necessary in 2020?,FreeO2,False,False
+🟥,NCT03036761,,2021,Interest of Auriculotherapy in Prophylaxis of Migraine and Headache in Patients With Migraines,Migauric,False,False
+🟥,NCT02767791,,2021,Auriculotherapy and Acupuncture's Treatment for Chemotherapy-induced Nausea and Vomiting (CINV),NVCI,False,False
+🟥,NCT04613297,,2022,HLA-G Immuno-Inhibitor Checkpoint Study in Patients With COVID-19 Infection: Molecular and Cellular Assessment,HLA-G-COVID,False,False
+🟥,NCT04541511,,2022,"Comparison of the 6-minute Walking Test in a Corridor and on a Non-motorized Treadmill, Feasibility Study",TDM6,False,False
+🟥,NCT02764788,,2022,,Fib-Auric,False,False
+🟥,NCT04479540,,2022,Assessment of the Risk of Pulmonary Embolism and Coagulation Profile in Patients With SARS Coronavirus (COV-2) Lung Disease,COVIDEP,False,False
+🟥,NCT02988830,,2022,Impact of Subcutaneous Electric Lumbar Stimulation on Treatment of Refractory Chronic and Disabling Lumbago,IMESCUT,False,False
+🟥,NCT04165161,,2022,Performance Diagnosis of a Patent Foramen Ovale During Lung Transplantation Using Transesophageal Echocardiography: Comparison of the Injection of Contrast in the Upper and Lower Caval Territories (FOP-TP),FOP-TP,False,False
+🟩,NCT04585178,,2022,Detection of Postoperative Complications and Particularly Hemodynamic Ones Through Continuous Monitoring Using the Biobeat Patch,Biobeat-Postop,True,True
