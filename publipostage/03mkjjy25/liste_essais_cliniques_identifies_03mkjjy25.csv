@@ -5,5 +5,5 @@ S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_
 🟥,NCT00320099,,2009,Phase 3 Study of Corticotherapy (Hydrocortisone Alone Versus Hydrocortisone Plus Fludrocortisone) Versus Corticotherapy Plus Intensive Insulin Therapy for Septic Shock,COIITSS,False,False
 🟥,NCT00978783,,2009,Speech Effects of a Speaking Valve Versus External PEEP in Tracheostomized Ventilator-Dependent Neuromuscular Patients,,False,False
 🟧,NCT01479959,,2011,Determination of Optimal PEEP Level Under Patient Control in Tracheostomized Ventilated Patients,OptiPEP,False,True
-🟩,NCT00318942,,2012,CRISTAL: Colloids Compared to Crystalloids in Fluid Resuscitation of Critically Ill Patients: A Multinational Randomised Controlled Trial,,True,True
+🟧,NCT00318942,,2012,CRISTAL: Colloids Compared to Crystalloids in Fluid Resuscitation of Critically Ill Patients: A Multinational Randomised Controlled Trial,,False,True
 🟩,NCT00625209,,2016,Phase III of Recombinant Human Activated Protein C and Low Dose of Hydrocortisone and Fludrocortisone in Adult Septic Shock,APROCCHS,True,True

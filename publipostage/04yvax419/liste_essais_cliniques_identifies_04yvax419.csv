@@ -2,39 +2,40 @@ S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_
 🟥,NCT02923297,,2015,GALIG Gene Expression in Parkinson's Disease,GALIGPARK,False,False
 🟥,NCT02922114,,2015,Comparison of the Clinical Examination and the Joint Ultrasonography in the Evaluation of Disease Activity in Systemic Lupus Patients,LUPUS,False,False
 🟧,NCT02185989,,2016,"Early Rehabilitation Combining Daily Electrical Muscle Stimulation and Early Bedside Cycling Exercise, Compared to Early Standard Rehabilitation. A Randomized, Assessor-blinded, Single-center Study in Intensive Care Patients.",PROMOREA1,False,True
-🟥,NCT03095690,,2017,Determinants of Volumetric Bone Mineral Density at the Tibia and Radius and it's Relationship With Osteoporotic Fractures in Idiopathic Parkinson's Disease,DOPPA,False,False
 🟥,NCT03095677,,2017,Acute and Chronic Effects of Dynamic Apnea in Healthy Untrained Subjects,APNEX,False,False
+🟥,NCT03095690,,2017,Determinants of Volumetric Bone Mineral Density at the Tibia and Radius and it's Relationship With Osteoporotic Fractures in Idiopathic Parkinson's Disease,DOPPA,False,False
 🟧,NCT03299894,,2018,Usefulness of Routine qSOFA Calculation at Triage to Fasten Antimicrobial Administration in Patients With Bacterial Infection in the Emergency Department: a Quasi-experimental Study,qSOFAST,False,True
 🟥,NCT03316625,,2018,Reference Curve on Bone Mineral Density in Young Adult: French Multicenter Study,COURDO,False,False
-🟥,NCT03470116,,2019,"MILAR, is a Controlled, Randomised, Comparative, Prospective, Multi-center, Superiority French Clinical Trial Comparing the MacGrath MAC Videolaryngoscope and the MacIntosh Laryngoscope for Oro-tracheal Intubation by Patients With Less Than 2 Criteria of Difficult Intubation in Elective Surgery.",MILAR,False,False
-🟥,NCT03497078,,2019,Comparison of Image Quality Between New Collimator LEHRS (General Electric - GE Healthcare) vs Siemens LEHR on Bone Scintigraphy,LEHRS,False,False
+🟥,NCT03423004,,2019,Comparative Study of Molecular Markers in Cutaneous Inflammation Between Psoriatic Lesional Skin and Healthy Non-lesional Skin,EMIP,False,False
+🟧,NCT03398525,,2019,"Effect of a Musical Intervention in the Intensive Care Unit During the Implantation of a Central Venous Access or a Dialysis Catheter: A Prospective, Randomized Pilot Study",MUSIC-CAT,False,True
 🟩,NCT03829293,,2019,High-Flow Nasal Oxygenation Versus Standard Oxygenation in Gastrointestinal Endoscopy With Sedation. A Prospective Multicenter Randomized Study,ODEPHI,True,True
 🟥,NCT03479047,,2019,Mechanical Ventilation Weaning Prediction Improved by Diaphragmatic Ultrasound Associated With the Rapid Shallow Breathing Index,CODEX,False,False
-🟧,NCT03398525,,2019,"Effect of a Musical Intervention in the Intensive Care Unit During the Implantation of a Central Venous Access or a Dialysis Catheter: A Prospective, Randomized Pilot Study",MUSIC-CAT,False,True
-🟥,NCT03423004,,2019,Comparative Study of Molecular Markers in Cutaneous Inflammation Between Psoriatic Lesional Skin and Healthy Non-lesional Skin,EMIP,False,False
+🟥,NCT03470116,,2019,"MILAR, is a Controlled, Randomised, Comparative, Prospective, Multi-center, Superiority French Clinical Trial Comparing the MacGrath MAC Videolaryngoscope and the MacIntosh Laryngoscope for Oro-tracheal Intubation by Patients With Less Than 2 Criteria of Difficult Intubation in Elective Surgery.",MILAR,False,False
+🟥,NCT03497078,,2019,Comparison of Image Quality Between New Collimator LEHRS (General Electric - GE Healthcare) vs Siemens LEHR on Bone Scintigraphy,LEHRS,False,False
+🟥,NCT03586492,,2020,SPECT Myocardial Perfusion Reserve Using a Cadmium Zinc Telluride (CZT) Camera in Cardiovascular Risk Stratification and Ischemia,CFR-OR,False,False
+🟥,NCT03689309,,2020,High Flow Oxygen During Spontaneous Breathing Trial in Patients With High Weaning Risk Failure: Impact on the Weaning Course at D7 From the First Spontaneous Breathing Trial. A Pilot Randomized Controlled Trial,ObiWEAN,False,False
+🟥,NCT04609969,,2020,Diagnostic Performance Evaluation of a Novel SARS-CoV-2 (COVID-19) Antigen Detection Test on Nasopharyngeal Specimens i,COVID-VIRO,False,False
+🟧,NCT03568695,,2020,"Detection of Chlamydia Trachomatis, Neisseria Gonorrhoeae and Mycoplasma Genitalium by Real-time Multiplex Polymerase Chain Reaction After Pooling Pharyngeal, Anorectal and Urinary Samples, in Men Who Have Sex With Men",ISTPOOL,False,True
 🟥,NCT04137302,,2020,Administration of Hydrocortisone in Young Healthy Male Volunteers: Determination of Biomarkers for Distinguishing Between Local and Systemic Pathways,H-CORT,False,False
 🟧,NCT03849508,,2020,"Randomized, Double-blind, Controlled Clinical Trial for Comparison of Continuous Phenylephrine Versus Norepinephrine Infusion for Maintenance of Hemodynamic Stability During Cesarean Section Under Spinal Anesthesia",PHENAD,False,True
-🟥,NCT04609969,,2020,Diagnostic Performance Evaluation of a Novel SARS-CoV-2 (COVID-19) Antigen Detection Test on Nasopharyngeal Specimens i,COVID-VIRO,False,False
-🟥,NCT03689309,,2020,High Flow Oxygen During Spontaneous Breathing Trial in Patients With High Weaning Risk Failure: Impact on the Weaning Course at D7 From the First Spontaneous Breathing Trial. A Pilot Randomized Controlled Trial,ObiWEAN,False,False
-🟥,NCT03586492,,2020,SPECT Myocardial Perfusion Reserve Using a Cadmium Zinc Telluride (CZT) Camera in Cardiovascular Risk Stratification and Ischemia,CFR-OR,False,False
-🟧,NCT03568695,,2020,"Detection of Chlamydia Trachomatis, Neisseria Gonorrhoeae and Mycoplasma Genitalium by Real-time Multiplex Polymerase Chain Reaction After Pooling Pharyngeal, Anorectal and Urinary Samples, in Men Who Have Sex With Men",ISTPOOL,False,True
+🟥,NCT04269382,,2021,"Prospective, Multi-center Evaluation of the Accuracy of Non-invasive Measurement of Blood Pressure Using an Arm, Calf and Finger Cuff.",PANIC,False,False
+🟥,NCT04704349,,2021,Latest Imaging SPECT System Evaluation Phase 1,LISSE1,False,False
 🟥,NCT04629937,,2021,Clinical Evaluation of a Multipurpose CZT Camera in Gated Tomographic Radionuclide Angiography: a Head to Head Comparison With a Cardiac Dedicated CZT Device,STARGAC,False,False
+🟥,NCT05050968,,2021,"Effects of Controlled Physical Activity on the Fitness, Body Composition and Quality of Life of Obese Women Undergoing Bariatric Surgery",ACTIBARIA,False,False
+🟥,NCT04738851,,2021,ARTHEMIRS: Assessment of Brain Activation During Different Mirror Therapy Tasks Using fNIRS Technology,ARTHEMIRS,False,False
 🟥,NCT04045444,,2021,Physical Activity Level and Cerebral Oxygenation During Gait in Old People,OXYSENIOR,False,False
 🟥,NCT04757844,,2021,The Effects of Different Attentional Focus During Walking on Prefrontal Cortical Activation in Young Healthy Adults,AttNIRS,False,False
-🟥,NCT04738851,,2021,ARTHEMIRS: Assessment of Brain Activation During Different Mirror Therapy Tasks Using fNIRS Technology,ARTHEMIRS,False,False
-🟥,NCT05050968,,2021,"Effects of Controlled Physical Activity on the Fitness, Body Composition and Quality of Life of Obese Women Undergoing Bariatric Surgery",ACTIBARIA,False,False
-🟥,NCT04704349,,2021,Latest Imaging SPECT System Evaluation Phase 1,LISSE1,False,False
-🟥,NCT04269382,,2021,"Prospective, Multi-center Evaluation of the Accuracy of Non-invasive Measurement of Blood Pressure Using an Arm, Calf and Finger Cuff.",PANIC,False,False
-🟥,NCT03326830,,2022,"Prehospital High-Flow Nasal Oxygen Therapy in Patients With Acute Hypoxemic Respiratory Failure: A Randomized, Open-label, Bi-center, Pilot Study",PRHOXY-1,False,False
 🟥,NCT05428917,,2022,Evaluation of the Impact of Laterality on Cerebral Activation During a Motor Task of the Upper Limb Using fNIRS Technology in Healthy Subjects,Lateralinirs,False,False
-🟥,NCT02247752,,2022,Follow-up of HBsAg Inactive Carriers Study,PIBAC,False,False
-🟥,NCT05298943,,2022,Relation Between Cortical Activation and Graded Force Level During Robot-assistance Walking in Healthy People : A Functional Near-infrared Spectroscopy Neuroimaging Study.,ExoNIRS,False,False
 🟩,NCT04363463,,2022,Impact of Prone Position in Patients Under Spontaneous Breathing on Intubation or Non-invasive Ventilation or Death Incidence During COVID-19 Acute Respiratory Distress,PROVID-19,True,True
+🟥,NCT02247752,,2022,Follow-up of HBsAg Inactive Carriers Study,PIBAC,False,False
+🟥,NCT03326830,,2022,"Prehospital High-Flow Nasal Oxygen Therapy in Patients With Acute Hypoxemic Respiratory Failure: A Randomized, Open-label, Bi-center, Pilot Study",PRHOXY-1,False,False
 🟥,NCT04952766,,2022,Study Evaluating SARS-CoV-2 (COVID-19) Humoral Response After BNT162b2 Vaccine in Immunocompromised Adults Compared to Healthy Adults,EREVA,False,False
 🟩,NCT04750720,,2022,Study of the Kinetics of COVID-19 Antibodies for 24 Months in Patients With Confirmed SARS-CoV-2 Infection According to the Clinical Severity of the Infection.,ABCOVID,True,True
-🟥,NCT05306249,,2023,"Effects of Cannabidiol (CBD) on the Activation of Autophagy and Inflammation Genes, Functional Consequences in Virologically Controlled HIV-infected Patients",GALIG-CBD,False,False
-🟥,NCT05669157,,2023,X-rays Trauma Request's by the Triage And Intake Nurse Intake and Referral Nurse: X-TRAIN Study,DARIO,False,False
-🟥,NCT03400982,,2023,Reference Curve on Bone Mineral Density in Men,COURDO2,False,False
+🟥,NCT05298943,,2022,Relation Between Cortical Activation and Graded Force Level During Robot-assistance Walking in Healthy People : A Functional Near-infrared Spectroscopy Neuroimaging Study.,ExoNIRS,False,False
 🟥,NCT04624568,,2023,Papilocare®: Effects on Regression of Histologically Confirmed Cervical Intraepithelial Lesions 1 and Tolerance.,PAPILOCARE,False,False
+🟥,NCT05669157,,2023,X-rays Trauma Request's by the Triage And Intake Nurse Intake and Referral Nurse: X-TRAIN Study,DARIO,False,False
+🟥,NCT05306249,,2023,"Effects of Cannabidiol (CBD) on the Activation of Autophagy and Inflammation Genes, Functional Consequences in Virologically Controlled HIV-infected Patients",GALIG-CBD,False,False
+🟥,NCT03400982,,2023,Reference Curve on Bone Mineral Density in Men,COURDO2,False,False
 🟥,NCT05469841,,2023,Pupillometry and Nociception Level Index (NOL-index) for the Evaluation of Pain in Intensive Care Unit. Prospective Study in Two Centers,NOCI-ICU,False,False
 🟥,NCT06025370,,2024,Measurement of Pressures Generated During Different Prone Positions in Healthy Volunteers,HEALTHY-PRONE,False,False
+🟥,NCT05916274,,2024,Pro-inflammatory Role of Extracellular DNA in Inflammatory Bowel Disease in Children: Study of the cGAS-STING Pathway,ROXANE,False,False
