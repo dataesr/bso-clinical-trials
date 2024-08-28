@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00439582,,2005,Comparative Effect of 2 Different Sources of Trans Fatty Acid (Milk Fat vs Hydrogenated Oil)on Cardiovascular Risk Factors in Healthy Humans,TRANSFACT1,False,False
 🟥,NCT00873951,,2008,Influence of Protein Hydrolysis on Dietary Protein Digestibility and Metabolism in Healthy Subjects,,False,False
 🟥,NCT00685581,,2008,"Rationale, Study Design and Baseline Data of the TRANSQUAL Clinical Trial: A Study to Evaluate the Impact of Different Milk Fatty Acid Profiles on Cardiovascular Risk Factors in Healthy Volunteers; Focus on Trans Fatty Acids",TRANSQUAL WPC,False,False

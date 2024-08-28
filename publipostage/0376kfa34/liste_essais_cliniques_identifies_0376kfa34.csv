@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟩,NCT03322319,,2016,acTive scrEening of cArdiac aMyloidosis in the Caribbean's,,True,True
 🟧,NCT02968875,,2018,"Alzheimer's Disease and Physiological, Cognitive Function and BDNF Levels of Plasma Adaptation After Exercise Training",MARAE,False,True
 🟥,NCT02912546,,2019,Évaluation en IRM (séquence ASL) de la Variation de Perfusion cérébrale liée à la Position Corporelle.,PerfIRMAVC,False,False

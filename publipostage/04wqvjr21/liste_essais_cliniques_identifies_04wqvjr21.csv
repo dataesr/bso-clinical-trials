@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01899560,,2014,Prospective Physiological Study of Lung Elastance in Recruitment and Derecruitment in Early Onset Mechanically Ventilated Acute Respiratory Distress Syndrome (ARDS)Patients,ELASTANCE,False,False
 🟩,NCT00935480,,2014,IMPACT OF THERAPY INTENSIFICATION BY AN INTEGRASE INHIBITOR +/- CCR5 INHIBITOR ON THE LYMPHOID RESERVOIR FOR HIV-1 IN CHRONICALLY INFECTED PATIENTS,IntensVIH,True,True
 🟥,NCT01781091,,2015,S4 :RANDOMIZED CONTROLLED TRIAL OF FULLY CLOSED-LOOP VENTILATION IN ICU.,S4,False,False

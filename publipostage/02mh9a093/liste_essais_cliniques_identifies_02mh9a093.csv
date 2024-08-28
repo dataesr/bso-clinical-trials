@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00786305,,2008,Assessment of Efficiency of Nebulized Ceftazidime and Amikacin in Treatment of Ventilator Associated Pneumonia Caused by Pseudomonas Aeruginosa,,False,False
 🟥,NCT00786305,,2008,Assessment of Efficiency of Nebulized Ceftazidime and Amikacin in Treatment of Ventilator Associated Pneumonia Caused by Pseudomonas Aeruginosa,,False,False
 🟥,NCT02055261,,2012,Effects of Low Frequency Deep Brain Stimulation of the Pedunculopontine Nucleus on Gait and Balance Disorders of Parkinson's Disease,,False,False

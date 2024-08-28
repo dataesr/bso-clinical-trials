@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00337623,,2006,Corticosteroids and Cataracts : Prospective Study of the Impact of Systemic Corticosteroid Therapy on Lens Transparency Evaluated by Scheimpflug Photography and Quantification of Lens Autofluorescence.,,False,False
 🟥,NCT01874717,,2007,Conscious Sedation With Midazolam in Dentally Anxious Patients: Effect of the Administration Route (Oral Versus Intravenous Administration),,False,False
 🟥,NCT00355277,,2007,"Local Anaesthetic Effects of Transcutaneous Amitriptyline in Human Volunteers : a Controlled, Double-blinded, Randomised Study Versus Placebo and Transcutaneous Local Anaesthetic (EMLA(R))",,False,False

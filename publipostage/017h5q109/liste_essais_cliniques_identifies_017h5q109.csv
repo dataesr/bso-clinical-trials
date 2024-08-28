@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01044992,,2006,Motor Activation in Patients With Multi Systemic Atrophy and Comparison With Parkinson Disease and Dopaminergic Challenge,MSAJOY,False,False
 🟥,NCT00966290,,2006,"Anticoagulant Clinic-based Shared-care Versus Usual Cate Management of Vitamin K Antagonist Therapy : the Open, Randomized Multicenter Study",COMPARE,False,False
 🟥,NCT00430807,,2006,Multicentric Double Blind Versus Placebo Randomised Study Evaluating the Corticosteroid Sparing Effect of Hydrocyschloroquine in Non Complicated Giant Cell Arteritis.,,False,False

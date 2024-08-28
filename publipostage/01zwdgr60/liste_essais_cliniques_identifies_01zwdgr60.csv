@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT02592460,,2017,Impact on Pain of a Preoperative Polyamines-poor Diet After Orthopedic Surgery of the Foot,DOLAMINE,False,False
 🟥,NCT02806063,,2018,Bacteriological Setting Before Prosthesis Implantation With One Stage Surgery in Prosthetic Joint Infection,Bac-UP,False,False
 🟥,NCT02474576,,2020,,APADUP,False,False

@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00121121,,2005,A Phase Ib Vaccine Trial Evaluating the Safety and Immunogenicity of HIV Lipopeptides by Two Administration Routes (Intramuscular And Intradermal) in Healthy Adult Volunteers. ANRS VAC16 Trial,,False,False
 🟥,NCT00196586,,2006,Pilot Study of Addition of IL-2 to Pegylated Interferon Alpha 2a and Ribavirin for the Treatment of Chronic Hepatitis C in HIV-HCV Coinfected Patients Non Responders to Three Months of Therapy With Pegylated Interferon Alpha 2a and Ribavirin. ANRS HC09 SECOIIA,,False,False
 🟥,NCT00120185,,2006,Study of the Immunological Efficacy of Using Subcutaneous Interleukin-2 (IL-2) in Antiretroviral Naïve HIV-1-Infected Subjects With a CD4 Cell Count Above 300/mm3. ANRS 119 Trial INTERSTART,,False,False

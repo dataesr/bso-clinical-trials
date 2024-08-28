@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00259350,,2006,"Prevention of Central Venous Catheter Infections : Comparison of the Efficacy of Skin Disinfection With 5% Povidone Iodine in Alcoholic Solution Versus 0.25% Chlorhexidine, 0.025 Benzalkonium and 4% Benzylic Alcohol",,False,False
 🟥,NCT00461825,,2007,Efficacy and Safety of Maintenance Neoral Compared to Bitherapy Neoral-Imurel or Neoral-CellCept in Renal Transplantation,,False,False
 🟥,NCT00219726,,2007,Phase II Trial to Study the Tolerability and the Effectiveness of Imatinib in Patients With Chronic Myelogenous Leukemia in Chronic Phase in Relapse After Allogeneic Stem Cell Transplantation,,False,False

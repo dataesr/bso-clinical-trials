@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01993394,,2012,Influence of Hyperoxia and Hypergravity on Pulmonary Ventilation and Perfusion,,False,False
 🟥,NCT04549194,,2021,Contribution of L-Tyrosine to Recovery From Operational Strain on Return From External Operation,USOP,False,False
 🟥,NCT04870814,,2021,Comparison of 4 Tactical Tourniquets Used in War Medicine,,False,False

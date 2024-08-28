@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01512277,,1999,Phase 1 Study Evaluating Safety and Immunological Criteria of Efficacy of the Recombinant Vaccine Candidate Bilhvax Against Schistosomiasis,Bilhvax1a,False,False
 🟥,NCT00367185,,2005,"Comparison of Melphalan-Prednisone(MP),MP-THALIDOMIDE,and Autologous Stem Cell Transplantation in the Treatment of Newly Diagnosed Elderly Patients With Multiple Myeloma.",,False,False
 🟥,NCT00682292,,2006,Multicenter Randomized Study to Compare Induction Therapy With Polyclonal Antithymocytes Globulins (ATG) Versus Monoclonal Anti-IL2R Antibody (Daclizumab) in a Triple Drug Regimen in Renal Transplant Recipients With High Immunological Risk.,TAXI,False,False

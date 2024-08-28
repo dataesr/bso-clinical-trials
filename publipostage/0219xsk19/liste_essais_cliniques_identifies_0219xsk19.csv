@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00461461,,2008,IATROREF III: a Multifaceted Program for Improving Quality of Care in Critically Ill Patients,,False,False
 🟥,,2012-005361-12,2013,"MEOPA (equimolar mixture of oxygen and protoxide of nitrogen) versus local anesthetic for analgesia during the biopsy of trophoblast. 
  

@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT02279121,,2016,"Prospective, Randomized, Controlled Trial Evaluating the Efficacy of a Lock-therapy With a Solution of Taurolidine/Citrate (TauroLock) vs Standard Saline Solution for the Primary Prevention of Catheter-related Infections (CLI) in Adult Patients Wtih a Non-hematological Cancer Treated With Intravenous Anti-tumor Therapy",ATAPAC,False,False
 🟥,NCT02075424,,2016,Descriptive Study of Biological Stress and Perceived Stress in Call Regulation Operators and Doctors When Processing a Call at the Center 15,RegulStress,False,False
 🟥,NCT01526915,,2017,Contribution of Platelet Rich Fibrin (PRF) After Tooth Avulsion in the Prevention of Healing Delay and of Jawbone Osteochemonecrosis Induced by Bisphosphonates,OCN/PRF,False,False

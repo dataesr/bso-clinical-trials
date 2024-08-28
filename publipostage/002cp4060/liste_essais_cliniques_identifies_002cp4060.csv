@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00299650,,2008,Systematic Early Use of Neuromuscular Blocking Agents in ARDS Patients,,False,False
 🟥,NCT00769912,,2009,Evaluation of of a Prefixed 50% N2O- 50%O2 Mixture in Legal Abortion Under Local Analgesia,,False,False
 🟥,NCT00683566,,2010,State Dependent Resonance in the BG-cortical Loops,,False,False

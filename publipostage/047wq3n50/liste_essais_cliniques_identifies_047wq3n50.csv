@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟩,NCT03734159,2018-002842-35,2019,Interest of Parasternal Block to Limit the Doses of Anesthetics Necessary for the Maintenance of Arterial Blood Pressure and Heart Rate in the Recommended Values During Sternotomy in Patients Undergoing Coronary Artery Bypass Graft,PARA,True,True
 🟥,NCT03504462,,2019,Specific Block of the Plantar Branches of the Tibial Nerve Under Ultrasound for Foot Surgery : A Monocentric Pilot Study,DISTIB,False,False
 🟥,NCT03554863,,2019,"Does Optiflow Anesthesia Allow Anethesia Induction ""Without Hands"" ?",OPTIFLOW,False,False

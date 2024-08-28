@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01161212,,2006,"Physical Activity, Health-related Quality of Life and Corpulence Among French Schoolchildren",REGUL'APS,False,False
 🟥,NCT00301470,,2008,Interest of MR Urography in the Evaluation of Functional Consequences of Urinary Tract in Children and Adults,,False,False
 🟥,NCT00814554,,2009,PRALIMAP: Effectiveness Evaluation of Three Strategies of Prevention of Overweight and Obesity in Adolescents; a Cluster Randomised Controlled Trial,PRALIMAP,False,False

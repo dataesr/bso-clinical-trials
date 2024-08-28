@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00324584,,2004,Surveillance Des données De l'Autosurveillance glycémique Via Internet Et Le réseau téléphonique GSM Chez Le diabétique De Type 1 Sous Traitement Insulinique Par Pompe Externe : Etude Prospective randomisée PumpNet.,,False,False
 🟥,NCT00447018,,2005,Equimolar Doses of Mannitol and Hypertonic Saline in the Treatment of Elevated Intracranial Pressure,,False,False
 🟥,NCT00348764,,2006,Treatment of Greater Saphenous Vein (GSV) Insufficiency Using Echo-Guided Sclerotherapy With Lauromacrogol 400 Foam -Comparative Study of 3% Versus 1% Concentration.,,False,False

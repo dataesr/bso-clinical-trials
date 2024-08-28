@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00210288,,2007,"A Comparative Double Blind Placebo-Controlled Study of Immunogenicity and Safety of Two Doses 10^5 and 10^7 CFU of SC599 Oral Vaccine, a Live Attenuated Shigella Dysenteriae 1 Vaccine Strain in Healthy Human Adult Volunteers",,False,False
 🟥,NCT01699893,,2013,Genetic & Environmental Determinants Of Immune Phenotype Variance: Establishing A Path Towards Personalized Medicine,LabExMI,False,False
 🟥,NCT01639391,,2015,Creation of a Bank of Fibroblast From Patients With Amyotrophic Lateral Sclerosis: Pilot Study,ALSCELL,False,False

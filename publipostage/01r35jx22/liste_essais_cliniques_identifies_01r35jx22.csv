@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT03934281,,2021,Study of the Value of Using a Honey Dressing Compared to the Use of a Standard Dressing on the Toe Amputation Wound in the Diabetic Patient,MELIDIAB,False,False
 🟥,NCT05421182,,2022,Psychological Impact of Medical Evacuations on Families of Patients Admitted to Intensive Care Unit for Severe COVID-19,IPES-CoV,False,False
 🟥,NCT04791241,,2022,Evaluation of a Check-list Including Lung Ultrasound for the Management of Patients With Acute Respiratory Failure at the Emergency Department During the COVID-19 Era,CHECKIRA-COVID,False,False

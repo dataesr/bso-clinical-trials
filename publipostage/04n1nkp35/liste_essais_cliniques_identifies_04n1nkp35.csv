@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01448018,,2013,Pilot Study on Efficacy and Tolerance of Intravitreous Injection of Ranibizumab (Lucentis®) in Early-onset Central Retinal Vein Occlusion in Comparison to Hemodilution Using Erythrocytapheresis,CHIC-3,False,False
 🟥,NCT02157077,,2015,"A Phase III b, Multicenter Study of the Efficacy and Safety of Aflibercept Switch in Patients With Exudative AMD With Detachment of the Retinal Pigment Epithelium and Previously Treated With Ranibizumab Intravitreal Injection. (ARI2)",ARI2,False,False
 🟧,NCT02700893,,2016,Cerebral NIRS Profiles During Premedication for Neonatal Intubation,,False,True

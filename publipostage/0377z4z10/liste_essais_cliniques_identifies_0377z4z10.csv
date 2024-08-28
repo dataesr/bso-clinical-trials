@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00658463,,2007,"Effects of Rosuvastatin on the, in Vivo, Kinetic of VLDL apoB, IDL apoB, LDL apoB and HDL apoA1, Using Stable Isotopes, in Type 2 Diabetic Patients",,False,False
 🟥,NCT00851760,,2007,Idiopathic Epiretinal Macular Membrane and Cataract Extraction : Combined vs Consecutive Surgery,,False,False
 🟥,NCT02873858,,2011,Elucidation of Sensory Characteristics and Food Preferences in the Elderly,AUPALESENS,False,False

@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00132587,,2007,Prospective Randomized Study of 130 Total Knee Arthroplasty With Cemented Femoral Implant Versus Cementless,,False,False
 🟥,NCT00169637,,2008,Evaluation of the Efficacy and Safety of Recombinant Human Growth Hormone (rhGH) in the Treatment of Children With Short Bowel Syndrome,,False,False
 🟥,NCT00133861,,2008,Botulinum Toxin Efficiency on Spasticity of Rectus Femoris and Semitendinosus Muscles as Functional Agonist and Antagonist Muscles. Assessment of Efficiency of Botulinum Toxin on Spasticity in Agonist and Antagonist Muscles Using Clinical Assessment and Gait Analysis in Cerebral Palsy Children: Rectus Femoris and Semitendinosus,,False,False

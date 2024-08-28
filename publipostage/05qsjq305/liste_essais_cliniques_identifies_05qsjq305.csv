@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00569361,,2005,Nasal Epithelium Gene Expression Profiling in Child Respiratory Allergic,,False,False
 🟥,NCT00522184,,2006,Intra-Articular Injection of Etanercept in Patient Suffering From Rheumatoid Arthritis : a Double-Blind Randomized Study for Evaluation of Efficacy and Safety of Etanercept Versus Intra-Articular Steroid Injection in Acute Synovitis,,False,False
 🟥,NCT00820144,,2007,Functional Exploration of the Immune Response Using the B-Subunit of Cholera Toxin Administered by Mucosal Way in Healthy Adult Volunteer: Potential Role in Development of Vaccine Processes,,False,False

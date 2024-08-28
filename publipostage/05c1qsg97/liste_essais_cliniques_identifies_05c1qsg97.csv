@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00217347,,2006,,,False,False
 🟥,NCT00200616,,2006,Antimicrobial Prophylaxis in Children With Isolated Vesico-Ureteral Reflux. A Randomised Prospective Study of Continuous Low Dose of Trimethoprim-Sulfamethoxazole Versus Surveillance.,,False,False
 🟥,NCT00200642,,2007,Evaluation of the Efficiency of Radiofrequency in the Treatment of Gastroesophageal Reflux Disease,,False,False

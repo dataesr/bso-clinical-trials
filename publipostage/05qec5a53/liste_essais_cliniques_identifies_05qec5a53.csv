@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00134212,,2004,"Prospective, Randomized Study on Two Parallel Groups Comparing Dopexamine and Norepinephrine in Combination to Epinephrine Alone on Systemic and Pulmonary Hemodynamics, Gastric Mucosal Perfusion, and Oxidative Stress in Septic Shock",,False,False
 🟥,NCT00151606,,2004,Evaluation of Two Protocols to Prevent the Acquisition of Methicillin-Resistant Staphylococcus Aureus in Intensive Care Units.,,False,False
 🟥,NCT00151567,,2006,Interest of a Treatment With the alpha1-blocker Tamsulosin in the Elimination of Pelvis Ureteral Stones,TAMSULOSINE,False,False

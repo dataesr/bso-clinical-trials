@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01069146,,2005,Mild Therapeutic Hypothermia During Severe Sepsis,,False,False
 🟥,NCT00349661,,2006,Influence Of Omeprazole On The Anti-Platelet Action Of Clopidogrel Associated To Aspirin: Double-Blind Randomized Trial Against Placebo,,False,False
 🟥,NCT00295672,,2007,Oral Vinorelbine and Cisplatin and Concurrent Radiotherapy After Induction Chemotherapy With Cisplatin-docetaxel in Patients With Locally Advanced Non-small-cell Lung Cancer. A Multicenter Phase II Trial,VINCR,False,False

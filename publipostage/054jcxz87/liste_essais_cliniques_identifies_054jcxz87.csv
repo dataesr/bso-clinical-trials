@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT02822911,,2016,Benefit of Carbohydrate Deficient Transferrin to Detect Chronic Alcohol Abuse in the Elderly. A French Multicentered Prospective Interventional Study.,Caesar,False,False
 🟥,NCT02970357,,2017,Evaluation of the Impact of a Therapeutic Education Program for Children With Type 1 Diabetes. A French Monocentric Prospective Study. Pilot Study,PROGETE,False,False
 🟥,NCT03177096,,2017,Impact of the Continuous Measurement of Blood Glucose on Insulin Pump on Child Quality of Life With Type 1 Diabetes. A French Monocentric Prospective Study (IM-CAPT),IM-CAPT,False,False

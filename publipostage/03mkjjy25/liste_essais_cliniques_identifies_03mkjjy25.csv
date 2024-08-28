@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00148278,,2005,"Prospective, Multicenter, Randomized, Double-Blind Study Comparing Safety and Efficacy of Norepinephrine Plus Dobutamine Versus Epinephrine Alone in Septic Shock.",CATS,False,False
 🟥,NCT00167609,,2006,Phase 3 Study of Oral Dehydroepiandrosterone (DHEA) in Adults With Myotonic Dystrophy,,False,False
 🟥,NCT00167622,,2009,Efficacy and Safety of Preventive Mechanical Ventilation in Adults With Guillain Barré Syndrome,,False,False

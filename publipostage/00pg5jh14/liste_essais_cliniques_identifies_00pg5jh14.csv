@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00410020,,2003,Secondary Prevention of Atrial Fibrillation With an Alpha-Linolenic Enriched Diet : a Randomized Study,,False,False
 🟥,NCT00226720,,2004,Comparison of Efficacy of an Outpatient vs Inpatient Detoxification Program for Alcohol Dependent Patients Seeking Abstinence. A Prospective Randomized Clinical Trial.,,False,False
 🟥,NCT00224627,,2005,Efficiency of Capsule Endoscopy and Push Enteroscopy in Obscure Gastrointestinal Bleeding. A Prospective Randomized Study.,,False,False

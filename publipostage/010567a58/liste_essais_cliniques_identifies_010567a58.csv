@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT01673412,,2008,Research of Prognostic Factors Associated With Healing of Venous Leg Ulcers,,False,False
 🟥,NCT00567450,,2008,Ropivacaine 0.75% vs Ropivacaine 0.75% Plus Mepivacaine 1.5% for Subgluteal Sciatic Bloc: a Prospective Double Blind Randomized Controlled Study,,False,False
 🟥,NCT00552201,,2008,Randomized Therapeutic Study of a Treatment by Tacrolimus Adapted or Not According to the Genotype of the Cytochrome P450 3A5 After Renal Transplantation,,False,False

@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00199576,,2002,"Prevention of Post-Extubation Laryngeal Edema With Intravenous Corticosteroids: a Prospective, Double-Blind, Placebo-Controlled Trial.",,False,False
 🟥,NCT00455676,,2006,Chevron Osteotomy Versus SCARF Osteotomy in the Treatment of Hallux Valgus,,False,False
 🟥,NCT00199719,,2006,"Study of the Pharmacokinetic Action of Amantadine and Ribavirin in Chronic Hepatitis C Non 2 -3 Genotype naïve Patients Treated With a 12 Weeks Bitherapy of Peginterferon Alpha 2a-Ribavirin, and Followed by a Tritherapy of Peginterferon Alpha 2a-Ribavirin-Amantadine for 36 Weeks",CINAM,False,False

@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00392158,,2007,Target-controlled Infusion of Propofol and Remifentanil During General Anaesthesia Guided by the Index Bispectral: Comparison Between Manual Perfusion and Automated Perfusion,,False,False
 🟥,NCT00393003,,2007,Target-controlled Infusion of Propofol and Remifentanil for Postoperative Sedation Guided by the Bispectral Index: Comparison Between Manual Perfusion and Automated Perfusion,,False,False
 🟥,NCT00391885,,2007,Target-controlled Infusion of Propofol and Remifentanil During General Anaesthesia Guided by Entropy of the Electroencephalogram: Comparison Between Manual Perfusion and Automated Perfusion,,False,False

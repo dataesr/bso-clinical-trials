@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00221624,,2004,Randomized Placebo-Controlled Trial of a Triple Therapy Combining Peginterferon Alfa-2a Plus Ribavirin Plus Amantadine Versus Peginterferon Alfa-2a Plus Ribavirin Plus Placebo in Hepatitis C-Infected Patients Non Responders to a First-Line Therapy of Interferon and Ribavirin,PEGARI,False,False
 🟥,NCT00221650,,2004,Efficacy and Safety of Peginterferon alfa2a and Ribavirin for the Second Line Treatment of Chronic Hepatitis C in HIV Infected Patients Previously Non Responders to a First Anti-HCV Treatment,ROCO2,False,False
 🟥,NCT00221754,,2004,Pravastatin in HIV-Infected Patients Treated With Highly Active Antiretroviral Therapy,,False,False

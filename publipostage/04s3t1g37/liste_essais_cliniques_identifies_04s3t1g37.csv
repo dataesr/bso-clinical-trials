@@ -1,4 +1,4 @@
-S,NCTId,eudraCT,study_completion_year,title,acronym,has_results_or_publications_within_1y,has_results_or_publications_within_3y
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
 🟥,NCT00934986,,2010,Study of Natural Killer Cells Function in Untreated Patients With Chronic Lymphocytic Leukemia,LLC-NK,False,False
 🟥,NCT00908869,,2011,"Combination of Continuous Low Doses of Vinorelbine, Cyclophosphamide and Interferon Alpha 2b for Antiangiogenic/Antivascular Effect in Adult Advanced Neoplasm",METRO1,False,False
 🟥,NCT00925418,,2011,Randomized Trial Evaluating the Cryotherapy in the Prevention of Nails Toxicity Induced by Taxotere® in Patient Treated for Breast or Prostate Cancer.,CRYO1,False,False
