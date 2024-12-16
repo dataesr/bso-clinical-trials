@@ -37,7 +37,7 @@ def create_task_transform_load(args: dict) -> dict:
         harvest_parse_ctis(to_harvest=to_harvest, to_parse=to_parse, harvest_date=harvest_date_ctis)
     merged_ct = merge_all(harvest_date_ct, harvest_date_euctr, harvest_date_ctis)
     data = enrich(merged_ct)
-    current_date = today.isoformat()
+    current_date = today.strftime('%Y%m%d')
     index = args.get('index', f'bso-clinical-trials-{current_date}')
     reset_index(index=index)
     load_in_es(data=data, index=index)

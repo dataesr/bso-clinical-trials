@@ -36,11 +36,11 @@ def harvest():
         cts += data
         if len(data) < per_page:
             break
-    # 2. For each French clinical trial, find details metadata
+    # 2. For each French clinical trial, find detailed metadata
     cts_fr = []
     for ct in cts:
         # Filter on French clinical trials
-        if "fr:" in ct.get("trialCountries").lower():
+        if "fr:" in [country.lower() for country in ct.get("trialCountries")]:
             r = requests.get(
                 f"https://euclinicaltrials.eu/ctis-public-api/retrieve/{ct.get('ctNumber')}", verify=False)
             cts_fr.append(r.json())
