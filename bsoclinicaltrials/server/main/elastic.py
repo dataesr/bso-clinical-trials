@@ -3,6 +3,7 @@ from elasticsearch import Elasticsearch, helpers
 from bsoclinicaltrials.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_BSO_BACK, ES_URL
 from bsoclinicaltrials.server.main.decorator import exception_handler
 from bsoclinicaltrials.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.utils import clean_json
 
 client = None
 logger = get_logger(__name__)
@@ -54,7 +55,8 @@ def reset_index(index: str) -> None:
 @exception_handler
 def load_in_es(data: list, index: str) -> None:
     es = get_client()
-    actions = [{'_index': index, '_source': datum} for datum in data]
+    clean_data = [clean_json(d) for d in data]
+    actions = [{'_index': index, '_source': datum} for datum in clean_data]
     ix = 0
     indexed = []
     for success, info in helpers.parallel_bulk(client=es, actions=actions, chunk_size=500, request_timeout=60, raise_on_error=False):

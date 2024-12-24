@@ -19,6 +19,19 @@ logger = get_logger(__name__)
 PUBLIC_API_PASSWORD = os.getenv('PUBLIC_API_PASSWORD')
 
 
+def clean_json(elt):
+    keys = list(elt.keys()).copy()
+    for f in keys:
+        if isinstance(elt[f], dict):
+            elt[f] = clean_json(elt[f])
+        elif (not elt[f] == elt[f]) or (elt[f] is None):
+            del elt[f]
+        elif (isinstance(elt[f], str) and len(elt[f])==0):
+            del elt[f]
+        elif (isinstance(elt[f], list) and len(elt[f])==0):
+            del elt[f]
+    return elt
+
 def my_parse_date(x, dayfirst=False):
     if x:
         return parser.parse(x, dayfirst=dayfirst).isoformat()
