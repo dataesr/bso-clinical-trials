@@ -135,6 +135,20 @@ def enrich_ct(ct, sirano_dict):
     ct['french_location_only'] = french_location_only
     if ct.get('references') is None:
         ct['references'] = []
+    references = ct['references']
+    ct['publications_result'] = []
+    for r in references:
+        if r.get('type').lower() in ['result', 'derived']:
+            if 'doi' in r:
+                ct['publications_result'].append(r['doi'])
+            elif 'pmid' in r:
+                ct['publications_result'].append(r['pmid'])
+            elif 'citation' in r:
+                ct['publications_result'].append(r['citation'])
+            else:
+                ct['publications_result'].append('other')
+    ct['has_publications_result'] = len(ct['publications_result']) > 0
+    ct['has_results_or_publications'] = ct['has_results'] or ct['has_publications_result']
     current_status = ct.get('status')
     status_simplified = 'Unknown'
     if current_status in ['Completed']:
