@@ -117,9 +117,9 @@ def parse_ctis(ct):
         "authorizedPartI", {}).get("sponsors", [])
     primary_sponsors = [s for s in sponsors if s.get("primary", False) is True]
     if len(primary_sponsors) > 0:
-        res["lead_sponsor"] = primary_sponsors[0].get("publicContacts", [])[
-            0].get("organisation", {}).get("name")
-    # ?? res['study_type'] = summary_infos.get("Clinical Trial Type")
+        public_contacts = primary_sponsors[0].get("publicContacts", [])
+        if len(public_contacts) > 0:
+            res["lead_sponsor"] = public_contacts[0].get("organisation", {}).get("name")
     res["study_first_submit_date"] = my_parse_date([t for t in ct.get("authorizedApplication", {}).get(
         "applicationInfo", []) if t.get("type") == "INITIAL"][0].get("submissionDate"))
     res["study_completion_date"] = my_parse_date(ct.get("endDateEU"))
