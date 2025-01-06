@@ -14,6 +14,9 @@ from bsoclinicaltrials.server.main.config import ES_LOGIN_BSO_BACK, ES_PASSWORD_
 from bsoclinicaltrials.server.main.logger import get_logger
 from bsoclinicaltrials.server.main.utils_swift import upload_object
 
+# Suppress only the single warning from urllib3
+requests.packages.urllib3.disable_warnings(category=requests.packages.urllib3.exceptions.InsecureRequestWarning)
+
 logger = get_logger(__name__)
 
 PUBLIC_API_PASSWORD = os.getenv('PUBLIC_API_PASSWORD')
