@@ -40,7 +40,7 @@ def harvest():
     cts_fr = []
     for ct in cts:
         # Filter on French clinical trials
-        if "france:" in [country.lower() for country in ct.get("trialCountries")]:
+        if "france" in [country.lower().split(":")[0] for country in ct.get("trialCountries")]:
             r = requests.get(
                 f"https://euclinicaltrials.eu/ctis-public-api/retrieve/{ct.get('ctNumber')}", verify=False)
             cts_fr.append(r.json())

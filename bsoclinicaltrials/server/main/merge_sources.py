@@ -45,7 +45,7 @@ def merge_all(date_ct, date_euctr, date_ctis):
     matches = update_matches(matches, raw_trials["NCTId"], "NCTId", ["eudraCT"])
     matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", ["NCTId"])
     matches = update_matches(matches, raw_trials["CTIS"], "CTIS", ["NCTId"])
-    known_ids = set([])
+    known_ids = set()
     all_ct = []
     for current_id_type in ["NCTId", "eudraCT", "CTIS"]:
         for ct in raw_trials[current_id_type]:
@@ -112,10 +112,10 @@ def update_matches(matches, new_trials, id1_type, other_ids):
                 id2 = ct[id2_type]
                 if id1 not in matches:
                     matches[id1] = []
-                matches[id1].append({id2_type: id2})
+                matches[id1].append({ id2_type: id2 })
                 if id2 not in matches:
                     matches[id2] = []
-                matches[id2].append({id1_type: id1})
+                matches[id2].append({ id1_type: id1 })
     return matches
 
 
