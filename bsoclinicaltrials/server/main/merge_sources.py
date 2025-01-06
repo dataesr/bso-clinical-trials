@@ -67,10 +67,27 @@ def merge_all(date_ct, date_euctr, date_ctis):
             for i in current_ids:
                 known_ids.add(i)
     all_ct_final = [untransform_ct(e) for e in all_ct]
+
+    # extra deduplication is needed
+    all_ct_final.reverse()
+    known_ids_dedup = set([])
+    all_ct_final_dedup = []
     for ct in all_ct_final:
+        skip = False
+        for k in ['NCTId', 'eudraCT', 'CTIS']:
+            if ct.get(k) in known_ids_dedup:
+                skip = True
+        if skip:
+            continue
+        all_ct_final_dedup.append(ct)
+        for k in ['NCTId', 'eudraCT', 'CTIS']:
+            if ct.get(k):
+                known_ids_dedup.add(ct[k])
+
+    for ct in all_ct_final_dedup:
         ct['snapshot_date'] = max(date_ct, date_euctr)
-    set_objects(all_ct_final, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
-    return all_ct_final
+    set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
+    return all_ct_final_dedup
 
 
 def untransform_ct(ct):
