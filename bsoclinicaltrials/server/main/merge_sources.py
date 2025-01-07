@@ -85,7 +85,7 @@ def merge_all(date_ct, date_euctr, date_ctis):
                 known_ids_dedup.add(ct[k])
 
     for ct in all_ct_final_dedup:
-        ct['snapshot_date'] = max(date_ct, date_euctr)
+        ct['snapshot_date'] = max(date_ct, date_euctr, date_ctis)
     set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
     return all_ct_final_dedup
 
