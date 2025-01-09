@@ -1,8 +1,8 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
-🟥,NCT02592460,,2017,Impact on Pain of a Preoperative Polyamines-poor Diet After Orthopedic Surgery of the Foot,DOLAMINE,False,False
-🟥,NCT02806063,,2018,Bacteriological Setting Before Prosthesis Implantation With One Stage Surgery in Prosthetic Joint Infection,Bac-UP,False,False
-🟥,NCT02474576,,2020,,APADUP,False,False
-🟩,NCT04262713,,2022,Evaluation of Predictive Factors for Ruptures of Meije Duo ™ Size 1 and 2 Femoral Stems in Hip Replacement Surgery,MEIJE,True,True
-🟥,NCT06052982,,2023,"Comparative Randomized Study Evaluating Intra and Postoperative Total Blood Loss During Primary Knee Arthroplasty, With Drainage Versus Non-drainage",SAD,False,False
-🟥,NCT06053060,,2023,"Evaluation of the Positioning of the Dynacup Cup ""One C"" Versus Standard Dynacup",DYNACUP,False,False
-🟥,NCT06216405,,2024,Performance of Artificial Intelligence in Colonoscopy for Right Colon Polyp Detection: a Randomized Controlled Trial,AIRCOP,False,False
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟥,NCT02592460,,2017,Impact on Pain of a Preoperative Polyamines-poor Diet After Orthopedic Surgery of the Foot,DOLAMINE,False,False,False
+🟥,NCT02806063,,2018,Bacteriological Setting Before Prosthesis Implantation With One Stage Surgery in Prosthetic Joint Infection,Bac-UP,False,False,False
+🟥,NCT02474576,,2020,,APADUP,False,False,False
+🟩,NCT04262713,,2022,Evaluation of Predictive Factors for Ruptures of Meije Duo ™ Size 1 and 2 Femoral Stems in Hip Replacement Surgery,MEIJE,True,True,True
+🟥,NCT06052982,,2023,"Comparative Randomized Study Evaluating Intra and Postoperative Total Blood Loss During Primary Knee Arthroplasty, With Drainage Versus Non-drainage",SAD,False,False,False
+🟥,NCT06053060,,2023,"Evaluation of the Positioning of the Dynacup Cup ""One C"" Versus Standard Dynacup",DYNACUP,False,False,False
+🟥,NCT06216405,,2024,Performance of Artificial Intelligence in Colonoscopy for Right Colon Polyp Detection: a Randomized Controlled Trial,AIRCOP,False,False,False

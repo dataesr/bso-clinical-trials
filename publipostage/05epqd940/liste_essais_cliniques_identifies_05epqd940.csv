@@ -1,33 +1,33 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
-🟥,NCT00847938,,2009,"Randomized, Controlled, Double-blind, Prospective Study, Comparing Different Doses of Neostigmine at Advanced Decurarization .",NEODEC,False,False
-🟧,NCT01137487,,2011,Impact of Not Measuring Residual Gastric Volume on Nosocomial Pneumonia Rates in Mechanically Ventilated Patients Receiving Early Enteral Feeding: a Randomized-controlled Study,NUTRIREA1,False,True
-🟥,NCT01127152,,2011,"Assessment of Automatic Relays by Intensive Basis Advantage Compared With Manual Relays, on the Hypotension Risks, During Noradrenalin Administration",ARIBA,False,False
-🟥,NCT02085915,,2015,Evaluation of the Strip PeriScreen for the Fast Diagnosis of the Spontaneous Infection of the Liquid of Ascites During the Cirrhosis,Per-DRISLA,False,False
-🟧,NCT02085902,2013-005109-30,2015,Does the Use of Ropivacaine Facilitates Cholecystectomy by Laparoscopy in Ambulatory Surgery?,VesiRop,False,True
-🟧,NCT02159378,,2016,Fructosamines and Gestational Diabetes (FRUCTO),FRUCTO,False,True
-🟥,NCT02044133,,2016,"Monocentric Randomized Study, Assessing the Interests of the Determination of Vitamin D in Prison Population. (Vitamine D)",,False,False
-🟧,NCT02413723,,2016,McGrath Mac Videolaryngoscope Versus Macintosh Laryngoscope for Orotracheal Intubation in Critical Care Unit,MACMAN,False,True
-🟥,NCT02585180,,2017,Subglottic Secretions Surveillance to Predict Bacterial Pathogens Involved in Ventilator-associated Pneumonia (VAP): an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False
-🟥,NCT02395380,,2017,Evaluation of the Predictive Nature of the Postoperative CRP on Postoperative Recovery in Patients Undergoing Colorectal Resection,CRP-Track,False,False
-🟥,NCT02583308,,2017,Impact of the Subglottic Secretions Drainage on the Tracheal Secretions Colonisation: an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False
-🟥,NCT02583321,,2017,Detection of Chlorhexidine in Tracheal Secretions After Routine Oral Care With Chlorhexidine Gluconate: an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False
-🟥,NCT02925728,,2017,"Nutritional Intake of ""Finger-food"" on Elderly People in Seniors's Resident",FIFO,False,False
-🟧,NCT02722473,,2018,NSE Ancillary Study of The Therapeutic Hypothermia After Nonshockable Cardiac Arrest Trial.,NSE-HYPERION,False,True
-🟥,NCT02873637,2016-001519-19,2018,"Adductor Under Sartorial Canal Catheter (KTT) Versus Femoral Catheter (KTF) in a Quick Rehabilitation Process After Total Knee Replacement: A Controlled, Randomized Study (KTSS)",KTSS,False,False
-🟩,NCT01994772,,2018,Therapeutic Hypothermia After Cardiac Arrest in Non Shockable Rhythm at Rescue Arrival: The HYPERION Study,HYPERION,True,True
-🟥,NCT02515617,,2018,Drainage of Subglottic Secretions and Prevention of Ventilator-associated Pneumonia in Intensive carE Units: Medico-Economic Study With a Randomized clusTer and crossovER Design: DEMETER Study,DEMETER,False,False
-🟥,NCT02338427,,2018,Capacity of Amylose Characterisation Compare by Immunohistochemistry and Proteomic Analysis. Multicenter Prospective,IPA,False,False
-🟥,NCT02711098,,2018,InterLeukine Ancillary Study of the Therapeutic Hypothermia After Nonshockable Cardiac Arrest Trial.,IL-HYPERION,False,False
-🟥,NCT02869867,,2020,Does the Application of Cold Decreases the Pain Associated in the Pose of a Patch of Capsaicine at High Concentration on the Carrier Patients of Localized Neuropathic Pains ? - DIDOCAP,DIDOCAP,False,False
-🟩,NCT03084549,2016-002786-62,2020,"Study of the Analgesic Effect of the Perineal Infiltration of Ropivacaine 0.75% Versus Placebo in Post-episiotomy Perineal Pain: a Randomized, Double-blind Study",ROPISIO,True,True
-🟥,NCT02283983,,2020,"Evaluation of Cryoprotection of Nail Toxicity Induced by Docetaxel Low Cumulative Dose. Controlled, Randomized, Open, Multicentre Prospective.",BANQUISE,False,False
-🟧,NCT02555254,,2020,Impact of Speed Of Rewarming After CaRdiac Arrest and ThErapeutic Hypothermia. A Randomized Controlled Pilot Study,ISOCRATE,False,True
-🟩,NCT03431584,2017-002298-20,2021,Effects on the Pain of an Infiltration by Acid Hyaluronic Association and Corticoids Versus Only Corticoids in the Rhizarthrosis.,RHIZ'ART,True,True
-🟥,NCT03926260,,2022,Non-controlled Prospective Pilot Study Assessing Prognostic Performance of Circulating Tumour DNA Kinetic Analysis for Monitoring Response to Treatment of Metastatic Non-small Cell Lung Cancers,ELUCID,False,False
-🟥,NCT04328623,,2022,Interest of Hypnosis on Pain Management During a Guided Echo Infiltration of the Hand,HYMN,False,False
-🟩,NCT04912206,,2022,"Impact of Emergency Physician-Performed Ultrasound for the Evaluation of Patients With Acute Abdominal Pain, Prospective Randomized Dual Centre Study",EchoPAIN,True,True
-🟩,NCT02485860,,2022,Interest in the Use of Dressings With Honey for Wound Healing After Excision of Pilonidal Cyst,Pilomiel,True,True
-🟥,NCT05378789,,2023,Appropriation and Impact of the Introduction of Naps During Night Work by Intensive Care Caregiver - One Year Review,MARIENAIE,False,False
-🟥,NCT04819425,,2023,"""Comparison of Two Methods of Securing Endotracheal Tubes in Intensive Care : Elastic Adhesive Strips vs Lace In A Protective Sheath. A Randomized Multicenter, Cluster and Crossover Controlled Study. FIXATUB""",FIXATUB,False,False
-🟥,NCT04540822,,2024,"Peripheral Catheter Pressure Ulcer Prevention in Pediatry : Use of Compresses Versus Standard Care""",KTESCA,False,False
-🟥,NCT03998813,,2024,Chronic Pain and Functional Prognosis After Total Knee Replacement: Continuous Locoregional Analgesia by Catheter to the Femoral Triangle Versus Tissue Infiltration as Part of an Improved Rehabilitation After Surgery Approach,TKAFTER,False,False
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟥,NCT00847938,,2009,"Randomized, Controlled, Double-blind, Prospective Study, Comparing Different Doses of Neostigmine at Advanced Decurarization .",NEODEC,False,False,True
+🟧,NCT01137487,,2011,Impact of Not Measuring Residual Gastric Volume on Nosocomial Pneumonia Rates in Mechanically Ventilated Patients Receiving Early Enteral Feeding: a Randomized-controlled Study,NUTRIREA1,False,True,True
+🟥,NCT01127152,,2011,"Assessment of Automatic Relays by Intensive Basis Advantage Compared With Manual Relays, on the Hypotension Risks, During Noradrenalin Administration",ARIBA,False,False,True
+🟥,NCT02085915,,2015,Evaluation of the Strip PeriScreen for the Fast Diagnosis of the Spontaneous Infection of the Liquid of Ascites During the Cirrhosis,Per-DRISLA,False,False,False
+🟧,NCT02085902,2013-005109-30,2015,Does the Use of Ropivacaine Facilitates Cholecystectomy by Laparoscopy in Ambulatory Surgery?,VesiRop,False,True,True
+🟧,NCT02159378,,2016,Fructosamines and Gestational Diabetes (FRUCTO),FRUCTO,False,True,True
+🟥,NCT02044133,,2016,"Monocentric Randomized Study, Assessing the Interests of the Determination of Vitamin D in Prison Population. (Vitamine D)",,False,False,False
+🟧,NCT02413723,,2016,McGrath Mac Videolaryngoscope Versus Macintosh Laryngoscope for Orotracheal Intubation in Critical Care Unit,MACMAN,False,True,True
+🟥,NCT02585180,,2017,Subglottic Secretions Surveillance to Predict Bacterial Pathogens Involved in Ventilator-associated Pneumonia (VAP): an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False,False
+🟥,NCT02395380,,2017,Evaluation of the Predictive Nature of the Postoperative CRP on Postoperative Recovery in Patients Undergoing Colorectal Resection,CRP-Track,False,False,False
+🟥,NCT02583308,,2017,Impact of the Subglottic Secretions Drainage on the Tracheal Secretions Colonisation: an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False,False
+🟥,NCT02583321,,2017,Detection of Chlorhexidine in Tracheal Secretions After Routine Oral Care With Chlorhexidine Gluconate: an Ancillary Study of the DEMETER Trial (NCT02515617),,False,False,False
+🟥,NCT02925728,,2017,"Nutritional Intake of ""Finger-food"" on Elderly People in Seniors's Resident",FIFO,False,False,False
+🟧,NCT02722473,,2018,NSE Ancillary Study of The Therapeutic Hypothermia After Nonshockable Cardiac Arrest Trial.,NSE-HYPERION,False,True,True
+🟥,NCT02873637,2016-001519-19,2018,"Adductor Under Sartorial Canal Catheter (KTT) Versus Femoral Catheter (KTF) in a Quick Rehabilitation Process After Total Knee Replacement: A Controlled, Randomized Study (KTSS)",KTSS,False,False,True
+🟩,NCT01994772,,2018,Therapeutic Hypothermia After Cardiac Arrest in Non Shockable Rhythm at Rescue Arrival: The HYPERION Study,HYPERION,True,True,True
+🟥,NCT02515617,,2018,Drainage of Subglottic Secretions and Prevention of Ventilator-associated Pneumonia in Intensive carE Units: Medico-Economic Study With a Randomized clusTer and crossovER Design: DEMETER Study,DEMETER,False,False,False
+🟥,NCT02338427,,2018,Capacity of Amylose Characterisation Compare by Immunohistochemistry and Proteomic Analysis. Multicenter Prospective,IPA,False,False,False
+🟥,NCT02711098,,2018,InterLeukine Ancillary Study of the Therapeutic Hypothermia After Nonshockable Cardiac Arrest Trial.,IL-HYPERION,False,False,False
+🟥,NCT02869867,,2020,Does the Application of Cold Decreases the Pain Associated in the Pose of a Patch of Capsaicine at High Concentration on the Carrier Patients of Localized Neuropathic Pains ? - DIDOCAP,DIDOCAP,False,False,False
+🟩,NCT03084549,2016-002786-62,2020,"Study of the Analgesic Effect of the Perineal Infiltration of Ropivacaine 0.75% Versus Placebo in Post-episiotomy Perineal Pain: a Randomized, Double-blind Study",ROPISIO,True,True,True
+🟥,NCT02283983,,2020,"Evaluation of Cryoprotection of Nail Toxicity Induced by Docetaxel Low Cumulative Dose. Controlled, Randomized, Open, Multicentre Prospective.",BANQUISE,False,False,False
+🟧,NCT02555254,,2020,Impact of Speed Of Rewarming After CaRdiac Arrest and ThErapeutic Hypothermia. A Randomized Controlled Pilot Study,ISOCRATE,False,True,True
+🟩,NCT03431584,2017-002298-20,2021,Effects on the Pain of an Infiltration by Acid Hyaluronic Association and Corticoids Versus Only Corticoids in the Rhizarthrosis.,RHIZ'ART,True,True,True
+🟥,NCT03926260,,2022,Non-controlled Prospective Pilot Study Assessing Prognostic Performance of Circulating Tumour DNA Kinetic Analysis for Monitoring Response to Treatment of Metastatic Non-small Cell Lung Cancers,ELUCID,False,False,False
+🟥,NCT04328623,,2022,Interest of Hypnosis on Pain Management During a Guided Echo Infiltration of the Hand,HYMN,False,False,False
+🟩,NCT04912206,,2022,"Impact of Emergency Physician-Performed Ultrasound for the Evaluation of Patients With Acute Abdominal Pain, Prospective Randomized Dual Centre Study",EchoPAIN,True,True,False
+🟩,NCT02485860,,2022,Interest in the Use of Dressings With Honey for Wound Healing After Excision of Pilonidal Cyst,Pilomiel,True,True,True
+🟥,NCT05378789,,2023,Appropriation and Impact of the Introduction of Naps During Night Work by Intensive Care Caregiver - One Year Review,MARIENAIE,False,False,False
+🟥,NCT04819425,,2023,"""Comparison of Two Methods of Securing Endotracheal Tubes in Intensive Care : Elastic Adhesive Strips vs Lace In A Protective Sheath. A Randomized Multicenter, Cluster and Crossover Controlled Study. FIXATUB""",FIXATUB,False,False,False
+🟥,NCT04540822,,2024,"Peripheral Catheter Pressure Ulcer Prevention in Pediatry : Use of Compresses Versus Standard Care""",KTESCA,False,False,False
+🟥,NCT03998813,,2024,Chronic Pain and Functional Prognosis After Total Knee Replacement: Continuous Locoregional Analgesia by Catheter to the Femoral Triangle Versus Tissue Infiltration as Part of an Improved Rehabilitation After Surgery Approach,TKAFTER,False,False,False

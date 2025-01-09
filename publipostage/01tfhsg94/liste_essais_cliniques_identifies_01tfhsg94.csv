@@ -1,7 +1,7 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y
-🟥,NCT01239966,,2015,Safety and Efficacy of Combined Extracorporeal CO2 Removal and Renal Replacement Therapy in Patients With the Acute Respiratory Distress Syndrome and Acute Renal Failure,PARSA,False,False
-🟧,NCT02892253,,2018,Parathyroid Autofluorescence Visualization in Thyroid Surgery: Impact on Postoperative Hypocalcemia. A Randomized Controlled Trial,,False,True
-🟩,NCT04039711,,2018,"Evaluation of Vaginal Self-sampling Diagnostic Performances to Identify Genital Infections : A Large, Cross-sectional, Non-inferiority Trial",,True,True
-🟥,NCT01042080,,2019,Effect of Mechanical Ventilation With NAVA and PSV on Inspiratory Muscle Workload and Synchrony in Patients With Chronic Obstructive Pulmonary Disease,NAVASYNC,False,False
-🟥,NCT04159727,,2020,Gut Microbiota Dysbiosis and Translocation Within Patients Suffering From Diseases Associated With Increased Intestinal Barrier Permeability : IBD and Parkinson,Medibiote1,False,False
-🟥,NCT04970563,,2022,"Detection of Asymptomatic SARS-Cov2 Infected Patients by Detection Dogs: ""Proof of Concept"" Study",,False,False
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟥,NCT01239966,,2015,Safety and Efficacy of Combined Extracorporeal CO2 Removal and Renal Replacement Therapy in Patients With the Acute Respiratory Distress Syndrome and Acute Renal Failure,PARSA,False,False,True
+🟧,NCT02892253,,2018,Parathyroid Autofluorescence Visualization in Thyroid Surgery: Impact on Postoperative Hypocalcemia. A Randomized Controlled Trial,,False,True,True
+🟩,NCT04039711,,2018,"Evaluation of Vaginal Self-sampling Diagnostic Performances to Identify Genital Infections : A Large, Cross-sectional, Non-inferiority Trial",,True,True,True
+🟥,NCT01042080,,2019,Effect of Mechanical Ventilation With NAVA and PSV on Inspiratory Muscle Workload and Synchrony in Patients With Chronic Obstructive Pulmonary Disease,NAVASYNC,False,False,False
+🟥,NCT04159727,,2020,Gut Microbiota Dysbiosis and Translocation Within Patients Suffering From Diseases Associated With Increased Intestinal Barrier Permeability : IBD and Parkinson,Medibiote1,False,False,False
+🟥,NCT04970563,,2022,"Detection of Asymptomatic SARS-Cov2 Infected Patients by Detection Dogs: ""Proof of Concept"" Study",,False,False,False
