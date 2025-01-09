@@ -173,7 +173,7 @@ def dump_to_object_storage(args: dict) -> list:
     # 2. Convert JSON file into CSV by selecting fields
     df_json = pd.read_json(output_json_file, lines=True)
     df_csv = pandas_to_csv(df_json)
-    df_csv.to_csv(output_csv_file, index=False, sep=',')
+    df_csv.to_csv(output_csv_file, index=False, sep=",", lineterminator="\r\n")
     cmd_gzip = f'gzip {output_csv_file}'
     logger.debug(cmd_gzip)
     os.system(cmd_gzip)
