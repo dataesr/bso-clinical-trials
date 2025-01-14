@@ -1,112 +1,116 @@
 statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
 🟥,NCT00428779,,2007,Neuromuscular and Cognitive Fatigue During a 24h Treadmill Running Exercise.,,False,False,True
-🟥,NCT00770393,,2007,Randomized Phase III Trial Comparing Induction Chemotherapy Followed by Radiotherapy to Concomitant Chemoradiotherapy for Laryngeal Preservation in T3MO Pyriform Sinus Carcinoma,,False,False,False
 🟥,NCT00327106,,2007,Efficacy of Tranexamic Acid on Perioperative Blood Loss During Hip Fracture Surgery.,THIF,False,False,True
-🟥,NCT00475059,,2008,Performance of Cimetidine-corrected MDRD Equation in Renal Transplant Patients,,False,False,False
-🟥,NCT00452010,,2008,Pain Reducing Effect of Transcutaneous Electrical Nerve Stimulation (TENS) in Patients With Chronic Low Back Pain or Chronic Lumbo-radiculalgia and Followed in Pain Treatment Centers,LOBOTENS,False,False,True
-🟥,NCT00522561,,2008,Lower Limb Mechanical Characteristics: Effect on Running Mechanics and Energetics,,False,False,False
+🟥,NCT00770393,,2007,Randomized Phase III Trial Comparing Induction Chemotherapy Followed by Radiotherapy to Concomitant Chemoradiotherapy for Laryngeal Preservation in T3MO Pyriform Sinus Carcinoma,,False,False,False
 🟧,NCT00555438,,2008,"Prospective, Multicentre, Open-label Study Evaluating 1.5 mg/Day of Fondaparinux,in Venous Thromboembolic Events Prevention in Patients With Renal Impairment and Undergoing a Major Orthopaedic Surgery. PROPICE Study",PROPICE,False,True,True
 🟥,NCT00451776,,2008,"Post Operative Hemodynamic Function After Anesthetic Induction With Etomidate for Cardiac Surgery With ECC. A Prospective, Monocentric, Randomised Double Blind Study",,False,False,False
+🟥,NCT00475059,,2008,Performance of Cimetidine-corrected MDRD Equation in Renal Transplant Patients,,False,False,False
+🟥,NCT00452010,,2008,Pain Reducing Effect of Transcutaneous Electrical Nerve Stimulation (TENS) in Patients With Chronic Low Back Pain or Chronic Lumbo-radiculalgia and Followed in Pain Treatment Centers,LOBOTENS,False,False,True
 🟥,NCT00542906,,2008,Functional Organization of Somatosensory Responses in the Secondary Somatosensitive Area (SII) and Insula : an fMRI Study,,False,False,False
+🟥,NCT00522561,,2008,Lower Limb Mechanical Characteristics: Effect on Running Mechanics and Energetics,,False,False,False
+🟥,NCT00621907,,2009,Levobupivacïne Into Post-analgesia : Randomized Monocentric Study Against Placebo,LEVOBU,False,False,True
+🟥,,2007-006275-36,2009,Levobupivacaine into post-caesarian analgesia: randomized monocentric study against placebo,LEVOBU,False,False,False
 🟥,NCT00904527,,2009,Interest of Relaxation From Patients With Pain Due to Migraine,MIGREL,False,False,False
 🟥,NCT00732290,,2009,Investigation of Drug-drug Interaction Between Clopidogrel and Fluoxetine,PLATINE,False,False,False
-🟥,NCT00621907,,2009,Levobupivacïne Into Post-analgesia : Randomized Monocentric Study Against Placebo,LEVOBU,False,False,True
-🟥,NCT00941824,,2010,Pharmacokinetic Evaluation of an Intensified and Decreasing Dosing Regimen of Mycophenolate Sodium in Combination With Tacrolimus During the First 3 Months Post Kidney Transplant (the myFORTic Study),,False,False,False
-🟥,NCT00916526,,2010,Measurement of Exhaled NO and Bronchial Provocation Test With Mannitol as a Predictor of Response to Inhaled Corticosteroids in Chronic Cough,MANOTOUX,False,False,False
 🟥,NCT00521508,,2010,Role of CD4+CD25+FoxP3+ Regulatory T Cells in Pathogenesis of Primary IgA Nephropathy,,False,False,False
+🟥,NCT00916526,,2010,Measurement of Exhaled NO and Bronchial Provocation Test With Mannitol as a Predictor of Response to Inhaled Corticosteroids in Chronic Cough,MANOTOUX,False,False,False
+🟥,NCT00941824,,2010,Pharmacokinetic Evaluation of an Intensified and Decreasing Dosing Regimen of Mycophenolate Sodium in Combination With Tacrolimus During the First 3 Months Post Kidney Transplant (the myFORTic Study),,False,False,False
+🟥,NCT00515645,,2011,Cardiac Autonomic Functions During Head-out Immersion and During Head Down Tilt,IMMERSION,False,False,False
 🟥,NCT01385683,,2011,Investigation Drug-drug Interaction Between Dabigatran and Clarithromycin,IMAGINE,False,False,False
 🟧,NCT01135303,,2011,Effectiveness of VistaO2 Device in Screening of Sleep Apnea/Hypopnea Syndrome,VISTAO2,False,True,True
-🟥,NCT00515645,,2011,Cardiac Autonomic Functions During Head-out Immersion and During Head Down Tilt,IMMERSION,False,False,False
-🟧,NCT00457158,,2012,"PREPIC 2 : Interruption of Inferior Vena Cava by a Retrievable Filter for the Prevention of Recurrent Pulmonary Embolism : a Randomised, Open Label Study",PREPIC2,False,True,True
-🟥,NCT02527902,,2012,Autonomic Nervous System (ANS) Analysis According to Different Renal Function Stage in Immunoglobin A (IgA) Nephropathy,,False,False,False
-🟥,NCT01606020,,2012,Effects of Sleep Deprivation on Driving Performance and Central Fatigue,PrivSom,False,False,False
 🟥,NCT02538445,,2012,Can we Forget? Directed Forgetting and Embodied Cognition in Schizophrenia,,False,False,False
-🟥,NCT01401140,,2012,"Coronary Surgery: Comparing the Protective Effects of Two Cardioplegic Solutions: Custodiol Versus St Thomas, on Cardiac Metabolism, as Assessed Using Microdialysis",Cardioplégie,False,False,False
+🟥,NCT01606020,,2012,Effects of Sleep Deprivation on Driving Performance and Central Fatigue,PrivSom,False,False,False
+🟧,NCT00457158,,2012,"PREPIC 2 : Interruption of Inferior Vena Cava by a Retrievable Filter for the Prevention of Recurrent Pulmonary Embolism : a Randomised, Open Label Study",PREPIC2,False,True,True
 🟥,NCT01303471,,2012,Pain Assessment During General Anesthesia : DOLANS (DOULeur ANeSthesie) Study,DOLANS,False,False,False
-🟥,NCT00676390,,2013,Estimated Physical Activity of Congestive Heart Failure Patients by a Physical Activity Questionnaire : Concordance Study.,H2OBis,False,False,False
-🟥,NCT02557568,,2013,Evaluation of an Algorithm for Identifying Persistent Nasal Staphylococcus Aureus Carriage in a Cohort of Healthy Volunteers and Patients Regularly Monitored at the CHU of Saint-Etienne,ScreenStaph,False,False,False
-🟧,NCT00922857,,2013,Influence of Muscular Atrophy on Biological and Functional Benefit of Respiratory Rehabilitation in Patients With Chronic Respiratory Failure,INSPIRE,False,True,True
-🟥,NCT02531048,,2013,Normative Values Laser Nociceptive Evoked Potentials Depending on the Age,,False,False,False
-🟥,NCT02046720,,2013,The Influence of Age on Bispectral Index Associated With Propofol-induced Sedation,,False,False,False
-🟥,NCT02533518,,2013,Ultra-Violet Fluorescence Bronchial Cancer Location,UVFBCL,False,False,False
-🟥,NCT02549378,,2013,Study of the Impact of Changes in Carbonemia on Microcirculation in Patients - A Monocentric Study,,False,False,False
-🟥,NCT02551354,,2013,Estimation of Pain During Epidural Analgesia During Labor - a Monocentric Study,PERIDANS,False,False,False
-🟥,NCT02522338,,2013,Measurement of Glomerular Filtration Rate (GFR) in HIV Patients: Single-center Study Comparing the Accuracy of Estimators of GFR Versus Iohexol Plasma Clearance,HIVOL,False,False,False
+🟥,NCT01401140,,2012,"Coronary Surgery: Comparing the Protective Effects of Two Cardioplegic Solutions: Custodiol Versus St Thomas, on Cardiac Metabolism, as Assessed Using Microdialysis",Cardioplégie,False,False,False
+🟥,NCT02527902,,2012,Autonomic Nervous System (ANS) Analysis According to Different Renal Function Stage in Immunoglobin A (IgA) Nephropathy,,False,False,False
 🟥,NCT01349270,,2013,Multicentre Randomized Open-label Trial to Compare Efficacy and Tolerance of Corticosteroids and IVIg in Patients With Chronic Inflammatory Demyelinating Polyneuropathy on a One Year Follow up,PRNC,False,False,False
+🟥,NCT02046720,,2013,The Influence of Age on Bispectral Index Associated With Propofol-induced Sedation,,False,False,False
+🟥,NCT02549378,,2013,Study of the Impact of Changes in Carbonemia on Microcirculation in Patients - A Monocentric Study,,False,False,False
+🟥,NCT02557568,,2013,Evaluation of an Algorithm for Identifying Persistent Nasal Staphylococcus Aureus Carriage in a Cohort of Healthy Volunteers and Patients Regularly Monitored at the CHU of Saint-Etienne,ScreenStaph,False,False,False
+🟥,NCT02531048,,2013,Normative Values Laser Nociceptive Evoked Potentials Depending on the Age,,False,False,False
+🟥,NCT00676390,,2013,Estimated Physical Activity of Congestive Heart Failure Patients by a Physical Activity Questionnaire : Concordance Study.,H2OBis,False,False,False
+🟥,NCT02551354,,2013,Estimation of Pain During Epidural Analgesia During Labor - a Monocentric Study,PERIDANS,False,False,False
+🟧,NCT00922857,,2013,Influence of Muscular Atrophy on Biological and Functional Benefit of Respiratory Rehabilitation in Patients With Chronic Respiratory Failure,INSPIRE,False,True,True
+🟥,NCT02533518,,2013,Ultra-Violet Fluorescence Bronchial Cancer Location,UVFBCL,False,False,False
+🟥,NCT02522338,,2013,Measurement of Glomerular Filtration Rate (GFR) in HIV Patients: Single-center Study Comparing the Accuracy of Estimators of GFR Versus Iohexol Plasma Clearance,HIVOL,False,False,False
 🟥,NCT01732978,,2014,Are Parents Privileged Listeners Their Baby ?,BABIES_CRY,False,False,False
-🟥,NCT00674531,,2014,Detection of Enterovirus RNA by RT-PCR in Atheromatous Lesions,ATH-ENTE,False,False,False
-🟥,NCT01694914,,2014,Comparative Study of Two Corneal Graft Storage Media: New Animal Compound Free Medium Versus Reference Medium,,False,False,False
 🟥,NCT02522819,,2014,Feasibility Evaluation of Continuous Positive Airway Pressure (CPAP) in the Treatment of Obstructive Sleep Apnea Synchrone in the Acute Phase of Stroke,,False,False,False
-🟥,NCT02528591,,2014,Prospective Single-center Study Evaluating the Central Blood Pressure in Renal Transplantation,PACT,False,False,False
-🟥,NCT02526966,,2014,Multicenter Study Evaluating the Performance of the Assay of Anti-hinge Region Antibodies in the Diagnosis of Progressive Forms of IgA Nephropathy,NIGA-RA,False,False,False
 🟥,NCT02547246,,2014,"Transcranial Magnetic Stimulation, Embodied Cognition and Bulimic Craving",,False,False,False
-🟥,NCT03267979,,2015,Assessing Pain in the Postoperative Period by Automatically Measuring the Variation Coefficient of Pupillary Diameter: PREVANS Study,PREVANS,False,False,True
-🟧,NCT02552524,,2015,Study of the Effect of an Active rTMS Session in Pathological Gamblers: Impact on Craving and Severity of These Behaviors,,False,True,True
-🟥,NCT02425839,,2015,"Assessment of Correlation Between Changes of Shear Wave Elastography and Surface Electromyogram of the Masseter, in Rest and Maximal Voluntary Contraction",EVEREST,False,False,False
-🟥,NCT01116570,,2015,"Exercise and Myopathies. Physical Training Introduction in Lifestyle of Facioscapulohumeral Dystrophy Patients: Functional, Tissue and Quality of Life Benefits.",FSHD1,False,False,False
+🟥,NCT00674531,,2014,Detection of Enterovirus RNA by RT-PCR in Atheromatous Lesions,ATH-ENTE,False,False,False
+🟥,NCT02526966,,2014,Multicenter Study Evaluating the Performance of the Assay of Anti-hinge Region Antibodies in the Diagnosis of Progressive Forms of IgA Nephropathy,NIGA-RA,False,False,False
+🟥,NCT01694914,,2014,Comparative Study of Two Corneal Graft Storage Media: New Animal Compound Free Medium Versus Reference Medium,,False,False,False
+🟥,NCT02528591,,2014,Prospective Single-center Study Evaluating the Central Blood Pressure in Renal Transplantation,PACT,False,False,False
 🟥,NCT01982214,,2015,Effects of Whole Body Vibration (WBV) on Musculoskeletal System of Aged Women,VIBROS,False,False,False
-🟥,NCT02528578,,2015,Modulation of Painful Perception,MODOU,False,False,False
-🟥,NCT02257164,,2015,Anesthesic Techniques for Surgery of the Anterior Cruciate Ligament of the Knee in Ambulatory Surgery. Randomized Pilot Monocentric Trial,CLICA,False,False,False
-🟥,NCT02431819,,2015,Single Center Prospective Study Evaluating the Safety of Progressive Compressive Stockings for the Treatment of Venous Insufficiency in Patients With Peripheral Arterial Disease,,False,False,False
-🟥,NCT03280810,,2015,Effects of a Psycho-corporal Training on Postural and Cognitive Dual-task Performances in Patients With Schizophrenia,,False,False,False
 🟥,,2013-000313-20,2015,"Evaluation of the biological response to clopidogrel in patients with  ischemic stroke: role of platelet alpha2-adrenergic receptors 
  
  
  Evaluation de la réponse biologique au clopidogrel chez des patients en prévention secondaire d'accident ischémique cérébral : rôle des récepteurs alpha2-adrénergiques plaquettaires",AAPIX,False,False,False
+🟥,NCT02425839,,2015,"Assessment of Correlation Between Changes of Shear Wave Elastography and Surface Electromyogram of the Masseter, in Rest and Maximal Voluntary Contraction",EVEREST,False,False,False
+🟥,,2013-005043-86,2015,"Reactivity of the autonomic nervous system after a nociceptive stress in the newborn: Interest of sucrose and non-nutritive sucking. 
+ 
+ 
+ Réactivité du système nerveux autonome après un stress nociceptif chez le nouveau-né : Intérêt du sucrose et de la succion non nutritive.",BB SUCROSE,False,False,False
+🟥,NCT03267979,,2015,Assessing Pain in the Postoperative Period by Automatically Measuring the Variation Coefficient of Pupillary Diameter: PREVANS Study,PREVANS,False,False,True
+🟥,NCT03280810,,2015,Effects of a Psycho-corporal Training on Postural and Cognitive Dual-task Performances in Patients With Schizophrenia,,False,False,False
+🟧,NCT02552524,,2015,Study of the Effect of an Active rTMS Session in Pathological Gamblers: Impact on Craving and Severity of These Behaviors,,False,True,True
+🟥,NCT02528578,,2015,Modulation of Painful Perception,MODOU,False,False,False
+🟥,NCT02431819,,2015,Single Center Prospective Study Evaluating the Safety of Progressive Compressive Stockings for the Treatment of Venous Insufficiency in Patients With Peripheral Arterial Disease,,False,False,False
+🟥,NCT01116570,,2015,"Exercise and Myopathies. Physical Training Introduction in Lifestyle of Facioscapulohumeral Dystrophy Patients: Functional, Tissue and Quality of Life Benefits.",FSHD1,False,False,False
+🟥,NCT02257164,,2015,Anesthesic Techniques for Surgery of the Anterior Cruciate Ligament of the Knee in Ambulatory Surgery. Randomized Pilot Monocentric Trial,CLICA,False,False,False
 🟥,NCT02374281,,2015,Autonomic Nervous System Reactivity of the Newborn After a Nociceptive Stress: Interest of Sucrose and Non-nutritive Sucking : A Controlled Randomized Single-center Study.,BBSUCROSE,False,False,False
 🟥,NCT02524210,,2015,Effect of Inhibitors of the Proton Pump on Intestinal Transporters and Their Impact on the Pharmacokinetics of Dabigatran - Mechanistic and Clinical Approach -BIPP Study,BIPP,False,False,False
-🟥,NCT02538796,,2016,The Embodied Cognition: Exploratory Study of Automatic and Controlled Processes in Anorexia Nervosa. A Monocentric Study,,False,False,False
 🟥,NCT02668224,,2016,"Chronic Effects of Tendon Vibrations on the Neuromechanical Muscular Properties : Pilot Study, Interventional, Prospective, Longitudinal.",NEUROVIB,False,False,False
-🟥,NCT02386787,,2016,Ultrasound Assessment of Gastric Content for Semi Emergency Surgery,ECHO-GAST,False,False,False
-🟥,NCT02524301,,2016,Evaluation of Brain Opioid Receptor Activity in Anorexia Nervosa : a PET [11C]Diprenorphine Study,,False,False,True
-🟧,NCT02355314,,2016,Doppler-based Renal Resistive Index in Assessing Renal Dysfunction Reversibility in ICU Patients,R2D2,False,True,True
-🟧,NCT02571088,,2016,"Evaluation of a Training Program for Homozygous Sickle Cell Disease Patients: Benefits on Physical Ability and Skeletal Muscle. An Interventional Pilot, Multicentric, Prospective, Longitudinal Study",EXDRE,False,True,True
-🟧,NCT02279108,,2016,"Comparative, Prospective, Randomized Study Assessing The Interest of Indocyanine Green Fluorescence Imaging With Radioisotope Method For Sentinel Lymph Node Biopsy in Patients With Breast Cancer",FLUOTECH,False,True,True
 🟩,NCT02657512,,2016,Effect of Activated Charcoal on Rivaroxaban Pharmacokinetics in Healthy Subjects : RICHAR Study,RICHAR,True,True,True
-🟥,NCT02670993,,2016,Support by Singing Sessions on Physical and Moral Pain : Assessment of Its Effectiveness in Alzheimer's Disease. Multicenter Study LACME,LACME,False,False,False
+🟥,NCT02524301,,2016,Evaluation of Brain Opioid Receptor Activity in Anorexia Nervosa : a PET [11C]Diprenorphine Study,,False,False,True
 🟥,NCT02524223,,2016,Prevalence of HPV Transmission During Medically Assisted Procreation Procedures,AMPAMAVIR,False,False,False
-🟥,NCT02524041,,2016,Association Between Serum Periostin Levels and Cortical Porosity in Patients With Secondary Hyperparathyroidism,,False,False,False
-🟥,NCT02549274,,2016,Effectiveness of Active Home Exercises for Patients With Chronic Neck Pain: a Prospective Comparative Randomized Clinical Trial,,False,False,False
-🟥,NCT02252497,2013-000791-15,2016,Tranexamic Acid in Total Hip Arthroplasty: Single Preoperative Administration vs Perioperative Administration. A Randomized Control Trial.,PORTO,False,False,True
+🟧,NCT02355314,,2016,Doppler-based Renal Resistive Index in Assessing Renal Dysfunction Reversibility in ICU Patients,R2D2,False,True,True
 🟥,NCT02544516,,2016,"Study on the Links Between Perception and Action in Schizophrenia, ""Upside Down, Give me the Handle""",,False,False,False
+🟥,NCT02538796,,2016,The Embodied Cognition: Exploratory Study of Automatic and Controlled Processes in Anorexia Nervosa. A Monocentric Study,,False,False,False
+🟧,NCT02279108,,2016,"Comparative, Prospective, Randomized Study Assessing The Interest of Indocyanine Green Fluorescence Imaging With Radioisotope Method For Sentinel Lymph Node Biopsy in Patients With Breast Cancer",FLUOTECH,False,True,True
+🟧,NCT02571088,,2016,"Evaluation of a Training Program for Homozygous Sickle Cell Disease Patients: Benefits on Physical Ability and Skeletal Muscle. An Interventional Pilot, Multicentric, Prospective, Longitudinal Study",EXDRE,False,True,True
+🟥,NCT02386787,,2016,Ultrasound Assessment of Gastric Content for Semi Emergency Surgery,ECHO-GAST,False,False,False
+🟥,NCT02524041,,2016,Association Between Serum Periostin Levels and Cortical Porosity in Patients With Secondary Hyperparathyroidism,,False,False,False
+🟥,NCT02252497,2013-000791-15,2016,Tranexamic Acid in Total Hip Arthroplasty: Single Preoperative Administration vs Perioperative Administration. A Randomized Control Trial.,PORTO,False,False,True
+🟥,NCT02549274,,2016,Effectiveness of Active Home Exercises for Patients With Chronic Neck Pain: a Prospective Comparative Randomized Clinical Trial,,False,False,False
+🟥,NCT02670993,,2016,Support by Singing Sessions on Physical and Moral Pain : Assessment of Its Effectiveness in Alzheimer's Disease. Multicenter Study LACME,LACME,False,False,False
 🟥,NCT02595112,,2017,Study of Staphylococcus Aureus Colonization of the Posterior Nasal Cavity in Patients Undergoing Otorhinolaryngologic Surgery. A Monocentric Study,SREENSTAPH2,False,False,False
-🟥,NCT02595125,,2017,"Comparative Study, Prospective, Randomized , Assessing the Reduction of Pain Felt During Installation Intra- Uterine Device by Direct Technique. A Monocentric Study",DIRECTE,False,False,False
-🟥,NCT02895438,,2017,Does Non Coeliac Gluten Sensitivity (NCGS) Exist in Children? A Double-Blind Randomized Placebo-Controlled Trial,,False,False,False
-🟥,NCT02260414,,2017,"Effects of Injection Tinzaparin Prophylactic Dose (4,500 IU Anti-Xa) on Thrombin Generation in Patients With Multiple Myeloma, Lymphoma Patients and Patients Hospitalized for an Acute Medical Condition.",METRO B,False,False,False
-🟥,NCT02112695,,2017,Opioid System Cerebral Activity in Endurance Sportswomen - Addiction or Denutrition ? [11C]Diprenorphine PET Study,,False,False,False
-🟥,NCT02562495,,2017,Interest of the Ultrasound to Evaluate the Quadriceps Muscle Wasting in Critical Ill Patients.,ECHOSCAN,False,False,False
-🟥,NCT02502474,,2017,Study of the Colonic Carriage of Staphylococcus Aureus in a Prospective Cohort of Patients Undergoing Endoscopic Screening for Digestive Cancer in the University Hospital of Saint-Etienne.,ColoStaph,False,False,False
 🟧,NCT02960932,,2017,Reproducibility Inter-session of the Measurement Elastography of the Passive Stiffness of Medial Beams of Gastrocnemius Muscle of the Hemiplegic Cerebral Child.,ELASTOREPRO,False,True,True
-🟧,NCT02463890,,2017,Effect of Exercise Training on Obstructive Sleep Apnea Syndrome Severity,EXESAS,False,True,True
+🟥,NCT02112695,,2017,Opioid System Cerebral Activity in Endurance Sportswomen - Addiction or Denutrition ? [11C]Diprenorphine PET Study,,False,False,False
 🟥,NCT02526927,,2017,Monocentric Study Evaluating Bone Microarchitecture by High Resolution Quantitative Computerized Tomography (HR-pQCT) in Young Adults and Adolescents Who Developed Anorexia Nervosa (AN) in Peri or Prepubertal Period.,AMOS,False,False,False
+🟥,NCT02502474,,2017,Study of the Colonic Carriage of Staphylococcus Aureus in a Prospective Cohort of Patients Undergoing Endoscopic Screening for Digestive Cancer in the University Hospital of Saint-Etienne.,ColoStaph,False,False,False
+🟥,NCT02895438,,2017,Does Non Coeliac Gluten Sensitivity (NCGS) Exist in Children? A Double-Blind Randomized Placebo-Controlled Trial,,False,False,False
+🟥,NCT02595125,,2017,"Comparative Study, Prospective, Randomized , Assessing the Reduction of Pain Felt During Installation Intra- Uterine Device by Direct Technique. A Monocentric Study",DIRECTE,False,False,False
+🟧,NCT02463890,,2017,Effect of Exercise Training on Obstructive Sleep Apnea Syndrome Severity,EXESAS,False,True,True
+🟥,NCT02260414,,2017,"Effects of Injection Tinzaparin Prophylactic Dose (4,500 IU Anti-Xa) on Thrombin Generation in Patients With Multiple Myeloma, Lymphoma Patients and Patients Hospitalized for an Acute Medical Condition.",METRO B,False,False,False
+🟥,NCT02562495,,2017,Interest of the Ultrasound to Evaluate the Quadriceps Muscle Wasting in Critical Ill Patients.,ECHOSCAN,False,False,False
 🟥,NCT02531061,,2017,Impact of the Persistence of Inflammation at Doppler Ultrasound Level on the Structural Evolution of Erosion in Rheumatoid Arthritis Treated With Biotherapy,,False,False,False
-🟥,NCT03324048,,2018,A Single Mindfulness Meditation Session in Preoperative Anxiety : Effects on the Autonomous Nervous System,,False,False,False
-🟥,NCT03079232,,2018,In Vivo Imaging Innovation : Optical Coherence Microscopy in Dermato-oncology,GALAXY,False,False,False
-🟥,NCT03190486,,2018,Perception of Baby's Painful Cry: Investigation in fMRI to Neuronal Activity Related to Empathy in Adults,,False,False,False
-🟥,NCT03249857,,2018,Study of Sensorimotor Compatibility Effects in Bipolar Affective Disorder.,,False,False,False
-🟥,NCT02559999,,2018,Objective Markers of Pain Perception in Humans: a Study in Healthy Subjects,,False,False,False
-🟥,NCT02386969,,2018,Long-term Efficacy of Repetitive Transcranial Magnetic Stimulation on the Primary Motor Cortex (M1) in Central Neuropathic Pain,,False,False,False
-🟥,NCT02475486,,2018,Role of the Sympathetic Nervous System (ANS) Dysregulation in the Persistence of Fatigue in Rheumatoid Arthritis Patients Treated With Anti-TNF (Tumor Necrosis Factor) - a Monocentric Cross-sectional Study,ANSRA,False,False,False
-🟥,NCT02667678,,2018,5 Years Follow-up Evaluation of Deterioration Kidney Biomarkers of HIV Patients : HIVOL 2 Study.,HIVOL2,False,False,False
 🟥,NCT03145454,,2018,Objective Markers of Pain Perception in Pediatric Emergency,TAMALOU,False,False,False
-🟥,NCT03714269,,2018,Acute Effects of a Passive Stretching Session on the Mechanical Properties of Medial Gastrocnemius Muscle in Children With Cerebral Palsy,,False,False,True
-🟥,NCT02920723,,2018,Follow-up of the Patients Included in the EXESAS Study : Analysis of the Profit of the Physical Activity for the Control Group and of the Preservation of a Regular Physical Activity for the Group Initially Trained,FOLLOW_EXESAS,False,False,False
-🟥,NCT03307434,,2018,PREVATHLE: To Evaluate the Effectiveness of an Injury Prevention Program in Athletics,PREVATHLE,False,False,True
+🟥,NCT03190486,,2018,Perception of Baby's Painful Cry: Investigation in fMRI to Neuronal Activity Related to Empathy in Adults,,False,False,False
+🟥,NCT02475486,,2018,Role of the Sympathetic Nervous System (ANS) Dysregulation in the Persistence of Fatigue in Rheumatoid Arthritis Patients Treated With Anti-TNF (Tumor Necrosis Factor) - a Monocentric Cross-sectional Study,ANSRA,False,False,False
+🟥,NCT03324048,,2018,A Single Mindfulness Meditation Session in Preoperative Anxiety : Effects on the Autonomous Nervous System,,False,False,False
+🟥,NCT03249857,,2018,Study of Sensorimotor Compatibility Effects in Bipolar Affective Disorder.,,False,False,False
 🟥,NCT02596984,,2018,Evaluation of the Pharmacokinetics of Caspofungin in ICU Patients,CaspoKin,False,False,False
+🟥,NCT03307434,,2018,PREVATHLE: To Evaluate the Effectiveness of an Injury Prevention Program in Athletics,PREVATHLE,False,False,True
+🟥,NCT02386969,,2018,Long-term Efficacy of Repetitive Transcranial Magnetic Stimulation on the Primary Motor Cortex (M1) in Central Neuropathic Pain,,False,False,False
+🟥,NCT02920723,,2018,Follow-up of the Patients Included in the EXESAS Study : Analysis of the Profit of the Physical Activity for the Control Group and of the Preservation of a Regular Physical Activity for the Group Initially Trained,FOLLOW_EXESAS,False,False,False
+🟥,NCT02667678,,2018,5 Years Follow-up Evaluation of Deterioration Kidney Biomarkers of HIV Patients : HIVOL 2 Study.,HIVOL2,False,False,False
+🟥,NCT03079232,,2018,In Vivo Imaging Innovation : Optical Coherence Microscopy in Dermato-oncology,GALAXY,False,False,False
+🟥,NCT03714269,,2018,Acute Effects of a Passive Stretching Session on the Mechanical Properties of Medial Gastrocnemius Muscle in Children With Cerebral Palsy,,False,False,True
+🟥,NCT02559999,,2018,Objective Markers of Pain Perception in Humans: a Study in Healthy Subjects,,False,False,False
 🟥,NCT03690804,,2018,Assessment of Autonomic Co-regulation Between Newborn and Parent During Kangaroo Care Sessions in Neonatal Intensive Care Units,Co-PAP,False,False,False
-🟥,NCT02655172,,2019,"Study on the Links Between Action and Perception in Schizophrenia, "" Have a Good Grasp of the World """,GRASP,False,False,False
-🟥,NCT02668237,,2019,Impact on Anti-infectious Treatments of the Early Molecular Detection Technique Coupled With Urinary Test of Infectious Agents Responsible of Community-acquired Pneumonia of Children at Pediatric Emergencies,OptiPAC,False,False,False
 🟧,NCT03586505,,2019,Tolerance to Light for Patients Suffering From Keratitis,EBLOUI,False,True,True
 🟥,NCT03526211,,2019,Study of Feasibility and Safety of Functional Electrical Stimulation (FES) Cycling in Intensive Care Unit Patients,FES Cycling,False,False,False
-🟥,NCT03549546,,2019,Expression of the Inhibitory Receptors on Lymphocytes T Cells After Lung Cancer Surgery.,POIR,False,False,False
-🟥,NCT02522806,,2019,Endometrial Local Injury Before First IVF : Evaluation of Pregnancy Rate,BEONE,False,False,False
-🟥,NCT02506504,,2019,Prevention of Post-exercise Muscle Fatigue Using a Non Invasive Ventilation and Effect on Exercise Training in Severe Patients With COPD. QUADRIVEND Study,QUADRIVEND,False,False,False
-🟧,NCT04025138,,2019,Fatigability Compared Men and Women Induced According to the Distance Traveled on an Ultra-marathon in the Mountains,UTMB_2019,False,True,True
 🟧,NCT02834260,,2019,"Immunosuppression During Penetrating Keratoplasty, Using a Subconjunctival Implant Releasing Dexamethasone: Tolerance and Safety Pilot Study",IDEXACOR,False,True,True
-🟥,NCT03126045,,2020,SPPLAASH Study : a Randomized Study Aiming at Evaluating the Incidence of Post Lumbar Puncture Headache (PLPH) With the Use of Atraumatic Needles in Hematology,SPPLAASH,False,False,False
-🟥,NCT02672566,,2020,Low-molecular-weight Heparin in Constituted Vascular Intrauterine Growth Restriction. Randomized Multicenter Trial,GROWTH,False,False,False
-🟥,NCT04093037,,2020,"Analysis of the Diagnostic Performance of LacryDiag, a New ""All-in-one"" Non-contact Analyzer of the Ocular Surface in the Dry Eye. Study LACRYMOSA",LACRYMOSA,False,False,False
+🟥,NCT02668237,,2019,Impact on Anti-infectious Treatments of the Early Molecular Detection Technique Coupled With Urinary Test of Infectious Agents Responsible of Community-acquired Pneumonia of Children at Pediatric Emergencies,OptiPAC,False,False,False
+🟧,NCT04025138,,2019,Fatigability Compared Men and Women Induced According to the Distance Traveled on an Ultra-marathon in the Mountains,UTMB_2019,False,True,True
+🟥,NCT03549546,,2019,Expression of the Inhibitory Receptors on Lymphocytes T Cells After Lung Cancer Surgery.,POIR,False,False,False
+🟥,NCT02655172,,2019,"Study on the Links Between Action and Perception in Schizophrenia, "" Have a Good Grasp of the World """,GRASP,False,False,False
+🟥,NCT02506504,,2019,Prevention of Post-exercise Muscle Fatigue Using a Non Invasive Ventilation and Effect on Exercise Training in Severe Patients With COPD. QUADRIVEND Study,QUADRIVEND,False,False,False
+🟥,NCT02522806,,2019,Endometrial Local Injury Before First IVF : Evaluation of Pregnancy Rate,BEONE,False,False,False
 🟥,NCT03342339,,2020,Influence of Emotions on Decision-making in Parkinson's Disease,,False,False,False
+🟥,NCT02386774,,2020,"Innovative Imaging of the Conjunctiva, Cornea, and Ocular Adnexa : Study of a Handheld in Vivo Confocal Microscope and of a Fluorescent in Vivo Confocal Microscope",INNOV-EYE,False,False,False
+🟧,NCT02591030,,2020,"Randomised Phase II/III Study, Assessing the Safety and Efficacy of Modified Folfirinox Versus Gemcis in Locally Advanced, Unresectable and/or Metastatic Bile Duct Tumours",AMEBICA,False,True,True
 🟥,,2018-001505-90,2020,"Decolonization of patients carrying S. aureus before cardiac surgery: study of the risk factors associated with failure 
  
  
@@ -114,49 +118,43 @@ statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,res
  
  
  STAdécol",False,False,False
-🟧,NCT02591030,,2020,"Randomised Phase II/III Study, Assessing the Safety and Efficacy of Modified Folfirinox Versus Gemcis in Locally Advanced, Unresectable and/or Metastatic Bile Duct Tumours",AMEBICA,False,True,True
-🟧,NCT02929004,,2020,Chronic Effects of Local Vibration on Neuromuscular Reconditioning After Anterior Cruciate Ligament Reconstruction,VIB_LCA,False,True,True
 🟥,,2009-018189-36,2020,"Prévention chez le receveur avec néphropathie à IgA primaire (NIGA) de la Récidive Après Transplantation rénale: ATG-F versus Basiliximab, comme traitements immunosuppresseurs d’induction.   Etude PIRAT: A vs B",PIRAT,False,False,False
-🟥,NCT03643328,,2020,Ex Vivo Evaluation of Immunity Activation Face to Staphylococcus Aureus Antigens and Adjuvants of a Vaccine Candidate in Cells From Haemodialysis Patients,ANTISTAPH,False,False,False
-🟥,NCT02386774,,2020,"Innovative Imaging of the Conjunctiva, Cornea, and Ocular Adnexa : Study of a Handheld in Vivo Confocal Microscope and of a Fluorescent in Vivo Confocal Microscope",INNOV-EYE,False,False,False
 🟥,NCT03172390,,2020,In Vivo Evaluation of Growth and Risk of Rupture of Dilated Ascending Aorta Using 4D Cardiac Magnetic Resonance,,False,False,False
-🟥,,2017-004348-39,2020,Association between methotrexate erythrocyte polyglutamate concentration and clinical response in rheumatoid arthritis patients treated with subcutaneous injectable methotrexate,POLYGLU,False,False,False
+🟥,NCT02672566,,2020,Low-molecular-weight Heparin in Constituted Vascular Intrauterine Growth Restriction. Randomized Multicenter Trial,GROWTH,False,False,False
+🟥,NCT03643328,,2020,Ex Vivo Evaluation of Immunity Activation Face to Staphylococcus Aureus Antigens and Adjuvants of a Vaccine Candidate in Cells From Haemodialysis Patients,ANTISTAPH,False,False,False
 🟥,NCT03445871,,2020,Association Between Methotrexate Erythrocyte Polyglutamate Concentration and Clinical Response in Rheumatoid Arthritis Patients Treated With Subcutaneous Injectable Methotrexate,POLYGLU,False,False,False
-🟥,NCT02494648,,2021,Effects of Inspiratory Muscles Strengthening Among Coronary Patients on the Sleep Apnea Obstructive Syndrome (SAOS),RICAOS,False,False,False
-🟥,NCT03736733,,2021,"Relevance of an Adapted and Supervised Physical Activity Program in Fibromyalgia Patients. The FIMOUV 1 Study. Interventional, Controlled, Randomized, Open Study of an Original Outpatient Management.",FIMOUV 1,False,False,False
-🟥,NCT04511858,,2021,Difference in Central Fatigue During Two Ultra-endurance Practices: Running vs. Cycling,FAT-CENTR,False,False,False
-🟥,NCT03866785,,2021,Physical Activity Experiment on Male Prostate Cancer Patients : Feasibility Multicenter Study of an Innovative Follow-up by Peers,ACTI_PAIR,False,False,False
-🟥,NCT02666339,,2021,"Mélisses Garden: Effect of the Mediation by Care-garden on Anxious State in Adult Patients Hospitalized in Psychiatry (Prospective, Monocentric, Controlled, Randomized, Open in Two Parallel Groups Study)",JDM,False,False,False
-🟩,NCT02668250,,2021,"The OPTI-AGED Study : Influence of a Multi-parametric Optimization Strategy for General Anesthesia on Postoperative Morbidity and Mortality in Elderly Patients. A Randomized, Multicentre, Prospective Controlled Study",OPTI-AGED,True,True,False
-🟥,NCT02675179,,2021,EOS® Versus Spiral CT Technique for Achieving a Pelvimetry in Suites of Obstructed Labor: Comparative Single-center Prospective Study - PELVIC-EOS.,PELVI-EOS,False,False,False
-🟥,NCT02657304,,2021,Effect of Early Education and Information of Sleep Apnea on the Observance of CPAP Treatment,CoachSAS,False,False,False
-🟥,NCT03731247,,2021,In Vivo Imaging Innovation : Optical Coherence Microscopy in Dermato-oncology,OCTAV,False,False,False
+🟥,,2017-004348-39,2020,Association between methotrexate erythrocyte polyglutamate concentration and clinical response in rheumatoid arthritis patients treated with subcutaneous injectable methotrexate,POLYGLU,False,False,False
+🟥,NCT03126045,,2020,SPPLAASH Study : a Randomized Study Aiming at Evaluating the Incidence of Post Lumbar Puncture Headache (PLPH) With the Use of Atraumatic Needles in Hematology,SPPLAASH,False,False,False
+🟥,NCT04093037,,2020,"Analysis of the Diagnostic Performance of LacryDiag, a New ""All-in-one"" Non-contact Analyzer of the Ocular Surface in the Dry Eye. Study LACRYMOSA",LACRYMOSA,False,False,False
+🟧,NCT02929004,,2020,Chronic Effects of Local Vibration on Neuromuscular Reconditioning After Anterior Cruciate Ligament Reconstruction,VIB_LCA,False,True,True
 🟥,NCT03182166,,2021,Pharmacokinetic and Pharmacodynamic Study of Golimumab in Ulcerative Colitis (UC) Patients With Loss of Response (LOR) Followed by Dose Optimization,GOLILOR,False,False,False
-🟩,NCT04859023,,2021,Comparison of Strategies Based on RT-PCR or Antigenic Test for the Screening of SARS-CoV-2 Infection in General Population Using Self-samples (COVID-19).,AutoCoV,True,True,True
-🟥,NCT03317613,,2021,Clinical Trial Assessing the Efficacy of Capsaicin Patch (Qutenza®) in Cancer Patients With Neuropathic Pain,CAPSONCO,False,False,False
-🟥,NCT01841242,,2021,Comparison of Alcoholic Chlorhexidine 2% Versus Alcoholic Povidone Iodine for Infections Prevention With Cardiac Resynchronization Therapy Device Implantation,CHLOVIS,False,False,False
-🟥,NCT02665845,,2021,Combination Corticosteroids+5-aminosalicylic Acids Compared to Corticosteroids Alone in the Treatment of Moderate-severe Active Ulcerative Colitis: A Protocol of a Multi-center Prospective Randomized Investigator Blinded Trial.,COMBOMESA,False,False,False
+🟥,NCT02494648,,2021,Effects of Inspiratory Muscles Strengthening Among Coronary Patients on the Sleep Apnea Obstructive Syndrome (SAOS),RICAOS,False,False,False
 🟥,NCT02853045,,2021,Comparison of Blood Pressure Control Achieved in Antihypertensive or Generic Drugs in Moderate to Severe Hypertensive Patients,PRINGEN,False,False,False
+🟥,NCT03731247,,2021,In Vivo Imaging Innovation : Optical Coherence Microscopy in Dermato-oncology,OCTAV,False,False,False
+🟥,NCT03866785,,2021,Physical Activity Experiment on Male Prostate Cancer Patients : Feasibility Multicenter Study of an Innovative Follow-up by Peers,ACTI_PAIR,False,False,False
+🟩,NCT04859023,,2021,Comparison of Strategies Based on RT-PCR or Antigenic Test for the Screening of SARS-CoV-2 Infection in General Population Using Self-samples (COVID-19).,AutoCoV,True,True,True
+🟩,NCT02668250,,2021,"The OPTI-AGED Study : Influence of a Multi-parametric Optimization Strategy for General Anesthesia on Postoperative Morbidity and Mortality in Elderly Patients. A Randomized, Multicentre, Prospective Controlled Study",OPTI-AGED,True,True,True
+🟥,NCT02675179,,2021,EOS® Versus Spiral CT Technique for Achieving a Pelvimetry in Suites of Obstructed Labor: Comparative Single-center Prospective Study - PELVIC-EOS.,PELVI-EOS,False,False,False
+🟥,NCT02665845,,2021,Combination Corticosteroids+5-aminosalicylic Acids Compared to Corticosteroids Alone in the Treatment of Moderate-severe Active Ulcerative Colitis: A Protocol of a Multi-center Prospective Randomized Investigator Blinded Trial.,COMBOMESA,False,False,False
+🟥,NCT04511858,,2021,Difference in Central Fatigue During Two Ultra-endurance Practices: Running vs. Cycling,FAT-CENTR,False,False,False
+🟥,NCT02657304,,2021,Effect of Early Education and Information of Sleep Apnea on the Observance of CPAP Treatment,CoachSAS,False,False,False
+🟥,NCT01841242,,2021,Comparison of Alcoholic Chlorhexidine 2% Versus Alcoholic Povidone Iodine for Infections Prevention With Cardiac Resynchronization Therapy Device Implantation,CHLOVIS,False,False,False
+🟥,NCT03736733,,2021,"Relevance of an Adapted and Supervised Physical Activity Program in Fibromyalgia Patients. The FIMOUV 1 Study. Interventional, Controlled, Randomized, Open Study of an Original Outpatient Management.",FIMOUV 1,False,False,False
+🟥,NCT03317613,,2021,Clinical Trial Assessing the Efficacy of Capsaicin Patch (Qutenza®) in Cancer Patients With Neuropathic Pain,CAPSONCO,False,False,False
+🟥,NCT02666339,,2021,"Mélisses Garden: Effect of the Mediation by Care-garden on Anxious State in Adult Patients Hospitalized in Psychiatry (Prospective, Monocentric, Controlled, Randomized, Open in Two Parallel Groups Study)",JDM,False,False,False
+🟥,,2018-001051-12,2022,VEDO - PREDIRESPUC project - Value of pharmacokinetic assays (Vedolizumab and anti-vedolizumab antibody) in the prediction of induction and maintenance therapeutic response in Ulcerative Colitis,,False,False,False
 🟥,NCT04767776,,2022,Non Inferiority Study of a Reduced Dose of Activated Charcoal on Rivaroxaban Pharmacokinetics.,RICHAR2,False,False,False
-🟥,NCT02359513,,2022,"Evaluation of the Efficacy of Serotoninergic Antidepressants in Bulimia Nervosa, According to Brain Serotonin Profile Determined by Positron Emission Tomography With [18F] MPPF - a Multicenter Study",,False,False,False
-🟩,NCT03240341,,2022,Influence of PARAmedical Interventions on Patient ACTivation in the Cancer Care Pathway,PARACT,True,True,False
-🟥,NCT04998266,,2022,Evaluation of Physical Capacities Within the Company and Effect of a Personalized Versus Traditional Training Program on the Quality of Life of Sedentary Employees: Randomized Controlled Trial,MOVING_LAB,False,False,False
-🟥,NCT04895501,,2022,Effects of Shoe Longitudinal Bending Stiffness on Changes in Energy Cost of Running During a 21 km Run,FAT-FLEX,False,False,False
 🟥,NCT04034719,,2022,Benefit of Scarf Support on Skin-to-skin Time and Portage in Neonatology and at Home(PAPSE),PAPSE,False,False,False
+🟥,NCT02359513,,2022,"Evaluation of the Efficacy of Serotoninergic Antidepressants in Bulimia Nervosa, According to Brain Serotonin Profile Determined by Positron Emission Tomography With [18F] MPPF - a Multicenter Study",,False,False,False
 🟥,NCT04102410,,2022,Assessing Force-velocity Profile: an Innovative Approach to Optimize Cardiac Rehabilitation in Coronary Patients,CITIUS,False,False,False
+🟥,NCT04998266,,2022,Evaluation of Physical Capacities Within the Company and Effect of a Personalized Versus Traditional Training Program on the Quality of Life of Sedentary Employees: Randomized Controlled Trial,MOVING_LAB,False,False,False
 🟥,NCT04857710,,2022,Chronic Effects of Wide-pulse Neuromuscular Electrostimulation on Neuromuscular and Functional Properties in Healthy Subjects,ELECTRO-WP,False,False,False
-🟥,NCT03801122,,2022,Study of Thromboelastography During Tranexamic Acid Treatment in Preventing Bleeding in Patients With Haematological Malignancies Presenting Severe Thrombocytopenia (TTRAP-bleeding),TTRAP-Bleeding,False,False,False
+🟥,NCT04895501,,2022,Effects of Shoe Longitudinal Bending Stiffness on Changes in Energy Cost of Running During a 21 km Run,FAT-FLEX,False,False,False
+🟩,NCT03240341,,2022,Influence of PARAmedical Interventions on Patient ACTivation in the Cancer Care Pathway,PARACT,True,True,True
 🟥,NCT04117308,,2022,Analysis of the Use of the Fetal Movement Counting for Prolonged Pregnancy: Prospective Randomized Study.,COMPTAMAF,False,False,False
-🟥,NCT05717543,,2023,Imaging of Corneal and Crystalline by Near Infrared Retro-illumination,RETRO-ILLUMI,False,False,False
-🟥,NCT05047718,,2023,Factors Influencing the COVID-19 Vaccine Immune Response (Reactogenicity and Immunogenicity) According to Age and Presence or Not of a Past History of COVID-19,COVIMMUNAGE,False,False,False
-🟥,NCT04737018,,2023,Impact of a Focal Muscle Vibration Protocol in Front of the the Anterior Tibial Muscle in the Subacute Post-stroke Period on Motor Recovery in Hemiplegic Patients.,VIBRATAC,False,False,False
-🟥,NCT05013021,,2023,"Sprint Interval Training (SIT) on the Endurance, Strength and Velocity Capacities of Healthy Sedentary Subjects",BénéfiSIT,False,False,False
-🟥,NCT05170178,,2023,Cracking the Code of Crying Babies: How Familiarity Changes the Interpretation of Cries,BEBEDOL,False,False,False
-🟥,NCT06110637,,2023,Effects of Running Shoe Sole Hardness on Vibration and Neuromuscular Fatigue During a Half-marathon Run on a Treadmill,FAT-VIB,False,False,False
+🟥,NCT03801122,,2022,Study of Thromboelastography During Tranexamic Acid Treatment in Preventing Bleeding in Patients With Haematological Malignancies Presenting Severe Thrombocytopenia (TTRAP-bleeding),TTRAP-Bleeding,False,False,False
 🟥,NCT05155826,,2023,The Effect of Virtual Reality for Pain Management During Intracervical Balloon Placement for Labor Induction: a Randomized Controlled Trial (VIRTUALMAG),VIRTUALMAG,False,False,False
-🟥,NCT04469348,,2023,"Inflammation, Intracellular Invasion and Colonization of the Nasal Mucosa by Staphylococcus Aureus",I3COSa,False,False,False
-🟥,NCT02484820,,2023,"PREMAPESSAIRE: Prevention of Preterm Birth in Singletons Using Pessary After Resolutive Threatened Preterm Labor: a Prospective, Randomized Monocentric Clinical Trial",PREMAPESSAIRE,False,False,False
-🟥,NCT04025411,,2023,Effectiveness of Computerized Device New of Visual Motor Simulation Versus Mirror Therapy in Hemiplegic Patients. SI-VIM Study,SI-VIM,False,False,False
+🟥,NCT05170178,,2023,Cracking the Code of Crying Babies: How Familiarity Changes the Interpretation of Cries,BEBEDOL,False,False,False
 🟥,,2018-003233-14,2023,"Evaluation of the neonatal autonomic stress during intubations under Propofol in a population of premature infants under 33 w’GA 
  
  
@@ -164,19 +162,36 @@ statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,res
  
  
  PROPOSURF",False,False,False
-🟥,NCT02579954,,2024,Cardiac Function and Exercise Capacity in Pulmonary Arterial Hypertension,FONCE-HTAP,False,False,False
+🟥,NCT04025411,,2023,Effectiveness of Computerized Device New of Visual Motor Simulation Versus Mirror Therapy in Hemiplegic Patients. SI-VIM Study,SI-VIM,False,False,False
+🟥,NCT02484820,,2023,"PREMAPESSAIRE: Prevention of Preterm Birth in Singletons Using Pessary After Resolutive Threatened Preterm Labor: a Prospective, Randomized Monocentric Clinical Trial",PREMAPESSAIRE,False,False,False
+🟥,NCT06110637,,2023,Effects of Running Shoe Sole Hardness on Vibration and Neuromuscular Fatigue During a Half-marathon Run on a Treadmill,FAT-VIB,False,False,False
+🟥,NCT05047718,,2023,Factors Influencing the COVID-19 Vaccine Immune Response (Reactogenicity and Immunogenicity) According to Age and Presence or Not of a Past History of COVID-19,COVIMMUNAGE,False,False,False
+🟥,NCT04737018,,2023,Impact of a Focal Muscle Vibration Protocol in Front of the the Anterior Tibial Muscle in the Subacute Post-stroke Period on Motor Recovery in Hemiplegic Patients.,VIBRATAC,False,False,False
+🟥,NCT04469348,,2023,"Inflammation, Intracellular Invasion and Colonization of the Nasal Mucosa by Staphylococcus Aureus",I3COSa,False,False,False
+🟥,NCT05717543,,2023,Imaging of Corneal and Crystalline by Near Infrared Retro-illumination,RETRO-ILLUMI,False,False,False
+🟥,NCT05013021,,2023,"Sprint Interval Training (SIT) on the Endurance, Strength and Velocity Capacities of Healthy Sedentary Subjects",BénéfiSIT,False,False,False
+🟥,NCT05314543,,2024,Description and Determinants of the Power-speed-endurance Profile (PVE) in Cycling and Rowing to Optimize the Performance of the French Athletes at the Paris Olympics 2024,THPCA2024,False,False,False
+🟥,NCT06469359,,2024,Development of a Methodology to Analyze Nasal Tissue-resident Memory Immune Cells and Peripheral Memory Cells Able to Migrate to Airway Tissues (MUCOVAC),MUCOVAC,False,False,False
+🟥,NCT05367791,,2024,Improving Postural Control Through Innovative Stimulation of the Proprioceptive System,IMPULSES,False,False,False
+🟥,NCT05385653,,2024,"Pre-therapeutic Validation of the VR-based Exposure Scenario for CBT ""ReVBEB"" for the Induction of Food Craving in Patients With Bulimia and Binge Eating Disorder",RevBED,False,False,False
 🟥,NCT03753776,,2024,Phase III Trial Evaluating Radium Bromatum Homeopathic Treatment Efficacy on Radiodermatitis Prevention and Treatment for Breast Cancer Women,HOMEORAD,False,False,False
+🟥,NCT02579954,,2024,Cardiac Function and Exercise Capacity in Pulmonary Arterial Hypertension,FONCE-HTAP,False,False,False
 🟥,NCT03984682,,2024,Impact of Joint Crisis Plan on the Duration of Isolation Measures in Psychiatry.,PLANCO-ISO,False,False,False
+🟥,NCT03445845,,2024,Rotation or Change of Biotherapy After TNF Blocker Treatment Failure for Axial Spondyloarthritis,ROC-SPA,False,False,False
+🟥,,2008-008378-29,,A survey on the success of inhibitor elimination using individualized concentrate selection and controlled immune tolerance induction,OBSITI,False,False,False
+🟥,,2009-014690-41,,Comparison of the protective effect of two cardioplegic solutions Custodiol versus St Thomas on the cardiac metabolism assessed by microdialysis in coronary surgery,,False,False,False
+🟥,,2016-004381-25,,"Study of the impact of a targeted decolonization of S. aureus in persistent carriers on the occurrence of S. aureus infections in hemodialysis patients 
+ 
+ 
+ Evaluation de l’impact d’une stratégie de décolonisation ciblée des porteurs persistants de Staphylococcus aureus sur la survenue d’infections à S. aureus en hémodialyse","CIBERSTAPH 
+ 
+ 
+ CIBERSTAPH",False,False,False
 🟥,,2010-021022-35,,Effet of curarization under general anaesthesia on eye movements in non-strabismus children,STRABO,False,False,False
 🟥,,2015-001807-29,,"Pharmacokinetic study of rituximab induction regimen in ANCA-associated vasculitis : a predictive factor of clinical outcome? (MONITUX) - A multicentric study 
  
  
  MONITUX : Evaluation de l’intérêt du MONitoring des taux de riTUXimab et de la recherche d’anticorps anti-rituximab comme facteur prédictif de rechute dans les vascularites à ANCA (Etude pilote, multicentrique)",MONITUX,False,False,False
-🟥,,2008-008378-29,,A survey on the success of inhibitor elimination using individualized concentrate selection and controlled immune tolerance induction,OBSITI,False,False,False
-🟥,,2016-000424-25,,Low-molecular-weight heparin in constituted vascular intrauterine growth restriction. Randomized multicenter trial,"GROWTH 
- 
- 
- GROWTH",False,False,False
 🟥,,2020-001188-96,,"Chemoprophylaxis of SARS-CoV-2 infection (COVID-19) in exposed healthcare workers: a randomized double-blind placebo-controlled clinical trial 
  
  
@@ -184,3 +199,17 @@ statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,res
  
  
  COVIDAXIS",False,False,False
+🟥,,2021-003547-24,,"Factors influencing the COVID-19 vaccine immune response (reactogenicity and immunogenicity) according to age and presence or not of a past history of COVID-19. COVIMMUNAGE study 
+ 
+ 
+ Etude des facteurs influençant la réponse immunitaire vaccinale COVID-19 (réactogénicité et immunogénicité) en fonction de l’âge et de la présence ou non d’un antécédent de COVID-19. Etude COVIMMUNAGE","COVIMMUNAGE 
+ 
+ 
+ COVIMMUNAGE",False,False,False
+🟥,,2009-017768-18,,Analgésie par bloc continu du plan transverse de l’abdomen en chirurgie d’exérèse hépatique : efficacité et influence sur la réhabilitation précoce.,,False,False,False
+🟥,,2008-006256-22,,Evaluation by high resolution micro computerized tomography of bone microarchitecture changes in patients with rheumatoid arthritis under anti-TNF therapy.,,False,False,False
+🟥,,2006-005294-22,,Performance de l’équation MDRD corrigée par la cimétidine chez le patient transplanté rénal,,False,False,False
+🟥,,2016-000424-25,,Low-molecular-weight heparin in constituted vascular intrauterine growth restriction. Randomized multicenter trial,"GROWTH 
+ 
+ 
+ GROWTH",False,False,False

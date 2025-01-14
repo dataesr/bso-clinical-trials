@@ -2,20 +2,19 @@ statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,res
 🟥,NCT01448018,,2013,Pilot Study on Efficacy and Tolerance of Intravitreous Injection of Ranibizumab (Lucentis®) in Early-onset Central Retinal Vein Occlusion in Comparison to Hemodilution Using Erythrocytapheresis,CHIC-3,False,False,False
 🟥,NCT02157077,,2015,"A Phase III b, Multicenter Study of the Efficacy and Safety of Aflibercept Switch in Patients With Exudative AMD With Detachment of the Retinal Pigment Epithelium and Previously Treated With Ranibizumab Intravitreal Injection. (ARI2)",ARI2,False,False,True
 🟧,NCT02700893,,2016,Cerebral NIRS Profiles During Premedication for Neonatal Intubation,,False,True,True
-🟥,,2012-004555-36,2017,A prospective randomized controlled multicentre trial comparing half-dose photodynamic therapy (PDT) with high-density subthreshold micropulse laser treatment in patients with chronic central serous chorioretinopathy (CSC).,,False,False,False
-🟥,NCT02806830,,2017,Evaluation de la gêne Oculaire après Injections intravitréennes,EVAGO,False,False,False
 🟥,NCT02899806,,2017,"Impact of a Video Explaining Epidural Analgesia in Obstetrics in Terms of Satisfaction, Understanding and Anxiety: A Prospective Randomised Trial",VIDEOCLIP,False,False,False
+🟥,NCT02806830,,2017,Evaluation de la gêne Oculaire après Injections intravitréennes,EVAGO,False,False,False
 🟩,NCT04318431,,2020,"Prevalence of SARS -Cov2 Carriage in Asymptomatic and Mildly-symptomatic Children, a Cross-sectional, Prospective, Multicentre, Observational Study in Primary Care.",COVILLE,True,True,True
 🟥,NCT04583189,,2020,Evaluation Des Performances du Test Rapide antigénique Covid-19 Ag BSS Chez l'Enfant Symptomatique Dans un Service d'Urgences pédiatriques,,False,False,False
 🟩,NCT01490580,,2020,"Double Blind Randomized Controlled Trial Comparing ""Atropine+Propofol"" Versus ""Atropine+Atracurium+Sufentanil"" as a Premedication Prior to Semi-urgent or Elective Endotracheal Intubation of Term and Preterm Newborns",PRETTINEO,True,True,True
-🟥,NCT04776174,,2021,Crossover Comparison of the Efficacy and Tolerance of Telerobotic vs Standard Ultrasound Exam in Children,,False,False,False
 🟥,NCT04068558,,2021,Synchronized Nasal Intermittent Positive Pressure Ventilation Versus Noninvasive Neurally Adjusted Ventilatory Assist Ventilation in Extremely Premature Infants: a Randomized Crossover Trial,EASYNNEO,False,False,False
 🟥,NCT03488758,,2021,Enjoyment of Infant Formulas Based on Cow or Goat Milk Protein,CHARLIE,False,False,False
 🟥,NCT03803228,,2021,Comparison of the Cumulative Number of Oocytes Obtained With 2 Controlled Ovarian Hyperstimulations (COH) Within the Same Cycle With FertistartKit® (DUOSTIM) Versus 2 Conventional COH in Poor Ovarian Responders Undergoing IVF. Bistim Study,,False,False,False
-🟧,NCT03030664,,2021,Randomised Controlled Trial With Two Parallel Arms Testing the Effect of L. Reuteri on Bowel Movements in Children Aged 6 Months to 4 Years,BIOWELL,False,True,True
 🟥,NCT03939377,,2021,"Evaluation of an Osteopathic Procedure in the Management of Pain in Palliative Care Patients in a Mobile Palliative Care Support Team (EMASP): Controlled, Randomized, Single-blind Study",OSTEOPAL,False,False,False
+🟧,NCT03030664,,2021,Randomised Controlled Trial With Two Parallel Arms Testing the Effect of L. Reuteri on Bowel Movements in Children Aged 6 Months to 4 Years,BIOWELL,False,True,True
+🟥,NCT04776174,,2021,Crossover Comparison of the Efficacy and Tolerance of Telerobotic vs Standard Ultrasound Exam in Children,,False,False,False
 🟥,NCT05079139,,2022,Musset's Surgical Technique: Evaluation of Long-term Results (LONGOMUSSET),LONGOMUSSET,False,False,False
 🟥,NCT03895099,,2023,"Feasibility and Efficacy of a New Ovarian Stimulation Regimen With RANDom Start, Use of Corifollitropin Alpha and Progestin Protocol for Oocyte donorS",RANDOS,False,False,False
-🟥,NCT02884245,,2023,Interest of Estrogen Scheduling Before Ovarian Stimulation With Corifollitropin Alfa in Women Older Than 38 Years Old Undergoing in Vitro Fertilization,PRESCORI,False,False,False
 🟥,NCT03540706,,2023,Impact of the Use of C-reactive Protein in a Micro-method on the Prescription of Antibiotics in General Practitioners Consulting in the Office,VIP,False,False,False
 🟥,NCT04667065,,2023,Evaluation of a Remotely Guided Physical Preparation by a Physical Activity Teacher Adapted With the Help of a Smartwatch Before Bronchial Cancer Surgery,PREPACHIR,False,False,False
+🟥,NCT02884245,,2023,Interest of Estrogen Scheduling Before Ovarian Stimulation With Corifollitropin Alfa in Women Older Than 38 Years Old Undergoing in Vitro Fertilization,PRESCORI,False,False,False

@@ -1,0 +1,4 @@
+statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟩,NCT03192332,,2021,Solitaire™ With the Intention For Thrombectomy Plus Intravenous t-PA Versus DIRECT Solitaire™ Stent-retriever Thrombectomy in Acute Anterior Circulation Stroke,SWIFT DIRECT,True,True,True
+🟥,NCT03459092,,2023,"A Pragmatic, Randomized, Non-inferiority Trial Comparing the Effectiveness of Botulinum Toxin-based Treatment With Conventional Strabismus Surgery in Acquired Esotropia.",BISS,False,False,False
+🟥,NCT02258919,,2024,Swiss Trial of Decompressive Craniectomy Versus Best Medical Treatment of Spontaneous Supratentorial Intracerebral Hemorrhage (SWITCH): a Randomized Controlled Trial,SWITCH,False,False,False
