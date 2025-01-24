@@ -44,7 +44,7 @@ def parse_all(harvested_data, harvest_date = None):
                 added = True
                 parsed_data.append(parsed)
         for sponsor in sponsors:
-            if (not added) and (sponsor in parsed.get("collaborators", [])):
+            if (not added) and (sponsor in ';'.join(parsed.get("sponsor_collaborators", []))):
                 added = True
                 parsed_data.append(parsed)
     if harvest_date is None:
