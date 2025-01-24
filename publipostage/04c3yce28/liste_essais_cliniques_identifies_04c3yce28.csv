@@ -3,23 +3,25 @@ statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,res
 🟥,NCT01288183,,2014,Behavioral Impact of Prefrontal Anodal Transcranial Direct Current Stimulation on Smokers,,False,False,False
 🟥,NCT02110771,,2015,Efficacy Study of GAÏA Program Cognitive Remediation of Facial Affects Processing in Schizophrenia,,False,False,False
 🟥,NCT00875498,,2015,Intermittent Theta Burst Stimulation (iTBS) for the Treatment of Negative Symptoms in Schizophrenia,,False,False,False
-🟥,NCT00870909,,2016,Anodal & Cathodal tDCS for Treatment of Resistant Auditory Hallucinations in Schizophrenia,,False,False,True
-🟥,NCT02717260,,2016,Inhibition Control Modulation by Transcranial Random Noise Stimulation (tRNS ) on the Prefrontal Cortex Measured by Change in Go no Test,inhibistim,False,False,False
 🟥,NCT02402101,,2016,Effect of the Transcranial Direct Current Stimulation on the Dopaminergic,DOPA-STIM,False,False,False
-🟥,NCT01891929,,2018,Specific Cognitive Remediation for Schizophrenia (RECOS) and Sheltered Employment: a Multicentre Controlled Randomized Trial.,RemedRehab,False,False,False
+🟥,NCT02717260,,2016,Inhibition Control Modulation by Transcranial Random Noise Stimulation (tRNS ) on the Prefrontal Cortex Measured by Change in Go no Test,inhibistim,False,False,False
+🟥,NCT00870909,,2016,Anodal & Cathodal tDCS for Treatment of Resistant Auditory Hallucinations in Schizophrenia,,False,False,True
 🟥,NCT02734927,,2018,Motivation and Executive Control in Schizophrenia,,False,False,False
 🟧,NCT02438163,,2018,Study of Neuroplasticity on Depressed Patients Versus Healthy Subjects : Modulation of the MEP Size Induced by Theta Burst Stimulation,DEPLAS,False,True,True
-🟥,NCT02667834,,2019,Efficiency of the French Translation Program:Social Cognition and Interactive Training (SCIT) of Negative Symptoms in Schizophrenia,SCIT-VF,False,False,False
+🟥,NCT01891929,,2018,Specific Cognitive Remediation for Schizophrenia (RECOS) and Sheltered Employment: a Multicentre Controlled Randomized Trial.,RemedRehab,False,False,False
 🟥,NCT03492970,,2019,Characterization of Behavioral Disorders and 24 H-melatonin Level in Adults With Smith Magenis Syndrome,SMS-adults,False,False,False
+🟥,NCT02667834,,2019,Efficiency of the French Translation Program:Social Cognition and Interactive Training (SCIT) of Negative Symptoms in Schizophrenia,SCIT-VF,False,False,False
 🟥,NCT02949453,,2019,ACCeptation and Qualitative Evaluation of Phone-delivered Intervention To Prevent Suicide Reattempt,ACCEPT-S,False,False,False
 🟥,NCT03688516,,2020,Effects of Emotion on Episodic Memory in Typically Developing Children and Children With Williams-Beuren Syndrome,EEM-TAdev,False,False,False
 🟥,NCT04141540,,2020,"Translational 22q11.2:""Molecular Variants Associated With Schizophrenia: Differential Analysis of Monozygotic Twins With Variable Phenotypic 22q11.2 Microdeletional Syndrom""",CSRK05,False,False,False
 🟥,NCT03028545,,2020,"Representations, Strategies and Identity Redefinition in the Recovery Process: Exploratory Study",EPR,False,False,False
-🟥,NCT02976077,,2021,Preliminary Validation of the RC2S+ Therapy in Schizophrenia,RC2S+,False,False,False
-🟩,NCT02608333,,2021,Impact of Early Intervention on the Global Development of Children With Autism Spectrum Disorder in a European French-speaking Population Dr Marie-Maude GEOFFRAY Le Vinatier Hospital,IDEA,True,True,False
-🟥,NCT02660775,,2021,Social Cognitive Assessment in Psychiatry - Validation of a New Battery: ClaCoS,(ClaCoS),False,False,False
-🟥,NCT04147988,,2021,"Describing, Detecting and Orienting Adults Without Intellectual Disability Asking for an Autism Spectrum Disorder Diagnosis",ASSORT,False,False,False
-🟥,NCT02887794,,2021,Basic Auditory Processing and Acoustico-verbal Hallucinations: a Pathophysiological Study,AUDISCHIZ,False,False,False
 🟥,NCT02793258,,2021,Impact of Transcranial Direct Current Stimulation on Emotional Processing in Major Depression,EmoStim,False,False,False
+🟥,NCT02887794,,2021,Basic Auditory Processing and Acoustico-verbal Hallucinations: a Pathophysiological Study,AUDISCHIZ,False,False,False
+🟩,NCT02608333,,2021,Impact of Early Intervention on the Global Development of Children With Autism Spectrum Disorder in a European French-speaking Population Dr Marie-Maude GEOFFRAY Le Vinatier Hospital,IDEA,True,True,True
+🟥,NCT04147988,,2021,"Describing, Detecting and Orienting Adults Without Intellectual Disability Asking for an Autism Spectrum Disorder Diagnosis",ASSORT,False,False,False
+🟥,NCT02976077,,2021,Preliminary Validation of the RC2S+ Therapy in Schizophrenia,RC2S+,False,False,False
+🟥,NCT02660775,,2021,Social Cognitive Assessment in Psychiatry - Validation of a New Battery: ClaCoS,(ClaCoS),False,False,False
+🟩,NCT03538197,,2022,"SURAYA : Suicide Re Attempts in Young Adults After First Suicide Attempt : Socio-demographic, Clinical and Biological Correlates",SURAYA,True,True,True
+🟥,NCT04245306,,2023,Pilot Evaluation of a New Computerized Test for Pragmatic Inferences in Children with Autism Spectrum Disorder Aged 8-12 Years Old,TIPI,False,False,False
 🟥,NCT05213442,,2023,Liver Status in Psychiatric Inpatients,LIVERSPIN,False,False,False
 🟥,NCT03217357,,2023,Effects of Transcranial Direct Current Stimulation on Stress Reactivity and Decision Making in Unaffected Siblings of Patients With Schizophrenia,3S,False,False,False
