@@ -7,11 +7,12 @@ from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
 
 def tag_sponsor(x):
     x_normalized = normalize(x)
-    for f in ['hopit', 'hosp', 'universi', 'chu ', 'ihu ', 'cmc ', 'gustave roussy', 'pasteur',
-              'leon berard', ' national', 'calmettes', 'curie', 'direction centrale', 'société francaise', 'anrs', 'inserm']:
+    for f in ["hopit", "hosp", "universi", "chu ", "ihu ", "cmc ", "gustave roussy", "pasteur",
+              "leon berard", " national", "calmettes", "curie", "direction centrale", "société francaise",
+              "anrs", "inserm", "unicancer"]:
         if f in x_normalized:
-            return 'academique'
-    return 'industriel'
+            return "academique"
+    return "industriel"
 
 
 def enrich(all_ct):
