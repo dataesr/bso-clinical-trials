@@ -1,7 +1,7 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,NCT00568165,,2010,Value of a Mobile Team of Cardiologist Using Echocardiography for Managing Patients With Acute Heart Failure,EMEPIC,False,False,False
-🟥,NCT02012829,,2012,Brief Intervention to Improve Colorectal Cancer Screening,Hem-FMG,False,False,False
-🟥,NCT02156869,,2014,Impact of a Printed Decision Aid on Patients' Intent to Undertake Prostate Cancer Screening: a Multicenter Pragmatic Randomized Controlled Trial,PSAMG,False,False,False
-🟧,NCT02122432,,2015,Impact of Teledermatology Versus Usual Care on Delay Before Diagnosis and/or Treatment of Dermatologic Conditions in General Practice,TELEDERMATO,False,True,True
-🟥,NCT02237573,,2015,Impact of Handing to Patients With Viral Gastroenteritis or Upper Respiratory Tract Infections a Copy of the Consultation Report on Their Medicine Consumption: a Randomized Controlled Trial,,False,False,False
-🟥,NCT04606953,,2021,Working Memory Training With Attention Process Training (APT-II) in Older Adults With Mild Cognitive Impairment : Impacts on Cognition and Ecological Activities,APT-II,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟥,rouge,NCT00568165,,2010,Value of a Mobile Team of Cardiologist Using Echocardiography for Managing Patients With Acute Heart Failure,EMEPIC,False,False,False
+🟥,rouge,NCT02012829,,2012,Brief Intervention to Improve Colorectal Cancer Screening,Hem-FMG,False,False,False
+🟥,rouge,NCT02156869,,2014,Impact of a Printed Decision Aid on Patients' Intent to Undertake Prostate Cancer Screening: a Multicenter Pragmatic Randomized Controlled Trial,PSAMG,False,False,False
+🟧,orange,NCT02122432,,2015,Impact of Teledermatology Versus Usual Care on Delay Before Diagnosis and/or Treatment of Dermatologic Conditions in General Practice,TELEDERMATO,False,True,True
+🟥,rouge,NCT02237573,,2015,Impact of Handing to Patients With Viral Gastroenteritis or Upper Respiratory Tract Infections a Copy of the Consultation Report on Their Medicine Consumption: a Randomized Controlled Trial,,False,False,False
+🟥,rouge,NCT04606953,,2021,Working Memory Training With Attention Process Training (APT-II) in Older Adults With Mild Cognitive Impairment : Impacts on Cognition and Ecological Activities,APT-II,False,False,False

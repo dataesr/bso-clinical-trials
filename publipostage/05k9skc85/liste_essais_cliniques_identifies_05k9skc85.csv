@@ -1,17 +1,17 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,NCT02287844,,2008,"Xylo-oligosaccharide (XOS) in Combination With Inulin Modulates Both the Intestinal Environment and Immune Status in Healthy Subjects, While XOS Alone Only Shows Prebiotic Properties",PIB,False,False,False
-🟥,NCT01480700,,2013,Effect of Consumption of Eggs Rich in Xanthophyll Carotenoids and Omega-3 Fatty Acids on the Macular Pigment in Healthy People,ALGOVUE,False,False,False
-🟥,NCT02353403,,2014,Postprandial Glycaemic and Insulinaemic Responses After Consumption of Dairy Desserts Containing Fructo-oligosaccharides in Adults.,GLYCOFOS-cream,False,False,False
-🟥,NCT02352857,,2014,Postprandial Glycaemic and Insulinaemic Responses After Consumption of Minicakes Containing FOS in Adults,GLYCOFOS-cake,False,False,False
-🟥,NCT03203135,,2018,Assesment of the Impact of a Nutritional Prevention Programme for Employees in Staggered Hours.,PREV'HODE,False,False,False
-🟥,NCT02997826,,2018,Effect of Infant Formula Consumption on Infant Growth From 0 to 6 Months,BABYMILK,False,False,False
-🟥,NCT03872297,,2019,Effect of a Fish Collagen Peptide Food Supplement on the Weight and Body Composition of Healthy Volunteers in Overweight,NATICOL,False,False,False
-🟥,NCT05306106,,2021,Determination of the Glycemic Index of Pastry. A Randomized Study on Healthy Volunteers.,IG-DESSERT,False,False,False
-🟥,NCT04468880,,2021,"Effect of Milk Consumption, Containing A2 β-caseins Only, on Digestive Comfort. A Randomized and Double-blind Study",A2-DIGEST,False,False,False
-🟥,NCT03936257,,2021,Evaluation of an Innovative BIO Formula Based on a New Whey Extraction Process on the Growth and Tolerance of Infants From 0 to 6 Months.,TRUEGREEN,False,False,False
-🟥,,2021-000045-41,2022,"Adaptive, Ambulatory, Randomised, Placebo-Controlled, Double-Blind, Phase 2/3 Study to Evaluate the Safety, Tolerability, and Efficacy of TEE001DP in Patients at the Early Stage of Symptomatic COVID-19",THERAPIDE,False,False,False
-🟥,NCT05306093,,2022,Chronic Effect of a Standardized Saffron Extract on Depressed Mood and Anhedonia in Healthy Adults. A Randomized Controlled Double-blind Clinical Trial.,MOOD5,False,False,False
-🟥,NCT04532892,,2022,"Efficacy and Tolerance of a Specialized Nutraceutical for Pre-burnout - a Randomized, Double Blind Placebo Controlled Study",WELBI,False,False,False
-🟥,NCT05178667,,2022,"Effect of Carrot Seed and Rose Hip Extracts on Weight Management in Subjects With Overweight or Moderate Obesity. A Controlled, Randomized and Double-blind Study.",PHYTOENIX,False,False,False
-🟥,NCT05221346,,2022,"Effect of Oleactiv® on LDL Oxidability in Volunteers With Moderate Hypercholesterolemia - a Controlled, Randomized, Double-blind Study",e-POL,False,False,False
-🟥,NCT06432010,,2023,Effect of a Health Check-up Followed by a Collective Coaching on the Quality of Life and Behavioral Change of Retired Persons. A Prospective Study Conducted in Ambulatory.,R-FORM',False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟥,rouge,NCT02287844,,2008,"Xylo-oligosaccharide (XOS) in Combination With Inulin Modulates Both the Intestinal Environment and Immune Status in Healthy Subjects, While XOS Alone Only Shows Prebiotic Properties",PIB,False,False,False
+🟥,rouge,NCT01480700,,2013,Effect of Consumption of Eggs Rich in Xanthophyll Carotenoids and Omega-3 Fatty Acids on the Macular Pigment in Healthy People,ALGOVUE,False,False,False
+🟥,rouge,NCT02353403,,2014,Postprandial Glycaemic and Insulinaemic Responses After Consumption of Dairy Desserts Containing Fructo-oligosaccharides in Adults.,GLYCOFOS-cream,False,False,False
+🟥,rouge,NCT02352857,,2014,Postprandial Glycaemic and Insulinaemic Responses After Consumption of Minicakes Containing FOS in Adults,GLYCOFOS-cake,False,False,False
+🟥,rouge,NCT03203135,,2018,Assesment of the Impact of a Nutritional Prevention Programme for Employees in Staggered Hours.,PREV'HODE,False,False,False
+🟥,rouge,NCT02997826,,2018,Effect of Infant Formula Consumption on Infant Growth From 0 to 6 Months,BABYMILK,False,False,False
+🟥,rouge,NCT03872297,,2019,Effect of a Fish Collagen Peptide Food Supplement on the Weight and Body Composition of Healthy Volunteers in Overweight,NATICOL,False,False,False
+🟥,rouge,NCT05306106,,2021,Determination of the Glycemic Index of Pastry. A Randomized Study on Healthy Volunteers.,IG-DESSERT,False,False,False
+🟥,rouge,NCT04468880,,2021,"Effect of Milk Consumption, Containing A2 β-caseins Only, on Digestive Comfort. A Randomized and Double-blind Study",A2-DIGEST,False,False,False
+🟥,rouge,NCT03936257,,2021,Evaluation of an Innovative BIO Formula Based on a New Whey Extraction Process on the Growth and Tolerance of Infants From 0 to 6 Months.,TRUEGREEN,False,False,False
+🟥,rouge,,2021-000045-41,2022,"Adaptive, Ambulatory, Randomised, Placebo-Controlled, Double-Blind, Phase 2/3 Study to Evaluate the Safety, Tolerability, and Efficacy of TEE001DP in Patients at the Early Stage of Symptomatic COVID-19",THERAPIDE,False,False,False
+🟥,rouge,NCT05306093,,2022,Chronic Effect of a Standardized Saffron Extract on Depressed Mood and Anhedonia in Healthy Adults. A Randomized Controlled Double-blind Clinical Trial.,MOOD5,False,False,False
+🟥,rouge,NCT05178667,,2022,"Effect of Carrot Seed and Rose Hip Extracts on Weight Management in Subjects With Overweight or Moderate Obesity. A Controlled, Randomized and Double-blind Study.",PHYTOENIX,False,False,False
+🟥,rouge,NCT05221346,,2022,"Effect of Oleactiv® on LDL Oxidability in Volunteers With Moderate Hypercholesterolemia - a Controlled, Randomized, Double-blind Study",e-POL,False,False,False
+🟥,rouge,NCT04532892,,2022,"Efficacy and Tolerance of a Specialized Nutraceutical for Pre-burnout - a Randomized, Double Blind Placebo Controlled Study",WELBI,False,False,False
+🟥,rouge,NCT06432010,,2023,Effect of a Health Check-up Followed by a Collective Coaching on the Quality of Life and Behavioral Change of Retired Persons. A Prospective Study Conducted in Ambulatory.,R-FORM',False,False,False

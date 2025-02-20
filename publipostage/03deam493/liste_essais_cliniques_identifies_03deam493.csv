@@ -1,10 +1,10 @@
-statut,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟧,NCT01360242,,2013,Patients Presenting With Acute STEMI Treated With Primary PCI : Comparison of the Impact of the MIMI Approach With a Conventional Strategy of Immediate Stenting,MIMI,False,True,True
-🟥,NCT02735005,,2017,"Epidemiology of Aging of People With Disabilities - Gerontological Sector ""Rumilly-Annecy-Saint-Julien-Pays de Gex-Bellegarde"" : Description of the Population in an Attempt to Identify Ways to Implement to Meet the Needs in Aging",PHV,False,False,False
-🟥,NCT04089397,,2020,Randomized Open-label Trial Evaluating Light Therapy on Sleep Quality in Dialysis Patients,LUMIDIAL,False,False,False
-🟥,NCT03493750,,2021,"Oral Evaluation by the Nurses From the Office of Access to Healthcare (""PASS"") for Vulnerable People as a Vector for the Detection of Oral Diseases to Improve Access to the Appropriate Healthcare Branch - PASSDENT Study",PASSDENT,False,False,False
-🟧,NCT05154383,2021-004573-32,2022,"Effect of High-Dose Quadrivalent Influenza Vaccine (Efluelda®) Versus Standard-Dose (QIV-SD), in Subjects 65 Years of Age and Older on Innate Immunity, Including Gene Expression",INFLUOMICS,False,True,True
-🟥,,2018-001105-85,2023,"A multicenter phase II study evaluating denosumab (XGEVA®) in combination with nivolumab (OPDIVO®) as second-line therapy for patients with stage IV non-small–cell lung cancer (squamous and non-squamous) with bone metastases 
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
+🟧,orange,NCT01360242,,2013,Patients Presenting With Acute STEMI Treated With Primary PCI : Comparison of the Impact of the MIMI Approach With a Conventional Strategy of Immediate Stenting,MIMI,False,True,True
+🟥,rouge,NCT02735005,,2017,"Epidemiology of Aging of People With Disabilities - Gerontological Sector ""Rumilly-Annecy-Saint-Julien-Pays de Gex-Bellegarde"" : Description of the Population in an Attempt to Identify Ways to Implement to Meet the Needs in Aging",PHV,False,False,False
+🟥,rouge,NCT04089397,,2020,Randomized Open-label Trial Evaluating Light Therapy on Sleep Quality in Dialysis Patients,LUMIDIAL,False,False,False
+🟥,rouge,NCT03493750,,2021,"Oral Evaluation by the Nurses From the Office of Access to Healthcare (""PASS"") for Vulnerable People as a Vector for the Detection of Oral Diseases to Improve Access to the Appropriate Healthcare Branch - PASSDENT Study",PASSDENT,False,False,False
+🟧,orange,NCT05154383,2021-004573-32,2022,"Effect of High-Dose Quadrivalent Influenza Vaccine (Efluelda®) Versus Standard-Dose (QIV-SD), in Subjects 65 Years of Age and Older on Innate Immunity, Including Gene Expression",INFLUOMICS,False,True,True
+🟥,rouge,,2018-001105-85,2023,"A multicenter phase II study evaluating denosumab (XGEVA®) in combination with nivolumab (OPDIVO®) as second-line therapy for patients with stage IV non-small–cell lung cancer (squamous and non-squamous) with bone metastases 
  
  
  Etude de phase II multicentrique de l’évaluation du denosumab (XGEVA®) associé au nivolumab (OPDIVO®) en 2ème ligne de traitement chez des patients présentant un cancer bronchique non à petites cellules (épidermoïde et non épidermoïde) de stade IV, porteurs de métastases osseuses","DENIVOS 
