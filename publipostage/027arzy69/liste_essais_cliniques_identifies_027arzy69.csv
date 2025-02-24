@@ -1,119 +1,119 @@
-statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,rouge,NCT00405171,,2006,Efavirenz to Nevirapine Switch in HIV-1 Infected Patients With Severe Dyslipidemia: A Randomized Controlled Study,,False,False,True
-🟥,rouge,NCT00362492,,2007,9-10 Days Versus Prolonged Thromboprophylaxis in Patients Without Evidence of Ultrasound Proximal Thromboembolism After Total Knee Joint Replacement: a Randomized Controlled Trial,,False,False,True
-🟥,rouge,NCT00277888,,2007,Complications of Jugular and Femoral Venous Catheterization in Critically Ill Patients Requiring Hemodialysis: A Randomized Controlled Trial,CATHEDIA,False,False,True
-🟥,rouge,NCT00931645,,2008,Randomized Phase III Trial Evaluating the Role of Autologous Stem Cell Transplantation in Previously Untreated Patients With Stage B and C Chronic Lymphocytic Leukemia,Auto-LLC 2001,False,False,False
-🟥,rouge,NCT01070862,,2009,Multiple Myeloma Treatment With Thalidomide. Three Randomized Studies on Thalidomide as Induction Treatment Before Autotransplant (MY-TAG) or With a Conventional Chemotherapy (MY-DECT) and as Consolidation/Maintenance at Plateau Phase (MY-PLAT).,MAG 2002,False,False,False
-🟥,rouge,NCT00963066,,2009,NAV-ALI: Effects of Different Levels of Neurally Adjusted Ventilatory Assist (NAVA) in Patients Recovering Spontaneous Breathing After Acute Lung Injury: A Physiological Evaluation.,,False,False,False
-🟥,rouge,,2007-005170-30,2010,Pharmacocinétique de l’Hydrocortisone chez le patient ADdisonien : évaluation de la valeur prédictive de l’ACTH plasmatique pour la titration du traitement substitutif,PHAD,False,False,True
-🟥,rouge,NCT00811109,,2010,HEMOTOL: Effects of New Dialysis On-line Monitoring Devices on Hemodynamic Stability During Intermittent Hemodialysis in Critically Ill Patients With Acute Kidney Injury : a Prospective Randomized Study.,HEMOTOL,False,False,True
-🟥,rouge,NCT00876967,,2010,"Comparison of Performance of Three Laryngoscope Blades: Plastic Single Use, Metallic Single Use and Metallic Reusable Blades.",Laryngotest,False,False,True
-🟥,rouge,,2007-001842-42,2011,Fixation de prothèses par Tissucol dans la cure de prolapsus  par voie vaginale,TISSPRO,False,False,True
-🟥,rouge,NCT01471600,,2011,Randomized Control Study : Safety and Efficacy of Carbohydrate Drink Ingested Two Hours Before Upper Endoscopy Under General Anaesthesia,ENDOGLUcide,False,False,False
-🟥,rouge,NCT00850278,,2011,Assessment of [18F]FLT-PET Imaging for Diagnosis and Prognosis of Brain Tumors,FLT,False,False,False
-🟥,rouge,NCT01074619,,2011,Effects of Memantine on Cognitive Disorders of Relapsing-remitting Multiple Sclerosis,,False,False,True
-🟥,rouge,NCT01518075,,2012,Breathing-swallowing Interaction in Chronic Obstructive Pulmonary Disease (COPD) Patients Hospitalized in Intensive Care Unit for an Acute Exacerbation: Impact of Non Invasive Ventilation. Physiological Evaluation,,False,False,False
-🟥,rouge,NCT01231828,,2012,Method of Assessment of Driving Ability in Patients Suffering From Wakefulness Pathologies. Impact of Lactulose and Carnitine Treatment.,AutoSop-Foie,False,False,False
-🟥,rouge,NCT01200134,,2012,Hypoxia Diagnosis and Evaluation Using F-MISO PET and Biomarkers in Brain Tumors,HYPONCO,False,False,False
-🟩,vert,NCT01251666,,2012,"Comparison of Performances of Two Automated Immunochemical Faecal Occult Blood Tests in Colorectal Cancer Screening, in Reference to Usual Care Guaiac Test",HeMO,True,True,True
-🟥,rouge,NCT01022697,,2012,Randomized Control Study : Evaluation of the Benefits of Glucose Drinks During Childbirth,SOLISO,False,False,False
-🟥,rouge,NCT01212211,,2012,Hyponatremia in the Elderly: Benefit From a Change in Drug Therapy?,NATRIPHAR,False,False,False
-🟥,rouge,NCT02514317,,2013,Ultrasound-assisted Percutaneous Release of Carpal Tunnel Syndrome,ECHOCARPE,False,False,False
-🟥,rouge,NCT01535716,,2013,Does Goal-directed Hemodynamic Therapy Driven by Endotracheal Cardiac Output Monitoring System During Surgical Intervention Reduce Hospital Stay and Major Adverse Cardiac Events Following Cardiac Surgery?,ECOMIII,False,False,False
-🟥,rouge,NCT01466439,,2013,Evaluation of Effect of Low and High-frequencies of Repetitive Transcranial Magnetic Stimulation (rTMS) by the Suppression of P50 Evoked Potential Component (rTMS-P50),rTMS-P50,False,False,False
-🟥,rouge,NCT02525315,,2013,,TMS HALLU,False,False,False
-🟥,rouge,NCT02510521,,2014,,ELECTRODIAB,False,False,False
-🟥,rouge,NCT02517190,,2014,,COSI@PFC,False,False,False
-🟥,rouge,NCT02563236,,2014,Evaluation of 3D Selection Tasks in Parabolic Flight Conditions: Pointing Task in Augmented Reality User Interfaces,3DPICK,False,False,False
-🟥,rouge,NCT02517138,,2014,,DROITDEVANT,False,False,False
-🟥,rouge,NCT02563262,,2014,,HYDRONAUT,False,False,False
-🟥,rouge,NCT02510755,,2015,Stress and Emotional Memory : Functional Neuroanatomy of Post-traumatic Stress Disorder in Adolescents,SEME,False,False,False
-🟥,rouge,NCT01636089,,2015,,HYDRAREA,False,False,False
-🟥,rouge,NCT02517736,,2015,,O-Mel-Sora,False,False,False
-🟩,vert,NCT02524574,,2015,,TEP-READ,True,True,True
-🟥,rouge,NCT01022489,,2015,Evaluation of Repetitive Transcranial Magnetic Stimulation (rTMS) at High Frequency With Neuronavigation in the Treatment of Auditory Hallucinations : A Randomized Multicentric Controlled Study,TMS-Hz,False,False,False
-🟩,vert,NCT01479153,,2015,"Comparison of Subclavian, Femoral and Internal Jugular Venous Catheterization in Term of Complications in the Intensive Care Unit: a Randomized Controlled Trial",3SITES,True,True,True
-🟧,orange,NCT01564745,,2015,Cough Determinants in Mechanically Ventilated Patients: a Physiological Study,Extu-Cough,False,True,True
-🟥,rouge,NCT02910479,,2016,Phase 1 Study Evaluating the Relevance and Reliability of Gastrointestinal Temperature Measurements From a New Device (E-celsius),e-TEMP,False,False,False
-🟥,rouge,NCT02510703,,2016,,D-TEP,False,False,False
-🟥,rouge,NCT02128945,,2016,Dosimetry and Biodistribution of [18F]-Fludarabine in Lymphoid Malignancies,FLUDATEP,False,False,False
-🟩,vert,NCT02343601,,2016,Perioperative Hemodynamic Optimization Using the Photoplethysmography in Colorectal Surgery : A Randomized Controlled Study,PANEX3,True,True,True
-🟥,rouge,NCT02847806,,2016,,STEROSENS,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT00405171,,2006,Efavirenz to Nevirapine Switch in HIV-1 Infected Patients With Severe Dyslipidemia: A Randomized Controlled Study,,False,False,True,DRUG
+🟥,rouge,NCT00362492,,2007,9-10 Days Versus Prolonged Thromboprophylaxis in Patients Without Evidence of Ultrasound Proximal Thromboembolism After Total Knee Joint Replacement: a Randomized Controlled Trial,,False,False,True,PROCEDURE
+🟥,rouge,NCT00277888,,2007,Complications of Jugular and Femoral Venous Catheterization in Critically Ill Patients Requiring Hemodialysis: A Randomized Controlled Trial,CATHEDIA,False,False,True,PROCEDURE
+🟥,rouge,NCT00931645,,2008,Randomized Phase III Trial Evaluating the Role of Autologous Stem Cell Transplantation in Previously Untreated Patients With Stage B and C Chronic Lymphocytic Leukemia,Auto-LLC 2001,False,False,False,PROCEDURE
+🟥,rouge,NCT01070862,,2009,Multiple Myeloma Treatment With Thalidomide. Three Randomized Studies on Thalidomide as Induction Treatment Before Autotransplant (MY-TAG) or With a Conventional Chemotherapy (MY-DECT) and as Consolidation/Maintenance at Plateau Phase (MY-PLAT).,MAG 2002,False,False,False,DRUG
+🟥,rouge,NCT00963066,,2009,NAV-ALI: Effects of Different Levels of Neurally Adjusted Ventilatory Assist (NAVA) in Patients Recovering Spontaneous Breathing After Acute Lung Injury: A Physiological Evaluation.,,False,False,False,DEVICE
+🟥,rouge,,2007-005170-30,2010,Pharmacocinétique de l’Hydrocortisone chez le patient ADdisonien : évaluation de la valeur prédictive de l’ACTH plasmatique pour la titration du traitement substitutif,PHAD,False,False,True,
+🟥,rouge,NCT00811109,,2010,HEMOTOL: Effects of New Dialysis On-line Monitoring Devices on Hemodynamic Stability During Intermittent Hemodialysis in Critically Ill Patients With Acute Kidney Injury : a Prospective Randomized Study.,HEMOTOL,False,False,True,DEVICE
+🟥,rouge,NCT00876967,,2010,"Comparison of Performance of Three Laryngoscope Blades: Plastic Single Use, Metallic Single Use and Metallic Reusable Blades.",Laryngotest,False,False,True,DEVICE
+🟥,rouge,,2007-001842-42,2011,Fixation de prothèses par Tissucol dans la cure de prolapsus  par voie vaginale,TISSPRO,False,False,True,
+🟥,rouge,NCT01471600,,2011,Randomized Control Study : Safety and Efficacy of Carbohydrate Drink Ingested Two Hours Before Upper Endoscopy Under General Anaesthesia,ENDOGLUcide,False,False,False,PROCEDURE
+🟥,rouge,NCT00850278,,2011,Assessment of [18F]FLT-PET Imaging for Diagnosis and Prognosis of Brain Tumors,FLT,False,False,False,OTHER
+🟥,rouge,NCT01074619,,2011,Effects of Memantine on Cognitive Disorders of Relapsing-remitting Multiple Sclerosis,,False,False,True,DRUG
+🟥,rouge,NCT01518075,,2012,Breathing-swallowing Interaction in Chronic Obstructive Pulmonary Disease (COPD) Patients Hospitalized in Intensive Care Unit for an Acute Exacerbation: Impact of Non Invasive Ventilation. Physiological Evaluation,,False,False,False,OTHER
+🟥,rouge,NCT01231828,,2012,Method of Assessment of Driving Ability in Patients Suffering From Wakefulness Pathologies. Impact of Lactulose and Carnitine Treatment.,AutoSop-Foie,False,False,False,DRUG
+🟥,rouge,NCT01200134,,2012,Hypoxia Diagnosis and Evaluation Using F-MISO PET and Biomarkers in Brain Tumors,HYPONCO,False,False,False,OTHER
+🟩,vert,NCT01251666,,2012,"Comparison of Performances of Two Automated Immunochemical Faecal Occult Blood Tests in Colorectal Cancer Screening, in Reference to Usual Care Guaiac Test",HeMO,True,True,True,OTHER
+🟥,rouge,NCT01022697,,2012,Randomized Control Study : Evaluation of the Benefits of Glucose Drinks During Childbirth,SOLISO,False,False,False,OTHER
+🟥,rouge,NCT01212211,,2012,Hyponatremia in the Elderly: Benefit From a Change in Drug Therapy?,NATRIPHAR,False,False,False,OTHER
+🟥,rouge,NCT02514317,,2013,Ultrasound-assisted Percutaneous Release of Carpal Tunnel Syndrome,ECHOCARPE,False,False,False,PROCEDURE
+🟥,rouge,NCT01535716,,2013,Does Goal-directed Hemodynamic Therapy Driven by Endotracheal Cardiac Output Monitoring System During Surgical Intervention Reduce Hospital Stay and Major Adverse Cardiac Events Following Cardiac Surgery?,ECOMIII,False,False,False,BEHAVIORAL
+🟥,rouge,NCT01466439,,2013,Evaluation of Effect of Low and High-frequencies of Repetitive Transcranial Magnetic Stimulation (rTMS) by the Suppression of P50 Evoked Potential Component (rTMS-P50),rTMS-P50,False,False,False,PROCEDURE
+🟥,rouge,NCT02525315,,2013,,TMS HALLU,False,False,False,DEVICE
+🟥,rouge,NCT02510521,,2014,,ELECTRODIAB,False,False,False,DEVICE
+🟥,rouge,NCT02517190,,2014,,COSI@PFC,False,False,False,OTHER
+🟥,rouge,NCT02563236,,2014,Evaluation of 3D Selection Tasks in Parabolic Flight Conditions: Pointing Task in Augmented Reality User Interfaces,3DPICK,False,False,False,OTHER
+🟥,rouge,NCT02517138,,2014,,DROITDEVANT,False,False,False,OTHER
+🟥,rouge,NCT02563262,,2014,,HYDRONAUT,False,False,False,OTHER
+🟥,rouge,NCT02510755,,2015,Stress and Emotional Memory : Functional Neuroanatomy of Post-traumatic Stress Disorder in Adolescents,SEME,False,False,False,OTHER
+🟥,rouge,NCT01636089,,2015,,HYDRAREA,False,False,False,DRUG
+🟥,rouge,NCT02517736,,2015,,O-Mel-Sora,False,False,False,DRUG
+🟩,vert,NCT02524574,,2015,,TEP-READ,True,True,True,PROCEDURE
+🟥,rouge,NCT01022489,,2015,Evaluation of Repetitive Transcranial Magnetic Stimulation (rTMS) at High Frequency With Neuronavigation in the Treatment of Auditory Hallucinations : A Randomized Multicentric Controlled Study,TMS-Hz,False,False,False,DEVICE
+🟩,vert,NCT01479153,,2015,"Comparison of Subclavian, Femoral and Internal Jugular Venous Catheterization in Term of Complications in the Intensive Care Unit: a Randomized Controlled Trial",3SITES,True,True,True,PROCEDURE
+🟧,orange,NCT01564745,,2015,Cough Determinants in Mechanically Ventilated Patients: a Physiological Study,Extu-Cough,False,True,True,OTHER
+🟥,rouge,NCT02910479,,2016,Phase 1 Study Evaluating the Relevance and Reliability of Gastrointestinal Temperature Measurements From a New Device (E-celsius),e-TEMP,False,False,False,DEVICE
+🟥,rouge,NCT02510703,,2016,,D-TEP,False,False,False,OTHER
+🟥,rouge,NCT02128945,,2016,Dosimetry and Biodistribution of [18F]-Fludarabine in Lymphoid Malignancies,FLUDATEP,False,False,False,OTHER
+🟩,vert,NCT02343601,,2016,Perioperative Hemodynamic Optimization Using the Photoplethysmography in Colorectal Surgery : A Randomized Controlled Study,PANEX3,True,True,True,DEVICE
+🟥,rouge,NCT02847806,,2016,,STEROSENS,False,False,False,BIOLOGICAL
 🟥,rouge,,2014-000457-36,2016,"A comparative dynamic study of myocardial perfusion reserve explored by cardiac WATER labelled O-15 -PET vs Tc99mibi D-SPECT in coronAry arterY disease. Protocol WATER -DAY 
  
  
  Evaluation de la réserve Coronaire par la TEP à l’H215O et la coronarographie chez les patients coronariens : Etude comparative avec la caméra SPECTRUM-DYNAMICS au 99mTc-mibi. Protocol WATER -DAY.","WATER-DAY 
  
  
- WATER-DAY",False,False,True
-🟩,vert,NCT02207296,,2017,Operative Hemodynamic Optimization Using the Plethysmographic Variability Index During Orthopedic Surgery : a Multicentric Prospective Randomized Controlled Study,OPVI,True,True,True
-🟥,rouge,NCT02000414,,2017,Pharmacokinetics Study of Intraperitoneal Administration of Daptomycin in Patients With Peritoneal Dialysis and Peritoneal Infection,DAPTODP,False,False,False
-🟧,orange,NCT03087825,,2017,Effect of Preoxygenation With Spontaneous Breathing or Noninvasive Positive Pressure Ventilation With or Without a Calibrated Leak. An Experimental Study in Healthy Volunteers,,False,True,True
-🟥,rouge,NCT02510677,,2017,,FAST DOGS,False,False,False
-🟥,rouge,NCT03407209,,2018,Compared Efficacy of Patient-controlled Epidural Analgesia With or Without Automatic Boluses,FREE BOLI,False,False,False
-🟥,rouge,,2017-001474-41,2018,Bénéfices de la perfusion continue de lidocaïne intraveineuse en chirurgie bariatrique : une étude randomisée prospective contre placebo,XYLOBAR,False,False,False
-🟩,vert,NCT02292316,,2018,Falls With Fracture : Role of Cognitive Disorders and Comparison With Bone Fragility,CFC,True,True,True
-🟥,rouge,NCT03567070,,2018,Pregnancy and Use of Psychoactive Substances: The Influence of Representations of Care on Care.,ADDGEST,False,False,False
-🟩,vert,NCT02773719,,2018,"Effect of the Intervention of Biofields Therapy on Warts of the Hands and Feet in Adults: a Prospective, Randomized, Double-blind Trial",MAGNETIK,True,True,True
-🟥,rouge,NCT04191759,,2018,Reliability of the Passive Properties of the Calf Muscles in Healthy Subjects Assessed Using Isokinetic Device,ISOSTIFF,False,False,False
-🟧,orange,NCT03029897,,2019,Impact of E-reporting by Patients With Relapsing-remitting Multiple Sclerosis on the Reporting of Adverse Drug Reactions in France: a Randomized Controlled Trial.,VigiP-SEP,False,True,True
-🟥,rouge,NCT03725111,,2019,Haemodynamics Variations of Transcutaneous Oxygen in Patient With Arterio-venous Leg Ulcers Under Venous Compression (COMPULCE Study),,False,False,False
-🟥,rouge,NCT02799511,,2019,Biomarkers for the Diagnosis of Transient Ischemic Attack,MAESTRO,False,False,False
-🟥,rouge,NCT02789007,,2019,Effects of Parabolic Flight on Spatial Cognition and Hippocampal Plasticity,HypoCampus,False,False,False
-🟥,rouge,NCT03978026,,2019,"Evaluation de l'efficacité Sur la Vigilance et Les Performances de Conduite simulée d'Une Sieste effectuée Dans Des Environnements différents, Dont le Module SOMBOX",SOMBOX,False,False,False
-🟩,vert,NCT02751021,,2019,Sleep Apnea Diagnosis Using a Novel Pacemaker Algorithm and Link With Aldosterone Plasma Level in Patients Presenting With Diastolic Dysfunction: SAPAAD Study,SAPAAD,True,True,True
-🟥,rouge,NCT03941847,,2019,Musinduc : Impact of Music During the Period of Anaesthetic Induction - a Randomized Controlled Clinical Trial,MUSINDUC,False,False,False
-🟥,rouge,NCT02832349,,2019,Impact of Educational Actions on the Quality Of Life of Epileptic Patients,EQOLE,False,False,False
-🟥,rouge,NCT04061616,,2019,Transcultural Validation of the Physical Activity Scale for Individuals With Physical Disabilities (PASIPD) in French: The PASIPD-Fr,PASIPD-Fr,False,False,False
-🟥,rouge,NCT04602234,,2020,"Diagnosis of Lower Respiratory Tract Infection by Lung Ultrasonography in General Practice : a Prospective, Interventional and Multicentric Study",AmbuLUS,False,False,False
-🟥,rouge,NCT05629247,,2020,Pediatric Intensive Care Unit and Primary Immune Deficiency,PICUPID,False,False,False
-🟥,rouge,NCT05036200,,2020,"Efficacy, Tolerance and Acceptability of Pulsed Dye Laser on Telangiectasias of the Face and Neckline in Systemic Scleroderma: a Prospective Single-center Open-label Study of 21 Patients",PDL,False,False,False
-🟥,rouge,NCT04352283,,2020,Does Preprocedural Ultrasound Exam of Lumbar Spine Increase the First-pass Success Rate of Epidural Space Identification Among Obese Parturients: A Randomized Controlled Open Trial,,False,False,True
-🟩,vert,NCT03539185,,2020,Airtraq Versus Fiberoptic for Awake Tracheal Intubation : A Randomised Non-inferiority Trial,,True,True,True
-🟥,rouge,NCT05971615,,2020,Evaluate the Relevance of the Use of Peripheral Venous Blood Gases for the Care of Patients in the S.A.U.V (Vital Emergency Rooms) of the CHU de Caen,GDS,False,False,False
-🟥,rouge,NCT01805336,,2020,Assessment of Attentional and Executive Disorders in Multiple Sclerosis Using Techniques of Virtual Reality,SEPREV,False,False,False
-🟥,rouge,NCT03963856,,2020,MULTI-SYSTEM PHYSIOLOGIC RESPONSE TO VARYING LEVELS OF PARTIAL GRAVITY,GRAVIDOSE,False,False,False
-🟥,rouge,NCT04244448,,2021,A Study of Bioequivalence When Administering Biktarvy® (TAF/FTC/BIC) in the Form of a Solid/Crushed/Dissolved Tablet to Healthy Volunteers - SOLUBIC Study,SOLUBIC,False,False,False
-🟥,rouge,NCT04434300,,2021,Comparison of the Pharmacokinetic and the Safety of Daptomycin Administered Subcutaneously Compared to the Intravenous Route : a Cross-over Study,DAPTOSC,False,False,False
-🟩,vert,NCT04685512,,2021,Effect of Tenofovir/Emtricitabine Short Course on Viral Clearance in Patients Recently Infected With SARS-COV2 (Covid-19) Not Requiring Hospitalization: a Phase IIB/III Multicenter Open-label Randomized Controlled Trial,AR0-CORONA,True,True,True
-🟥,rouge,NCT04238572,,2021,Evaluation of an Immersive Audiovisual Distraction Device Impact on Peroperative Opioid Consumption. A Prospective Randomized Controlled Study,AmbuCineView,False,False,True
-🟥,rouge,NCT04879290,,2021,Comparison of Two FiO2 (1 or 0.5) for Tracheal Extubation in Post-anesthesia Care Unit : a Monocentric Randomized Trial,EXTUBO2,False,False,False
-🟥,rouge,NCT04168983,,2021,Study of the Impact of Sophrology on the Pain Felt During a Bone Marrow Aspiration and Biopsy,BOM-ZEN,False,False,False
-🟥,rouge,NCT05538442,,2022,Kinetics of the Determinants of Performance During an Ultra-trail,,False,False,False
-🟥,rouge,NCT03843580,,2022,Transnasal Humidified Rapid-Insufflation Ventilatory Exchange (THRIVE) Could Decrease the Incidence of Oxygen Desaturation During Suspension Laryngoscopy: a Randomized Controlled Trial,optilaryngo,False,False,False
-🟥,rouge,NCT04020107,,2022,Validity of Somatosensori Remediation for Postural Control in the Treatment of Ehlers-Danlos Syndrome Hypermobility Type (hEDS),VITALISED,False,False,False
-🟥,rouge,NCT02157480,,2022,ELECTRODIAB2: Effect of an Outpatient Program of Bi-quadricipital Electrostimulation on Glucose Profile of Sedentary Patients With Type 2 Diabetes.,ELECTRODIAB2,False,False,False
-🟥,rouge,NCT05963750,,2022,Assessment of the Impact of Virtual Reality on Patient Anxiety During Dental Avulsions Under Local Anesthesia,REVIDEN,False,False,False
-🟥,rouge,NCT05603780,,2022,"Cognitive, Emotional, Physiological, Chronobiological and Genetic Effects of a Time Underground Isolation",DEEPTIME,False,False,False
-🟥,rouge,NCT04006093,,2022,Pharmacokinetics of Apixaban in Subjects With End-stage Renal Disease Treated With Peritoneal Dialysis: the ApiDP Study,ApiDP,False,False,False
-🟩,vert,NCT01638949,,2022,Study of the Predictive Markers and the Pathophysiological Mechanisms of Alzheimer's Disease: Transverse and Longitudinal Approach in Anatomical and Functional Multimodal Imaging,IMAP+,True,True,True
-🟥,rouge,NCT06442683,,2023,Efficacy of Simulation-based Neonatal Echocardiography Training: a Randomized Controlled Trial,SimuEchoNeo,False,False,False
-🟥,rouge,NCT05419258,,2023,Feasibility and Evaluation Study of the UPLUG Hemodialysis Connection Device,UPLUG-SAFE,False,False,False
-🟥,rouge,NCT05717283,,2023,"Follow-up of the Nasal Microbiome and Viral Infections in Newborns Hospitalised in Neonatology in the University Hospital of Caen, France : Metatranscriptomics Approach by Next Generation Sequencing From Nasal Swabs.",NEOBIOME,False,False,False
-🟥,rouge,NCT04927949,,2023,Evaluation of Myocardial Reperfusion and Residual Thrombotic Burden After Primary PCI for STEMI in Patients With High on Ticagrelor Platelet Reactivity Treated by IV Cangrelor Versus Ticagrelor Alone,ERMIT,False,False,False
-🟥,rouge,NCT05966402,,2023,"Evaluation of Immersion in Virtual Reality in the Management of Anxiety, Then Pain, of Patients in Interventional Imaging.",IRVARI,False,False,False
+ WATER-DAY",False,False,True,
+🟩,vert,NCT02207296,,2017,Operative Hemodynamic Optimization Using the Plethysmographic Variability Index During Orthopedic Surgery : a Multicentric Prospective Randomized Controlled Study,OPVI,True,True,True,DEVICE
+🟥,rouge,NCT02000414,,2017,Pharmacokinetics Study of Intraperitoneal Administration of Daptomycin in Patients With Peritoneal Dialysis and Peritoneal Infection,DAPTODP,False,False,False,DRUG
+🟧,orange,NCT03087825,,2017,Effect of Preoxygenation With Spontaneous Breathing or Noninvasive Positive Pressure Ventilation With or Without a Calibrated Leak. An Experimental Study in Healthy Volunteers,,False,True,True,PROCEDURE
+🟥,rouge,NCT02510677,,2017,,FAST DOGS,False,False,False,OTHER
+🟥,rouge,NCT03407209,,2018,Compared Efficacy of Patient-controlled Epidural Analgesia With or Without Automatic Boluses,FREE BOLI,False,False,False,OTHER
+🟥,rouge,,2017-001474-41,2018,Bénéfices de la perfusion continue de lidocaïne intraveineuse en chirurgie bariatrique : une étude randomisée prospective contre placebo,XYLOBAR,False,False,False,
+🟩,vert,NCT02292316,,2018,Falls With Fracture : Role of Cognitive Disorders and Comparison With Bone Fragility,CFC,True,True,True,BEHAVIORAL
+🟥,rouge,NCT03567070,,2018,Pregnancy and Use of Psychoactive Substances: The Influence of Representations of Care on Care.,ADDGEST,False,False,False,OTHER
+🟩,vert,NCT02773719,,2018,"Effect of the Intervention of Biofields Therapy on Warts of the Hands and Feet in Adults: a Prospective, Randomized, Double-blind Trial",MAGNETIK,True,True,True,OTHER
+🟥,rouge,NCT04191759,,2018,Reliability of the Passive Properties of the Calf Muscles in Healthy Subjects Assessed Using Isokinetic Device,ISOSTIFF,False,False,False,DIAGNOSTIC_TEST
+🟧,orange,NCT03029897,,2019,Impact of E-reporting by Patients With Relapsing-remitting Multiple Sclerosis on the Reporting of Adverse Drug Reactions in France: a Randomized Controlled Trial.,VigiP-SEP,False,True,True,OTHER
+🟥,rouge,NCT03725111,,2019,Haemodynamics Variations of Transcutaneous Oxygen in Patient With Arterio-venous Leg Ulcers Under Venous Compression (COMPULCE Study),,False,False,False,DEVICE
+🟥,rouge,NCT02799511,,2019,Biomarkers for the Diagnosis of Transient Ischemic Attack,MAESTRO,False,False,False,BIOLOGICAL
+🟥,rouge,NCT02789007,,2019,Effects of Parabolic Flight on Spatial Cognition and Hippocampal Plasticity,HypoCampus,False,False,False,OTHER
+🟥,rouge,NCT03978026,,2019,"Evaluation de l'efficacité Sur la Vigilance et Les Performances de Conduite simulée d'Une Sieste effectuée Dans Des Environnements différents, Dont le Module SOMBOX",SOMBOX,False,False,False,BEHAVIORAL
+🟩,vert,NCT02751021,,2019,Sleep Apnea Diagnosis Using a Novel Pacemaker Algorithm and Link With Aldosterone Plasma Level in Patients Presenting With Diastolic Dysfunction: SAPAAD Study,SAPAAD,True,True,True,OTHER
+🟥,rouge,NCT03941847,,2019,Musinduc : Impact of Music During the Period of Anaesthetic Induction - a Randomized Controlled Clinical Trial,MUSINDUC,False,False,False,OTHER
+🟥,rouge,NCT02832349,,2019,Impact of Educational Actions on the Quality Of Life of Epileptic Patients,EQOLE,False,False,False,OTHER
+🟥,rouge,NCT04061616,,2019,Transcultural Validation of the Physical Activity Scale for Individuals With Physical Disabilities (PASIPD) in French: The PASIPD-Fr,PASIPD-Fr,False,False,False,BEHAVIORAL
+🟥,rouge,NCT04602234,,2020,"Diagnosis of Lower Respiratory Tract Infection by Lung Ultrasonography in General Practice : a Prospective, Interventional and Multicentric Study",AmbuLUS,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT05629247,,2020,Pediatric Intensive Care Unit and Primary Immune Deficiency,PICUPID,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT05036200,,2020,"Efficacy, Tolerance and Acceptability of Pulsed Dye Laser on Telangiectasias of the Face and Neckline in Systemic Scleroderma: a Prospective Single-center Open-label Study of 21 Patients",PDL,False,False,False,DEVICE
+🟥,rouge,NCT04352283,,2020,Does Preprocedural Ultrasound Exam of Lumbar Spine Increase the First-pass Success Rate of Epidural Space Identification Among Obese Parturients: A Randomized Controlled Open Trial,,False,False,True,DEVICE
+🟩,vert,NCT03539185,,2020,Airtraq Versus Fiberoptic for Awake Tracheal Intubation : A Randomised Non-inferiority Trial,,True,True,True,DEVICE
+🟥,rouge,NCT05971615,,2020,Evaluate the Relevance of the Use of Peripheral Venous Blood Gases for the Care of Patients in the S.A.U.V (Vital Emergency Rooms) of the CHU de Caen,GDS,False,False,False,OTHER
+🟥,rouge,NCT01805336,,2020,Assessment of Attentional and Executive Disorders in Multiple Sclerosis Using Techniques of Virtual Reality,SEPREV,False,False,False,OTHER
+🟥,rouge,NCT03963856,,2020,MULTI-SYSTEM PHYSIOLOGIC RESPONSE TO VARYING LEVELS OF PARTIAL GRAVITY,GRAVIDOSE,False,False,False,OTHER
+🟥,rouge,NCT04244448,,2021,A Study of Bioequivalence When Administering Biktarvy® (TAF/FTC/BIC) in the Form of a Solid/Crushed/Dissolved Tablet to Healthy Volunteers - SOLUBIC Study,SOLUBIC,False,False,False,DRUG
+🟥,rouge,NCT04434300,,2021,Comparison of the Pharmacokinetic and the Safety of Daptomycin Administered Subcutaneously Compared to the Intravenous Route : a Cross-over Study,DAPTOSC,False,False,False,DRUG
+🟩,vert,NCT04685512,,2021,Effect of Tenofovir/Emtricitabine Short Course on Viral Clearance in Patients Recently Infected With SARS-COV2 (Covid-19) Not Requiring Hospitalization: a Phase IIB/III Multicenter Open-label Randomized Controlled Trial,AR0-CORONA,True,True,True,DRUG
+🟥,rouge,NCT04238572,,2021,Evaluation of an Immersive Audiovisual Distraction Device Impact on Peroperative Opioid Consumption. A Prospective Randomized Controlled Study,AmbuCineView,False,False,True,DEVICE
+🟥,rouge,NCT04879290,,2021,Comparison of Two FiO2 (1 or 0.5) for Tracheal Extubation in Post-anesthesia Care Unit : a Monocentric Randomized Trial,EXTUBO2,False,False,False,OTHER
+🟥,rouge,NCT04168983,,2021,Study of the Impact of Sophrology on the Pain Felt During a Bone Marrow Aspiration and Biopsy,BOM-ZEN,False,False,False,OTHER
+🟥,rouge,NCT05538442,,2022,Kinetics of the Determinants of Performance During an Ultra-trail,,False,False,False,OTHER
+🟥,rouge,NCT03843580,,2022,Transnasal Humidified Rapid-Insufflation Ventilatory Exchange (THRIVE) Could Decrease the Incidence of Oxygen Desaturation During Suspension Laryngoscopy: a Randomized Controlled Trial,optilaryngo,False,False,False,DEVICE
+🟥,rouge,NCT04020107,,2022,Validity of Somatosensori Remediation for Postural Control in the Treatment of Ehlers-Danlos Syndrome Hypermobility Type (hEDS),VITALISED,False,False,False,OTHER
+🟥,rouge,NCT02157480,,2022,ELECTRODIAB2: Effect of an Outpatient Program of Bi-quadricipital Electrostimulation on Glucose Profile of Sedentary Patients With Type 2 Diabetes.,ELECTRODIAB2,False,False,False,DEVICE
+🟥,rouge,NCT05963750,,2022,Assessment of the Impact of Virtual Reality on Patient Anxiety During Dental Avulsions Under Local Anesthesia,REVIDEN,False,False,False,OTHER
+🟥,rouge,NCT05603780,,2022,"Cognitive, Emotional, Physiological, Chronobiological and Genetic Effects of a Time Underground Isolation",DEEPTIME,False,False,False,BEHAVIORAL
+🟥,rouge,NCT04006093,,2022,Pharmacokinetics of Apixaban in Subjects With End-stage Renal Disease Treated With Peritoneal Dialysis: the ApiDP Study,ApiDP,False,False,False,DRUG
+🟩,vert,NCT01638949,,2022,Study of the Predictive Markers and the Pathophysiological Mechanisms of Alzheimer's Disease: Transverse and Longitudinal Approach in Anatomical and Functional Multimodal Imaging,IMAP+,True,True,True,BEHAVIORAL
+🟥,rouge,NCT06442683,,2023,Efficacy of Simulation-based Neonatal Echocardiography Training: a Randomized Controlled Trial,SimuEchoNeo,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT05419258,,2023,Feasibility and Evaluation Study of the UPLUG Hemodialysis Connection Device,UPLUG-SAFE,False,False,False,DEVICE
+🟥,rouge,NCT05717283,,2023,"Follow-up of the Nasal Microbiome and Viral Infections in Newborns Hospitalised in Neonatology in the University Hospital of Caen, France : Metatranscriptomics Approach by Next Generation Sequencing From Nasal Swabs.",NEOBIOME,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT04927949,,2023,Evaluation of Myocardial Reperfusion and Residual Thrombotic Burden After Primary PCI for STEMI in Patients With High on Ticagrelor Platelet Reactivity Treated by IV Cangrelor Versus Ticagrelor Alone,ERMIT,False,False,False,PROCEDURE
+🟥,rouge,NCT05966402,,2023,"Evaluation of Immersion in Virtual Reality in the Management of Anxiety, Then Pain, of Patients in Interventional Imaging.",IRVARI,False,False,False,OTHER
 🟥,rouge,,2020-003621-36,2023,"Evaluation de la reperfusion myocardique et de la masse thrombotique endocoronaire après angioplastie primaire pour infarctus du myocarde sous cangrelor en intraveineux en plus du ticagrelor per os comparé au ticagrelor per os seul en cas de réactivité plaquettaire élevée. 
  
  
  Evaluation de la reperfusion myocardique et de la masse thrombotique endocoronaire après angioplastie primaire pour infarctus du myocarde sous cangrelor en intraveineux en plus du ticagrelor per os comparé au ticagrelor per os seul en cas de réactivité plaquettaire élevée.","ERMIT 
  
  
- ERMIT",False,False,False
-🟥,rouge,NCT03677063,,2023,Usefulness of Sterile Adhesive Dressing at the Exit-site of Peritoneal Dialysis Catheter: a Pilot Study,PANCADIPE,False,False,False
-🟥,rouge,NCT04187170,,2023,Longitudinal Analysis of Right Ventricular Remodeling in Response to Prolonged Strength Training Using 3D-echocardiography,FORCE-VD,False,False,False
-🟥,rouge,NCT02517177,,,,AUTOCARD,False,False,False
-🟥,rouge,NCT02516787,,,,CORTICOG,False,False,False
-🟥,rouge,NCT02510872,,,,TEPVAD,False,False,False
-🟥,rouge,NCT02524535,,,,IPSI2,False,False,False
-🟥,rouge,NCT02524600,,,,IQSCINTIMYOC,False,False,False
-🟥,rouge,NCT02510859,,,,NUQUE2,False,False,False
-🟥,rouge,NCT01211236,,,Maggot Therapy for Wound Debridement: a Randomized Multicentric Double-blind Trial,MAGGOT,False,False,True
-🟥,rouge,NCT02515812,,,,ADRECARD,False,False,False
-🟥,rouge,NCT02518880,,,,DYMCO,False,False,False
+ ERMIT",False,False,False,
+🟥,rouge,NCT03677063,,2023,Usefulness of Sterile Adhesive Dressing at the Exit-site of Peritoneal Dialysis Catheter: a Pilot Study,PANCADIPE,False,False,False,OTHER
+🟥,rouge,NCT04187170,,2023,Longitudinal Analysis of Right Ventricular Remodeling in Response to Prolonged Strength Training Using 3D-echocardiography,FORCE-VD,False,False,False,OTHER
+🟥,rouge,NCT02517177,,,,AUTOCARD,False,False,False,OTHER
+🟥,rouge,NCT02516787,,,,CORTICOG,False,False,False,OTHER
+🟥,rouge,NCT02510872,,,,TEPVAD,False,False,False,OTHER
+🟥,rouge,NCT02524535,,,,IPSI2,False,False,False,OTHER
+🟥,rouge,NCT02524600,,,,IQSCINTIMYOC,False,False,False,DEVICE
+🟥,rouge,NCT02510859,,,,NUQUE2,False,False,False,OTHER
+🟥,rouge,NCT01211236,,,Maggot Therapy for Wound Debridement: a Randomized Multicentric Double-blind Trial,MAGGOT,False,False,True,OTHER
+🟥,rouge,NCT02515812,,,,ADRECARD,False,False,False,DEVICE
+🟥,rouge,NCT02518880,,,,DYMCO,False,False,False,OTHER
 🟥,rouge,,2015-005804-27,,"Essai randomisé, contrôlé, en double aveugle, de l'anakinra contre placebo, en adjonction à la corticothérapie dans l'artérite à cellules géantes. 
  
  
  Essai randomisé, contrôlé, en double aveugle, de l'anakinra contre placebo, en adjonction à la corticothérapie dans l'artérite à cellules géantes.","GiAnT 
  
  
- GiAnT",False,False,False
+ GiAnT",False,False,False,

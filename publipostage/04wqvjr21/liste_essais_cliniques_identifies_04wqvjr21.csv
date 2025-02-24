@@ -1,16 +1,16 @@
-statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,rouge,NCT01899560,,2014,Prospective Physiological Study of Lung Elastance in Recruitment and Derecruitment in Early Onset Mechanically Ventilated Acute Respiratory Distress Syndrome (ARDS)Patients,ELASTANCE,False,False,False
-🟩,vert,NCT00935480,,2014,IMPACT OF THERAPY INTENSIFICATION BY AN INTEGRASE INHIBITOR +/- CCR5 INHIBITOR ON THE LYMPHOID RESERVOIR FOR HIV-1 IN CHRONICALLY INFECTED PATIENTS,IntensVIH,True,True,True
-🟥,rouge,NCT01781091,,2015,S4 :RANDOMIZED CONTROLLED TRIAL OF FULLY CLOSED-LOOP VENTILATION IN ICU.,S4,False,False,False
-🟥,rouge,NCT03870295,,2020,Assessment of a New Measurement Technique for Type C Fibre Nerve Conduction Velocity in Polyneuropathies.,FIBREC,False,False,False
-🟥,rouge,NCT05077605,,2022,Electrical Impedance Tomography: Effect of Extubation on Functional Residual Capacity,PULMOVISTA,False,False,False
-🟧,orange,NCT04634318,,2022,Organization of Pulmonary Rehabilitation of Post-COVID-19 Patient With Sequelae. Assessment and Therapeutic Indication of Tele-rehabilitation Versus Conventional Rehabilitation,REHABCOVID,False,True,True
-🟥,rouge,NCT05237050,,2022,Evaluation of Sound Therapy in a Population of Women With Fibromyalgia Aged Between 30 and 60 Years,SONOMYAL,False,False,False
-🟥,rouge,NCT04903522,,2022,Can the Affects Conveyed by Baroque Music and Its Rhetoric Reduce Anxiety in Patients With Major Depressive Disorder Associated With Anxiety Symptoms?,BARHEPSY,False,False,False
-🟥,rouge,NCT03868956,,2023,Safety of a Management Strategy Based on Colour Doppler ULTrasound and D-Dimer Testing for the Diagnosis Exclusion of RECurrent Deep Vein Thrombosis of the Lower Limbs. The ULTREC Project,ULTREC,False,False,False
-🟥,rouge,NCT04878263,,2023,Evaluation and Support Care Process Within the Care Pathway of Heart Failure Patients,FIL-EAS,False,False,False
-🟥,rouge,NCT05673486,,2023,Analgesic Efficacy of Regional Anesthesia by PENG-Block in Patients Diagnosed With Hip Fractures in the Emergency Department: an Open-label Randomized Controlled Trial,ED-PENGBLOCK,False,False,False
-🟥,rouge,NCT05437991,,2023,Ultrasonographic Morphology Assessment of Low-grade Carotid Stenosis,QUAMUS,False,False,True
-🟧,orange,NCT04028973,,2023,Towards a Better Understanding of Neuromuscular Alterations and Fatigue in Chronic Obstructive Pulmonary Disease (COPD),NEUROTIGUE,False,True,True
-🟥,rouge,NCT04919408,,2024,Evaluation of the Incidence of Chronic Post-cesarean Pain as Part of an Enhanced Recovery After Surgery (ERAS) Protocol.,ChroCéRAAC,False,False,False
-🟥,rouge,NCT03787173,,2024,Patient-ventilator Synchronisation Study in Non Invasive Ventilation for Intensive Care Unit Patients: Comparison Between Manual and Automated Ventilator Settings.,SyncAutoVNI,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT01899560,,2014,Prospective Physiological Study of Lung Elastance in Recruitment and Derecruitment in Early Onset Mechanically Ventilated Acute Respiratory Distress Syndrome (ARDS)Patients,ELASTANCE,False,False,False,PROCEDURE
+🟩,vert,NCT00935480,,2014,IMPACT OF THERAPY INTENSIFICATION BY AN INTEGRASE INHIBITOR +/- CCR5 INHIBITOR ON THE LYMPHOID RESERVOIR FOR HIV-1 IN CHRONICALLY INFECTED PATIENTS,IntensVIH,True,True,True,DRUG
+🟥,rouge,NCT01781091,,2015,S4 :RANDOMIZED CONTROLLED TRIAL OF FULLY CLOSED-LOOP VENTILATION IN ICU.,S4,False,False,False,DEVICE
+🟥,rouge,NCT03870295,,2020,Assessment of a New Measurement Technique for Type C Fibre Nerve Conduction Velocity in Polyneuropathies.,FIBREC,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT05077605,,2022,Electrical Impedance Tomography: Effect of Extubation on Functional Residual Capacity,PULMOVISTA,False,False,False,OTHER
+🟧,orange,NCT04634318,,2022,Organization of Pulmonary Rehabilitation of Post-COVID-19 Patient With Sequelae. Assessment and Therapeutic Indication of Tele-rehabilitation Versus Conventional Rehabilitation,REHABCOVID,False,True,True,OTHER
+🟥,rouge,NCT05237050,,2022,Evaluation of Sound Therapy in a Population of Women With Fibromyalgia Aged Between 30 and 60 Years,SONOMYAL,False,False,False,OTHER
+🟥,rouge,NCT04903522,,2022,Can the Affects Conveyed by Baroque Music and Its Rhetoric Reduce Anxiety in Patients With Major Depressive Disorder Associated With Anxiety Symptoms?,BARHEPSY,False,False,False,BEHAVIORAL
+🟥,rouge,NCT03868956,,2023,Safety of a Management Strategy Based on Colour Doppler ULTrasound and D-Dimer Testing for the Diagnosis Exclusion of RECurrent Deep Vein Thrombosis of the Lower Limbs. The ULTREC Project,ULTREC,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT04878263,,2023,Evaluation and Support Care Process Within the Care Pathway of Heart Failure Patients,FIL-EAS,False,False,False,OTHER
+🟥,rouge,NCT05673486,,2023,Analgesic Efficacy of Regional Anesthesia by PENG-Block in Patients Diagnosed With Hip Fractures in the Emergency Department: an Open-label Randomized Controlled Trial,ED-PENGBLOCK,False,False,False,COMBINATION_PRODUCT
+🟥,rouge,NCT05437991,,2023,Ultrasonographic Morphology Assessment of Low-grade Carotid Stenosis,QUAMUS,False,False,True,DIAGNOSTIC_TEST
+🟧,orange,NCT04028973,,2023,Towards a Better Understanding of Neuromuscular Alterations and Fatigue in Chronic Obstructive Pulmonary Disease (COPD),NEUROTIGUE,False,True,True,OTHER
+🟥,rouge,NCT04919408,,2024,Evaluation of the Incidence of Chronic Post-cesarean Pain as Part of an Enhanced Recovery After Surgery (ERAS) Protocol.,ChroCéRAAC,False,False,False,OTHER
+🟥,rouge,NCT03787173,,2024,Patient-ventilator Synchronisation Study in Non Invasive Ventilation for Intensive Care Unit Patients: Comparison Between Manual and Automated Ventilator Settings.,SyncAutoVNI,False,False,False,DEVICE

@@ -1,90 +1,90 @@
-statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,rouge,NCT00222066,,2007,Comparison Between Abstention and Intrauterine Aspiration in the Treatment of Anechoic Fetal Ovarian Cysts to Prevent Ovarian Torsion,,False,False,False
-🟥,rouge,NCT00245869,,2007,Contrast-Enhanced Ultrasound and Neoadjuvant Chemotherapy of Breast Cancer: Relationship Between Early Vascular Changes of the Tumor and Late Tumoral Response,,False,False,False
-🟥,rouge,NCT00243698,,2007,A Pilot Study Evaluation of the Efficacy of SonoVue to Detect and Characterise Breast Lesions,,False,False,True
-🟥,rouge,NCT00243633,,2007,Characterization of Focal Liver Lesions by Real-Time Contrast-Enhanced Ultrasound Imaging (CEUS),,False,False,False
-🟥,rouge,NCT00497614,,2008,18F-FDG Positron Emission Tomography to Study the Response to Adalimumab in Rheumatoid Arthritis. A Monocentric Pilot Study,PETRA,False,False,False
-🟥,rouge,NCT00507403,,2009,Effect of Methotrexate on the Relation Dose-effect of Infliximab in Ankylosing Spondylitis,SPAXIM,False,False,True
-🟥,rouge,NCT01942239,,2009,Real-time Continuous Glucose Monitoring Reduces Duration of Hypoglycemia Episodes in Very Low Birth Weight Neonates,,False,False,False
-🟥,rouge,NCT01014026,,2011,Human Papillomavirus DNA Testing Using Self-collected Samples for Cervical Cancer Screening: an Alternative Strategy for Unscreened Women?,APACHE-1,False,False,False
-🟥,rouge,NCT00593528,,2011,Randomized Study With Medico-economic Evaluation Comparing the Use of PTFE Covered Stents vs Naked Stent in the TIPS (Transjugular Intra-hepatic Porto-systemic Shunt),,False,False,False
-🟥,rouge,NCT00489697,,2012,Medical and Economical Evaluation of Contrast-enhanced Ultrasound Imaging for the Early Estimate of Bevacizumab Effect on Colorectal Cancer Liver Metastases,,False,False,True
-🟥,rouge,NCT00308893,,2012,Brain Derived Neurotrophic Factor (BDNF) Gene Polymorphism and Response to Antidepressants Treatment in Major Depression,,False,False,False
-🟥,rouge,NCT01350882,,2012,Phase III Study of Impact of Treatment With Rituximab on the Progression of Humoral Acute Rejection After Renal Transplantation,RITUX-ERAH,False,False,False
-🟥,rouge,NCT02304900,,2012,Effect of the Color of the Intra-eye Implant in the Cataract Surgery on the Sleep,IOL et sommeil,False,False,False
-🟥,rouge,NCT01325259,,2013,Molecular Imaging of Cerebral Amyloid Plaques Using PET With Fluoro Tracker for Early Diagnosis of Alzheimer's Disease,FAIR-AD,False,False,False
-🟥,rouge,NCT01382160,,2013,Serum Concentration of Adalimumab (Humira) as a Predictive Factor of Clinical Outcomes in Rheumatoid Arthritis (AFORA),AFORA,False,False,False
-🟥,rouge,NCT01737606,,2013,Ultrasonic Explorations of Cerebral Tissue Motions - Influence of Aging,COSTUM,False,False,False
-🟥,rouge,NCT02574884,,2013,,VINTAGE VHC,False,False,False
-🟥,rouge,NCT01427036,,2013,Impact Sur le Saignement Per et Post opératoire de 2 stratégies d'ostéosynthèse Des Fractures du Massif trochantérien du Sujet > 65 Ans : Essai randomisé Comparant le système MISS et le système PHS,MISSvsPHS,False,False,False
-🟥,rouge,NCT00843817,,2013,RhDNase Effect on Biodistribution of PMN Serine Proteases in Cystic Fibrosis Sputum,BioDNase,False,False,False
-🟥,rouge,NCT00841295,,2013,Effects of Parenteral L-carnitine Supplementation in Premature Neonates,CarniPrema,False,False,False
-🟥,rouge,NCT00512434,,2013,Injection of Concentrated Autologous Bone-marrow (IMOCA) and Bone Union of Open Tibial Shaft Fracture: Randomized Study to Assess Efficiency of IMOCA in Addition to Standard of Care.,IMOCA,False,False,False
-🟩,vert,NCT01770548,,2014,Autism and Glutamatergic Synapse : Research of Genetic Mutations and Identification of Clinical and Neurophysiological Markers.,NMDA-Autism,True,True,True
-🟥,rouge,NCT02570620,,2014,Apport de l'échographie du Col Dans l'évaluation du Délai Induction Accouchement (DIA) Chez Des Patientes à Score de Bishop défavorable après déclenchement Par Dinoprostone Intravaginal,ECOLDIA,False,False,False
-🟥,rouge,NCT02103374,,2015,Evaluation of Benefit of Nebulized Bronchodilators at Home in Severe Chronic Obstructive Pulmonary Disease and Very Severe Steady State,Nebuadom,False,False,False
-🟥,rouge,NCT02026622,,2015,"Comparative Study of Physiological and Cerebrovascular Reactivity in Depression, at the Three Phases of Emotion",EMPHILINE,False,False,False
-🟥,rouge,NCT01895764,,2015,Effect of the Combination of Methotrexate and Adalimumab on Reduction of Immunization in Ankylosing Spondylitis (COMARIS),COMARIS,False,False,False
-🟥,rouge,NCT02302534,,2015,Pilot Study of Functional and Morphometric Brain Abnormalities Related to Adolescent Idiopathic Scoliosis (MOR-FO-SIA),MOR-FO-SIA,False,False,False
-🟥,rouge,NCT01958814,,2015,Controlled Randomized Double-blind Study Comparing Salbutamol and Placebo Via Aerosol in Chronic Obstructive Respiratory Insufficiency in Exacerbartion Treated With Noninvasive Ventilation,BANNISTER,False,False,True
-🟥,rouge,NCT01732991,,2015,Assessing the Impact of the Prostatic Photo-vaporization (PVP) With Greenlight Laser Using Prostatic MRI and Contrast-enhanced Ultrasound,PROPIL,False,False,False
-🟥,rouge,NCT02367001,,2015,"Randomized Trial Evaluating the Effectiveness of a ""Targeted Communication"" With the General Practitioner Involvement in Cancer Screening Invitation Letters",GPs,False,False,False
-🟥,rouge,NCT02061254,,2015,Transient Elastography DEdicated to Cosmetology And Dermatology (TEDECAD),TEDECAD,False,False,False
-🟥,rouge,NCT02567058,,2015,Biomechanical and Ultrasonic Assessment of the Achilles Tendon in Vivo (MEDUSAA),MEDUSAA,False,False,False
-🟥,rouge,NCT01729468,,2016,Prevention of Pre-eclampsia and SGA by Low-Dose Aspirin in Nulliparous Women With Abnormal First-trimester Uterine Artery Dopplers,PERASTUN,False,False,False
-🟥,rouge,NCT02302573,,2016,Placenta Accreta : Contrast-enhanced Ultrasound Analysis in High Risk Population,,False,False,False
-🟥,rouge,NCT02255084,,2016,Attitude of Unscreened Women Face to Different Strategies to Participate in Cervical Cancer Screening by Vaginal Self-sampling : Home-mailed or Invitation to Remove to Their General Practitioner,APACHE-3,False,False,True
-🟥,rouge,NCT02050269,,2016,Measuring the Plasma Clearance of Iohexol to Estimate Glomerular Filtration Rate in Intensive Care Unit Patients: Preliminary Feasibility Study,IoxRea,False,False,True
-🟥,rouge,NCT01960283,,2016,Randomized Clinical Trial Evaluating the Efficacy of Methotrexate in Addition to Anti-H1 Versus Placebo and Anti-H1 in the Treatment of Severe Chronic Idiopathic Urticaria,MUCIS,False,False,False
-🟩,vert,NCT00645606,,2017,"Single-agent Rituximab as Maintenance Treatment Versus Observation After Combined Induction Immunochemotherapy With Fludarabine, Cyclophosphamide and Rituximab in Patients Older Than 65 Years With Previously Untreated Chronic Lymphocytic Leukemia: a Phase III Trial of FILO",LLC2007SA,True,True,True
-🟥,rouge,NCT02789839,,2017,Analyses of Bone Marrow and Blood Samples From Healthy Volunteers: Focus on the redOx Metabolism - HEALTHOX,HEALTHOX,False,False,False
-🟥,rouge,NCT01816009,,2017,"Multicentric Study, of Non Inferiority, Randomized, Opened, to Evaluate the Two Durations Effectiveness of Antibiotherapy (6 Weeks Versus 12 Weeks) in the Treatment of Osteo-articular Prostheses Infections, With Prosthetic Change (in 1 Time or 2 Long Times) or Not (Articular Washing)",DATIPO,False,False,True
-🟧,orange,NCT01388413,,2017,"A Randomized, Multicenter, Parallel Group Study to Evaluate Safety and Efficacy of a Weekly Oral Cyclic Antibiotic Programme in the Prevention of Urinary Tract Infection on Neurological Bladder",PACHIU,False,True,True
-🟩,vert,NCT02263651,,2018,Dead Space Closure With Quilting Suture Versus Conventional Closure With Drainage in Prevention of Seroma Formation After Mastectomy for Breast Cancer : a Randomized Controlled Trial,QUISERMAS,True,True,True
-🟥,rouge,NCT02573974,,2018,Study of Alterations in Skeletal Muscle Energy Metabolism in Undernourished Patients With Gastrointestinal Cancer,METERMUCADIG,False,False,True
-🟩,vert,NCT02302547,,2018,"Randomized Clinical Trial to Evaluate the Interest of a Down-scaled Treatment Strategy Using Dual Therapy (Nucleoside Analogs) in HIV Infected Patients Already Being Treated Using Triple Therapy, Who Present With a Successful Virological Control and for Which the HIV Reservoir is Low to Moderate",TRULIGHT,True,True,True
-🟩,vert,NCT02907060,,2018,Propess® Versus Double Balloon for Cervical Ripening of Prolonged Pregnancies: a Randomised Controlled Trial,,True,True,True
-🟥,rouge,NCT02278848,,2018,Multimodal Investigation in the Diagnosis and Treatment of Chronic Adult Hydrocephalus,Multimod'HCA,False,False,False
-🟥,rouge,NCT02812979,,2018,Evaluation of the Effectiveness of the Nebulization Bronchodilators Under High Nasal Flow Humidified Compared to a Usual Method,AirvoNEB,False,False,False
-🟥,rouge,NCT01628432,,2018,Effect of Total Salpingectomy During Conservative Hysterectomy for Benign Disease on Ovarian Function: Non Inferiority Randomized Controlled Trial,SALPINGOVA,False,False,False
-🟥,rouge,NCT02185222,,2018,Effect of Vitamin D on Cognitive Decline of Patients With Memory Complaint,D-COG,False,False,False
-🟩,vert,NCT02062099,,2018,PET Imaging of the Translocator Proteine Ligands (TSPO) With [18 F] DPA-714 Biomarker of NeuroInflammation in Cognitive Decline (NIDECO),NIDeCo,True,True,True
-🟥,rouge,NCT01962311,,2018,Evaluation of Metabolomic Analysis in Early Diagnosis of ALS,METABALS,False,False,False
-🟥,rouge,NCT01983436,,2018,Impact of Manual Lymphatic Drainage on Postoperative Edema of the Face and the Neck After Orthognathic Surgery.Open-label Multicenter Randomized Controlled Trial,DLMOF,False,False,False
-🟥,rouge,NCT03022968,,2019,Tau Brain Imaging in Typical and Atypical Alzheimer's Disease (AD),TEPTAU,False,False,False
-🟩,vert,NCT02509468,,2019,Treatment of Superficial Voluminous Complicated Slow-flow Vascular Malformations With Sirolimus: a Phase 2 Trial in Children Observational-phase Designed,PERFORMUS,True,True,True
-🟥,rouge,NCT01364857,,2019,"French National Prospective Cohort of Children With Port Wine Stain on a Limb = ""Cohorte Nationale d'Enfants Avec Angiome Plan de Membre inférieur""",CONAPE,False,False,False
-🟥,rouge,NCT03084133,,2019,"Impact of EDUcation Strategy on Patients With COLorectal CANCER or Advanced Adenoma in the Detection of Colorectal Cancer of Their First-degree Relatives - Randomized, Multicenter Cluster Test",EDUCANCOLAGE,False,False,False
-🟥,rouge,NCT02719951,,2019,Glutaminergic Transmission in Autism : Molecular Imaging Exploration,TANGAU,False,False,False
-🟥,rouge,NCT02917473,,2019,"Written Advice to Improve Compliance With Early Detection of Melanoma in First-degree Relatives: a Multicenter, Cluster-randomized Intervention Trial to Evaluate the Impact of Specific Incentives and Study Psychological Determinants of Early Melanoma Detection Behavior in First-degree Relatives",FADEMELA,False,False,False
-🟥,rouge,NCT02304354,,2019,Relationship Between T LYmphocytes Depletion and Clinical Response to RITUXimab in Rheumatoid Arthritis (LYRITUX),LYRITUX,False,False,False
-🟥,rouge,NCT02670226,,2019,Metabolomics and Transcriptomics Approaches to Identify Muscular Biomarkers in Amyotrophic Lateral Sclerosis,METABOMU,False,False,False
-🟥,rouge,NCT02377206,,2019,Neuroinflammation and Cognitive Decline in Alzheimer Disease (AD) : Pilot Study of Translocator Proteins Ligand PET Imaging With [18F]DPA-714,NICAD,False,False,False
-🟥,rouge,NCT02931825,,2019,Identification of High Risk People for Colorectal Cancer in Indre-et-Loire (France) and Evaluation of a Specific Surveillance System : a Randomized Trial Assessing the Efficacy of a Letter Encouraging People to Perform Colonoscopy Screening,ISIRECC,False,False,False
-🟥,rouge,NCT03027479,,2019,Study of Differences in Skeletal Muscle Energy Metabolism Alterations in Women With Weight Loss and Ovarian and/or Endometrial Cancer Based on the Body Mass Index,METERMUS-IMC,False,False,False
-🟥,rouge,NCT03000920,,2019,Multicenter Randomized Controlled Trial Evaluating the Effectiveness and Cost-effectiveness of the Use of Short Message Service (SMS) in the Screening Invitation Strategy for Breast Cancer.,USIMaPI,False,False,False
-🟥,rouge,NCT01962753,,2020,Depression in the Elderly and Cerebral Amyloid Plaques: Characterization by [18F] AV-45 Affectives Symptoms and Amyloïd Plaques (ASAP),ASAP,False,False,False
-🟧,orange,NCT03024229,,2020,The Importance of Metabolomics in Assessing the Quality of Kidney Transplants Retained on a LifePort® Perfusion Machine Before Renal Transplantation,RENALIFE,False,True,True
-🟩,vert,NCT02517489,,2020,Effects of Low-dose Corticosteroids on Survival of Severe Community-acquired Pneumonia,CAPE_COD,True,True,True
-🟥,rouge,NCT03927729,,2020,Use of Methoxyflurane (Penthrox) as an Antalgic in Hospital Trauma,UMATH,False,False,False
-🟧,orange,NCT04359875,,2020,Does a Systematic Phone-call by a Medical Student/General Practitioner Team in Patients Suffering From a Chronic Condition During the COVID-19 Containment Period Impact One-month Hospitalization's Rate in France? A Cluster Randomized Trial,COVIQuest,False,True,True
-🟩,vert,NCT02990286,,2020,Evaluation of Efficacy and Safety of Rituximab in Association With Mycophenolate Mofetil Versus Mycophenolate Mofetil Alone in Patients With Interstitial Lung Diseases (ILD) Non-responders to a First-line Immunosuppressive Treatment,EvER-ILD,True,True,True
-🟥,rouge,NCT03002142,,2020,Auditory Rehabilitation With Hearing Aids and Cognition in Alzheimer Patients,RACO-MA,False,False,False
-🟥,rouge,NCT02809222,,2021,Kinetics of the Plasmatic Concentration of L-Ascorbic Acid in Patient With Myelodysplastic Syndromes and Control Subjects,PLASMYC,False,False,False
-🟥,rouge,NCT02900053,,2021,Post-traumatic Stress Disorder Treatment Using Transcranial Direct Current Stimulation (tDCS) Enhancement of Trauma-focused Therapy : a Two-arm Randomized Controlled Multicentric Study - T-TREAt,T-TREAt,False,False,False
-🟥,rouge,NCT02455284,,2021,In Vivo and ex Vivo Validation of MR Tractography of Brain White Matter Tracts - FIBRATLAS II-III,FIBRATLAS,False,False,False
-🟩,vert,NCT04358939,,2021,Evaluation of Prone Position in Conscious Patients on Nasal High-flow Oxygen Therapy for COVID-19 Disease Induced Acute Respiratory Distress Syndrome,,True,True,True
-🟥,rouge,NCT04199143,,2021,Cerebrovascular Reactivity to Nitrous Oxyde in Resistant Depression: the PROTOBRAIN Pilote Study,,False,False,False
-🟥,rouge,NCT03856684,,2021,Randomized Trial Evaluating Women's Behavior Not Participating in Cervical Cancer Screening Facing Three Strategies for Optimizing Home Sending by Post of Vaginal Self-sampling Kit,APACHE-4,False,False,False
-🟥,rouge,NCT04879277,,2021,Etude de l'INflammation systémique de Bas GRade Chez Les Patients Adultes Atteints de PHénylcétonurie,INGRAPH,False,False,False
-🟥,rouge,NCT03118193,,2021,Biomarkers of Antidepressant Resistance - BIORESA,BIORESA,False,False,False
-🟩,vert,NCT03149640,,2021,Double-blinded Multicenter Randomized Controlled Trial Comparing Inhaled Amikacin Versus Placebo to Prevent Ventilator Associated Pneumonia,AMIKINHAL,True,True,True
-🟥,rouge,NCT03458975,,2022,Targeted Delivery of Chemotherapy With Ultrasound and Microbubbles,SONCHIMIO,False,False,False
-🟩,vert,NCT02229123,,2022,Levetiracetam Efficacy and Safety as First-line Treatment of Neonatal Seizures Occuring in Hypoxic-ischemic Encephalopathy Context,LEVNEONAT-1,True,True,True
-🟥,rouge,NCT03924180,,2022,Glytactin EfficiEncy in Non or Insufficiently Treated Adult PHENylketonuria Patients,GLEEPHEN,False,False,False
-🟥,rouge,NCT04725786,,2022,Pertinence Clinique de l'échographie Thoracique Pour le Diagnostic précoce de la Pneumopathie Interstitielle Diffuse de la sclérodermie systémique - Etude Pilote,PRECOSS,False,False,False
-🟩,vert,NCT03970499,,2023,Evaluation de l'intérêt de l'élastographie Ultrasonore et du Doppler Ultrasensible peropératoires Dans la Prise en Charge Chirurgicale Des Tumeurs cérébrales,ELASTOGLI,True,True,True
-🟥,rouge,NCT04570202,,2023,"Symptoms of Depression, Stress and Burnout, and Long-term Psychological Impact in Health Care Professionals Exposed to the Novel Coronavirus Disease 2019 Outbreak (HARD-COVID-19 - Health cAre woRkers exposeD to covID-19)",HARD-COVID19,False,False,False
-🟩,vert,NCT03680963,,2023,"Early Versus Differed Arterial Catheterization in Critically Ill Patients With Acute Circulatory Failure: A Multicentre, Open-label, Pragmatic, Randomised, Non-inferiority Controlled Trial (EVERDAC Trial)",EVERDAC,True,True,True
-🟥,rouge,NCT04953286,,2023,Tear Fluid and Ocular Surface Metabolomics and Lipidomics in Lateral Amyotrophic Sclerosis: a Prospective Comparative Study,LARMOMIQUE,False,False,False
-🟥,rouge,NCT06119971,,2023,"Effect of Acupressure on the ""Yin-Tang"" and ""Shen-Men"" Points on Pre and Postoperative Anxiety in Elective Caesarean Section: a Prospective, Single-blind, Randomised, Controlled Trial",ACUCESAR,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT00222066,,2007,Comparison Between Abstention and Intrauterine Aspiration in the Treatment of Anechoic Fetal Ovarian Cysts to Prevent Ovarian Torsion,,False,False,False,PROCEDURE
+🟥,rouge,NCT00245869,,2007,Contrast-Enhanced Ultrasound and Neoadjuvant Chemotherapy of Breast Cancer: Relationship Between Early Vascular Changes of the Tumor and Late Tumoral Response,,False,False,False,PROCEDURE
+🟥,rouge,NCT00243698,,2007,A Pilot Study Evaluation of the Efficacy of SonoVue to Detect and Characterise Breast Lesions,,False,False,True,DRUG
+🟥,rouge,NCT00243633,,2007,Characterization of Focal Liver Lesions by Real-Time Contrast-Enhanced Ultrasound Imaging (CEUS),,False,False,False,PROCEDURE
+🟥,rouge,NCT00497614,,2008,18F-FDG Positron Emission Tomography to Study the Response to Adalimumab in Rheumatoid Arthritis. A Monocentric Pilot Study,PETRA,False,False,False,DRUG
+🟥,rouge,NCT00507403,,2009,Effect of Methotrexate on the Relation Dose-effect of Infliximab in Ankylosing Spondylitis,SPAXIM,False,False,True,DRUG
+🟥,rouge,NCT01942239,,2009,Real-time Continuous Glucose Monitoring Reduces Duration of Hypoglycemia Episodes in Very Low Birth Weight Neonates,,False,False,False,DEVICE
+🟥,rouge,NCT01014026,,2011,Human Papillomavirus DNA Testing Using Self-collected Samples for Cervical Cancer Screening: an Alternative Strategy for Unscreened Women?,APACHE-1,False,False,False,OTHER
+🟥,rouge,NCT00593528,,2011,Randomized Study With Medico-economic Evaluation Comparing the Use of PTFE Covered Stents vs Naked Stent in the TIPS (Transjugular Intra-hepatic Porto-systemic Shunt),,False,False,False,PROCEDURE
+🟥,rouge,NCT00489697,,2012,Medical and Economical Evaluation of Contrast-enhanced Ultrasound Imaging for the Early Estimate of Bevacizumab Effect on Colorectal Cancer Liver Metastases,,False,False,True,DEVICE
+🟥,rouge,NCT00308893,,2012,Brain Derived Neurotrophic Factor (BDNF) Gene Polymorphism and Response to Antidepressants Treatment in Major Depression,,False,False,False,GENETIC
+🟥,rouge,NCT01350882,,2012,Phase III Study of Impact of Treatment With Rituximab on the Progression of Humoral Acute Rejection After Renal Transplantation,RITUX-ERAH,False,False,False,DRUG
+🟥,rouge,NCT02304900,,2012,Effect of the Color of the Intra-eye Implant in the Cataract Surgery on the Sleep,IOL et sommeil,False,False,False,OTHER
+🟥,rouge,NCT01325259,,2013,Molecular Imaging of Cerebral Amyloid Plaques Using PET With Fluoro Tracker for Early Diagnosis of Alzheimer's Disease,FAIR-AD,False,False,False,RADIATION
+🟥,rouge,NCT01382160,,2013,Serum Concentration of Adalimumab (Humira) as a Predictive Factor of Clinical Outcomes in Rheumatoid Arthritis (AFORA),AFORA,False,False,False,BIOLOGICAL
+🟥,rouge,NCT01737606,,2013,Ultrasonic Explorations of Cerebral Tissue Motions - Influence of Aging,COSTUM,False,False,False,DEVICE
+🟥,rouge,NCT02574884,,2013,,VINTAGE VHC,False,False,False,PROCEDURE
+🟥,rouge,NCT01427036,,2013,Impact Sur le Saignement Per et Post opératoire de 2 stratégies d'ostéosynthèse Des Fractures du Massif trochantérien du Sujet > 65 Ans : Essai randomisé Comparant le système MISS et le système PHS,MISSvsPHS,False,False,False,PROCEDURE
+🟥,rouge,NCT00843817,,2013,RhDNase Effect on Biodistribution of PMN Serine Proteases in Cystic Fibrosis Sputum,BioDNase,False,False,False,DRUG
+🟥,rouge,NCT00841295,,2013,Effects of Parenteral L-carnitine Supplementation in Premature Neonates,CarniPrema,False,False,False,DRUG
+🟥,rouge,NCT00512434,,2013,Injection of Concentrated Autologous Bone-marrow (IMOCA) and Bone Union of Open Tibial Shaft Fracture: Randomized Study to Assess Efficiency of IMOCA in Addition to Standard of Care.,IMOCA,False,False,False,PROCEDURE
+🟩,vert,NCT01770548,,2014,Autism and Glutamatergic Synapse : Research of Genetic Mutations and Identification of Clinical and Neurophysiological Markers.,NMDA-Autism,True,True,True,GENETIC
+🟥,rouge,NCT02570620,,2014,Apport de l'échographie du Col Dans l'évaluation du Délai Induction Accouchement (DIA) Chez Des Patientes à Score de Bishop défavorable après déclenchement Par Dinoprostone Intravaginal,ECOLDIA,False,False,False,DEVICE
+🟥,rouge,NCT02103374,,2015,Evaluation of Benefit of Nebulized Bronchodilators at Home in Severe Chronic Obstructive Pulmonary Disease and Very Severe Steady State,Nebuadom,False,False,False,DRUG
+🟥,rouge,NCT02026622,,2015,"Comparative Study of Physiological and Cerebrovascular Reactivity in Depression, at the Three Phases of Emotion",EMPHILINE,False,False,False,BEHAVIORAL
+🟥,rouge,NCT01895764,,2015,Effect of the Combination of Methotrexate and Adalimumab on Reduction of Immunization in Ankylosing Spondylitis (COMARIS),COMARIS,False,False,False,DRUG
+🟥,rouge,NCT02302534,,2015,Pilot Study of Functional and Morphometric Brain Abnormalities Related to Adolescent Idiopathic Scoliosis (MOR-FO-SIA),MOR-FO-SIA,False,False,False,DEVICE
+🟥,rouge,NCT01958814,,2015,Controlled Randomized Double-blind Study Comparing Salbutamol and Placebo Via Aerosol in Chronic Obstructive Respiratory Insufficiency in Exacerbartion Treated With Noninvasive Ventilation,BANNISTER,False,False,True,DRUG
+🟥,rouge,NCT01732991,,2015,Assessing the Impact of the Prostatic Photo-vaporization (PVP) With Greenlight Laser Using Prostatic MRI and Contrast-enhanced Ultrasound,PROPIL,False,False,False,DEVICE
+🟥,rouge,NCT02367001,,2015,"Randomized Trial Evaluating the Effectiveness of a ""Targeted Communication"" With the General Practitioner Involvement in Cancer Screening Invitation Letters",GPs,False,False,False,OTHER
+🟥,rouge,NCT02061254,,2015,Transient Elastography DEdicated to Cosmetology And Dermatology (TEDECAD),TEDECAD,False,False,False,PROCEDURE
+🟥,rouge,NCT02567058,,2015,Biomechanical and Ultrasonic Assessment of the Achilles Tendon in Vivo (MEDUSAA),MEDUSAA,False,False,False,BEHAVIORAL
+🟥,rouge,NCT01729468,,2016,Prevention of Pre-eclampsia and SGA by Low-Dose Aspirin in Nulliparous Women With Abnormal First-trimester Uterine Artery Dopplers,PERASTUN,False,False,False,DRUG
+🟥,rouge,NCT02302573,,2016,Placenta Accreta : Contrast-enhanced Ultrasound Analysis in High Risk Population,,False,False,False,DRUG
+🟥,rouge,NCT02255084,,2016,Attitude of Unscreened Women Face to Different Strategies to Participate in Cervical Cancer Screening by Vaginal Self-sampling : Home-mailed or Invitation to Remove to Their General Practitioner,APACHE-3,False,False,True,BEHAVIORAL
+🟥,rouge,NCT02050269,,2016,Measuring the Plasma Clearance of Iohexol to Estimate Glomerular Filtration Rate in Intensive Care Unit Patients: Preliminary Feasibility Study,IoxRea,False,False,True,DRUG
+🟥,rouge,NCT01960283,,2016,Randomized Clinical Trial Evaluating the Efficacy of Methotrexate in Addition to Anti-H1 Versus Placebo and Anti-H1 in the Treatment of Severe Chronic Idiopathic Urticaria,MUCIS,False,False,False,DRUG
+🟩,vert,NCT00645606,,2017,"Single-agent Rituximab as Maintenance Treatment Versus Observation After Combined Induction Immunochemotherapy With Fludarabine, Cyclophosphamide and Rituximab in Patients Older Than 65 Years With Previously Untreated Chronic Lymphocytic Leukemia: a Phase III Trial of FILO",LLC2007SA,True,True,True,BIOLOGICAL
+🟥,rouge,NCT02789839,,2017,Analyses of Bone Marrow and Blood Samples From Healthy Volunteers: Focus on the redOx Metabolism - HEALTHOX,HEALTHOX,False,False,False,PROCEDURE
+🟥,rouge,NCT01816009,,2017,"Multicentric Study, of Non Inferiority, Randomized, Opened, to Evaluate the Two Durations Effectiveness of Antibiotherapy (6 Weeks Versus 12 Weeks) in the Treatment of Osteo-articular Prostheses Infections, With Prosthetic Change (in 1 Time or 2 Long Times) or Not (Articular Washing)",DATIPO,False,False,True,OTHER
+🟧,orange,NCT01388413,,2017,"A Randomized, Multicenter, Parallel Group Study to Evaluate Safety and Efficacy of a Weekly Oral Cyclic Antibiotic Programme in the Prevention of Urinary Tract Infection on Neurological Bladder",PACHIU,False,True,True,DRUG
+🟩,vert,NCT02263651,,2018,Dead Space Closure With Quilting Suture Versus Conventional Closure With Drainage in Prevention of Seroma Formation After Mastectomy for Breast Cancer : a Randomized Controlled Trial,QUISERMAS,True,True,True,PROCEDURE
+🟥,rouge,NCT02573974,,2018,Study of Alterations in Skeletal Muscle Energy Metabolism in Undernourished Patients With Gastrointestinal Cancer,METERMUCADIG,False,False,True,OTHER
+🟩,vert,NCT02302547,,2018,"Randomized Clinical Trial to Evaluate the Interest of a Down-scaled Treatment Strategy Using Dual Therapy (Nucleoside Analogs) in HIV Infected Patients Already Being Treated Using Triple Therapy, Who Present With a Successful Virological Control and for Which the HIV Reservoir is Low to Moderate",TRULIGHT,True,True,True,DRUG
+🟩,vert,NCT02907060,,2018,Propess® Versus Double Balloon for Cervical Ripening of Prolonged Pregnancies: a Randomised Controlled Trial,,True,True,True,DEVICE
+🟥,rouge,NCT02278848,,2018,Multimodal Investigation in the Diagnosis and Treatment of Chronic Adult Hydrocephalus,Multimod'HCA,False,False,False,OTHER
+🟥,rouge,NCT02812979,,2018,Evaluation of the Effectiveness of the Nebulization Bronchodilators Under High Nasal Flow Humidified Compared to a Usual Method,AirvoNEB,False,False,False,DEVICE
+🟥,rouge,NCT01628432,,2018,Effect of Total Salpingectomy During Conservative Hysterectomy for Benign Disease on Ovarian Function: Non Inferiority Randomized Controlled Trial,SALPINGOVA,False,False,False,PROCEDURE
+🟥,rouge,NCT02185222,,2018,Effect of Vitamin D on Cognitive Decline of Patients With Memory Complaint,D-COG,False,False,False,DRUG
+🟩,vert,NCT02062099,,2018,PET Imaging of the Translocator Proteine Ligands (TSPO) With [18 F] DPA-714 Biomarker of NeuroInflammation in Cognitive Decline (NIDECO),NIDeCo,True,True,True,DRUG
+🟥,rouge,NCT01962311,,2018,Evaluation of Metabolomic Analysis in Early Diagnosis of ALS,METABALS,False,False,False,PROCEDURE
+🟥,rouge,NCT01983436,,2018,Impact of Manual Lymphatic Drainage on Postoperative Edema of the Face and the Neck After Orthognathic Surgery.Open-label Multicenter Randomized Controlled Trial,DLMOF,False,False,False,OTHER
+🟥,rouge,NCT03022968,,2019,Tau Brain Imaging in Typical and Atypical Alzheimer's Disease (AD),TEPTAU,False,False,False,DRUG
+🟩,vert,NCT02509468,,2019,Treatment of Superficial Voluminous Complicated Slow-flow Vascular Malformations With Sirolimus: a Phase 2 Trial in Children Observational-phase Designed,PERFORMUS,True,True,True,DRUG
+🟥,rouge,NCT01364857,,2019,"French National Prospective Cohort of Children With Port Wine Stain on a Limb = ""Cohorte Nationale d'Enfants Avec Angiome Plan de Membre inférieur""",CONAPE,False,False,False,GENETIC
+🟥,rouge,NCT03084133,,2019,"Impact of EDUcation Strategy on Patients With COLorectal CANCER or Advanced Adenoma in the Detection of Colorectal Cancer of Their First-degree Relatives - Randomized, Multicenter Cluster Test",EDUCANCOLAGE,False,False,False,BEHAVIORAL
+🟥,rouge,NCT02719951,,2019,Glutaminergic Transmission in Autism : Molecular Imaging Exploration,TANGAU,False,False,False,DRUG
+🟥,rouge,NCT02917473,,2019,"Written Advice to Improve Compliance With Early Detection of Melanoma in First-degree Relatives: a Multicenter, Cluster-randomized Intervention Trial to Evaluate the Impact of Specific Incentives and Study Psychological Determinants of Early Melanoma Detection Behavior in First-degree Relatives",FADEMELA,False,False,False,BEHAVIORAL
+🟥,rouge,NCT02304354,,2019,Relationship Between T LYmphocytes Depletion and Clinical Response to RITUXimab in Rheumatoid Arthritis (LYRITUX),LYRITUX,False,False,False,DRUG
+🟥,rouge,NCT02670226,,2019,Metabolomics and Transcriptomics Approaches to Identify Muscular Biomarkers in Amyotrophic Lateral Sclerosis,METABOMU,False,False,False,OTHER
+🟥,rouge,NCT02377206,,2019,Neuroinflammation and Cognitive Decline in Alzheimer Disease (AD) : Pilot Study of Translocator Proteins Ligand PET Imaging With [18F]DPA-714,NICAD,False,False,False,OTHER
+🟥,rouge,NCT02931825,,2019,Identification of High Risk People for Colorectal Cancer in Indre-et-Loire (France) and Evaluation of a Specific Surveillance System : a Randomized Trial Assessing the Efficacy of a Letter Encouraging People to Perform Colonoscopy Screening,ISIRECC,False,False,False,BEHAVIORAL
+🟥,rouge,NCT03027479,,2019,Study of Differences in Skeletal Muscle Energy Metabolism Alterations in Women With Weight Loss and Ovarian and/or Endometrial Cancer Based on the Body Mass Index,METERMUS-IMC,False,False,False,OTHER
+🟥,rouge,NCT03000920,,2019,Multicenter Randomized Controlled Trial Evaluating the Effectiveness and Cost-effectiveness of the Use of Short Message Service (SMS) in the Screening Invitation Strategy for Breast Cancer.,USIMaPI,False,False,False,OTHER
+🟥,rouge,NCT01962753,,2020,Depression in the Elderly and Cerebral Amyloid Plaques: Characterization by [18F] AV-45 Affectives Symptoms and Amyloïd Plaques (ASAP),ASAP,False,False,False,DRUG
+🟧,orange,NCT03024229,,2020,The Importance of Metabolomics in Assessing the Quality of Kidney Transplants Retained on a LifePort® Perfusion Machine Before Renal Transplantation,RENALIFE,False,True,True,DEVICE
+🟩,vert,NCT02517489,,2020,Effects of Low-dose Corticosteroids on Survival of Severe Community-acquired Pneumonia,CAPE_COD,True,True,True,DRUG
+🟥,rouge,NCT03927729,,2020,Use of Methoxyflurane (Penthrox) as an Antalgic in Hospital Trauma,UMATH,False,False,False,DRUG
+🟧,orange,NCT04359875,,2020,Does a Systematic Phone-call by a Medical Student/General Practitioner Team in Patients Suffering From a Chronic Condition During the COVID-19 Containment Period Impact One-month Hospitalization's Rate in France? A Cluster Randomized Trial,COVIQuest,False,True,True,BEHAVIORAL
+🟩,vert,NCT02990286,,2020,Evaluation of Efficacy and Safety of Rituximab in Association With Mycophenolate Mofetil Versus Mycophenolate Mofetil Alone in Patients With Interstitial Lung Diseases (ILD) Non-responders to a First-line Immunosuppressive Treatment,EvER-ILD,True,True,True,DRUG
+🟥,rouge,NCT03002142,,2020,Auditory Rehabilitation With Hearing Aids and Cognition in Alzheimer Patients,RACO-MA,False,False,False,DEVICE
+🟥,rouge,NCT02809222,,2021,Kinetics of the Plasmatic Concentration of L-Ascorbic Acid in Patient With Myelodysplastic Syndromes and Control Subjects,PLASMYC,False,False,False,OTHER
+🟥,rouge,NCT02900053,,2021,Post-traumatic Stress Disorder Treatment Using Transcranial Direct Current Stimulation (tDCS) Enhancement of Trauma-focused Therapy : a Two-arm Randomized Controlled Multicentric Study - T-TREAt,T-TREAt,False,False,False,DEVICE
+🟥,rouge,NCT02455284,,2021,In Vivo and ex Vivo Validation of MR Tractography of Brain White Matter Tracts - FIBRATLAS II-III,FIBRATLAS,False,False,False,DEVICE
+🟩,vert,NCT04358939,,2021,Evaluation of Prone Position in Conscious Patients on Nasal High-flow Oxygen Therapy for COVID-19 Disease Induced Acute Respiratory Distress Syndrome,,True,True,True,OTHER
+🟥,rouge,NCT04199143,,2021,Cerebrovascular Reactivity to Nitrous Oxyde in Resistant Depression: the PROTOBRAIN Pilote Study,,False,False,False,DEVICE
+🟥,rouge,NCT03856684,,2021,Randomized Trial Evaluating Women's Behavior Not Participating in Cervical Cancer Screening Facing Three Strategies for Optimizing Home Sending by Post of Vaginal Self-sampling Kit,APACHE-4,False,False,False,BEHAVIORAL
+🟥,rouge,NCT04879277,,2021,Etude de l'INflammation systémique de Bas GRade Chez Les Patients Adultes Atteints de PHénylcétonurie,INGRAPH,False,False,False,BIOLOGICAL
+🟥,rouge,NCT03118193,,2021,Biomarkers of Antidepressant Resistance - BIORESA,BIORESA,False,False,False,BIOLOGICAL
+🟩,vert,NCT03149640,,2021,Double-blinded Multicenter Randomized Controlled Trial Comparing Inhaled Amikacin Versus Placebo to Prevent Ventilator Associated Pneumonia,AMIKINHAL,True,True,True,DRUG
+🟥,rouge,NCT03458975,,2022,Targeted Delivery of Chemotherapy With Ultrasound and Microbubbles,SONCHIMIO,False,False,False,RADIATION
+🟩,vert,NCT02229123,,2022,Levetiracetam Efficacy and Safety as First-line Treatment of Neonatal Seizures Occuring in Hypoxic-ischemic Encephalopathy Context,LEVNEONAT-1,True,True,True,DRUG
+🟥,rouge,NCT03924180,,2022,Glytactin EfficiEncy in Non or Insufficiently Treated Adult PHENylketonuria Patients,GLEEPHEN,False,False,False,DIETARY_SUPPLEMENT
+🟥,rouge,NCT04725786,,2022,Pertinence Clinique de l'échographie Thoracique Pour le Diagnostic précoce de la Pneumopathie Interstitielle Diffuse de la sclérodermie systémique - Etude Pilote,PRECOSS,False,False,False,OTHER
+🟩,vert,NCT03970499,,2023,Evaluation de l'intérêt de l'élastographie Ultrasonore et du Doppler Ultrasensible peropératoires Dans la Prise en Charge Chirurgicale Des Tumeurs cérébrales,ELASTOGLI,True,True,True,PROCEDURE
+🟥,rouge,NCT04570202,,2023,"Symptoms of Depression, Stress and Burnout, and Long-term Psychological Impact in Health Care Professionals Exposed to the Novel Coronavirus Disease 2019 Outbreak (HARD-COVID-19 - Health cAre woRkers exposeD to covID-19)",HARD-COVID19,False,False,False,BEHAVIORAL
+🟩,vert,NCT03680963,,2023,"Early Versus Differed Arterial Catheterization in Critically Ill Patients With Acute Circulatory Failure: A Multicentre, Open-label, Pragmatic, Randomised, Non-inferiority Controlled Trial (EVERDAC Trial)",EVERDAC,True,True,True,PROCEDURE
+🟥,rouge,NCT04953286,,2023,Tear Fluid and Ocular Surface Metabolomics and Lipidomics in Lateral Amyotrophic Sclerosis: a Prospective Comparative Study,LARMOMIQUE,False,False,False,OTHER
+🟥,rouge,NCT06119971,,2023,"Effect of Acupressure on the ""Yin-Tang"" and ""Shen-Men"" Points on Pre and Postoperative Anxiety in Elective Caesarean Section: a Prospective, Single-blind, Randomised, Controlled Trial",ACUCESAR,False,False,False,DEVICE

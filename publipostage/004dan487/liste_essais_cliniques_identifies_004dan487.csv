@@ -1,20 +1,20 @@
-statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,rouge,NCT00551551,,2011,Urinary Postpartum Handicap Prevention: Pelvic Floor Exercises vs Control. Multicentric Randomized Trial,,False,False,True
-🟥,rouge,NCT01464073,,2012,"Evaluation of the Effectiveness of Individualized Exercise Program, Combined With a Balanced Diet Rich in Fruits and Vegetables, on the Evolution of Body Fat in Overweight or Obese Women, as Part of Type 2 Diabetes Prevention in Reunion Island.",LIPOXmax-RUN,False,False,True
-🟥,rouge,NCT01794377,,2013,Influence of Muscle Strength on the Energy Cost of Walking in Obese Subjects,OBELIX,False,False,False
-🟥,rouge,NCT02275429,,2014,"Etude Des Troubles métaboliques Induits Par Une Course à Pied très Longue Distance, "" La Diagonale Des Fous "" de La Réunion / Metabolic Disorders in Ultramarathon Runners of the Madmen's Diagonal Race on Reunion Island",METARUN,False,False,False
-🟥,rouge,NCT01425866,,2016,Multicenter Randomized Trial of Structured Educational Intervention at the Community Level in Insufficiently Controlled Patients With Type 2 Diabetes in Reunion Island,ERMIES,False,False,True
-🟥,rouge,NCT02000674,,2016,Succinylcholine vs Rocuronium for Prehospital Emergency Intubation : a Randomized Trial,CURASMUR,False,False,True
-🟥,rouge,NCT02900989,,2017,"Etude de Validation de la Version française d'un Questionnaire "" Ask Suicide-Screening Questions "" (ASQ) Dans Une Population de Patients Adolescents Pris en Charge en unité d'Urgences pédiatriques",ASQ-Fr,False,False,False
-🟩,vert,NCT03226834,,2018,Comparison of Musicotherapy Sessions Using Patient Play-list Versus U Sequence Music Care Medical Device on Pre-operative Anxiety in Women Undergoing Gynecological Surgery: a Randomized-control Study,MUANX,True,True,True
-🟥,rouge,NCT03271112,,2019,Frailty Prevention in Elderly People From Reunion Island: Effects of Adaptated Exercises on Physical Performance,5P-PILOTE,False,False,False
-🟧,orange,NCT01537601,,2019,Effect of Circumcision on the Risk of Febrile Urinary Tract Infections in Children With Posterior Urethral Valves.,CIRCUP,False,True,True
-🟥,rouge,NCT04768621,,2021,Health Consequences of Wintering in the French Southern and Antarctic Territories,MediTAAF,False,False,False
-🟥,rouge,NCT05098925,,2021,Study of Thermoregulatory Processes in Ultra-endurance Runners in a Hot and Humid Environment,ERUPTION-2,False,False,False
-🟩,vert,NCT04459221,,2021,Study of the Impact of a School Program Combining - Promotion of HPV Vaccination and HPV Vaccine Offer in Middle School - on Adherence to HPV Vaccination in Middle School Students,PROM SSCOL,True,True,True
-🟥,rouge,NCT04909411,,2021,Consequences of a Maternal-fetal Chikungunya Virus Infection. Neurocognitive and Sensory Assessment Around the Age of 13.,CHIK13+,False,False,False
-🟥,rouge,NCT05413720,,2022,Study of the Innate Immune Response to the Acute Phase of Human Leptospirosis - IMMUNOLEPTO,IMMUNOLEPTO,False,False,False
-🟥,rouge,NCT05237180,,2022,Evaluation of the Effect of a Spatial Localization Training Program on Auditory Comprehension in Noise in Bi-implanted Subjects With Post-lingual Deafness,CAudiBruit,False,False,False
-🟥,rouge,NCT05598138,,2023,Clinical and Biological Strokes Collection in Reunion Island,CoBRA,False,False,False
-🟥,rouge,NCT05424913,,2023,"Exploratory Study of the Relationships Between the Biomarkers of Inflammation, Lipidome and Insulin Resistance and Disorders of Glycemic Regulation in a Cohort of Insulin-resistant Subjects Due to Excess Weight or Dunnigan's Lipodystrophy",IRAP-DUN 2,False,False,False
-🟥,rouge,NCT05367180,,2023,Impact of a Prevention Program on Sun Risks in Primary School in Tropical French Region,PRESOLRE,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT00551551,,2011,Urinary Postpartum Handicap Prevention: Pelvic Floor Exercises vs Control. Multicentric Randomized Trial,,False,False,True,OTHER
+🟥,rouge,NCT01464073,,2012,"Evaluation of the Effectiveness of Individualized Exercise Program, Combined With a Balanced Diet Rich in Fruits and Vegetables, on the Evolution of Body Fat in Overweight or Obese Women, as Part of Type 2 Diabetes Prevention in Reunion Island.",LIPOXmax-RUN,False,False,True,BEHAVIORAL
+🟥,rouge,NCT01794377,,2013,Influence of Muscle Strength on the Energy Cost of Walking in Obese Subjects,OBELIX,False,False,False,BEHAVIORAL
+🟥,rouge,NCT02275429,,2014,"Etude Des Troubles métaboliques Induits Par Une Course à Pied très Longue Distance, "" La Diagonale Des Fous "" de La Réunion / Metabolic Disorders in Ultramarathon Runners of the Madmen's Diagonal Race on Reunion Island",METARUN,False,False,False,PROCEDURE
+🟥,rouge,NCT01425866,,2016,Multicenter Randomized Trial of Structured Educational Intervention at the Community Level in Insufficiently Controlled Patients With Type 2 Diabetes in Reunion Island,ERMIES,False,False,True,BEHAVIORAL
+🟥,rouge,NCT02000674,,2016,Succinylcholine vs Rocuronium for Prehospital Emergency Intubation : a Randomized Trial,CURASMUR,False,False,True,DRUG
+🟥,rouge,NCT02900989,,2017,"Etude de Validation de la Version française d'un Questionnaire "" Ask Suicide-Screening Questions "" (ASQ) Dans Une Population de Patients Adolescents Pris en Charge en unité d'Urgences pédiatriques",ASQ-Fr,False,False,False,BEHAVIORAL
+🟩,vert,NCT03226834,,2018,Comparison of Musicotherapy Sessions Using Patient Play-list Versus U Sequence Music Care Medical Device on Pre-operative Anxiety in Women Undergoing Gynecological Surgery: a Randomized-control Study,MUANX,True,True,True,DEVICE
+🟥,rouge,NCT03271112,,2019,Frailty Prevention in Elderly People From Reunion Island: Effects of Adaptated Exercises on Physical Performance,5P-PILOTE,False,False,False,OTHER
+🟧,orange,NCT01537601,,2019,Effect of Circumcision on the Risk of Febrile Urinary Tract Infections in Children With Posterior Urethral Valves.,CIRCUP,False,True,True,PROCEDURE
+🟥,rouge,NCT04768621,,2021,Health Consequences of Wintering in the French Southern and Antarctic Territories,MediTAAF,False,False,False,OTHER
+🟥,rouge,NCT05098925,,2021,Study of Thermoregulatory Processes in Ultra-endurance Runners in a Hot and Humid Environment,ERUPTION-2,False,False,False,OTHER
+🟩,vert,NCT04459221,,2021,Study of the Impact of a School Program Combining - Promotion of HPV Vaccination and HPV Vaccine Offer in Middle School - on Adherence to HPV Vaccination in Middle School Students,PROM SSCOL,True,True,True,DRUG
+🟥,rouge,NCT04909411,,2021,Consequences of a Maternal-fetal Chikungunya Virus Infection. Neurocognitive and Sensory Assessment Around the Age of 13.,CHIK13+,False,False,False,OTHER
+🟥,rouge,NCT05413720,,2022,Study of the Innate Immune Response to the Acute Phase of Human Leptospirosis - IMMUNOLEPTO,IMMUNOLEPTO,False,False,False,OTHER
+🟥,rouge,NCT05237180,,2022,Evaluation of the Effect of a Spatial Localization Training Program on Auditory Comprehension in Noise in Bi-implanted Subjects With Post-lingual Deafness,CAudiBruit,False,False,False,OTHER
+🟥,rouge,NCT05598138,,2023,Clinical and Biological Strokes Collection in Reunion Island,CoBRA,False,False,False,BIOLOGICAL
+🟥,rouge,NCT05424913,,2023,"Exploratory Study of the Relationships Between the Biomarkers of Inflammation, Lipidome and Insulin Resistance and Disorders of Glycemic Regulation in a Cohort of Insulin-resistant Subjects Due to Excess Weight or Dunnigan's Lipodystrophy",IRAP-DUN 2,False,False,False,OTHER
+🟥,rouge,NCT05367180,,2023,Impact of a Prevention Program on Sun Risks in Primary School in Tropical French Region,PRESOLRE,False,False,False,OTHER

@@ -1,78 +1,78 @@
-statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results
-🟥,rouge,NCT01161212,,2006,"Physical Activity, Health-related Quality of Life and Corpulence Among French Schoolchildren",REGUL'APS,False,False,False
-🟥,rouge,NCT00301470,,2008,Interest of MR Urography in the Evaluation of Functional Consequences of Urinary Tract in Children and Adults,,False,False,False
-🟥,rouge,NCT00814554,,2009,PRALIMAP: Effectiveness Evaluation of Three Strategies of Prevention of Overweight and Obesity in Adolescents; a Cluster Randomised Controlled Trial,PRALIMAP,False,False,True
-🟥,rouge,NCT01242007,,2010,Lung Function Impairment and Postural Spirometry Changes in Ambulatory Myotonic Dystrophy Patients,,False,False,False
-🟥,rouge,NCT02861235,,2010,"Comparison Between Myocardial Tomoscintigraphies Using a Semiconductor Camera or a Conventional Camera According to Conditions of Examination Execution: Assessment of Infarction or Ischemia, Injected Dye and Sequence of Injections",DSPECT,False,False,False
-🟥,rouge,NCT02885090,,2011,Search for New Genes Involved in Molecular Etiology of Rett Syndrome Through Comparative Genomic Hybridization on DNA Microarrays,RETT,False,False,False
-🟥,rouge,NCT01570179,,2012,Sugammadex in Patients Undergoing Bariatric Surgery: An Equivalence Trial Comparing Real and Ideal Body Weight-based Dosing,SugReBaCh-1,False,False,False
-🟥,rouge,NCT02887131,,2012,Evaluation of Dynamic Computed Tomography Anatomy of Ankle in Inversion / Eversion Mouvement in Subtalar Instability.,IDIS,False,False,False
-🟥,rouge,NCT02129621,,2012,Prospective Study of Neutrophil Gelatinase Associated Lipocalin (NGAL)as a Biomarker of Mineralocorticoid Receiver Activity in Human: Proof of Concept.,,False,False,False
-🟥,rouge,NCT02877537,,2012,Measurements of Change of Respiratory Admittance Induced by Salbutamol for Pediatric Asthma Diagnosis,SALBUTAMOL,False,False,False
-🟥,rouge,NCT03234205,,2012,Measurements of Myocardial Relaxation Time by MRI During Respiration,ARTEMIS,False,False,False
-🟥,rouge,NCT01090934,,2013,Etude de la Performance Diagnostique de l'EEG-Haute Résolution Sur la Localisation de la Zone épileptogène Pour le Traitement Chirurgical Des épilepsies Partielles Pharmaco-résistantes,EEG-HR,False,False,True
-🟥,rouge,NCT01351961,,2013,Arterial Function and Structure and Evolution of Cognitive Impairment in Elderly Hypertensive Subjects With Subjective Memory Complaints,ADELAHYDE2,False,False,False
-🟥,rouge,NCT02182908,,2013,ANALYSE EN MORPHO-TEP AU FDG DE L'EVOLUTIVITE DES ANEVRISMES ABDOMINAUX AORTIQUES NON CHIRURGICAUX UNE ETUDE MULTICENTRIQUE DE L'INTER-REGION NORD-EST,AAA,False,False,False
-🟥,rouge,NCT02858167,,2013,Creation of a Normal Database for FluoroDeoxyGlucose-Positron Emission Tomography (FDG-PET) Neurological Examinations: Study of Principal Inter-individual Variation Factors,BDD TEP FDG,False,False,False
-🟧,orange,NCT01963221,,2013,RELATIONSHIP BETWEEN THORACIC AORTIC STRUCTURE ASSESSED BY PET/CT SCAN AND ARTERIAL STIFFNESS IN ELDERLY PATIENTS: FICTEP STUDY,FICTEP,False,True,True
-🟥,rouge,NCT03240029,,2013,Life Quality of Children in Cancer Remission During School Reintegration,QdV leucémie,False,False,False
-🟥,rouge,NCT02861222,,2013,Myocet® in Children With Relapsed or Refractory Non-brainstem Malignant Glioma,MYOCET,False,False,False
-🟧,orange,NCT01722617,,2014,A Study to Validate Questionnaires FLARE and OM-RA-FLARE Measuring Disease Flares in Patients With Rheumatoid Arthritis.,FLARE,False,True,True
-🟥,rouge,NCT01692977,,2014,Orienting Oneself in a Healing Garden: What Elements of the Design Are Used as Landmarks by Patients With Alzheimer's Disease ?,JAZ-TOP,False,False,False
-🟥,rouge,NCT01544647,,2014,Comparison of 2 Spa Therapy Protocols in Symptomatic Knee Osteoarthritis : a Randomised Trial,Nancythermal,False,False,False
-🟥,rouge,NCT02869100,,2015,Comparison of Sodium Fluoride Positron Emission Tomography and Magnetic Resonance Imaging of Spine and Sacroiliac Joints for Detection of Inflammatory Lesions in Patients Affected by Spondyloarthritis,FNa,False,False,False
-🟧,orange,NCT02851576,,2015,Generation of Clinical Grade Adenovirus Specific T Cells for Adoptive Immunotherapy After Allogeneic Stem Cell Transplantation : Clinical Trial,CTL-ADV,False,True,True
-🟥,rouge,NCT02893449,,2015,Improvement of Social Adaptation After Pre-operative Cognitive Remediation in Parkinson's Patients Profiting From a Bilateral Subthalamic Stimulation,,False,False,False
-🟥,rouge,NCT02879786,,2015,Study of Hierarchy of Afferents in Postural Control of Children With Dyslexia,EQUIDYS,False,False,False
-🟥,rouge,NCT02874196,,2015,Study of Diagnostic Performances of Dual Energy Imaging With Flat Detectors and Tomosynthesis in Identification of Loosening of Painful Hip Prosthesis,PLIDET,False,False,False
-🟥,rouge,NCT02869126,,2015,"Study of the Concordance Between a Traditional Protocol of Stress and Rest Myocardial Tomoscintigraphy Using 99mTc-sestamibi and a Double Isotope Protocol Using Thallium-201 and 99mTc-sestamibi, With a Semiconductor Camera",D-SPECT BIS,False,False,False
-🟥,rouge,NCT02430805,,2015,"Genetics and Genomics of Hypertension Associated With Microinflammation, Oxydative Stress, Chronic Renal Disease and Heart Failure (A2-B2-B3)",Hypercare,False,False,True
-🟥,rouge,NCT01716819,,2015,Role of the Renin Angiotensin Aldosterone System and Remodeling of the Matrix Cardiac Extra Cellular in the Mechanisms of Transition to Heart Failure in Abdominal Obesity: Prospective Longitudinal Study R2C2 II,R2C2-II,False,False,True
-🟥,rouge,NCT02894632,,2016,MR Compatible Accelerometer for Respiratory MOTion Measurement,MARMOT,False,False,False
-🟧,orange,NCT01367743,2009-017081-23,2016,Optimizing the Use of Vasopressor After Coronary Reperfusion in Cardiogenic Shock Secondary to Myocardial Infarction. Pathophysiological Study Comparing the Efficacy and Cardio-circulatory Tolerability of Epinephrine and Norepinephrine,OptimaCC,False,True,True
-🟥,rouge,NCT02634099,,2016,Hemoglobin Monitoring During High Bleeding Risk Surgery in Pediatric Patients: Equivalence Study of Hemoglobin Transcutaneous Saturation and Hemocue With Total Serum Hemoglobin,Hemoped,False,False,False
-🟧,orange,NCT02285712,,2017,Contribution of Ultrasound for Peripheral Intravenous Catheter Placement by Intensive Care Nurses,IDECHO,False,True,True
-🟥,rouge,NCT02556502,,2017,18F-Florbetaben PET Amyloid Imaging in Case of Intermediate CSF Biology for the Diagnosis of Alzheimer's Disease : a Pilot Study,MAF,False,False,False
-🟥,rouge,NCT03136315,,2017,Renal Function Evaluation in an Ultra Endurance Race: On the Interest of Monitoring Specific Biomarkers to Asses Renal Risk.,INFERNAL,False,False,False
-🟥,rouge,NCT02873949,,2017,Analysis of Soluble TREM (Triggering Receptor Expressed on Myeloid Cells)-1 and -2 in Crevicular Fluid and Associated Bacterial Flora in Patients Affected by Periodontitis,TREM,False,False,False
-🟧,orange,NCT02940847,,2017,"The Effectiveness of Ultrasound-guided Technique Compared to Blind Technique in Medial Brachial Cutaneous Nerve Block and Intercostobrachial Nerve Block, in the Axilla",ECHO_NCMB,False,True,True
-🟥,rouge,NCT03306290,,2018,An Evaluation of Serum Concentration of CEFOxitin Used for Antibiotic Prophylaxis in Severely and Morbidly Obese Patients Undergoing BARiatric Surgery (CEFOBAR),CEFOBAR,False,False,False
-🟥,rouge,NCT02820376,,2018,Assessment of Differential Renal Function by CT in Living Donors - The DOVISCAN Study,DOVISCAN,False,False,False
-🟥,rouge,NCT02869321,,2018,Evaluation of Analgesic Efficacy of Transmucosal Fentanyl for Breakthrough Pain Caused by Interventional Gastrostomy,ANTALGIP,False,False,False
-🟧,orange,NCT02116868,,2018,"Usefulness of Pupillary Reflex on Remifentanil and Morphine Consumption During Laparoscopic Surgery. A Bicentric, Prospective, Randomized, Controlled Trial.",,False,True,True
-🟧,orange,NCT02864680,,2019,Electrophysiological Study of the Functioning of Magnocellular Visual Pathway in Regular Cannabis Users,CAUSA MAP,False,True,True
-🟩,vert,NCT02754193,,2019,Effects of Induced Moderate HYPOthermia on Mortality in Cardiogenic Shock Patients Rescued by Veno-arterial ExtraCorporeal Membrane Oxygenation (ECMO),HYPO-ECMO,True,True,True
-🟥,rouge,NCT03356301,,2019,Study of the Remodeling of the Ascending Aorta During the Sports Season in Long Distance Triathletes Versus Controls,CoATri,False,False,False
-🟧,orange,NCT04562571,,2019,Impact of a Public Commitment Charter Associated With Patient Information Leaflets on Antibiotics Prescribed by General Practitioners,,False,True,True
-🟩,vert,NCT02261870,,2020,"""Detection of Acute Rejection in Heart Transplant Patients by Mean of T2 Quantification With MRI"" Open Transversal Clinical Trial With Repeated Measures",DRAGET,True,True,True
-🟩,vert,NCT03125447,,2020,Posture and Mobility Influence on Attention Capacity in Former Premature Children at 6 Years of Age.,PAM,True,True,True
-🟥,rouge,,2009-012817-23,2020,Utilisation d’un surfactant exogène chez des nouveau-nés grands prématurés présentant une détresse respiratoire sévère en prévention de la dysplasie bronchopulmonaire,Etude CURDYS,False,False,False
-🟥,rouge,NCT03980418,,2020,Comparative Study of DaTSCAN ™ Cerebral SPECT Recorded by Conventional Anger Cameras and Semiconductor Camera (VERITON-CT ™),VERIDAT,False,False,False
-🟥,rouge,NCT02765009,,2020,Effects of Fluid Balance Control in Critically Ill Patients: A Multicenter Randomized Study,POINCARE,False,False,False
-🟥,rouge,NCT02640287,,2020,Expression of Ku70/XRCC6 and Others NHEJ Components in Waldenström's Macroglobulinemia in Comparison With Others B-cell Lymphoproliferative Disorders and Normal B Cells.,WAL-KU,False,False,False
-🟩,vert,NCT01109225,,2020,Multiparametric Study of Cardiac Remodeling After Myocardial Infarction Revascularized in Acute Phase : Relation With the Serum Concentrations in Aldosterone,REMI,True,True,True
-🟥,rouge,NCT04448769,,2020,Epidemiological Study of Seroprevalence Against the SARS-CoV-2 Virus (COVID-19) in the Population of the Grand Nancy Metropolitan Area,COVAL-NANCY,False,False,False
-🟥,rouge,NCT02268071,,2020,Arrêt du Traitement Antihypertenseur Chez Les Patients Hypertendus Suivis en Médecine Générale / Stopping Antihypertensive Treatment amOng Hypertensive Patients in Primary Care: The STOP-Trial,,False,False,False
-🟥,rouge,NCT03345290,,2020,Impact of the Central Blood Pressure Level in Cerebral Metabolic Aging: a 18F-FDG PET Study.,PACTEP,False,False,False
-🟩,vert,NCT04373707,2020-001709-21,2021,Effectiveness of Weight-adjusted Prophylactic Low Molecular Weight Heparin Doses Compared With Lower Fixed Prophylactic Doses to Prevent Venous Thromboembolism in COVID-2019. The Multicenter Randomized Controlled Open-label Trial COVI-DOSE,COVI-DOSE,True,True,True
-🟧,orange,NCT04625738,2020-002772-12,2021,Efficacy of Infusions of Mesenchymal Stem Cells From Wharton Jelly in the Moderate to Severe SARS-Cov-2 Related Acute Respiratory Distress Syndrome (COVID-19): A Phase IIa Double-blind Randomized Controlled Trial,MSC-COVID19,False,True,True
-🟥,rouge,NCT03465098,,2021,Evaluation of a Low-Carbohydrate Diet to Highlight Easily Infective Endocarditis by 18F-FDG PET,TEPEIR,False,False,False
-🟥,rouge,NCT04354610,,2021,Prediction of Acute Heart or Kidney Injury With Cardiovascular-renal Biomarkers in Patients Hospitalised for Severe or Critical Covid-19 Infection,Nancy-CovH-AKI,False,False,False
-🟥,rouge,NCT02879825,,2021,Myocardial Characterization of Arrhythmogenic Mitral Valve Prolapse,STAMP,False,False,False
-🟩,vert,NCT03342014,,2022,First Trimester Screening for Preeclampsia and Intrauterine Growth RestrIction Using Three Dimensional Doppler Angiography (SPIRIT): A Prospective Study in Nulliparous Pregnant Women,SPIRIT,True,True,True
-🟥,rouge,NCT05308433,,2022,Cybersickness imAgiNg Olfactory Evocation,CANOE,False,False,False
-🟥,rouge,NCT02976545,,2022,VECU EMOTIONNEL CHEZ LES PATIENTES SOUFFRANT DE CRISES NON EPILEPTIQUES PSYCHOGENES : ETUDE EN IMAGERIE PAR RESONANCE MAGNETIQUE FONCTIONNELLE-ETUDE EMOCRISES,EMOCRISES,False,False,False
-🟥,rouge,NCT03370809,,2022,Assessment of Positron Emission Tomography to Early Detect Frailty in Onco-geriatry,FOGTEP,False,False,False
-🟥,rouge,NCT02887053,,2022,Développement Méthodologique de l'Imagerie Par Résonance Magnétique (IRM),METHODO,False,False,False
-🟥,rouge,NCT03327493,,2022,Impact of Adrenoreceptor Expressions on Inflammatory Pattern in Refractory Cardiogenic Shock Patients Treated by Veno-arterial Extra-Corporeal Membrane Oxygenation,ADRECMO,False,False,False
-🟥,rouge,NCT03348306,,2022,Assessement of a Multi-organ Screening Procedure for the Detection of Pre-clinical Ischaemia in Antiphospholipid Syndrome The COBRA Study (CardiO-Brain Renal Involvement in Antiphospholipid Syndrome),COBRA,False,False,False
-🟥,rouge,NCT04467567,,2023,"Optimization for Clinical Routine of a Dosimetry Protocol Using the Large Field of View VERITON-CT CZT Camera in Patients Treated With LUTATHERA® [177Lu- [DOTA0, Tyr3] -Octreotate",EVADOVE177Lu,False,False,False
-🟥,rouge,NCT04764721,,2023,Characterization in 18F-FDG PET-CT of Brain and Lung Lesions in Young Subjects With Sequelae Psycho-cognitive Disorders in the Aftermath of Severe Covid-19,TEP-COV,False,False,False
-🟥,rouge,NCT04937582,,2023,Long Term Cognitive and Psychological Disorders After Severe COVID-19 Infection in Young Patients,NEUROCOG-COVID,False,False,False
-🟥,rouge,NCT03347760,,2023,Monocentric Interventionnal Pilot Study Pilot Study Evaluating Somatostatin Receptor's PET Imaging to Detect Inflammatory Phases of Myocarditis,DOTAMIR,False,False,False
-🟩,vert,NCT04348929,,2023,Birth Experience During COVID-19 Confinement (Confinement and Fostering Intrapartum Care),CONFINE,True,True,True
-🟥,rouge,NCT05910424,,2024,Characterisation of the Oral Microbiota and Oral Status of a Population of Adult Patients With Autism Spectrum Disorders: a Pilot Study,MICAA,False,False,False
-🟥,rouge,NCT04275895,,2024,Interdependency Between Cognitive and Postural Activities in Prematurely Born Children,COGNIPOST,False,False,False
-🟥,rouge,NCT03432182,,2024,Characterization of Movements Occurring During Sleep in Very Premature Neonates: Relationship With Neurodevelopmental Outcome,DODOPREMA,False,False,False
-🟥,rouge,NCT05183555,,2024,Early Feasibility Study of Somatostatin Receptors PET Imaging (68Ga-DOTATOC PET/CT) for the Diagnosis of Infective Endocarditis,DOTENDO,False,False,False
-🟥,rouge,NCT01253252,,,Endoprosthesis Treatment Effects on Human Abdominal Aorta Aneurysms(AAA)Metabolic Activity,AAAendo,False,False,False
+statut,status_label,NCTId,eudraCT,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT01161212,,2006,"Physical Activity, Health-related Quality of Life and Corpulence Among French Schoolchildren",REGUL'APS,False,False,False,OTHER
+🟥,rouge,NCT00301470,,2008,Interest of MR Urography in the Evaluation of Functional Consequences of Urinary Tract in Children and Adults,,False,False,False,DEVICE
+🟥,rouge,NCT00814554,,2009,PRALIMAP: Effectiveness Evaluation of Three Strategies of Prevention of Overweight and Obesity in Adolescents; a Cluster Randomised Controlled Trial,PRALIMAP,False,False,True,BEHAVIORAL
+🟥,rouge,NCT01242007,,2010,Lung Function Impairment and Postural Spirometry Changes in Ambulatory Myotonic Dystrophy Patients,,False,False,False,OTHER
+🟥,rouge,NCT02861235,,2010,"Comparison Between Myocardial Tomoscintigraphies Using a Semiconductor Camera or a Conventional Camera According to Conditions of Examination Execution: Assessment of Infarction or Ischemia, Injected Dye and Sequence of Injections",DSPECT,False,False,False,OTHER
+🟥,rouge,NCT02885090,,2011,Search for New Genes Involved in Molecular Etiology of Rett Syndrome Through Comparative Genomic Hybridization on DNA Microarrays,RETT,False,False,False,PROCEDURE
+🟥,rouge,NCT01570179,,2012,Sugammadex in Patients Undergoing Bariatric Surgery: An Equivalence Trial Comparing Real and Ideal Body Weight-based Dosing,SugReBaCh-1,False,False,False,DRUG
+🟥,rouge,NCT02887131,,2012,Evaluation of Dynamic Computed Tomography Anatomy of Ankle in Inversion / Eversion Mouvement in Subtalar Instability.,IDIS,False,False,False,OTHER
+🟥,rouge,NCT02129621,,2012,Prospective Study of Neutrophil Gelatinase Associated Lipocalin (NGAL)as a Biomarker of Mineralocorticoid Receiver Activity in Human: Proof of Concept.,,False,False,False,PROCEDURE
+🟥,rouge,NCT02877537,,2012,Measurements of Change of Respiratory Admittance Induced by Salbutamol for Pediatric Asthma Diagnosis,SALBUTAMOL,False,False,False,PROCEDURE
+🟥,rouge,NCT03234205,,2012,Measurements of Myocardial Relaxation Time by MRI During Respiration,ARTEMIS,False,False,False,DEVICE
+🟥,rouge,NCT01090934,,2013,Etude de la Performance Diagnostique de l'EEG-Haute Résolution Sur la Localisation de la Zone épileptogène Pour le Traitement Chirurgical Des épilepsies Partielles Pharmaco-résistantes,EEG-HR,False,False,True,DEVICE
+🟥,rouge,NCT01351961,,2013,Arterial Function and Structure and Evolution of Cognitive Impairment in Elderly Hypertensive Subjects With Subjective Memory Complaints,ADELAHYDE2,False,False,False,BIOLOGICAL
+🟥,rouge,NCT02182908,,2013,ANALYSE EN MORPHO-TEP AU FDG DE L'EVOLUTIVITE DES ANEVRISMES ABDOMINAUX AORTIQUES NON CHIRURGICAUX UNE ETUDE MULTICENTRIQUE DE L'INTER-REGION NORD-EST,AAA,False,False,False,OTHER
+🟥,rouge,NCT02858167,,2013,Creation of a Normal Database for FluoroDeoxyGlucose-Positron Emission Tomography (FDG-PET) Neurological Examinations: Study of Principal Inter-individual Variation Factors,BDD TEP FDG,False,False,False,DEVICE
+🟧,orange,NCT01963221,,2013,RELATIONSHIP BETWEEN THORACIC AORTIC STRUCTURE ASSESSED BY PET/CT SCAN AND ARTERIAL STIFFNESS IN ELDERLY PATIENTS: FICTEP STUDY,FICTEP,False,True,True,RADIATION
+🟥,rouge,NCT03240029,,2013,Life Quality of Children in Cancer Remission During School Reintegration,QdV leucémie,False,False,False,OTHER
+🟥,rouge,NCT02861222,,2013,Myocet® in Children With Relapsed or Refractory Non-brainstem Malignant Glioma,MYOCET,False,False,False,DRUG
+🟧,orange,NCT01722617,,2014,A Study to Validate Questionnaires FLARE and OM-RA-FLARE Measuring Disease Flares in Patients With Rheumatoid Arthritis.,FLARE,False,True,True,OTHER
+🟥,rouge,NCT01692977,,2014,Orienting Oneself in a Healing Garden: What Elements of the Design Are Used as Landmarks by Patients With Alzheimer's Disease ?,JAZ-TOP,False,False,False,OTHER
+🟥,rouge,NCT01544647,,2014,Comparison of 2 Spa Therapy Protocols in Symptomatic Knee Osteoarthritis : a Randomised Trial,Nancythermal,False,False,False,OTHER
+🟥,rouge,NCT02869100,,2015,Comparison of Sodium Fluoride Positron Emission Tomography and Magnetic Resonance Imaging of Spine and Sacroiliac Joints for Detection of Inflammatory Lesions in Patients Affected by Spondyloarthritis,FNa,False,False,False,PROCEDURE
+🟧,orange,NCT02851576,,2015,Generation of Clinical Grade Adenovirus Specific T Cells for Adoptive Immunotherapy After Allogeneic Stem Cell Transplantation : Clinical Trial,CTL-ADV,False,True,True,OTHER
+🟥,rouge,NCT02893449,,2015,Improvement of Social Adaptation After Pre-operative Cognitive Remediation in Parkinson's Patients Profiting From a Bilateral Subthalamic Stimulation,,False,False,False,BEHAVIORAL
+🟥,rouge,NCT02879786,,2015,Study of Hierarchy of Afferents in Postural Control of Children With Dyslexia,EQUIDYS,False,False,False,OTHER
+🟥,rouge,NCT02874196,,2015,Study of Diagnostic Performances of Dual Energy Imaging With Flat Detectors and Tomosynthesis in Identification of Loosening of Painful Hip Prosthesis,PLIDET,False,False,False,PROCEDURE
+🟥,rouge,NCT02869126,,2015,"Study of the Concordance Between a Traditional Protocol of Stress and Rest Myocardial Tomoscintigraphy Using 99mTc-sestamibi and a Double Isotope Protocol Using Thallium-201 and 99mTc-sestamibi, With a Semiconductor Camera",D-SPECT BIS,False,False,False,PROCEDURE
+🟥,rouge,NCT02430805,,2015,"Genetics and Genomics of Hypertension Associated With Microinflammation, Oxydative Stress, Chronic Renal Disease and Heart Failure (A2-B2-B3)",Hypercare,False,False,True,OTHER
+🟥,rouge,NCT01716819,,2015,Role of the Renin Angiotensin Aldosterone System and Remodeling of the Matrix Cardiac Extra Cellular in the Mechanisms of Transition to Heart Failure in Abdominal Obesity: Prospective Longitudinal Study R2C2 II,R2C2-II,False,False,True,OTHER
+🟥,rouge,NCT02894632,,2016,MR Compatible Accelerometer for Respiratory MOTion Measurement,MARMOT,False,False,False,DEVICE
+🟧,orange,NCT01367743,2009-017081-23,2016,Optimizing the Use of Vasopressor After Coronary Reperfusion in Cardiogenic Shock Secondary to Myocardial Infarction. Pathophysiological Study Comparing the Efficacy and Cardio-circulatory Tolerability of Epinephrine and Norepinephrine,OptimaCC,False,True,True,DRUG
+🟥,rouge,NCT02634099,,2016,Hemoglobin Monitoring During High Bleeding Risk Surgery in Pediatric Patients: Equivalence Study of Hemoglobin Transcutaneous Saturation and Hemocue With Total Serum Hemoglobin,Hemoped,False,False,False,DEVICE
+🟧,orange,NCT02285712,,2017,Contribution of Ultrasound for Peripheral Intravenous Catheter Placement by Intensive Care Nurses,IDECHO,False,True,True,DEVICE
+🟥,rouge,NCT02556502,,2017,18F-Florbetaben PET Amyloid Imaging in Case of Intermediate CSF Biology for the Diagnosis of Alzheimer's Disease : a Pilot Study,MAF,False,False,False,DEVICE
+🟥,rouge,NCT03136315,,2017,Renal Function Evaluation in an Ultra Endurance Race: On the Interest of Monitoring Specific Biomarkers to Asses Renal Risk.,INFERNAL,False,False,False,OTHER
+🟥,rouge,NCT02873949,,2017,Analysis of Soluble TREM (Triggering Receptor Expressed on Myeloid Cells)-1 and -2 in Crevicular Fluid and Associated Bacterial Flora in Patients Affected by Periodontitis,TREM,False,False,False,BIOLOGICAL
+🟧,orange,NCT02940847,,2017,"The Effectiveness of Ultrasound-guided Technique Compared to Blind Technique in Medial Brachial Cutaneous Nerve Block and Intercostobrachial Nerve Block, in the Axilla",ECHO_NCMB,False,True,True,PROCEDURE
+🟥,rouge,NCT03306290,,2018,An Evaluation of Serum Concentration of CEFOxitin Used for Antibiotic Prophylaxis in Severely and Morbidly Obese Patients Undergoing BARiatric Surgery (CEFOBAR),CEFOBAR,False,False,False,DRUG
+🟥,rouge,NCT02820376,,2018,Assessment of Differential Renal Function by CT in Living Donors - The DOVISCAN Study,DOVISCAN,False,False,False,OTHER
+🟥,rouge,NCT02869321,,2018,Evaluation of Analgesic Efficacy of Transmucosal Fentanyl for Breakthrough Pain Caused by Interventional Gastrostomy,ANTALGIP,False,False,False,PROCEDURE
+🟧,orange,NCT02116868,,2018,"Usefulness of Pupillary Reflex on Remifentanil and Morphine Consumption During Laparoscopic Surgery. A Bicentric, Prospective, Randomized, Controlled Trial.",,False,True,True,DEVICE
+🟧,orange,NCT02864680,,2019,Electrophysiological Study of the Functioning of Magnocellular Visual Pathway in Regular Cannabis Users,CAUSA MAP,False,True,True,OTHER
+🟩,vert,NCT02754193,,2019,Effects of Induced Moderate HYPOthermia on Mortality in Cardiogenic Shock Patients Rescued by Veno-arterial ExtraCorporeal Membrane Oxygenation (ECMO),HYPO-ECMO,True,True,True,OTHER
+🟥,rouge,NCT03356301,,2019,Study of the Remodeling of the Ascending Aorta During the Sports Season in Long Distance Triathletes Versus Controls,CoATri,False,False,False,DEVICE
+🟧,orange,NCT04562571,,2019,Impact of a Public Commitment Charter Associated With Patient Information Leaflets on Antibiotics Prescribed by General Practitioners,,False,True,True,OTHER
+🟩,vert,NCT02261870,,2020,"""Detection of Acute Rejection in Heart Transplant Patients by Mean of T2 Quantification With MRI"" Open Transversal Clinical Trial With Repeated Measures",DRAGET,True,True,True,DEVICE
+🟩,vert,NCT03125447,,2020,Posture and Mobility Influence on Attention Capacity in Former Premature Children at 6 Years of Age.,PAM,True,True,True,OTHER
+🟥,rouge,,2009-012817-23,2020,Utilisation d’un surfactant exogène chez des nouveau-nés grands prématurés présentant une détresse respiratoire sévère en prévention de la dysplasie bronchopulmonaire,Etude CURDYS,False,False,False,
+🟥,rouge,NCT03980418,,2020,Comparative Study of DaTSCAN ™ Cerebral SPECT Recorded by Conventional Anger Cameras and Semiconductor Camera (VERITON-CT ™),VERIDAT,False,False,False,PROCEDURE
+🟥,rouge,NCT02765009,,2020,Effects of Fluid Balance Control in Critically Ill Patients: A Multicenter Randomized Study,POINCARE,False,False,False,DEVICE
+🟥,rouge,NCT02640287,,2020,Expression of Ku70/XRCC6 and Others NHEJ Components in Waldenström's Macroglobulinemia in Comparison With Others B-cell Lymphoproliferative Disorders and Normal B Cells.,WAL-KU,False,False,False,BIOLOGICAL
+🟩,vert,NCT01109225,,2020,Multiparametric Study of Cardiac Remodeling After Myocardial Infarction Revascularized in Acute Phase : Relation With the Serum Concentrations in Aldosterone,REMI,True,True,True,BIOLOGICAL
+🟥,rouge,NCT04448769,,2020,Epidemiological Study of Seroprevalence Against the SARS-CoV-2 Virus (COVID-19) in the Population of the Grand Nancy Metropolitan Area,COVAL-NANCY,False,False,False,BIOLOGICAL
+🟥,rouge,NCT02268071,,2020,Arrêt du Traitement Antihypertenseur Chez Les Patients Hypertendus Suivis en Médecine Générale / Stopping Antihypertensive Treatment amOng Hypertensive Patients in Primary Care: The STOP-Trial,,False,False,False,DRUG
+🟥,rouge,NCT03345290,,2020,Impact of the Central Blood Pressure Level in Cerebral Metabolic Aging: a 18F-FDG PET Study.,PACTEP,False,False,False,DEVICE
+🟩,vert,NCT04373707,2020-001709-21,2021,Effectiveness of Weight-adjusted Prophylactic Low Molecular Weight Heparin Doses Compared With Lower Fixed Prophylactic Doses to Prevent Venous Thromboembolism in COVID-2019. The Multicenter Randomized Controlled Open-label Trial COVI-DOSE,COVI-DOSE,True,True,True,DRUG
+🟧,orange,NCT04625738,2020-002772-12,2021,Efficacy of Infusions of Mesenchymal Stem Cells From Wharton Jelly in the Moderate to Severe SARS-Cov-2 Related Acute Respiratory Distress Syndrome (COVID-19): A Phase IIa Double-blind Randomized Controlled Trial,MSC-COVID19,False,True,True,BIOLOGICAL
+🟥,rouge,NCT03465098,,2021,Evaluation of a Low-Carbohydrate Diet to Highlight Easily Infective Endocarditis by 18F-FDG PET,TEPEIR,False,False,False,OTHER
+🟥,rouge,NCT04354610,,2021,Prediction of Acute Heart or Kidney Injury With Cardiovascular-renal Biomarkers in Patients Hospitalised for Severe or Critical Covid-19 Infection,Nancy-CovH-AKI,False,False,False,PROCEDURE
+🟥,rouge,NCT02879825,,2021,Myocardial Characterization of Arrhythmogenic Mitral Valve Prolapse,STAMP,False,False,False,DEVICE
+🟩,vert,NCT03342014,,2022,First Trimester Screening for Preeclampsia and Intrauterine Growth RestrIction Using Three Dimensional Doppler Angiography (SPIRIT): A Prospective Study in Nulliparous Pregnant Women,SPIRIT,True,True,True,BIOLOGICAL
+🟥,rouge,NCT05308433,,2022,Cybersickness imAgiNg Olfactory Evocation,CANOE,False,False,False,DEVICE
+🟥,rouge,NCT02976545,,2022,VECU EMOTIONNEL CHEZ LES PATIENTES SOUFFRANT DE CRISES NON EPILEPTIQUES PSYCHOGENES : ETUDE EN IMAGERIE PAR RESONANCE MAGNETIQUE FONCTIONNELLE-ETUDE EMOCRISES,EMOCRISES,False,False,False,BEHAVIORAL
+🟥,rouge,NCT03370809,,2022,Assessment of Positron Emission Tomography to Early Detect Frailty in Onco-geriatry,FOGTEP,False,False,False,RADIATION
+🟥,rouge,NCT02887053,,2022,Développement Méthodologique de l'Imagerie Par Résonance Magnétique (IRM),METHODO,False,False,False,DEVICE
+🟥,rouge,NCT03327493,,2022,Impact of Adrenoreceptor Expressions on Inflammatory Pattern in Refractory Cardiogenic Shock Patients Treated by Veno-arterial Extra-Corporeal Membrane Oxygenation,ADRECMO,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT03348306,,2022,Assessement of a Multi-organ Screening Procedure for the Detection of Pre-clinical Ischaemia in Antiphospholipid Syndrome The COBRA Study (CardiO-Brain Renal Involvement in Antiphospholipid Syndrome),COBRA,False,False,False,BIOLOGICAL
+🟥,rouge,NCT04467567,,2023,"Optimization for Clinical Routine of a Dosimetry Protocol Using the Large Field of View VERITON-CT CZT Camera in Patients Treated With LUTATHERA® [177Lu- [DOTA0, Tyr3] -Octreotate",EVADOVE177Lu,False,False,False,OTHER
+🟥,rouge,NCT04764721,,2023,Characterization in 18F-FDG PET-CT of Brain and Lung Lesions in Young Subjects With Sequelae Psycho-cognitive Disorders in the Aftermath of Severe Covid-19,TEP-COV,False,False,False,DEVICE
+🟥,rouge,NCT04937582,,2023,Long Term Cognitive and Psychological Disorders After Severe COVID-19 Infection in Young Patients,NEUROCOG-COVID,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT03347760,,2023,Monocentric Interventionnal Pilot Study Pilot Study Evaluating Somatostatin Receptor's PET Imaging to Detect Inflammatory Phases of Myocarditis,DOTAMIR,False,False,False,BIOLOGICAL
+🟩,vert,NCT04348929,,2023,Birth Experience During COVID-19 Confinement (Confinement and Fostering Intrapartum Care),CONFINE,True,True,True,OTHER
+🟥,rouge,NCT05910424,,2024,Characterisation of the Oral Microbiota and Oral Status of a Population of Adult Patients With Autism Spectrum Disorders: a Pilot Study,MICAA,False,False,False,OTHER
+🟥,rouge,NCT04275895,,2024,Interdependency Between Cognitive and Postural Activities in Prematurely Born Children,COGNIPOST,False,False,False,BEHAVIORAL
+🟥,rouge,NCT03432182,,2024,Characterization of Movements Occurring During Sleep in Very Premature Neonates: Relationship With Neurodevelopmental Outcome,DODOPREMA,False,False,False,DIAGNOSTIC_TEST
+🟥,rouge,NCT05183555,,2024,Early Feasibility Study of Somatostatin Receptors PET Imaging (68Ga-DOTATOC PET/CT) for the Diagnosis of Infective Endocarditis,DOTENDO,False,False,False,DRUG
+🟥,rouge,NCT01253252,,,Endoprosthesis Treatment Effects on Human Abdominal Aorta Aneurysms(AAA)Metabolic Activity,AAAendo,False,False,False,RADIATION
