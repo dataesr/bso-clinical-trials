@@ -1,2 +1,2 @@
-ror,sponsor_name,sponsor_article,number_of_trials,10Y_indicator,10Ydrug_indicator,10Y_lastyear_indicator,10Y_lastyear_drug_indicator,10Y_indicator_france,10Ydrug_indicator_france,10Y_lastyear_indicator_france,10Y_lastyear_drug_indicator_france
-0219xsk19,Hôpital Saint-Joseph de Marseille,de l',40,43 %,0 %,41 %,0 %,51 %,76 %,32 %,53 %
+ror,sponsor_name,sponsor_article,number_of_trials,staff_10_years,indicator_10_years,staff_10_years_drug,indicator_10_years_drug,staff_10_years_last_year,indicator_10_years_last_year,staff_10_years_last_year_drug,indicator_10_years_last_year_drug,staff_10_years_france,indicator_10_years_france,staff_10_years_drug_france,indicator_10_years_drug_france,staff_10_years_last_year_france,indicator_10_years_last_year_france,staff_10_years_last_year_drug_france,indicator_10_years_last_year_drug_france
+0219xsk19,Hôpital Saint-Joseph de Marseille,de l',40,37,43 %,2,0 %,37,41 %,2,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %

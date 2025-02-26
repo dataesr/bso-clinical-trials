@@ -1,63 +1,63 @@
-ror,sponsor_name,sponsor_article,number_of_trials,10Y_indicator,10Ydrug_indicator,10Y_lastyear_indicator,10Y_lastyear_drug_indicator,10Y_indicator_france,10Ydrug_indicator_france,10Y_lastyear_indicator_france,10Y_lastyear_drug_indicator_france
-00pg5jh14,Assistance Publique – Hôpitaux de Paris,de l',1023,38 %,44 %,19 %,21 %,51 %,76 %,32 %,53 %
-01502ca60,Hospices Civils de Lyon,des,491,22 %,35 %,9 %,12 %,51 %,76 %,32 %,53 %
-00mthsf17,Centre Hospitalier Universitaire de Montpellier,du,205,30 %,20 %,10 %,0 %,51 %,76 %,32 %,53 %
-017h5q109,Centre hospitalier universitaire de Toulouse,du,300,24 %,40 %,8 %,8 %,51 %,76 %,32 %,53 %
-002cp4060,Assistance publique - Hôpitaux de Marseille,de l',213,21 %,55 %,16 %,41 %,51 %,76 %,32 %,53 %
-02tcf7a68,Centre hospitalier universitaire de Clermont-Ferrand,du,205,33 %,57 %,20 %,29 %,51 %,76 %,32 %,53 %
-01hq89f96,Centre hospitalier universitaire de Bordeaux,du,300,17 %,22 %,6 %,5 %,51 %,76 %,32 %,53 %
-05c1qsg97,Centre hospitalier universitaire de Nantes,du,207,36 %,60 %,14 %,17 %,51 %,76 %,32 %,53 %
-041rhpw39,Centre hospitalier universitaire Grenoble-Alpes,du,202,28 %,33 %,11 %,11 %,51 %,76 %,32 %,53 %
-05qsjq305,Centre hospitalier universitaire de Nice,du,224,14 %,17 %,8 %,8 %,51 %,76 %,32 %,53 %
-010567a58,Centre hospitalier universitaire d'Amiens - Picardie,du,113,12 %,21 %,8 %,21 %,51 %,76 %,32 %,53 %
-04bckew43,Hôpitaux universitaires de Strasbourg,des,105,24 %,33 %,7 %,0 %,51 %,76 %,32 %,53 %
-04pn6vp43,Centre hospitalier universitaire de Saint-Étienne,du,172,17 %,33 %,3 %,6 %,51 %,76 %,32 %,53 %
-02ppyfa04,Centre hospitalier régional universitaire de Lille,du,123,33 %,29 %,14 %,17 %,51 %,76 %,32 %,53 %
-0321g0743,Institut Gustave-Roussy,de l',73,41 %,50 %,11 %,18 %,51 %,76 %,32 %,53 %
-05qec5a53,Centre hospitalier universitaire de Rennes,du,146,43 %,47 %,22 %,18 %,51 %,76 %,32 %,53 %
-027arzy69,Centre hospitalier universitaire de Caen,du,100,24 %,14 %,15 %,14 %,51 %,76 %,32 %,53 %
-0275ye937,Centre hospitalier universitaire de Nîmes,du,143,12 %,29 %,3 %,0 %,51 %,76 %,32 %,53 %
-0084te143,Centre hospitalier régional universitaire de Besançon,du,98,33 %,56 %,13 %,22 %,51 %,76 %,32 %,53 %
-0250ngj72,Centre hospitalier universitaire d'Angers,du,102,29 %,67 %,10 %,17 %,51 %,76 %,32 %,53 %
-00cxy0s05,Centre hospitalier universitaire de Rouen,du,108,25 %,33 %,9 %,8 %,51 %,76 %,32 %,53 %
-0377z4z10,Centre hospitalier universitaire de Dijon,du,120,23 %,46 %,10 %,8 %,51 %,76 %,32 %,53 %
-016ncsr12,Centre hospitalier régional et universitaire de Nancy,du,77,33 %,50 %,13 %,25 %,51 %,76 %,32 %,53 %
-029s6hd13,Centre hospitalier universitaire de Poitiers,du,120,26 %,44 %,13 %,22 %,51 %,76 %,32 %,53 %
-03evbwn87,Centre hospitalier universitaire de Brest,du,89,34 %,56 %,14 %,22 %,51 %,76 %,32 %,53 %
-02vjkv261,Institut national de la santé et de la recherche médicale,de l',93,27 %,31 %,14 %,31 %,51 %,76 %,32 %,53 %
-058td2q88,Hôpital Foch,de l',94,22 %,12 %,3 %,0 %,51 %,76 %,32 %,53 %
-01cmnjq37,Centre Léon-Bérard,du,69,42 %,57 %,13 %,14 %,51 %,76 %,32 %,53 %
-01kv58h76,ANRS Maladies infectieuses émergentes,de l',102,49 %,72 %,10 %,17 %,51 %,76 %,32 %,53 %
-00jpq0w62,Centre hospitalier universitaire de Tours,du,89,32 %,48 %,21 %,33 %,51 %,76 %,32 %,53 %
-01tc2d264,Centre hospitalier universitaire de Limoges,du,85,31 %,50 %,10 %,17 %,51 %,76 %,32 %,53 %
-01jbb3w63,Centre hospitalier universitaire de Reims,du,64,9 %,0 %,7 %,0 %,51 %,76 %,32 %,53 %
-04t0gwh46,Institut Curie,de l',45,29 %,57 %,24 %,43 %,51 %,76 %,32 %,53 %
-0219xsk19,Hôpital Saint-Joseph de Marseille,de l',40,43 %,0 %,41 %,0 %,51 %,76 %,32 %,53 %
-04s3t1g37,Institut Paoli-Calmettes,de l',35,9 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-04c3yce28,Centre hospitalier Le Vinatier,du,26,16 %,0 %,8 %,0 %,51 %,76 %,32 %,53 %
-04yvax419,Centre hospitalier régional d'Orléans,du,48,23 %,33 %,8 %,0 %,51 %,76 %,32 %,53 %
-05epqd940,Centre hospitalier départemental Vendée de La Roche-sur-Yon,du,33,56 %,100 %,26 %,67 %,51 %,76 %,32 %,53 %
-004dan487,Centre Hospitalier Universitaire de la Réunion,du,19,31 %,100 %,12 %,50 %,51 %,76 %,32 %,53 %
-02kxjxy06,Centre hospitalier Sainte-Anne - GHU Paris,du,15,8 %,25 %,8 %,25 %,51 %,76 %,32 %,53 %
-04n1nkp35,Hôpital intercommunal de Créteil,de l',19,28 %,43 %,11 %,14 %,51 %,76 %,32 %,53 %
-03wr2ty35,Groupement des hôpitaux de l'institut catholique de Lille,du,19,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-053evvt91,Centre Hospitalier de Versailles,du,18,12 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-0495fxg12,Institut Pasteur,de l',16,23 %,100 %,15 %,100 %,51 %,76 %,32 %,53 %
-047wq3n50,Clinique Ambroise Paré,de la,20,35 %,80 %,30 %,60 %,51 %,76 %,32 %,53 %
-02mh9a093,Hôpital de la Salpêtrière,de l',13,25 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-003vg9w96,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",de l',25,60 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-0376kfa34,Centre hospitalier universitaire de Martinique,du,7,57 %,0 %,29 %,0 %,51 %,76 %,32 %,53 %
-02d741577,Centre Hospitalier Régional Metz-Thionville,du,15,21 %,100 %,7 %,100 %,51 %,76 %,32 %,53 %
-04wqvjr21,Centre Hospitalier Intercommunal de Toulon La Seyne sur Mer,du,15,31 %,100 %,8 %,100 %,51 %,76 %,32 %,53 %
-0103yxp25,Service de santé des armées,du,5,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-03bf2nz41,Centre Hospitalier le Mans,du,3,67 %,100 %,67 %,100 %,51 %,76 %,32 %,53 %
-03ytpa045,Centre Hospitalier Henri Laborit,du,5,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-05k9skc85,Institut Pasteur de Lille,de l',16,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-029brtt94,Université Claude-Bernard-Lyon-1,de l',13,23 %,0 %,8 %,0 %,51 %,76 %,32 %,53 %
-054jcxz87,Groupe Hospitalier Région Mulhouse et Sud Alsace,du,10,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-03mkjjy25,Université de Versailles-Saint-Quentin-en-Yvelines,de l',8,100 %,100 %,100 %,100 %,51 %,76 %,32 %,53 %
-01tfhsg94,Hôpital Européen Marseille,de l',6,50 %,0 %,17 %,0 %,51 %,76 %,32 %,53 %
-03deam493,Centre hospitalier Annecy Genevois,du,6,20 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-05f82e368,Université Paris-Cité,de l',6,25 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
-02k9jrs03,University Children’s Hospital Bern,de l',3,50 %,0 %,50 %,0 %,51 %,76 %,32 %,53 %
-04q33ey84,Centre hospitalier spécialisé Charles-Perrens,du,1,0 %,0 %,0 %,0 %,51 %,76 %,32 %,53 %
+ror,sponsor_name,sponsor_article,number_of_trials,staff_10_years,indicator_10_years,staff_10_years_drug,indicator_10_years_drug,staff_10_years_last_year,indicator_10_years_last_year,staff_10_years_last_year_drug,indicator_10_years_last_year_drug,staff_10_years_france,indicator_10_years_france,staff_10_years_drug_france,indicator_10_years_drug_france,staff_10_years_last_year_france,indicator_10_years_last_year_france,staff_10_years_last_year_drug_france,indicator_10_years_last_year_drug_france,staff_10_years_academic,indicator_10_years_academic,staff_10_years_drug_academic,indicator_10_years_drug_academic,staff_10_years_last_year_academic,indicator_10_years_last_year_academic,staff_10_years_last_year_drug_academic,indicator_10_years_last_year_drug_academic
+00pg5jh14,Assistance Publique – Hôpitaux de Paris,de l',1023,664,38 %,187,44 %,664,19 %,187,21 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01502ca60,Hospices Civils de Lyon,des,491,381,22 %,52,35 %,381,9 %,52,12 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+00mthsf17,Centre Hospitalier Universitaire de Montpellier,du,205,161,30 %,15,20 %,161,10 %,15,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+017h5q109,Centre hospitalier universitaire de Toulouse,du,300,231,24 %,40,40 %,231,8 %,40,8 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+002cp4060,Assistance publique - Hôpitaux de Marseille,de l',213,158,21 %,22,55 %,158,16 %,22,41 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02tcf7a68,Centre hospitalier universitaire de Clermont-Ferrand,du,205,125,33 %,28,57 %,125,20 %,28,29 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01hq89f96,Centre hospitalier universitaire de Bordeaux,du,300,203,17 %,37,22 %,203,6 %,37,5 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05c1qsg97,Centre hospitalier universitaire de Nantes,du,207,149,36 %,47,60 %,149,14 %,47,17 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+041rhpw39,Centre hospitalier universitaire Grenoble-Alpes,du,202,149,28 %,18,33 %,149,11 %,18,11 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05qsjq305,Centre hospitalier universitaire de Nice,du,224,161,14 %,24,17 %,161,8 %,24,8 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+010567a58,Centre hospitalier universitaire d'Amiens - Picardie,du,113,89,12 %,14,21 %,89,8 %,14,21 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04bckew43,Hôpitaux universitaires de Strasbourg,des,105,72,24 %,6,33 %,72,7 %,6,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04pn6vp43,Centre hospitalier universitaire de Saint-Étienne,du,172,118,17 %,18,33 %,118,3 %,18,6 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02ppyfa04,Centre hospitalier régional universitaire de Lille,du,123,97,33 %,24,29 %,97,14 %,24,17 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0321g0743,Institut Gustave-Roussy,de l',73,44,41 %,22,50 %,44,11 %,22,18 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05qec5a53,Centre hospitalier universitaire de Rennes,du,146,121,43 %,17,47 %,121,22 %,17,18 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+027arzy69,Centre hospitalier universitaire de Caen,du,100,67,24 %,7,14 %,67,15 %,7,14 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0275ye937,Centre hospitalier universitaire de Nîmes,du,143,113,12 %,14,29 %,113,3 %,14,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0084te143,Centre hospitalier régional universitaire de Besançon,du,98,70,33 %,18,56 %,70,13 %,18,22 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0250ngj72,Centre hospitalier universitaire d'Angers,du,102,73,29 %,6,67 %,73,10 %,6,17 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+00cxy0s05,Centre hospitalier universitaire de Rouen,du,108,65,25 %,12,33 %,65,9 %,12,8 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0377z4z10,Centre hospitalier universitaire de Dijon,du,120,78,23 %,13,46 %,78,10 %,13,8 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+016ncsr12,Centre hospitalier régional et universitaire de Nancy,du,77,54,33 %,4,50 %,54,13 %,4,25 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+029s6hd13,Centre hospitalier universitaire de Poitiers,du,120,90,26 %,18,44 %,90,13 %,18,22 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03evbwn87,Centre hospitalier universitaire de Brest,du,89,70,34 %,18,56 %,70,14 %,18,22 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02vjkv261,Institut national de la santé et de la recherche médicale,de l',93,63,27 %,13,31 %,63,14 %,13,31 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+058td2q88,Hôpital Foch,de l',94,74,22 %,8,12 %,74,3 %,8,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01cmnjq37,Centre Léon-Bérard,du,69,45,42 %,21,57 %,45,13 %,21,14 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01kv58h76,ANRS Maladies infectieuses émergentes,de l',102,39,49 %,18,72 %,39,10 %,18,17 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+00jpq0w62,Centre hospitalier universitaire de Tours,du,89,68,32 %,21,48 %,68,21 %,21,33 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01tc2d264,Centre hospitalier universitaire de Limoges,du,85,52,31 %,12,50 %,52,10 %,12,17 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01jbb3w63,Centre hospitalier universitaire de Reims,du,64,56,9 %,6,0 %,56,7 %,6,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04t0gwh46,Institut Curie,de l',45,34,29 %,7,57 %,34,24 %,7,43 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0219xsk19,Hôpital Saint-Joseph de Marseille,de l',40,37,43 %,2,0 %,37,41 %,2,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04s3t1g37,Institut Paoli-Calmettes,de l',35,22,9 %,4,0 %,22,0 %,4,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04c3yce28,Centre hospitalier Le Vinatier,du,26,25,16 %,0,0 %,25,8 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04yvax419,Centre hospitalier régional d'Orléans,du,48,39,23 %,3,33 %,39,8 %,3,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05epqd940,Centre hospitalier départemental Vendée de La Roche-sur-Yon,du,33,27,56 %,3,100 %,27,26 %,3,67 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+004dan487,Centre Hospitalier Universitaire de la Réunion,du,19,16,31 %,2,100 %,16,12 %,2,50 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02kxjxy06,Centre hospitalier Sainte-Anne - GHU Paris,du,15,13,8 %,4,25 %,13,8 %,4,25 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04n1nkp35,Hôpital intercommunal de Créteil,de l',19,18,28 %,7,43 %,18,11 %,7,14 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03wr2ty35,Groupement des hôpitaux de l'institut catholique de Lille,du,19,19,0 %,1,0 %,19,0 %,1,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+053evvt91,Centre Hospitalier de Versailles,du,18,16,12 %,4,0 %,16,0 %,4,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0495fxg12,Institut Pasteur,de l',16,13,23 %,1,100 %,13,15 %,1,100 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+047wq3n50,Clinique Ambroise Paré,de la,20,20,35 %,5,80 %,20,30 %,5,60 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02mh9a093,Hôpital de la Salpêtrière,de l',13,8,25 %,0,0 %,8,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+003vg9w96,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",de l',25,10,60 %,0,0 %,10,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0376kfa34,Centre hospitalier universitaire de Martinique,du,7,7,57 %,1,0 %,7,29 %,1,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02d741577,Centre Hospitalier Régional Metz-Thionville,du,15,14,21 %,1,100 %,14,7 %,1,100 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04wqvjr21,Centre Hospitalier Intercommunal de Toulon La Seyne sur Mer,du,15,13,31 %,1,100 %,13,8 %,1,100 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+0103yxp25,Service de santé des armées,du,5,4,0 %,2,0 %,4,0 %,2,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03bf2nz41,Centre Hospitalier le Mans,du,3,3,67 %,1,100 %,3,67 %,1,100 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03ytpa045,Centre Hospitalier Henri Laborit,du,5,4,0 %,1,0 %,4,0 %,1,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05k9skc85,Institut Pasteur de Lille,de l',16,14,0 %,0,0 %,14,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+029brtt94,Université Claude-Bernard-Lyon-1,de l',13,13,23 %,0,0 %,13,8 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+054jcxz87,Groupe Hospitalier Région Mulhouse et Sud Alsace,du,10,10,0 %,0,0 %,10,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03mkjjy25,Université de Versailles-Saint-Quentin-en-Yvelines,de l',8,1,100 %,1,100 %,1,100 %,1,100 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+01tfhsg94,Hôpital Européen Marseille,de l',6,6,50 %,0,0 %,6,17 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+03deam493,Centre hospitalier Annecy Genevois,du,6,5,20 %,0,0 %,5,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+05f82e368,Université Paris-Cité,de l',6,4,25 %,0,0 %,4,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+02k9jrs03,University Children’s Hospital Bern,de l',3,2,50 %,0,0 %,2,50 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
+04q33ey84,Centre hospitalier spécialisé Charles-Perrens,du,1,1,0 %,0,0 %,1,0 %,0,0 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %,9703,51 %,3667,76 %,9703,32 %,3667,53 %
