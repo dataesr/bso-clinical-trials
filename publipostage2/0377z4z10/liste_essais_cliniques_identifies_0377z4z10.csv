@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00851760,,,2007,Idiopathic Epiretinal Macular Membrane and Cataract Extraction : Combined vs Consecutive Surgery,,False,False,False,PROCEDURE
 🟥,rouge,NCT00658463,,,2007,"Effects of Rosuvastatin on the, in Vivo, Kinetic of VLDL apoB, IDL apoB, LDL apoB and HDL apoA1, Using Stable Isotopes, in Type 2 Diabetic Patients",,False,False,True,DRUG
 ⬛,noir,NCT00629044,,,2011,Etude du Polymorphysme génétique de la cholestérol 24S Hydroxylase et Des Teneurs en 24S hydroxycholestérol Chez Des Patients Atteints de Glaucome ou de dégénérescence Maculaire liée à l'âge.,,False,False,False,BIOLOGICAL

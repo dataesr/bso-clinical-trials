@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT02016222,,,2016,Tear Analysis in the Diagnosis of Primary Progressive Forms of Multiple Sclerosis,LARMES,False,False,False,PROCEDURE
 ⬛,noir,NCT02276924,,,2016,Diagnostic Relevance of Laser Confocal Microscopy During Reno-ureteroscopy in the Context of the Screening and Follow-up of Upper Urinary Tract Tumors,UROVISIO,False,False,False,DEVICE
 ⬛,noir,NCT02765529,,,2016,Research of Biomarkers of Air Pollutants Exposure,AEROTOX-2,False,False,False,PROCEDURE

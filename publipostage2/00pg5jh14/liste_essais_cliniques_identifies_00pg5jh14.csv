@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00410020,,,2003,Secondary Prevention of Atrial Fibrillation With an Alpha-Linolenic Enriched Diet : a Randomized Study,,False,False,False,BEHAVIORAL
 ⬛,noir,NCT00226720,,,2004,Comparison of Efficacy of an Outpatient vs Inpatient Detoxification Program for Alcohol Dependent Patients Seeking Abstinence. A Prospective Randomized Clinical Trial.,,False,False,False,PROCEDURE
 ⬛,noir,NCT00224588,,,2005,Effects of Peri Operative Administration of Ketamine on Long Term Post Thoracotomy Pain,,False,False,False,DRUG

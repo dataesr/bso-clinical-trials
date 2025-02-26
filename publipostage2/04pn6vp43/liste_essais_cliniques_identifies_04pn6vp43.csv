@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00770393,,,2007,Randomized Phase III Trial Comparing Induction Chemotherapy Followed by Radiotherapy to Concomitant Chemoradiotherapy for Laryngeal Preservation in T3MO Pyriform Sinus Carcinoma,,False,False,False,PROCEDURE
 🟥,rouge,NCT00428779,,,2007,Neuromuscular and Cognitive Fatigue During a 24h Treadmill Running Exercise.,,False,False,True,PROCEDURE
 🟥,rouge,NCT00327106,,,2007,Efficacy of Tranexamic Acid on Perioperative Blood Loss During Hip Fracture Surgery.,THIF,False,False,True,DRUG

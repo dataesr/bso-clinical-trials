@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT02922114,,,2015,Comparison of the Clinical Examination and the Joint Ultrasonography in the Evaluation of Disease Activity in Systemic Lupus Patients,LUPUS,False,False,False,OTHER
 ⬛,noir,NCT02923297,,,2015,GALIG Gene Expression in Parkinson's Disease,GALIGPARK,False,False,False,OTHER
 🟧,orange,NCT02185989,,,2016,"Early Rehabilitation Combining Daily Electrical Muscle Stimulation and Early Bedside Cycling Exercise, Compared to Early Standard Rehabilitation. A Randomized, Assessor-blinded, Single-center Study in Intensive Care Patients.",PROMOREA1,False,True,True,OTHER

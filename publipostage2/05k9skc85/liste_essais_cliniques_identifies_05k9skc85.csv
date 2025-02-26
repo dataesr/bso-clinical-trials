@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT02287844,,,2008,"Xylo-oligosaccharide (XOS) in Combination With Inulin Modulates Both the Intestinal Environment and Immune Status in Healthy Subjects, While XOS Alone Only Shows Prebiotic Properties",PIB,False,False,False,OTHER
 ⬛,noir,NCT01480700,,,2013,Effect of Consumption of Eggs Rich in Xanthophyll Carotenoids and Omega-3 Fatty Acids on the Macular Pigment in Healthy People,ALGOVUE,False,False,False,OTHER
 ⬛,noir,NCT02353403,,,2014,Postprandial Glycaemic and Insulinaemic Responses After Consumption of Dairy Desserts Containing Fructo-oligosaccharides in Adults.,GLYCOFOS-cream,False,False,False,OTHER

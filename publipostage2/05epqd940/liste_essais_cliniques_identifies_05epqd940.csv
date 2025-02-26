@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00847938,,,2009,"Randomized, Controlled, Double-blind, Prospective Study, Comparing Different Doses of Neostigmine at Advanced Decurarization .",NEODEC,False,False,True,DRUG
 🟧,orange,NCT01137487,,,2011,Impact of Not Measuring Residual Gastric Volume on Nosocomial Pneumonia Rates in Mechanically Ventilated Patients Receiving Early Enteral Feeding: a Randomized-controlled Study,NUTRIREA1,False,True,True,PROCEDURE
 🟥,rouge,NCT01127152,,,2011,"Assessment of Automatic Relays by Intensive Basis Advantage Compared With Manual Relays, on the Hypotension Risks, During Noradrenalin Administration",ARIBA,False,False,True,PROCEDURE

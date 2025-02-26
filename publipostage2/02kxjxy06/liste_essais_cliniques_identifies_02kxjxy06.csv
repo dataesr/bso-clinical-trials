@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT01964456,,,2014,"""Narcisse & Echo : Self-consciousness and the Inter-subjective Body""",Narcisse,False,False,False,BEHAVIORAL
 ⬛,noir,NCT02476188,,,2016,Neutrophil Extracellular Traps and Thrombolysis in the Acute Stroke,NETs,False,False,False,PROCEDURE
 ⬛,noir,NCT01437527,,,2016,Body Image Therapy in Anorexia Nervosa,PIPA,False,False,False,BEHAVIORAL

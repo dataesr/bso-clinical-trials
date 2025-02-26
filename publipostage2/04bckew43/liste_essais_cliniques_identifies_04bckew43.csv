@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00295113,,,2003,Interest of a 30 Minutes' Intermittent Work Exercise Test in Patients With Chronic Obstructive Pulmonary Disease: Cardiac and Pulmonary Functions,,False,False,False,PROCEDURE
 ⬛,noir,NCT00213915,,,2004,Effects of Oral Chronic L-Arginine Supplementation on Exercise and Renal Function of Heart Transplant Recipients,,False,False,False,DRUG
 ⬛,noir,NCT02091791,,,2006,High Versus Low Level of Lumbar Traction in Acute Lumbar Sciatica Due to Disc Herniation,,False,False,False,PROCEDURE

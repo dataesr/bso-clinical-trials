@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00545194,,,2004,Randomized Study on Removable PGE2 Vaginal Insert Versus PGE2 Intravaginal Gel for Cervical Priming and Labour Induction in Term Pregnancy,,False,False,False,DRUG
 🟥,rouge,NCT00988767,,,2004,Specific Vaccine Therapy in Chronic Hepatitis B Using a Naked DNA: Phase I Study Using a GMO,RBM99026,False,False,True,BIOLOGICAL
 ⬛,noir,NCT00236340,,,2005,Syringe or Continuous Amnioreduction for Symptomatic Polyhydramnios. A Prospective Randomized Study.,,False,False,False,DEVICE

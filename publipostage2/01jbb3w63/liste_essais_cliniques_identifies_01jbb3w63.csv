@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT02837835,,,2008,Comparison of Lung Concentrations of Ceftazidime Administered by Continuous Versus Intermittent Infusion in Patients With Ventilator-associated Pneumonia,CEFTALC,False,False,True,DRUG
 🟥,rouge,NCT00533104,,,2009,Critical Limb Ischemia Treatment by Local Intra-Muscular Injection of Autologous Mononuclear Cells,,False,False,True,PROCEDURE
 ⬛,noir,NCT01566071,,,2015,,DRIVE COG,False,False,False,OTHER

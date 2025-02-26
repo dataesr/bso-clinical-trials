@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00132587,,,2007,Prospective Randomized Study of 130 Total Knee Arthroplasty With Cemented Femoral Implant Versus Cementless,,False,False,True,DEVICE
 🟥,rouge,NCT00538317,,,2008,Comparison of Administration of Tirofiban in the Ambulance or in the Cathlab in Patients With Acute Myocardial Infarction Treated With Primary Angioplasty,AGIR2,False,False,True,DRUG
 🟥,rouge,NCT00419198,,,2008,Postconditioning and Functional Recovery After Acute Myocardial Infarction,,False,False,True,PROCEDURE

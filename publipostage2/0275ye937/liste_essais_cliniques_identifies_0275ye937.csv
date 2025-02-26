@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00153231,,,2007,"Clinical Evaluation of Morbidity and Efficacy of Posterior IVS (Infracoccygeal Sacropexy), in Comparison to the Standard Sacrospinous Suspension in the Surgical Treatment of Vaginal Vault Prolapse by the Vaginal Route.",,False,False,False,PROCEDURE
 🟥,rouge,NCT00370877,,,2010,Recombinant Human Activated Factor VII as Salvage Therapy in Women With Severe Postpartum Hemorrhage,,False,False,True,PROCEDURE
 🟥,rouge,NCT01189188,,,2010,Ultrasound Guidance for Radial Arterial Blood Sampling,,False,False,True,PROCEDURE

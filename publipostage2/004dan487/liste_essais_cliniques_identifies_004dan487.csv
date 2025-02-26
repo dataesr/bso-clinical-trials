@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00551551,,,2011,Urinary Postpartum Handicap Prevention: Pelvic Floor Exercises vs Control. Multicentric Randomized Trial,,False,False,True,OTHER
 🟥,rouge,NCT01464073,,,2012,"Evaluation of the Effectiveness of Individualized Exercise Program, Combined With a Balanced Diet Rich in Fruits and Vegetables, on the Evolution of Body Fat in Overweight or Obese Women, as Part of Type 2 Diabetes Prevention in Reunion Island.",LIPOXmax-RUN,False,False,True,BEHAVIORAL
 ⬛,noir,NCT01794377,,,2013,Influence of Muscle Strength on the Energy Cost of Walking in Obese Subjects,OBELIX,False,False,False,BEHAVIORAL

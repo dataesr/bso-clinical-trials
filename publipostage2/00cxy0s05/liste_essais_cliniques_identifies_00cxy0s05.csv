@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00213486,,,2004,Weekly Cisplatin/Irinotecan and Radiotherapy in Patients With Locally Advanced Esophageal Cancer: Phase II Trial,,False,False,False,DRUG
 🟥,rouge,NCT00120588,,,2005,Effect of Magnesium Sulfate on the Incidence of Periventricular Leukomalacia in the Very Preterm Neonate,,False,False,True,DRUG
 ⬛,noir,NCT00213434,,,2006,Prospective Evaluation of Mandibular Advancement by Herbst Device in the Treatment of Moderate Obstructive Sleep Apnea Syndrome,,False,False,False,DEVICE

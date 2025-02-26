@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00569361,,,2005,Nasal Epithelium Gene Expression Profiling in Child Respiratory Allergic,,False,False,True,PROCEDURE
 ⬛,noir,NCT00522184,,,2006,Intra-Articular Injection of Etanercept in Patient Suffering From Rheumatoid Arthritis : a Double-Blind Randomized Study for Evaluation of Efficacy and Safety of Etanercept Versus Intra-Articular Steroid Injection in Acute Synovitis,,False,False,False,PROCEDURE
 ⬛,noir,NCT00676351,,,2007,Follow up of Ventilatory Function in Infant After One (or More) Bronchiolitis During the First Year of Life. Course Towards Asthma,,False,False,False,PROCEDURE

@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00285142,,,2004,Assessment of the Effect of Rosiglitazone on Insulin Secretion in Healthy Volunteers,,False,False,True,DRUG
 🟥,rouge,NCT00285155,,,2006,Assessment of Bupropion on Cognitive Function and Behaviour in Healthy Volunteers,,False,False,True,DRUG
 ⬛,noir,NCT00285181,,,2007,"Effects of Statins on Pro- and Antioxidant Status : Link With Statin-Associated Myopathy. A Randomized, Placebo-Controlled, Double-Blind Study.",,False,False,False,DRUG

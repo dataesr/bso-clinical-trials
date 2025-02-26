@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00568165,,,2010,Value of a Mobile Team of Cardiologist Using Echocardiography for Managing Patients With Acute Heart Failure,EMEPIC,False,False,False,PROCEDURE
 ⬛,noir,NCT02012829,,,2012,Brief Intervention to Improve Colorectal Cancer Screening,Hem-FMG,False,False,False,BEHAVIORAL
 ⬛,noir,NCT02156869,,,2014,Impact of a Printed Decision Aid on Patients' Intent to Undertake Prostate Cancer Screening: a Multicenter Pragmatic Randomized Controlled Trial,PSAMG,False,False,False,OTHER

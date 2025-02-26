@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT01239966,,,2015,Safety and Efficacy of Combined Extracorporeal CO2 Removal and Renal Replacement Therapy in Patients With the Acute Respiratory Distress Syndrome and Acute Renal Failure,PARSA,False,False,True,DEVICE
 🟩,vert,NCT04039711,,,2018,"Evaluation of Vaginal Self-sampling Diagnostic Performances to Identify Genital Infections : A Large, Cross-sectional, Non-inferiority Trial",,True,True,True,PROCEDURE
 🟧,orange,NCT02892253,,,2018,Parathyroid Autofluorescence Visualization in Thyroid Surgery: Impact on Postoperative Hypocalcemia. A Randomized Controlled Trial,,False,True,True,DEVICE

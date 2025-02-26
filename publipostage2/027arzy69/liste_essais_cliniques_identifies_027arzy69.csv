@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00405171,,,2006,Efavirenz to Nevirapine Switch in HIV-1 Infected Patients With Severe Dyslipidemia: A Randomized Controlled Study,,False,False,True,DRUG
 🟥,rouge,NCT00362492,,,2007,9-10 Days Versus Prolonged Thromboprophylaxis in Patients Without Evidence of Ultrasound Proximal Thromboembolism After Total Knee Joint Replacement: a Randomized Controlled Trial,,False,False,True,PROCEDURE
 🟥,rouge,NCT00277888,,,2007,Complications of Jugular and Femoral Venous Catheterization in Critically Ill Patients Requiring Hemodialysis: A Randomized Controlled Trial,CATHEDIA,False,False,True,PROCEDURE

@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT01044992,,,2006,Motor Activation in Patients With Multi Systemic Atrophy and Comparison With Parkinson Disease and Dopaminergic Challenge,MSAJOY,False,False,False,RADIATION
 🟥,rouge,NCT00237731,,,2006,"Pre-hospital Morphine Titration : Comparison of 0,05 Versus 0,1 mg/kg",,False,False,True,DRUG
 ⬛,noir,NCT00430807,,,2006,Multicentric Double Blind Versus Placebo Randomised Study Evaluating the Corticosteroid Sparing Effect of Hydrocyschloroquine in Non Complicated Giant Cell Arteritis.,,False,False,False,DRUG

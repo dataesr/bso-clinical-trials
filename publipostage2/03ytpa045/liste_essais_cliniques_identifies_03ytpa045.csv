@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT03284671,,,2017,Transcranial Direct Current Stimulation to Treat Patients With Severe and Resistant Obsessive Compulsive Disorders -Pilot Study (tDCS-TOC Pilot),tDCS-TOC,False,False,False,OTHER
 ⬛,noir,NCT03277339,,,2020,Psycho-biological Substrates of Therapeutic Benefit of Thermal Cure on Generalized Anxiety Disorders (Insula-TOP),Insula-TOP,False,False,False,DRUG
 ⬛,noir,NCT03304600,,,2022,Transcranial Direct Current Stimulation (tDCS) to Treat Patients With Severe and Resistant Obsessive Compulsive Disorder,tDCS-TOC,False,False,False,DEVICE

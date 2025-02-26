@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00370240,,,2008,Efficacy of Infiltration of Chlorhydrate of Ropivacaine in the Prevention of Chronic Breast Pain After Surgery for Breast Cancer.,,False,False,False,DRUG
 ⬛,noir,NCT00853710,,,2009,Validation of a Semiquantitative Screening Assay for PSA,,False,False,False,OTHER
 🟥,rouge,NCT01455363,,,2011,"Etude peropératoire de la Perfusion Sanguine Des Carcinomes Basocellulaires Par Imageur Laser Doppler, au Cours de la Manipulation de l'Influx artériel Tumoral - Recherche d'un phénomène d'hyperémie Tumorale Post-occlusive",HPOB,False,False,True,PROCEDURE

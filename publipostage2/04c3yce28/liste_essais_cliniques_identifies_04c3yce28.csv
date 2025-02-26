@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT01078129,,,2010,Efficacy of Hierarchized Computer-assisted Cognitive Remediation Therapy in Schizophrenia,,False,False,True,BEHAVIORAL
 ⬛,noir,NCT01288183,,,2014,Behavioral Impact of Prefrontal Anodal Transcranial Direct Current Stimulation on Smokers,,False,False,False,PROCEDURE
 ⬛,noir,NCT02110771,,,2015,Efficacy Study of GAÏA Program Cognitive Remediation of Facial Affects Processing in Schizophrenia,,False,False,False,BEHAVIORAL

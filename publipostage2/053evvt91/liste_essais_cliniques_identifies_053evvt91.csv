@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT03166969,,,2013,,HOLTER-21J,False,False,True,PROCEDURE
 🟥,rouge,NCT01916785,,,2013,A PROSPECTIVE RANDOMIZED PHASE II STUDY EVALUATING THE OPTIMIZATION OF THE RESIDUAL PLASMATIC LEVEL OF DASATINIB (SPRYCEL®) IN PATIENTS NEWLY DIAGNOSED WITH CHRONIC PHASE CHRONIC MYELOGENOUS LEUKAEMIA (CP-CML).,OPTIM-DASA,False,False,True,DRUG
 ⬛,noir,NCT02963545,,,2016,Simultaneous Assessments of Serotonin and Kynurenine Pathways Parameters in Patients Shortly (Less Than 4 Hours and a Half) After the Onset of a Cerebral Infarction,,False,False,False,BIOLOGICAL

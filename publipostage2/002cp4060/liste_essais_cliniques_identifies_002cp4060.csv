@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00299650,,,2008,Systematic Early Use of Neuromuscular Blocking Agents in ARDS Patients,,False,False,True,DRUG
 ⬛,noir,NCT00769912,,,2009,Evaluation of of a Prefixed 50% N2O- 50%O2 Mixture in Legal Abortion Under Local Analgesia,,False,False,False,DRUG
 ⬛,noir,NCT04755023,,,2010,Primary Chemotherapy by BCNU-TMZ Combination in Newly Diagnosed Anaplastic Oligodendrocytic Tumors: Phase II Trial With Translational Molecular Analysis,TEMOBIC,False,False,False,DRUG

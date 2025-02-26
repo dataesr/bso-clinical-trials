@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00151606,,,2004,Evaluation of Two Protocols to Prevent the Acquisition of Methicillin-Resistant Staphylococcus Aureus in Intensive Care Units.,,False,False,True,PROCEDURE
 🟥,rouge,NCT00134212,,,2004,"Prospective, Randomized Study on Two Parallel Groups Comparing Dopexamine and Norepinephrine in Combination to Epinephrine Alone on Systemic and Pulmonary Hemodynamics, Gastric Mucosal Perfusion, and Oxidative Stress in Septic Shock",,False,False,True,DRUG
 ⬛,noir,NCT00219856,,,2006,"Prospective, Randomized, Simple Blind Study Comparing the Effects of an Anaesthesia With Propofol to an Anaesthesia With Desflurane on Oxydative Stress and Liver Function Recovery After Hepatectomy",,False,False,False,DRUG

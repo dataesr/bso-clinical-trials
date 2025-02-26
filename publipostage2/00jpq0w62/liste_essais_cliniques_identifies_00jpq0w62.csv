@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00222066,,,2007,Comparison Between Abstention and Intrauterine Aspiration in the Treatment of Anechoic Fetal Ovarian Cysts to Prevent Ovarian Torsion,,False,False,False,PROCEDURE
 ⬛,noir,NCT00245869,,,2007,Contrast-Enhanced Ultrasound and Neoadjuvant Chemotherapy of Breast Cancer: Relationship Between Early Vascular Changes of the Tumor and Late Tumoral Response,,False,False,False,PROCEDURE
 🟥,rouge,NCT00243698,,,2007,A Pilot Study Evaluation of the Efficacy of SonoVue to Detect and Characterise Breast Lesions,,False,False,True,DRUG

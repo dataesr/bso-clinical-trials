@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00701792,,,2006,Randomized Trial Comparing Liver Transplantation to Alternative Therapies for Patients With Pugh B Alcoholic Cirrhosis,TRANSCIAL,False,False,True,PROCEDURE
 🟥,rouge,NCT01487850,,,2007,Study of Wind Reed Instruments' Fungal Contamination and Its Immunological and Clinical Consequences for Musicians.,,False,False,True,BIOLOGICAL
 ⬛,noir,NCT02841124,,,2011,Decision to Limit or Withdraw Specific Therapies for Advanced Cancer and Hematological Malignancies : Physicians and Patients Points of View and Interactions.,WHATELSE,False,False,False,OTHER

@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT02822911,,,2016,Benefit of Carbohydrate Deficient Transferrin to Detect Chronic Alcohol Abuse in the Elderly. A French Multicentered Prospective Interventional Study.,Caesar,False,False,False,BEHAVIORAL
 ⬛,noir,NCT02822209,,,2017,"Evaluation of the Impact of a Coordinating Nurse in a Personalized Care Program on Quality of Care, Coordination of the Actors and on Quality of Life for Patients With Lung Cancer. A French Randomized Monocentric Prospective Study",EVIDEC,False,False,False,BEHAVIORAL
 ⬛,noir,NCT02821637,,,2017,Impact of an Effort Rehabilitation Program for Overweight or Obese Children and Teens on Quality of Life and Wellbeing: A French Monocentric Prospective Study,PRESEVAL,False,False,False,BEHAVIORAL

@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00148278,,,2005,"Prospective, Multicenter, Randomized, Double-Blind Study Comparing Safety and Efficacy of Norepinephrine Plus Dobutamine Versus Epinephrine Alone in Septic Shock.",CATS,False,False,True,DRUG
 🟥,rouge,NCT00167609,,,2006,Phase 3 Study of Oral Dehydroepiandrosterone (DHEA) in Adults With Myotonic Dystrophy,,False,False,True,DRUG
 ⬛,noir,NCT00978783,,,2009,Speech Effects of a Speaking Valve Versus External PEEP in Tracheostomized Ventilator-Dependent Neuromuscular Patients,,False,False,False,DEVICE

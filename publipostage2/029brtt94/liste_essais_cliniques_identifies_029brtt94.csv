@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT02599584,,,2016,Improvement of Team Performance With a Pre-critical Staff Within the Team Prior to Admission of Critical Simulated Patient in High Fidelity Simulation Session for Anesthesiology Resident During Their Education Curriculum,Simstaf&perf,False,False,False,BEHAVIORAL
 🟥,rouge,NCT02470195,,,2016,Anesthesiology Education Implementation by Procedural Simulation Workshop for Difficult Airway Management: a Controlled Interregional French Study,PROSIDIAIR,False,False,True,BEHAVIORAL
 ⬛,noir,NCT02470130,,,2016,Effect of a Debriefing Conversational Relaxation on Memorization of Critical Key Points in Resident High Fidelity Simulation Education Program,RELAXSIMHF,False,False,False,BEHAVIORAL

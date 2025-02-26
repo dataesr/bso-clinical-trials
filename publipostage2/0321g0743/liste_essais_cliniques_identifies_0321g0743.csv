@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 🟥,rouge,NCT00005062,,,2005,A Phase III Trial Comparing High Versus Standard Dose of Prophylactic Cranial Irradiation (PCI) in Limited Small Cell Lung Cancer Complete Responders,,False,False,True,RADIATION
 🟥,rouge,NCT00126256,,,2006,"Randomized Trial of Treatment Strategy for Chemotherapy in Colorectal Cancer, FFCD 2000-05",,False,False,True,DRUG
 ⬛,noir,NCT00147160,,,2007,Phase II Study of the Combination of Cisplatin + Temozolomide in Malignant Glial Tumours in Children and Adolescents at Diagnosis or in Relapse,,False,False,False,DRUG

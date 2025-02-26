@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00291369,,,2005,"PERCY QUATTRO: Medroxyprogesterone, Interferon Alpha-2a, Interleukin 2 or Combination of Both Cytokines in Patients With Metastatic Renal Carcinoma of Intermediate Prognosis",,False,False,False,DRUG
 🟥,rouge,NCT00409071,,,2008,Placebo-controlled Evaluation of Homeopathic Remedy (Cocculine®) Efficacy in the Management of Nausea After Adjuvant Chemotherapy in Non Metastatic Breast Cancer.,,False,False,True,DRUG
 🟥,rouge,NCT01070537,,,2009,INVIBO: Evaluation of the Feasibility and Tolerance of an Intubation Procedure Performed by Means of the Bonfils Fiberscope in Awake Patients With Predicted Difficult Intubation in the Context of ENT Cancer Surgery,INVIBO,False,False,True,DEVICE

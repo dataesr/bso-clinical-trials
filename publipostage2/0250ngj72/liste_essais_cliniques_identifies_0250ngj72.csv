@@ -1,4 +1,4 @@
-statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
 ⬛,noir,NCT00188071,,,2003,Postoperative Pain After Medical Abortion Under Local Anesthesia : a Prospective and Randomized Trial Comparing Several Analgesic Regimen,,False,False,False,DRUG
 🟥,rouge,NCT00188058,,,2006,Comparison of Two Strategies for Setting Positive End-Expiratory Pressure in Acute Lung Injury/ Acute Respiratory Distress Syndrome (ExPress Study).,ExPress,False,False,True,DEVICE
 🟥,rouge,NCT00188032,,,2006,Strategies for Suspected Pulmonary Embolism in Emergency Departments - SPEED Study,,False,False,True,PROCEDURE
