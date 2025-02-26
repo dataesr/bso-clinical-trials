@@ -1,0 +1,47 @@
+statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT00461461,,,2008,IATROREF III: a Multifaceted Program for Improving Quality of Care in Critically Ill Patients,,False,False,True,PROCEDURE
+⬛,noir,,2012-005361-12,,2013,"MEOPA (equimolar mixture of oxygen and protoxide of nitrogen) versus local anesthetic for analgesia during the biopsy of trophoblast. 
+ 
+ 
+ MEOPA (mélange équimolaire d'oxygène et de protoxyde d'azote) versus anesthésie locale pour l'analgésie lors de la biopsie de trophoblaste.","MELIBIO 
+ 
+ 
+ MELIBIO",False,False,False,
+⬛,noir,NCT02539173,,,2015,Diagnosis of Diaphragmatic Paralysis After Interscalene Block by Measuring the Inspiratory Diaphragmatic Thickening: Feasibility and Impact Observed,BBDDIAPHRAGM,False,False,False,OTHER
+⬛,noir,NCT02060747,,,2016,,OPTIPOST,False,False,False,BEHAVIORAL
+⬛,noir,NCT02169908,,,2016,"LIPIDOXA, a Pilot Study of Analysis of Chronic Neuropathic Pain Markers in Patients Treated With Oxaliplatin-based Regimen",LIPIDOXA,False,False,False,DEVICE
+⬛,noir,NCT03304977,,,2016,Current Situation of the Patient's Knowledge on Their Anticoagulating and Anti Platelet Treatment in GHPSJ (St Joseph's Hospital),,False,False,False,OTHER
+⬛,noir,NCT02573987,,,2016,MEOPA (Equimolar Mix of Oxygen and Nitrogen Monoxide) Versus Local Anesthesia for Analgesia During Chorionic Villus Sampling.,MELIBIO,False,False,False,DRUG
+⬛,noir,NCT03307083,,,2016,Operating Check List During Consultation for Dental Implant,,False,False,False,OTHER
+🟩,vert,NCT02519725,,,2017,ICU Diaries Impact of an ICU Diary on the Psychological Well-being of the Patients and Their Relatives. Mixed Multicenter Randomized Study With Blind Evaluation,ICU-diary,True,True,True,OTHER
+⬛,noir,NCT03305601,,,2017,Information During Maternity,,False,False,False,OTHER
+⬛,noir,NCT03313973,,,2017,"Impact of Myotensives Techniques, With and Without Auto-reeducation, on the Vital Capacity Forced by the Patient Affected by a Honeymoon Parkinson's Disease",,False,False,False,PROCEDURE
+🟩,vert,NCT02767583,,,2017,Assessment of the Prevalence of Small Fiber Peripheral Neuropathy Among Non-diabetic Obese Patients,NEUROBISITE,True,True,True,DEVICE
+🟧,orange,NCT02827916,,,2017,Exploration of Neuropathic Pain Induced by Oxaliplatin Electrophysiological Approach: Interest Using the SUDOSCAN® Machine,CANALOXA,False,True,True,DEVICE
+⬛,noir,NCT02778828,,,2018,Determination of Pharmacokinetic and Therapeutic Adaptation of Linezolid in the Treatment of Multi-Resistant Tuberculosis MDR-TB,LINEZOLIDE,False,False,False,DRUG
+⬛,noir,NCT03206294,,,2018,Presence of a Clinical Pharmacist in a Cardiology Department: What Impact on the Management of Diabetic Patients Within Care Pathways? Example of Inpatient Cardiac Patients at GHPSJ,,False,False,False,OTHER
+⬛,noir,NCT02778334,,,2019,"Links Between Depression, Anxiety, Coping and Quality of Life After a Stroke: Depressive and Anxiety Symptoms and Individual Coping Strategies of the Acute Phase in the Fourth Month as a Factor Influencing Mental Health and Quality of Life",COPING,False,False,False,OTHER
+⬛,noir,NCT02778321,,,2019,Prospective Study Evaluating the Interest of Long-term Cardiac Recording in Cerebral Infarction,SPIDERFLASH,False,False,False,DEVICE
+⬛,noir,NCT03069794,,,2019,Effect of Spinal Surgery on Stable Force Platform Parameters Estimating the Posture and the Balance of the Patients Reached of Spinal Pathologies,,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT03044340,,,2019,Vascular and Neurologic Exploration of Small Nervous Fiber by Sudoscanner,,False,False,False,OTHER
+⬛,noir,NCT02474797,,,2020,"Assessment of Diaphragmatic Function by Ultrasonographic Measure of Diaphragmatic Thickening in Severe Sepsis or Septic Shock Patients Hospitalized in ICU: Diaphragmatic Dysfunction Frequency, Prognosis Values and Associated Factors",US-Diamonds,False,False,False,DEVICE
+⬛,noir,NCT04437277,,,2021,Screening for Chronic Hepatitis C Virus in Hospitalized Patients at Saint Joseph Hospital in Marseille,DeViCHO,False,False,False,DIAGNOSTIC_TEST
+🟩,vert,NCT03953625,,,2021,"Interest of the Return to Primary Care of the ""Low Back Booklet"" of Health Insurance in the Recovery of Common Acute Low Back Pain",,True,True,True,OTHER
+🟩,vert,NCT03641859,,,2021,Evaluation of Pain and Anxiety in Patients With an Invasive Procedure in Emergencies: Randomized Trial,URGENCES_RV,True,True,True,DEVICE
+⬛,noir,NCT03328559,,,2021,Kinetics of Circulating Tumoral Cells in Bronchial Primitive Cancer,,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT03903783,,,2021,Impact of Cefotaxime and Ceftriaxone on the Emergence and Carrying of Multidrug-Resistant Bacteria and Relationship to Residual Antibiotic Levels in Stool,CROCTX,False,False,False,OTHER
+🟩,vert,NCT04118361,,,2021,Eye-ECG Approach to Emergencies : Diagnostic Performance of the HINTS Test Performed by Emergency Physicians to Distinguish a Central Cause From a Peripheral Cause of Isolated Acute Vestibular Syndrome,,True,True,True,DIAGNOSTIC_TEST
+🟩,vert,NCT03338738,,,2021,Impact of Beta-lactams on the Microbiota and Relative Fecal Abundance of Multidrug Resistant Bacteria Ans Its Importance on Infectious Episodes in Hospitalized Patients,,True,True,True,DIAGNOSTIC_TEST
+⬛,noir,NCT04543760,,,2021,Effect of Prone Positioning Combined With High Flow Oxygen Therapy on Oxygenation During Acute Respiratory Failure Due to Sars-covid-2: a Randomized Crossover Trial.,DeCOPO,False,False,False,OTHER
+🟩,vert,NCT03990142,,,2021,Study of Abnormalities of the Vegetative Nervous System in the Occurrence of Intradialytic Arterial Hypotension,SUDHEMO,True,True,True,DIAGNOSTIC_TEST
+🟩,vert,NCT04437719,,,2022,"Longitudinal Prospective Cohort Study to Describe the Clinical Characteristics of COVID-19, the Acquired Immune Response and the Biological and Clinical Parameters of Patients Followed in Oncology by the Saint-Joseph Hospital Group, Paris, France for a Period of 6 Months During the COVID-19 Pandemic in 2020",OBVIONCO,True,True,True,OTHER
+🟩,vert,NCT04488484,,,2022,Medical and Serological Follow-up of the Staff of the Paris Saint-Joseph Hospital Group,PERSO-COVID,True,True,True,OTHER
+🟩,vert,NCT05515718,,,2022,Effect of the Early Ultrasound-guided Femoral Nerve Block Performed by Emergency Physicians on Pre-operative Opioids Usage in Patients With Proximal Femoral Fractures: a Randomized Controlled Trial,FORELEG,True,True,True,OTHER
+🟩,vert,NCT04785898,,,2022,Diagnostic Performance of the ID Now™ COVID-19 Screening Test Versus Simplexa™ COVID-19 Direct Assay in Off-site Biology in Emergency Rooms for COVID-19 Screenin,COVID-IDNow,True,True,True,DIAGNOSTIC_TEST
+🟩,vert,NCT04313855,,,2022,Help With Early Detection of Postoperative Neuropathic Pain Using SMS After Ambulatory Surgery,SMS DPpostop,True,True,True,DIAGNOSTIC_TEST
+⬛,noir,NCT03884855,,,2023,Randomised Controlled Trial to Evaluate the Benefit of Traditional Karate in Heart Failure During Cardiac Rehabilitation,KAREAD,False,False,False,OTHER
+⬛,noir,NCT04848389,,,2023,"Optimization of the Nursing Time After the Use of Tissue Adhesives During the Chest Port Placement on Patients Treated With Chemotherapy, a Randomized Trial Versus Sutures",PAC_COLLE,False,False,False,PROCEDURE
+🟩,vert,NCT04805489,,,2023,"Comparison of Hemodynamic and Respiratory Parameters During Physical Activity Without Mask, With Surgical Mask and General Public",PAM,True,True,True,OTHER
+🟩,vert,NCT04569266,,,2023,Effectiveness of an Exercise Re-training Program on Dyspnea in Patients After Acute Respiratory Distress Syndrome Secondary to Severe COVID-19 Pneumonia in Post-ICU,RECOVER,True,True,True,OTHER
+🟩,vert,NCT03967704,,,2023,Optimization of Follow-up of Patients With Symptomatic Recent Osteoporotic Vertebral Fracture,OPTIVERT,True,True,True,PROCEDURE
+⬛,noir,NCT04672642,,,2024,Evaluation of the SpyGlass DS vs Standard Method for Detection of Residual Pancreatic Calculations After Endoscopic Treatment,,False,False,False,DEVICE

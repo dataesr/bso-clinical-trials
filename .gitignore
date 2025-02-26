@@ -10,6 +10,7 @@ venv
 # Jupyter Notebooks
 .ipynb_checkpoints
 notebooks/*
+!notebooks/DataGeneration2.ipynb
 
 # IDE
 .idea

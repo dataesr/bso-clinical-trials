@@ -1,0 +1,125 @@
+statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+⬛,noir,NCT00188071,,,2003,Postoperative Pain After Medical Abortion Under Local Anesthesia : a Prospective and Randomized Trial Comparing Several Analgesic Regimen,,False,False,False,DRUG
+🟥,rouge,NCT00188058,,,2006,Comparison of Two Strategies for Setting Positive End-Expiratory Pressure in Acute Lung Injury/ Acute Respiratory Distress Syndrome (ExPress Study).,ExPress,False,False,True,DEVICE
+🟥,rouge,NCT00188032,,,2006,Strategies for Suspected Pulmonary Embolism in Emergency Departments - SPEED Study,,False,False,True,PROCEDURE
+⬛,noir,NCT00262379,,,2009,"Multicenter Study, Randomized and Pragmatic, Comparing Two Therapeutic Strategies : Use or Non-use of Epoetin Beta in Patients Infected by Chronic Hepatitis C and Treated by Combination Therapy Peginterferon Alfa-2a Plus Ribavirin",,False,False,False,DRUG
+🟥,rouge,NCT01068886,,,2009,External Pancreatic Duct Stent After Pancreaticoduodenectomy: a Prospective Randomized Multicenter Trial,,False,False,True,PROCEDURE
+🟥,rouge,NCT01052974,,,2010,Perioperative Analgesia by Femoral Perineural Catheter for Femoral Neck Fracture - Study KTcol -,KTcol,False,False,True,DRUG
+🟥,rouge,NCT00485147,,,2010,Study of Human Locomotion With Global Positioning System. Application to Patients With Peripheral Arterial Disease,Starter-GPS,False,False,True,PROCEDURE
+🟥,rouge,NCT00648089,,,2010,ErythroPOietin in Myocardial Infarction,EPOMI,False,False,True,DRUG
+🟥,rouge,NCT01390129,,,2012,Remote Ischemic Preconditioning in Aortic Valve Surgery (RIP-Valve),RIP-Valve,False,False,True,PROCEDURE
+🟩,vert,NCT01592812,,,2012,Investigation of the Arterial Effects of the Veinoplus(r) Stimlator Device.,,True,True,True,DEVICE
+🟧,orange,NCT01149278,,,2012,,SEPSISPAM,False,True,True,DRUG
+⬛,noir,NCT00188019,,,2013,Evaluation Des méthodes de dépistage du Paragangliome héréditaire Chez Les Sujets prédisposés génétiquement,,False,False,False,PROCEDURE
+⬛,noir,NCT02179411,,,2013,Study of the Renal Perfusion in Healthy Volunteers and Renal Transplant Recipients During an Orthostatic Stress,ortho_rein,False,False,False,OTHER
+🟧,orange,NCT01572961,,,2013,Amélioration Des Techniques d'étude de la Micro-cirulation cutanée Chez Des Sujets Sains,MICROTEC,False,True,True,DRUG
+🟧,orange,NCT01549691,,,2013,Assessment of Two Modes of Premedication in Surgery - PREMED Study,PREMED,False,True,True,DRUG
+⬛,noir,NCT01390142,,,2013,Remote Ischemic Preconditioning Combined to Local Ischemic Postconditioning in Acute Myocardial Infarction (RIRE-1),RIRE-1,False,False,False,PROCEDURE
+⬛,noir,NCT02003157,,,2014,,HYPNOART,False,False,False,PROCEDURE
+⬛,noir,NCT02704247,,,2014,Evaluation of CARDIOSPACE System in Healthy Volunteers for Physiological Research in Space Environment,CARDIOSPACE,False,False,False,DEVICE
+⬛,noir,NCT01300845,,,2014,"Prospective, Randomized, Multi-center Trial Aiming at Assessing the Effect of Humidification on the Comfort of the Patient Receiving an Oxygen Therapy.",OXYREA,False,False,False,PROCEDURE
+⬛,noir,NCT02120144,,,2014,Effect of Observation Plus Imagination of Gait on Stride Variability in Young and Older Adults,OBI,False,False,False,OTHER
+🟧,orange,NCT02538120,,,2015,Assessment of the Neurovascular Microcirculatory Response in Diabetes Type 1,NEURODIAB1,False,True,True,OTHER
+🟧,orange,NCT02549053,,,2015,Prevalence of Human Papillomavirus in Barrett Esophagus Compared With Controls,Barrett,False,True,True,PROCEDURE
+⬛,noir,NCT02086409,,,2015,"Dairy Product, Calcium & Vitamin D Supplementation and Cognitive-motor Function",GAME-D2,False,False,False,DIETARY_SUPPLEMENT
+⬛,noir,NCT02687659,,,2015,TEMIS: a Pilot Study to Evaluate a Device to Characterize Ambulatory Physical Activity,TEMIS,False,False,False,DEVICE
+🟧,orange,NCT01426607,,,2015,VASO-AM :Impact of Oral Appliance Therapy on Endothelial Function in Obstructive Sleep Apnea,VASO-AM,False,True,True,DEVICE
+⬛,noir,NCT02704260,,,2016,Endofibrose Vasculaire et génétique,GOSSER,False,False,False,GENETIC
+⬛,noir,NCT02072655,,,2016,Impact of Socio-aesthetic Care in the Quality of Life of Patients Treated for Lymphoma During and After Hospitalization,CareSSE,False,False,False,PROCEDURE
+⬛,noir,NCT02684149,,,2016,Pain Impact Assessment of the Relational Touch During Arterial Puncture in ICU - TORREA,ToRRéa,False,False,False,PROCEDURE
+⬛,noir,NCT02834351,,,2016,Atteinte Tissulaire au Cours de l'ischémie Chronique d'Effort. Validation d'un modèle d'étude du Muscle Sartorius Humain,SARTORIUS,False,False,False,OTHER
+⬛,noir,NCT02152176,,,2016,Titration Morphinique autocontrôlée Par le Patient Par un Dispositif mécanique à Usage Unique Versus Administration Par l'infirmière Chez Les Patients Ayant Une Douleur aiguë sévère Aux Urgences.,TACIDOU,False,False,False,DEVICE
+🟧,orange,NCT02379234,,,2016,SIMulation for HEmofiltration in Intensive caRe Unit,SIMHeR,False,True,True,OTHER
+🟥,rouge,NCT01409694,,,2016,Evaluation d'Une stratégie thérapeutique d'Association médicamenteuse Pour la Prise en Charge de la Maladie d'Alzheimer et Des Maladies apparentées au Stade modéré,AD-IDEA,False,False,True,DRUG
+🟧,orange,NCT02556658,,,2016,Predicted Level of General Anaesthesia in Hip Fracture Surgery,NAPfem,False,True,True,DEVICE
+⬛,noir,NCT02550275,,,2017,,COSIMH,False,False,False,BEHAVIORAL
+🟧,orange,NCT02302456,2014-001748-39,,2017,Tranexamic Acid for Preventing Postpartum Haemorrhage Following a Vaginal Delivery: a Multicenter Randomised Double Blind Placebo Controlled Trial,TRAAP,False,True,True,DRUG
+⬛,noir,NCT02501408,,,2017,Comparaison du Pied Bionique Proprio-Foot® Versus le Pied Habituel Chez Les amputés Tibiaux,PROPRIO-FOOT,False,False,False,DEVICE
+⬛,noir,NCT02815956,,,2017,InteresT And Mechanisms of Percutaneous Posterior tIbial Nerve Stimulation to Prevent pOstoperative Ileus in ColorectAl Surgery: A Preliminary Study,pre-TAPIOCA,False,False,False,DEVICE
+⬛,noir,NCT02463604,,,2017,Renal PRotection Against Contrast mEdium-induced nephroPathy in High Risk Patients undErgoing Coronary Angiography,PREPARE,False,False,False,PROCEDURE
+⬛,noir,NCT03070860,,,2017,"Glucidic Metabolism, Ossification and Arterial Calcification During PseudoXanthoma Elasticum (PXE)",GOCAPXE,False,False,False,RADIATION
+⬛,noir,NCT02997436,,,2017,"Asa Test ; un Nouvel Outil Dans le dépistage du Traitement Par Aspirine ? (This Official Titre is in French and Contains no Spelling Error. English Translation for it Would be : ""ASA-test. A New Tool for the Screening of Aspirin Treatment"")",FirstAMOS,False,False,False,DEVICE
+⬛,noir,NCT02161965,,,2018,The VICTORIA Study (Vascular CalcIfiCation and sTiffness Induced by ORal antIcoAgulation) Comparison Anti-vitamin K Versus Anti-Xa.,VICTORIA,False,False,False,DRUG
+⬛,noir,NCT02134561,,,2018,,PREHUNT,False,False,False,BEHAVIORAL
+🟩,vert,NCT02317003,,,2018,Physical Exercise Prescription With PEdometeR in General Practice for Patients With Cardiovascular Risk Factors - The PEPPER Pragmatic Randomised Controlled Trial,PEPPER,True,True,True,BEHAVIORAL
+⬛,noir,NCT02650232,,,2018,Pilot Study to Evaluate the Somnotouch Device to Quantify Spontaneous Baroreflex Sensitivity in Healthy Subjects and in Patients With Heart Failure,SOMNO-BRS,False,False,False,PROCEDURE
+🟧,orange,NCT02878460,,,2018,ORI2 : ORI for hyperOxia Reduction in ICU,ORI2,False,True,True,OTHER
+🟧,orange,NCT02811237,,,2019,"Criteria for Hospitalization or Outpatient Management of Patients With Pulmonary Embolism, Hestia Rule Versus Simplified PESI Score : an Open-label Controlled Randomized International Trial (HOME-PE)",HOME-PE,False,True,True,OTHER
+🟧,orange,NCT03631797,,,2019,L'Etude préopératoire de la Microcirculation Pour la prédiction Des Complications après Une Chirurgie Cardiaque Sous Circulation Extracorporelle.,MONS,False,True,True,PROCEDURE
+🟩,vert,NCT02861924,,,2019,Réponse à l'Application d'Une Pression Locale en Laser Speckle Imaging Locally Applied Pressure-induced Vasodilatation,LAV,True,True,True,OTHER
+⬛,noir,NCT03356379,,,2019,Application de l'oxymétrie Dynamique Pour le Diagnostic Des pièges artériels poplités,PETRUS,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT02689557,,,2019,VEINEX : Venous Investigations During Exercise,VEINEX,False,False,False,OTHER
+⬛,noir,NCT03305198,,,2019,BIOlogical Response to Exercise : A Metabolomic Study in Peripheral Artery Disease (BIOR),BIOR,False,False,False,BIOLOGICAL
+⬛,noir,NCT03538080,,,2019,Evaluation du pré-marquage Par AccuVein® au Cours Des échographies Doppler de repérage saphène.,ACCUMULATION,False,False,False,DEVICE
+🟧,orange,NCT03433989,,,2020,"Impact of Post-Traumatic Stress Disorder After Pregnancy Loss After 12 Weeks of Gestation (Termination of Pregnancy , Stillbirth, Late Miscarriage)",ACTRAMAT-D,False,True,True,DIAGNOSTIC_TEST
+⬛,noir,NCT02475122,,,2020,Prognostic Value of Measuring DsAz by MRI in Cirrhotic Patients on Prophylactic Treatment With β Blocker (AzyMR),AzyMR,False,False,False,OTHER
+⬛,noir,NCT03635294,,,2020,Multi-Omics and IPSCs to Improve the Diagnosis of Rare Intellectual Disabilities,MIDRID,False,False,False,OTHER
+⬛,noir,NCT03568201,,,2020,Application de l'oxymétrie Dynamique et Des Index de Pression Pour le Diagnostic Des Plicatures Iliaques du Sportif,SALTY-TURTLE,False,False,False,DIAGNOSTIC_TEST
+🟧,orange,,2019-002571-33,,2020,"Transcutaneous measurement of oxygen during transient hyperoxia 
+ 
+ 
+ Mesure transcutanée de l’oxygène au cours de l’hyperoxie transitoire",SCHOTT,False,True,True,
+⬛,noir,NCT04146636,,,2020,Screening in Primary Care of Advanced Liver Fibrosis in NAFLD and/or Alcoholic Patients (IMPROVE Study),IMPROVE,False,False,False,DIAGNOSTIC_TEST
+🟩,vert,NCT04338841,,,2020,HOME-CoV: Hospitalization or Outpatient ManagEment of Patients With Confirmed or Probable SARS-CoV-2 Infection. A Before and After Implementation of a Consensus Help-decision Making Rule Study,HOME-CoV,True,True,True,OTHER
+🟧,orange,NCT03615833,2018-004146-41,,2020,"Evaluation of a Strategy for Systematic Screening for Vitamin D Deficiency and Treatment in Case of Deficiency, on the Improvement of the Maximum Walking Distance in Patients With Stage 2 Lower Limb Arterial Disease.",First-BLINDOS,False,True,True,DRUG
+⬛,noir,NCT03832218,,,2020,Executive Function Disorders and Anxio-depressive Symptomatology in Children and Adolescents With Mitochondrial Pathologies,MITOPSY,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT03541213,,,2020,Impact de la Carence Martiale et de Son Traitement Sur le métabolisme Mitochondrial du Cardiomyocyte (MitoCardioFer),MitoCardioFer,False,False,False,BIOLOGICAL
+🟩,vert,NCT03010943,,,2020,Chirurgie Eveillee du Cerveau Sous Realite Virtuelle Integree Aux Outils Bloc Operatoire : Etude de Tolerance,CERVO1,True,True,True,DEVICE
+⬛,noir,NCT04247477,,,2021,Comparison of Different Positive End-expiratory Pressure Titration Strategies Using ELectrical Impedance Tomography in Patients With Acute Respiratory Distress Syndrome : the DELTA Physiological Study,DELTA,False,False,False,OTHER
+🟩,vert,NCT03357367,,,2021,"Performance du TiVi Pour évaluer la réactivité Microcirculatoire de la Peau à l'Application d'un Courant Galvanique, Effet de l'Aspirine",PIRAAT,True,True,True,DEVICE
+🟩,vert,NCT04344041,,,2021,COvid-19 and Vitamin D Supplementation: a Multicenter Randomized Controlled Trial of High Dose Versus Standard Dose Vitamin D3 in High-risk COVID-19 Patients (CoVitTrial),,True,True,True,DRUG
+⬛,noir,NCT04548141,,,2021,Simplification de l'évaluation de l'Activité PHysique Par Interrogatoire Rapide,SAPHIR,False,False,False,OTHER
+⬛,noir,NCT04205032,,,2021,Evaluation in Healthy Volunteers of CARDIOSPACE II for Physiological Studies in Space,CDSII,False,False,False,DEVICE
+⬛,noir,NCT04657471,,,2021,Hospitalization or Outpatient ManagEment of Patients With Suspected or Confirmed SRAS-CoV-2 Infection: the Revised HOME-CoV Score Study.,,False,False,False,OTHER
+⬛,noir,NCT04045925,,,2021,Feasibility Study of the Taïso Practice in Parkinson's Disease,Taïso-Park,False,False,False,OTHER
+🟧,orange,NCT03158402,,,2021,High Intensity Preoperative Inspiratory Muscle Training (IMTHi) Effects on the Perioperative Inflammatory Reaction in Cardiac Surgery With an Associated Biocollection.,EMI HiPo,False,True,True,OTHER
+⬛,noir,NCT03703765,,,2022,Volume Estimation of Lower Limbs Before and After Endovascular Venous Intervention or Conventional Surgery in Venous Disease,VELVET,False,False,False,DEVICE
+🟩,vert,NCT04064489,,,2022,Thromboembolic Risk Stratification by TRIP Score (Cast) to Guide Physicians in Preventive Treatment Prescriptions for Patients With Lower Limb Trauma Requiring Brace or Casting.,CASTING,True,True,True,OTHER
+⬛,noir,NCT03800771,,,2022,DOuble tasK Test On ergometeR - Basic Research on Acceptability and Use,DOKTORBRAU,False,False,False,DEVICE
+⬛,noir,NCT05365295,,,2022,Sensitivity of Children With Attention Deficit/Hyperactivity Disorder to Memory Error Production,TDAH-DRM,False,False,False,OTHER
+⬛,noir,NCT04235023,,,2022,PTP1B Implication in the Vascular Dysfunction Associated With Obstructive Sleep Apnea,MacroSAS,False,False,False,OTHER
+⬛,noir,NCT04773899,,,2022,L'Étude de la Dysfonction endothéliale Dans la Maladie à COVID-19 Chez Des Patients en Soins Critiques.,CAUSED,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT04196738,,,2022,"Comparison of Volume Assist Control, Dual Mode and Airway Pressure Release Ventilation: A Physiological Study",COMIX-R,False,False,False,OTHER
+⬛,noir,NCT04929275,,,2022,Feasability and Impact of Enhanced Recovery Programs After Surgery for Small Bowel Obstruction,RACO,False,False,False,PROCEDURE
+⬛,noir,NCT04164342,,,2022,Etude de la prévalence de la Douleur Chronique et de Ses Facteurs de Risque après Une Hospitalisation en réanimation Chirurgicale,DOUCREA,False,False,False,OTHER
+⬛,noir,NCT03362710,,,2022,Evaluation du Risque Vasculaire Par Mesures Non Invasives en Soins Primaires.,First-SEDAN,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT05441176,,,2023,TULIP et MASC : Premiers Usages,TEMPUS,False,False,False,OTHER
+⬛,noir,NCT04378335,,,2023,Assessment of Orality Disorders in Children With Food Allergies,ALLERGORAL,False,False,False,OTHER
+⬛,noir,NCT04157790,,,2023,Efficacy of the CARE Rule Associated With the HEART Score in Patients With Emergency Chest Pain,eCARE,False,False,False,OTHER
+⬛,noir,NCT03715738,,,2023,MEasurement by a Numerical Approach of BREAst Volume MENABREA,MENABREA,False,False,False,OTHER
+⬛,noir,NCT05345639,,,2023,Chest Wall Block After Sternotomy: Randomized Controlled Trial in Cardiac Surgery: (PABLOS Study),PABLOS,False,False,False,PROCEDURE
+⬛,noir,NCT03840434,,,2023,COmpartment Syndrome vaLidation Of Non Invasive Assessment of Tissue Pressure (COLONIA),COLONIA,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT04459182,,,2023,Circulating Exosomes and Endothelial Dysfunction in Patients With Obstructive Sleep Apneas Hypopneas Syndrome(OSA): EXODYS,EXODYS,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,NCT04080622,,,2023,A Randomized Trial to Evaluate the Efficacy of Selenium for the Prevention of Chemotherapy-induced Mucositis During Autologous Stem Cell Transplantation.,AutoSelenium,False,False,False,DRUG
+⬛,noir,NCT05584930,,,2024,Evaluation of Serum Clusterin and Serum PTX3 Assay During Febrile Aplasia in Children Treated in Pediatric Oncology,CluPPFeN,False,False,False,OTHER
+⬛,noir,NCT04316520,,,2024,A Pilot Study Evaluating the Tolerability of a Ketogenic Diet With Vitamin Supplementation for Patients Receiving Treatment for Metastatic Renal Cell Carcinoma,CETOREIN,False,False,False,DIETARY_SUPPLEMENT
+⬛,noir,NCT04881201,,,2024,Metabolomic Exploration of Dysregulated Lipid Metabolism in MFN2-related CMT2A (CMT2A) Linked to Mitofusin 2,,False,False,False,PROCEDURE
+⬛,noir,NCT03869476,,,2024,"Pilot Study for the Development of a Non-invasive Diagnostic Score to Differentiate Between Essential Thrombocythemia, Premyelofibrosis and Myelofibrosis",BioScoreSMP,False,False,False,DIAGNOSTIC_TEST
+🟩,vert,NCT03362489,,,2024,Conversion of in Vitro Fertilization Cycles to Intrauterine Inseminations in Patients With a Poor Ovarian Response to Stimulation,ConFIRM,True,True,True,PROCEDURE
+🟥,rouge,NCT02393014,,,,Activité Physique et prévention de la Chute du Patient âGé hospItalisé en Court séjouR: Etude de faisabilité (AGIR),AGIR,False,False,True,PROCEDURE
+⬛,noir,NCT02113319,,,,"An Open-Label, Multicenter, Phase II Study to Assess Dasatinib in Patients With Core Binding Factors Acute Myelogenous Leukemia Refractory to Conventional Chemotherapy or in Molecular Relapse. Intergroupe Français Des leucémie aiguë myéloblastique",DasaCBF,False,False,False,DRUG
+⬛,noir,NCT00727935,,,,"Comparison Of The Analgesia Obtained By Infiltration Of Lidocaïne 1% And Ropivacaïne 0,75% Versus Placebo For The Joinings Of Episiotomies Among Parturients Under Epidural Analgesia",LiRoPep,False,False,False,DRUG
+⬛,noir,,2021-003770-30,,,L’érythropoïétine pour améliorer le devenir des patients de soins intensifs – EPO-ICU-FS,EPO-ICU-FS,False,False,False,
+⬛,noir,,2020-001602-34,,,"COvid-19 and Vitamin D supplementation: a multicenter randomized controlled Trial of high dose versus standard dose vitamin D3 in high-risk COVID-19 patients 
+ 
+ 
+ CoVitTrial- Supplémentation en vitamine D et COVID-19 : essai multicentrique randomisé comparant l’effet d’une forte dose versus une dose standard de vitamine D chez des patients âgés ayant une infection COVID-19 à risque d’aggravation secondaire","CoVitTrial 
+ 
+ 
+ CoVitTrial",False,False,False,
+⬛,noir,,2016-002253-38,,,"Mesure de la clairance plasmatique du iohexol chez les patients sortant de réanimation après insuffisance rénale aiguë  
+ 
+ 
+ Mesure de la clairance plasmatique du iohexol chez les patients sortant de réanimation après insuffisance rénale aiguë","IOXSOR 
+ 
+ 
+ IOXSOR",False,False,False,
+⬛,noir,,2015-001342-28,,,"TOMOSCINTIGRAPHIE HYBRIDE AUX LEUCOCYTES MARQUES DANS LE DIAGNOSTIC DES INFECTIONS DE PROTHESES VASCULAIRES. Etude LEUCOPRO® 
+ 
+ 
+ 
+ TOMOSCINTIGRAPHIE HYBRIDE AUX LEUCOCYTES MARQUES DANS LE DIAGNOSTIC DES INFECTIONS DE PROTHESES VASCULAIRES. Etude LEUCOPRO®","LEUCOPRO® 
+ 
+ 
+ LEUCOPRO®",False,False,False,
+⬛,noir,,2011-002387-24,,,Dyva-AAGG: Dysfonction vasculaire micro et macro vasculaire induite par les traitements anti-angiogéniques : Identification de nouveaux marqueurs pronostics,DYVA-AAGG,False,False,False,

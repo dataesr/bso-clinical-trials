@@ -1,0 +1,7 @@
+statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+⬛,noir,NCT00568165,,,2010,Value of a Mobile Team of Cardiologist Using Echocardiography for Managing Patients With Acute Heart Failure,EMEPIC,False,False,False,PROCEDURE
+⬛,noir,NCT02012829,,,2012,Brief Intervention to Improve Colorectal Cancer Screening,Hem-FMG,False,False,False,BEHAVIORAL
+⬛,noir,NCT02156869,,,2014,Impact of a Printed Decision Aid on Patients' Intent to Undertake Prostate Cancer Screening: a Multicenter Pragmatic Randomized Controlled Trial,PSAMG,False,False,False,OTHER
+🟧,orange,NCT02122432,,,2015,Impact of Teledermatology Versus Usual Care on Delay Before Diagnosis and/or Treatment of Dermatologic Conditions in General Practice,TELEDERMATO,False,True,True,OTHER
+⬛,noir,NCT02237573,,,2015,Impact of Handing to Patients With Viral Gastroenteritis or Upper Respiratory Tract Infections a Copy of the Consultation Report on Their Medicine Consumption: a Randomized Controlled Trial,,False,False,False,OTHER
+⬛,noir,NCT04606953,,,2021,Working Memory Training With Attention Process Training (APT-II) in Older Adults With Mild Cognitive Impairment : Impacts on Cognition and Ecological Activities,APT-II,False,False,False,BEHAVIORAL

@@ -1,0 +1,19 @@
+statut,status_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,NCT03166969,,,2013,,HOLTER-21J,False,False,True,PROCEDURE
+🟥,rouge,NCT01916785,,,2013,A PROSPECTIVE RANDOMIZED PHASE II STUDY EVALUATING THE OPTIMIZATION OF THE RESIDUAL PLASMATIC LEVEL OF DASATINIB (SPRYCEL®) IN PATIENTS NEWLY DIAGNOSED WITH CHRONIC PHASE CHRONIC MYELOGENOUS LEUKAEMIA (CP-CML).,OPTIM-DASA,False,False,True,DRUG
+⬛,noir,NCT02963545,,,2016,Simultaneous Assessments of Serotonin and Kynurenine Pathways Parameters in Patients Shortly (Less Than 4 Hours and a Half) After the Onset of a Cerebral Infarction,,False,False,False,BIOLOGICAL
+⬛,noir,NCT02882568,,,2016,Analysis of Immune Response In Bacterial Infection of Obese Subject,ARIIBO,False,False,False,BIOLOGICAL
+⬛,noir,NCT02888964,,,2016,A Study to Assess Efficacy and Safety of Pioglitazone as Add-On Therapy to Imatinib Mesylate in CP-CML Patients in Major Molecular Response,ACTIM,False,False,False,DRUG
+⬛,noir,NCT02896842,,,2016,A Prospective Randomized Phase II Study Evaluating the Monitoring of Imatinib Mesylate (Glivec®) Plasmatic Through Level in Patients Newly Diagnosed With Chronic Phase Chronic Myelogenous Leukaemia (CP-CML).,OPTIMIMATINIB,False,False,False,DRUG
+⬛,noir,NCT02888990,,,2016,An Open Label Phase II Study to Evaluate the Efficacy and Safety of Induction and Consolidation Therapy With Dasatinib in Combination With Chemotherapy in Patients Aged 55 Years and Over With Philadelphia Chromosome Positive (Ph+ or BCR-ABL+) Acute Lymphoblastic Leukemia (ALL).,EWALLPH01,False,False,False,DRUG
+🟧,orange,NCT02883959,,,2016,,Painkiller,False,True,True,OTHER
+⬛,noir,NCT01946750,,,2017,,SERODIFF,False,False,False,BIOLOGICAL
+⬛,noir,NCT02896374,,,2017,Normal and Abnormal Event Related Potentials During Attribution of Intentions to Others and Resolution of Emotional Conflicts in Schizophrenia,SERC,False,False,False,BEHAVIORAL
+⬛,noir,NCT02901015,,,2017,Evaluation and Validation of Social Cognition Battery to Characterize Schizophrenic Patients Functioning (EVACO),EVACO,False,False,False,BEHAVIORAL
+⬛,noir,NCT03115242,,,2017,Contrast Enhanced Ultrasound of Carotid Plaque in Acute Ischemic Stroke,CUSCAS,False,False,False,OTHER
+🟧,orange,NCT02349074,,,2019,Digestive ENdoscopy afTeR Out-of-hospitAl Cardiac arresT,ENTRACT,False,True,True,PROCEDURE
+⬛,noir,NCT02894177,,,2020,Is Transcutaneous Carbon Dioxide Pressure (tcPCO2) Monitoring During Spontaneous Breathing Trials Useful to Predict Extubation Failure in Mechanically Ventilated Patients in the ICU?,tcPCO2,False,False,False,PROCEDURE
+⬛,noir,NCT03030482,,,2020,Evaluation of Touch Massage on Anxiety in Critically Ill Patients : a Randomised Controlled Trial Study (REaLAX),REaLAX,False,False,False,PROCEDURE
+⬛,noir,NCT04363528,,,2021,Incidence of Deep Vein Thrombosis at Doppler Echo in Patients With SARS-Cov-2 Pneumopathy Hospitalized in ICU,COVIDOP-DVT,False,False,False,OTHER
+⬛,noir,NCT03973385,,,2022,Evaluation of Efficacy of Cryotherapy for Skin Anesthesia During Arterial Puncture for Blood Gas in Critically Ill Patients. SNOW Study,SNOW,False,False,False,DEVICE
+⬛,noir,NCT02473146,,,2023,Etude Exploratoire randomisée Comparant le Traitement Par Gemtuzumab Ozogamicin /Cytarabine au Traitement Standard Par Idarubicine/Cytarabinechez Les Sujets âgés de 60 à 80 Ans et présentant Une LAM et un Caryotype Non défavorable,ALFA1401,False,False,False,DRUG
