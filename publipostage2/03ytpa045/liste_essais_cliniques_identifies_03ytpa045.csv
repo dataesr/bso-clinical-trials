@@ -1,6 +1,6 @@
 statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,noir,pas de résultat ni de publication,NCT03284671,,,2017,Transcranial Direct Current Stimulation to Treat Patients With Severe and Resistant Obsessive Compulsive Disorders -Pilot Study (tDCS-TOC Pilot),tDCS-TOC,False,False,False,OTHER
-⬛,noir,pas de résultat ni de publication,NCT03277339,,,2020,Psycho-biological Substrates of Therapeutic Benefit of Thermal Cure on Generalized Anxiety Disorders (Insula-TOP),Insula-TOP,False,False,False,DRUG
-⬛,noir,pas de résultat ni de publication,NCT03304600,,,2022,Transcranial Direct Current Stimulation (tDCS) to Treat Patients With Severe and Resistant Obsessive Compulsive Disorder,tDCS-TOC,False,False,False,DEVICE
-⬛,noir,pas de résultat ni de publication,NCT05464550,,,2022,Role of Self-focused Attention in Depression,RFASD,False,False,False,BEHAVIORAL
-⬛,noir,pas de résultat ni de publication,NCT05464563,,,2024,Study by Electroencephalography of the Link Between the Lack of Self-compassion and the Disorder of Empathy in Schizophrenia,SCE-SCHIZO,False,False,False,DEVICE
+📘,bleu,pas de résultat ni de publication,NCT03284671,,,2017,Transcranial Direct Current Stimulation to Treat Patients With Severe and Resistant Obsessive Compulsive Disorders -Pilot Study (tDCS-TOC Pilot),tDCS-TOC,False,False,False,OTHER
+📘,bleu,pas de résultat ni de publication,NCT03277339,,,2020,Psycho-biological Substrates of Therapeutic Benefit of Thermal Cure on Generalized Anxiety Disorders (Insula-TOP),Insula-TOP,False,False,False,DRUG
+📘,bleu,pas de résultat ni de publication,NCT03304600,,,2022,Transcranial Direct Current Stimulation (tDCS) to Treat Patients With Severe and Resistant Obsessive Compulsive Disorder,tDCS-TOC,False,False,False,DEVICE
+📘,bleu,pas de résultat ni de publication,NCT05464550,,,2022,Role of Self-focused Attention in Depression,RFASD,False,False,False,BEHAVIORAL
+📘,bleu,pas de résultat ni de publication,NCT05464563,,,2024,Study by Electroencephalography of the Link Between the Lack of Self-compassion and the Disorder of Empathy in Schizophrenia,SCE-SCHIZO,False,False,False,DEVICE

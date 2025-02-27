@@ -1,26 +1,26 @@
 statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,noir,pas de résultat ni de publication,NCT00439582,,,2005,Comparative Effect of 2 Different Sources of Trans Fatty Acid (Milk Fat vs Hydrogenated Oil)on Cardiovascular Risk Factors in Healthy Humans,TRANSFACT1,False,False,False,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT00873951,,,2008,Influence of Protein Hydrolysis on Dietary Protein Digestibility and Metabolism in Healthy Subjects,,False,False,True,DIETARY_SUPPLEMENT
-⬛,noir,pas de résultat ni de publication,NCT00685581,,,2008,"Rationale, Study Design and Baseline Data of the TRANSQUAL Clinical Trial: A Study to Evaluate the Impact of Different Milk Fatty Acid Profiles on Cardiovascular Risk Factors in Healthy Volunteers; Focus on Trans Fatty Acids",TRANSQUAL WPC,False,False,False,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT00617435,,,2009,,Trans-Insulin,False,False,True,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT00931151,,,2009,,,False,False,True,DIETARY_SUPPLEMENT
-🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00862329,,,2010,,,False,True,True,DIETARY_SUPPLEMENT
-⬛,noir,pas de résultat ni de publication,NCT00690781,,,2010,Effect of Milk Proteins and Protein Feeding Pattern on Body Composition and Protein Metabolism in Energy Restricted Obese Subjects,SURPROL-CF-H,False,False,False,DIETARY_SUPPLEMENT
-⬛,noir,pas de résultat ni de publication,NCT01209572,,,2010,"Modelling of 24h Energy Expenditure From Heart Rate, Actimetry and Other Parameters Recorded Under Free-living Conditions",Modelheart,False,False,False,DEVICE
-🟥,rouge,résultat et / ou publication posté,NCT00994526,,,2010,Effect of Processed Meat on Colorectal Carcinogenesis. Study of Mechanisms. Choice of Preventive Strategies,Hemcancer,False,False,True,OTHER
-⬛,noir,pas de résultat ni de publication,NCT01995162,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities in Free-living Conditions (eMouve 2),,False,False,False,DEVICE
-⬛,noir,pas de résultat ni de publication,NCT01995253,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities,,False,False,False,DEVICE
-⬛,noir,pas de résultat ni de publication,NCT02473302,,,2014,Preventive Strategies in Colorectal Carcinogenesis Production and Meat Processing,,False,False,False,OTHER
-🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT02354794,,,2014,Effect of Oral Supplementation With One Form of L-arginine on Vascular Endothelial Function in Healthy Subjects Featuring Risk Factors Related to the Metabolic Syndrome.,,False,True,True,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT02157805,,,2014,Effect of Technological Processes on Nutritional Quality of Meat Proteins,,False,False,True,OTHER
-⬛,noir,pas de résultat ni de publication,NCT02348554,,,2014,A Smartphone Application to Evaluate Energy Expenditure and Duration of Activities in Free-living Conditions for Overweight and Obese People (eMouve3),eMouve3,False,False,False,BEHAVIORAL
-🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT03492593,,,2016,Métabolismes Des caroténoïdes Dans la lumière du Tube Digestif de l'Homme Sain,CarotenoiDig,False,True,True,OTHER
-🟥,rouge,résultat et / ou publication posté,NCT03265392,,,2018,Digestion: Building a Better Health and Better Understanding the Digestive Processes Thanks to Magnetic Resonance Imaging,DECOUVRIR-M,False,False,True,OTHER
-🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT03279211,,,2019,True Ileal Amino Acid Digestibility of Whey and Zein Proteins in Healthy Volunteers With Naso-ileal Tubes,,False,True,True,OTHER
-🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT04072770,,,2020,Bioavailability of Protein and Amino Acids of Pea Protein Isolate in Healthy Volunteers,Qualipois,False,True,True,DIETARY_SUPPLEMENT
-⬛,noir,pas de résultat ni de publication,NCT06624033,,,2023,"Single-blind, Randomized, Cross-over Comparative Bioavailability Study About the Kinetics of Plasma Amino Acid Concentrations Subsequent to the Consumption of Innovative Legume-based Products.",LEG'UP,False,False,False,OTHER
-⬛,noir,pas de résultat ni de publication,NCT05047757,,,2023,Fava Bean Protein and Amino Acid Bioavailability in Healthy Volunteers,Leg4Life,False,False,False,DIETARY_SUPPLEMENT
-⬛,noir,pas de résultat ni de publication,NCT01154608,,,,,,False,False,False,DRUG
-🟥,rouge,résultat et / ou publication posté,NCT02352740,,,,Characterization of the Metabolic Fate of an Oral L-arginine Form in Healthy Subjects Featuring Risk Factors Related to the Metabolic Syndrome.,,False,False,True,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT00862017,,,,Effect of Monosodium Glutamate on Gastric Emptying and Postprandial Nitrogen in Healthy Volunteers,,False,False,True,DIETARY_SUPPLEMENT
-🟥,rouge,résultat et / ou publication posté,NCT01154582,,,,,,False,False,True,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT00439582,,,2005,Comparative Effect of 2 Different Sources of Trans Fatty Acid (Milk Fat vs Hydrogenated Oil)on Cardiovascular Risk Factors in Healthy Humans,TRANSFACT1,False,False,False,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT00873951,,,2008,Influence of Protein Hydrolysis on Dietary Protein Digestibility and Metabolism in Healthy Subjects,,False,False,True,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT00685581,,,2008,"Rationale, Study Design and Baseline Data of the TRANSQUAL Clinical Trial: A Study to Evaluate the Impact of Different Milk Fatty Acid Profiles on Cardiovascular Risk Factors in Healthy Volunteers; Focus on Trans Fatty Acids",TRANSQUAL WPC,False,False,False,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT00617435,,,2009,,Trans-Insulin,False,False,True,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT00931151,,,2009,,,False,False,True,DIETARY_SUPPLEMENT
+📙,orange,résultat et / ou publication posté dans les 36 mois,NCT00862329,,,2010,,,False,True,True,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT00690781,,,2010,Effect of Milk Proteins and Protein Feeding Pattern on Body Composition and Protein Metabolism in Energy Restricted Obese Subjects,SURPROL-CF-H,False,False,False,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT01209572,,,2010,"Modelling of 24h Energy Expenditure From Heart Rate, Actimetry and Other Parameters Recorded Under Free-living Conditions",Modelheart,False,False,False,DEVICE
+📕,rouge,résultat et / ou publication posté,NCT00994526,,,2010,Effect of Processed Meat on Colorectal Carcinogenesis. Study of Mechanisms. Choice of Preventive Strategies,Hemcancer,False,False,True,OTHER
+📘,bleu,pas de résultat ni de publication,NCT01995162,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities in Free-living Conditions (eMouve 2),,False,False,False,DEVICE
+📘,bleu,pas de résultat ni de publication,NCT01995253,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities,,False,False,False,DEVICE
+📘,bleu,pas de résultat ni de publication,NCT02473302,,,2014,Preventive Strategies in Colorectal Carcinogenesis Production and Meat Processing,,False,False,False,OTHER
+📙,orange,résultat et / ou publication posté dans les 36 mois,NCT02354794,,,2014,Effect of Oral Supplementation With One Form of L-arginine on Vascular Endothelial Function in Healthy Subjects Featuring Risk Factors Related to the Metabolic Syndrome.,,False,True,True,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT02157805,,,2014,Effect of Technological Processes on Nutritional Quality of Meat Proteins,,False,False,True,OTHER
+📘,bleu,pas de résultat ni de publication,NCT02348554,,,2014,A Smartphone Application to Evaluate Energy Expenditure and Duration of Activities in Free-living Conditions for Overweight and Obese People (eMouve3),eMouve3,False,False,False,BEHAVIORAL
+📙,orange,résultat et / ou publication posté dans les 36 mois,NCT03492593,,,2016,Métabolismes Des caroténoïdes Dans la lumière du Tube Digestif de l'Homme Sain,CarotenoiDig,False,True,True,OTHER
+📕,rouge,résultat et / ou publication posté,NCT03265392,,,2018,Digestion: Building a Better Health and Better Understanding the Digestive Processes Thanks to Magnetic Resonance Imaging,DECOUVRIR-M,False,False,True,OTHER
+📙,orange,résultat et / ou publication posté dans les 36 mois,NCT03279211,,,2019,True Ileal Amino Acid Digestibility of Whey and Zein Proteins in Healthy Volunteers With Naso-ileal Tubes,,False,True,True,OTHER
+📙,orange,résultat et / ou publication posté dans les 36 mois,NCT04072770,,,2020,Bioavailability of Protein and Amino Acids of Pea Protein Isolate in Healthy Volunteers,Qualipois,False,True,True,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT06624033,,,2023,"Single-blind, Randomized, Cross-over Comparative Bioavailability Study About the Kinetics of Plasma Amino Acid Concentrations Subsequent to the Consumption of Innovative Legume-based Products.",LEG'UP,False,False,False,OTHER
+📘,bleu,pas de résultat ni de publication,NCT05047757,,,2023,Fava Bean Protein and Amino Acid Bioavailability in Healthy Volunteers,Leg4Life,False,False,False,DIETARY_SUPPLEMENT
+📘,bleu,pas de résultat ni de publication,NCT01154608,,,,,,False,False,False,DRUG
+📕,rouge,résultat et / ou publication posté,NCT02352740,,,,Characterization of the Metabolic Fate of an Oral L-arginine Form in Healthy Subjects Featuring Risk Factors Related to the Metabolic Syndrome.,,False,False,True,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT00862017,,,,Effect of Monosodium Glutamate on Gastric Emptying and Postprandial Nitrogen in Healthy Volunteers,,False,False,True,DIETARY_SUPPLEMENT
+📕,rouge,résultat et / ou publication posté,NCT01154582,,,,,,False,False,True,DIETARY_SUPPLEMENT
