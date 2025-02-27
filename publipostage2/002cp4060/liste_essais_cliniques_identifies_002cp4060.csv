@@ -1,214 +1,214 @@
-statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-🟥,rouge,NCT00299650,,,2008,Systematic Early Use of Neuromuscular Blocking Agents in ARDS Patients,,False,False,True,DRUG
-⬛,noir,NCT00769912,,,2009,Evaluation of of a Prefixed 50% N2O- 50%O2 Mixture in Legal Abortion Under Local Analgesia,,False,False,False,DRUG
-⬛,noir,NCT04755023,,,2010,Primary Chemotherapy by BCNU-TMZ Combination in Newly Diagnosed Anaplastic Oligodendrocytic Tumors: Phase II Trial With Translational Molecular Analysis,TEMOBIC,False,False,False,DRUG
-⬛,noir,NCT00702429,,,2010,Immunoregulation of Periodontal Disease,,False,False,False,OTHER
-🟥,rouge,NCT03405948,,,2010,Efficiency of Botulinum Toxin Injection for Spastic Equinovarus Foot in Post Stroke Hemiparetic Patients Randomized Controlled Trial Versus Placebo,,False,False,True,DRUG
-⬛,noir,NCT00683566,,,2010,State Dependent Resonance in the BG-cortical Loops,,False,False,False,PROCEDURE
-⬛,noir,NCT00725868,,,2010,Blood Endothelium Biomarkers to Predict Major Adverse Cardiovascular Events After Percutaneous Coronary Intervention.,,False,False,False,OTHER
-⬛,noir,NCT00623272,,,2010,"Left Ventricular Function Assessment After Acute Myocardial Infarction: Comparison Between bi-, Three-dimensional and Cardiac Magnetic Resonance",,False,False,False,OTHER
-⬛,noir,NCT00726206,,,2010,"Correlation Between the Analysis of the Rapid Cortical Oscillations, the General Movements of the Preterm's and the Cerebral Palsy",,False,False,False,OTHER
-⬛,noir,NCT00947817,,,2010,Impact of Endothelial Cell Activation and Modifications of Haemostasis Induced by Infective Endocarditis on the Risk of Embolism.,,False,False,False,OTHER
-⬛,noir,NCT00769236,,,2010,Evaluation of Intestinal Secretion of Antibodies and Auto-antibodies Associated With Crohn's Disease,,False,False,False,OTHER
-⬛,noir,NCT00947778,,,2010,Analysis of Language and Auditory Abilities in Cochlear Implanted Children: Assessment by an Auditory Learning Programmed Method,,False,False,False,OTHER
-🟧,orange,NCT00697398,,,2011,Repetitive Trans-cranial Magnetic Stimulation of the Motor Cortex in Fibromyalgia: A Prospective Randomized Blinded Placebo-controlled Study Evaluating the Clinical Efficiency and the Metabolic Correlate in 18FDG-PET,,False,True,True,OTHER
-⬛,noir,NCT01177436,,,2011,PCA-3 Gene Project,,False,False,False,BIOLOGICAL
-🟥,rouge,NCT00950209,,,2011,Acute Effect of Intensive Insulin Infusion on Intestinal Triglyceride-rich-lipoprotein-apoB48 Metabolism in Type 2 Diabetic Patients,,False,False,True,DIETARY_SUPPLEMENT
-🟧,orange,NCT00699868,,,2011,"Cellular Immunity, Cytomegalovirus Infection and Septic Shock in ICU Patients",2006/25,False,True,True,OTHER
-⬛,noir,NCT00684281,,,2011,"Early Diagnosis of Alzheimer's Disease: Clinical, Neuropsychological and Neuroimaging Follow-up of a Cohort of Patients With an Isolated Memory Impairment",,False,False,False,OTHER
-⬛,noir,NCT00824889,,,2011,Exploratory Study of Natural Killer Cells in Human Skin,,False,False,False,OTHER
-⬛,noir,NCT00769574,,,2011,Assessment of New Biomarkers in the Management and Triage of Patients With Chest Pain and Suspicion of Non ST Elevation Acute Coronary Syndrome.,,False,False,False,OTHER
-⬛,noir,NCT01118364,,,2011,Effect of Cannabis on Simulated and Actual Driving in Healthy Subjects,,False,False,False,OTHER
-⬛,noir,NCT00682903,,,2011,Use of a Bearable Continuous Interstitial Glucose Monitoring Device (GuardianR) During Teaching Sessions to Functional Insulin Therapy Concept in Patients Suffering From Type 1 Diabetes: Evaluation at 6 and 12 Months,,False,False,False,DEVICE
-⬛,noir,NCT00842166,,,2011,,,False,False,False,OTHER
-⬛,noir,NCT00682409,,,2011,,,False,False,False,OTHER
-🟧,orange,NCT00920114,,,2012,,LU-PUCE,False,True,True,BIOLOGICAL
-⬛,noir,NCT01505790,,,2012,Impact of Clopidogrel Dose Adjustment According to Platelet Reactivity Monitoring in Patients With High on Treatment Platelet Reactivity Undergoing Percutaneous Coronary Intervention,,False,False,False,DRUG
-⬛,noir,NCT00684034,,,2012,Redox State in the Course of Chronic Renal Insufficiency and Hemodialysis: Implications in Morbimortality,,False,False,False,OTHER
-⬛,noir,NCT01177475,,,2012,Effect of Intake in Bioactive Molecules From Natural or Pasteurised Milk on Gut Maturation in Very Premature Newborns,,False,False,False,OTHER
-⬛,noir,NCT00823589,,,2012,Immune Status of Elderly Population Admitted in an Acute Geriatric Unit,,False,False,False,OTHER
-⬛,noir,NCT01687452,,,2012,"Microparticles, Vector of Genetic Information During HIV Infection ?",,False,False,False,BIOLOGICAL
-⬛,noir,NCT00920673,,,2012,"Age Influence on the Modifications of the Oral, Pharyngeal and Laryngeal Axis Alignment in Children Induced by Head Extension: an MRI Study",,False,False,False,PROCEDURE
-🟥,rouge,NCT01090232,,,2012,Host Responses in Kidney-transplant Recipients With Chronic Hepatitis E Virus Infection,,False,False,True,OTHER
-🟧,orange,NCT00875407,,,2012,,,False,True,True,OTHER
-⬛,noir,NCT01177423,,,2013,Efficiency Evaluation of Intradiploic Intra-osseus Anesthesia Versus Inferior Alveolar Nerve Block,,False,False,False,PROCEDURE
-⬛,noir,NCT00920335,,,2013,Adult Intracranial Ependydomas : Prognostic and Diagnostic Factors Assessment and Molecular Characterization,,False,False,False,OTHER
-🟧,orange,NCT01032564,,,2013,,,False,True,True,OTHER
-⬛,noir,NCT01626612,,,2013,De-escalation of Empirical Antimicrobial Therapy Study in Severe Sepsis: A Randomized Clinical Trial (DEA Study),,False,False,False,PROCEDURE
-⬛,noir,NCT01900457,,,2013,Vestibular and Multisensory Influence on Bodily and Spatial Representations. Behavioral and Electrophysiological Investigations in Vestibular-defective Patients and Healthy Volunteers,,False,False,False,OTHER
-⬛,noir,NCT01058161,,,2013,High-Field MRI Characterization of Wrist and Hand Cartilage Abnormalities in Inflammatory and Chronic Rheumatisms,,False,False,False,OTHER
-⬛,noir,NCT01286714,,,2013,Assessment of Fistula Closure by OTSC Clip After Bariatric Surgery,,False,False,False,DEVICE
-🟧,orange,NCT00484653,,,2013,Identification and Impact of Vaginal Flora Anomalies Among Pregnant Woman,,False,True,True,PROCEDURE
-⬛,noir,NCT00731016,,,2013,Treatment of the Hutchinson-Gilford Progeria Syndrome With a Combination of Pravastatin and Zoledronic Acid,,False,False,False,DRUG
-⬛,noir,NCT01172015,,,2014,NK-ITP STUDY : NATURAL KILLER CELLS IN IMMUNOLOGIC THROMBOCYTOPENIC PURPURA OF ADULTS.,,False,False,False,OTHER
-⬛,noir,NCT01125319,,,2014,Secondary Adult's Hemophagocytic Lymphohistiocytosis and Innate Immunity,,False,False,False,OTHER
-⬛,noir,NCT01865422,,,2014,French Linguistic and Metric Validations of Parent-proxy QOL Chronic Cough Specific Questionnaire (PC-QOL),PC-QOL,False,False,False,OTHER
-⬛,noir,NCT01946334,,,2014,Does Body Position Influence Pressure Recording by High-resolution Manometry ?,,False,False,False,DEVICE
-🟩,vert,NCT01813279,,,2014,Assessment of the Subcutaneous Reinjection of Human Autologous Adipose-derived Stromal Vascular Fraction (Celution® System) in the Hands of Patients Suffering From Systemic Sclerosis,,True,True,True,OTHER
-⬛,noir,NCT01687361,,,2014,Can Branched Chain Amino Acids Supplementation Reduce Muscle Damage Induced by Neuromuscular Electrical Stimulation ? A Combined Functional and Metabolic Non-invasive Investigation in Healthy Humans.,,False,False,False,DIETARY_SUPPLEMENT
-⬛,noir,NCT01295333,,,2014,"Assessing the Impact of the Early and Systematic Hormonal Replacement After Radio-isotopic Ablation of Graves'hyperthyroïdism on Quality of Life, Efficiency and Tolerance",,False,False,False,DRUG
-🟩,vert,NCT01901003,,,2014,SEDATIVE PREMEDICATION: EFFICACY ON PATIENT EXPERIENCE,PremedX,True,True,True,DRUG
-⬛,noir,NCT01626534,,,2014,Evaluation of Ticagrelor Anti Platelet and Pleiotropic Effects in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome.,,False,False,False,DRUG
-⬛,noir,NCT00767962,,,2014,"A Prospective Randomised Study of Efficacy, Safety and Costs of Talc Pleurodesis Under Medical Thoracoscopy and Pleurodesis Under Video-assisted Thoracoscopy Surgery for Recurrent Primary Spontaneous Pneumothorax",,False,False,False,OTHER
-⬛,noir,NCT01284803,,,2014,Feasibility and Acceptability of an Educational Intervention to Improve the Management of Depression in Primary Care,,False,False,False,BEHAVIORAL
-⬛,noir,NCT02042664,,,2015,Effect of GLP-1 Receptor (GLP-1R) Agonists on Cardiac Function and on Epicardial Adipose Tissue (EAT) Volume and on Myocardial TG Content in Obese Diabetics,,False,False,False,DRUG
-⬛,noir,NCT01687348,,,2015,Lidocaine Pharmacokinetics During Tumescent Infiltrative Anaesthesia for Mastectomy.,,False,False,False,DRUG
-⬛,noir,NCT02585739,,,2015,Cluster Headache and SPINK-1 Gene,,False,False,False,GENETIC
-⬛,noir,NCT01964742,,,2015,Analysis of Host Genetic Factors in the Occurrence of Anemia and on the Virological Response to a Peg-interferon/Ribavirin Therapy in HIV-HCV Co-infected Patients,,False,False,False,GENETIC
-⬛,noir,NCT01954381,,,2015,Impact of Adalimumab Therapy on Brachial Endothelial Function and Large Artery Stiffness in Patients With Rheumatoid Arthritis,,False,False,False,BIOLOGICAL
-⬛,noir,NCT01865435,,,2015,IN UTERO SMOKING AND PREMATURE CELLULAR SENESCENCE,,False,False,False,GENETIC
-⬛,noir,NCT01693796,,,2015,Evaluation of Thyroid Exposure to Radiation Doses During Paediatric Cardiac Catheterisations Performed for Diagnosis or the Treatment of Congenital Heart Disease,,False,False,False,OTHER
-🟧,orange,NCT01613365,,,2015,"Oropharyngeal and Nasopharyngeal Decontamination With Chlorhexidine Gluconate in the Reduction of the Postoperative Morbidity and Mortality After Major Pulmonary Resections: a Multicentric, Prospective, Randomized, Double-blind, Placebo-controlled Clinical Trial",CHLORHEX,False,True,True,DRUG
-⬛,noir,NCT02038426,,,2015,"Ultrasonography Assessment of Peripheral Entheses in Axial Spondyloarthritis and in Healthy Subjects, Athletes or Not.",,False,False,False,BIOLOGICAL
-⬛,noir,NCT01284686,,,2015,Pathophysiology of Neuronal Oscillations Within Subthalamo-cortical Loops in Parkinson's Disease,,False,False,False,OTHER
-🟩,vert,NCT02164214,,,2015,DOES ETANERCEPT INFLUENCE TWEAK MODULATION OF INFLAMMATION DURING INFLAMMATORY RHEUMATISMS (PSORIATIC ARTHRITIS AND RHEUMATOID ARTHRITIS)?,,True,True,True,DRUG
-🟧,orange,NCT01999829,,,2016,"Prevention of Atrial Fibrillation Following Valvular Replacement With Cardiopulmonary Bypass: a Prospective, Randomized Clinical Study Comparing Oral Caffeine With Placebo",,False,True,True,DRUG
-⬛,noir,NCT01287728,,,2016,The Value of Bacterial Loads by Real Time PCR in Predicting Recurrence of Abnormal Vaginal Flora After Oral Metronidazole Therapy,,False,False,False,DRUG
-⬛,noir,NCT02885883,,,2016,Non-invasive Quantification of Atrial Fibrosis by MRI in Atrial Fibrillation,QUAFI,False,False,False,DEVICE
-⬛,noir,NCT02899039,,,2016,Follicular Helper T Cells: Biological Marker and Involvement in the Physiopathology of the IgG4-related Disease,G4-FH,False,False,False,BIOLOGICAL
-⬛,noir,NCT01284673,,,2016,Characterization of the Cord Blood Stem Cell in Situation of Neonatal Asphyxia,NEOCORD,False,False,False,OTHER
-⬛,noir,NCT02727868,,,2017,Assessment of the Mutation of Pig-A Gene as Biomarker of Genotoxic Exposure in Humans,PIG-A,False,False,False,GENETIC
-🟩,vert,NCT02471924,,,2017,Predicting Hypotension Related to Spinal Anesthesia for Caesarean Section With Ultrasonography,,True,True,True,OTHER
-🟩,vert,NCT01675726,,,2017,QUALITY OF LIFE OF CHILDREN BORN VERY PRETERM AT SCHOOL-AGE,,True,True,True,OTHER
-⬛,noir,NCT02352129,,,2017,Prognostic Value of Myocardial Fibrosis Quantified Using CMR in Patient With Dilated Cardiomyopathy,,False,False,False,OTHER
-⬛,noir,NCT02879344,,,2017,,,False,False,False,OTHER
-⬛,noir,NCT02608255,,,2017,A Prospective Pilot Study to Evaluate a New Marker of Ischemia in Chest Pain Triage,,False,False,False,OTHER
-⬛,noir,NCT01697423,,,2017,Comparative Assessment of Intra-articular Knee Injections of Platelet-rich Plasma (PRP) and Hyaluronic Acid in the Treatment of Knee Osteoarthritis,,False,False,False,DRUG
-⬛,noir,NCT02866513,,,2017,Incidence of High Levels of Transpulmonary Pressure During the Use of Airway Pressure Release Ventilation.,,False,False,False,OTHER
-🟩,vert,NCT00990691,2007-006739-30,,2017,Pilot Study of the Effects of the Desipramine on the Neurovegetative Parameters of the Child With Rett Syndrome,,True,True,True,DRUG
-🟩,vert,NCT02866578,,,2018,Open Lung Protective Ventilation During Cardiac Surgery With Cardiopulmonary Bypass : a Randomized Controlled Trial,PROVECS,True,True,True,PROCEDURE
-⬛,noir,NCT03164122,,,2018,EVALUATION OF AN INNOVATIVE TREATMENT FOR RADIOCARPAL OSTEOARTHRITIS USING INTRA-ARTICULAR INJECTION OF A MIXTURE OF AUTOLOGOUS MICROFAT AND AUTOLOGOUS PLATELET-RICH PLASMA,AMIPREP,False,False,False,DEVICE
-⬛,noir,NCT02117037,,,2018,Prognostic Value of Biomarkers Associated With Endothelial Progenitor Cells Mobilization in Acute Coronary Syndromes,,False,False,False,OTHER
-🟧,orange,NCT02622464,,,2018,Innovative Treatment for Scarred Vocal Cords by Local Injection of Autologous Stromal Vascular Fraction,,False,True,True,OTHER
-⬛,noir,NCT01599533,,,2018,"Screening for Thoracic Aortic Aneurysm Among a Cohort of Patients With a Degenerative Abdominal Aortic Aneurysm : Prevalence, Description of the Different Thoracic Aortic Phenotypes by Aortic Volumetric Numerized Imaging and Their Relationship With Epidemiologic, Clinical, Biological and Genetic Factors",,False,False,False,OTHER
-⬛,noir,NCT02636127,,,2018,Role of Circulating Cytotoxic Lymphocytes in Endothelial Cell Injury in Systemic Sclerosis,,False,False,False,OTHER
-🟩,vert,NCT02750579,,,2018,Early or Delayed Revascularization for Intermediate and High-risk Non ST-elevation Acute Coronary Syndromes?,,True,True,True,PROCEDURE
-⬛,noir,NCT02732769,,,2018,Clinical Evaluation of the Treatment of Intellectual Metastases by Radiosurgery Gamma Knife by Means of a Support System by Mask.,Mask,False,False,False,DEVICE
-🟩,vert,NCT02428725,,,2018,Platelet Reactivity Inhibition Following Ticagrelor Loading Dose and One Year Outcome in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome,,True,True,True,OTHER
-⬛,noir,NCT02303925,,,2018,Feasibility of Superior Rectal Artery Embolization for the Treatment of Hemorrhoidal Disease,EMBORRHOID,False,False,False,DEVICE
-🟩,vert,NCT02520843,,,2018,An Innovative Treatment for Fistula-in-ano in Crohn Disease : Local Micro Reinjection of Autologous Fat and Stromal Vascular Fraction,,True,True,True,DRUG
-⬛,noir,NCT02875964,,,2019,Definition of Links Between Non-invasives Methods and Intracerebral EEG With Simultaneous Recordings.,MEG-SEEG,False,False,False,DEVICE
-⬛,noir,NCT03322618,,,2019,Evaluation of the Expression and Functions of the KIR3DL2 Receptor and the Anti-inflammatory Activity of IPH4102 (Monoclonal Antibody IPH4102 Targeting KIR3DL2) in Blood Samples Taken From Patients With Axial Spondyloarthritis and Healthy Volunteers,KIR3DL2,False,False,False,BIOLOGICAL
-⬛,noir,NCT03588468,,,2019,Expanding the Biomarkers in Familial Amyloid Neuropathy: Magnetic Resonance Imaging (MRI) and Motor Unit Estimation by Electrophysiological Study,,False,False,False,OTHER
-🟧,orange,NCT02757794,,,2019,Long-term Effects of Visual Spatial Working Memory Training Program Performed at Preschool Age in Very Preterm Infants With Visual Spatial Working Memory Deficit. A Randomized Controlled Trial,EPIREMED,False,True,True,OTHER
-🟧,orange,NCT03592589,,,2019,"Prevention of Atelectasis, Via High Flow Nasal Cannula to Obtain a PEP, During General Anesthesia for MRI by Sevoflurane in Children, Evaluated by Lung MRI and Echography",PREVAT-PED,False,True,True,DEVICE
-⬛,noir,NCT03292120,,,2019,Venous to Arterial Carbon Dioxide Difference (P₍ᵥ-ₐ₎CO₂): Predictor of Septic Patient Prognosis Depending on the ScvO₂,,False,False,False,OTHER
-⬛,noir,NCT02861768,,,2019,Improving the Diagnostic of Tuberculosis,,False,False,False,BIOLOGICAL
-⬛,noir,NCT02892890,,,2019,,EXPRET,False,False,False,PROCEDURE
-⬛,noir,NCT02304029,,,2019,Usefulness of Sodium MRI in the Presurgical Assessment of Drug-resistant Partial Epilepsy,EPISODIUM,False,False,False,DEVICE
-🟩,vert,NCT03218007,,,2019,A 2A Receptor (A2 AR) as a Novel Biomarkers for Physician Decision-making Improvement Evaluation's Patients With Suspected Acute Coronary Syndrome But Negative Troponin.,,True,True,True,BIOLOGICAL
-⬛,noir,NCT03640806,,,2020,"QOL Efficacy of Adapted Physical Activity for Patients With Fibromyalgia : Single-center, Prospective, Randomized With Biological and Cerebral Evaluation",,False,False,False,OTHER
-⬛,noir,NCT02608203,,,2020,"Impact of [68 Ga]-DOTANOC PET-CT on the Management of Gastroenteropancreatic Neuroendocrine Tumors (GEP-NETs): Prospective, Multicentric Study.",GEP-NOC,False,False,False,DRUG
-⬛,noir,NCT03418402,,,2020,Post Operative Pain After Laparoscopic Hysterectomy Using Airseal® Versus Standard Insufflation System: A Randomized Prospective Study,AIRSEAL,False,False,False,DEVICE
-⬛,noir,NCT03979586,,,2020,Intradermal Delivery of Fractional CO2 Laser-assisted Hyaluronic Acid in Facial Skin Remodeling,,False,False,False,OTHER
-🟧,orange,NCT03118336,,,2020,Impact of Empaglifozine on Cardiac Ectopic Fat,EMPACEF,False,True,True,DRUG
-⬛,noir,NCT03245983,,,2020,"Spirituality, Experience of Disease and Quality of Life in Cancer Patients",SPIQOL,False,False,False,BEHAVIORAL
-⬛,noir,NCT01987024,,,2020,Advantage of Detection of phIGFBP-1 to Reduce Hospitalization Time for Stable Patients With a Risk of Preterm Labour.,,False,False,False,DEVICE
-🟧,orange,NCT02586870,,,2020,Assessment of Renal Artery Fibromuscular Dysplasia: From Diagnosis to Treatment,DysArt,False,True,True,DEVICE
-⬛,noir,NCT03765853,,,2020,Randomized Study on the Evaluation of the Regular Practice of Standardized Postures Stretching Postural® in Secondary Prevention of Low Back Pains During Pregnancy.,GEMALODO,False,False,False,OTHER
-⬛,noir,NCT04632602,,,2020,Awake Prone Position to Reduce Ventilation Inhomogeneity in COVID-19 Acute Respiratory Failure: a Randomized Cross Over Electrical Impedance Tomography Study,ProneSpontCov,False,False,False,OTHER
-⬛,noir,NCT04579276,,,2021,Different Approaches to Thoracic Paravertebral Block: a Monocentric Randomized Study Comparing Ultrasounded-guided Method to Intrathoracic Visual Method,VAP BLOCK,False,False,False,PROCEDURE
-🟩,vert,NCT02761304,,,2021,Assessment of the Interests of Mesure of Ultrasound Engagement on the Cesarean Rate :Study Eng - Echo Randomized Comparative Prospective Study Multicenter Center Open,eng - echo,True,True,True,PROCEDURE
-⬛,noir,NCT03659266,,,2021,"Effects of Combined Treatment by Botulinum Toxin A and Robot-Assisted Gait Training (Lokomat®) on Walking Ability in Patients With Chronic Stroke: a Prospective, Controlled, Randomized Study",Lokomat,False,False,False,OTHER
-🟩,vert,NCT04371367,,,2021,"A Double-blind, Randomized Study Versus Placebo of Avdoralimab (IPH5401), an Anti-C5aR Antibody, in Patients With COVID-19 Severe Pneumonia",FORCE,True,True,True,BIOLOGICAL
-⬛,noir,NCT02872441,,,2021,Characterization of Tissular T Follicular Helper Cells in IgG4-RD,TIFOLH4,False,False,False,BIOLOGICAL
-⬛,noir,NCT03582852,,,2021,Laparoscopic Sacrocolpexy Versus Lateral Suspension With a Mesh for the Treatment of Pelvic Organ Prolapse : a Randomized Controlled Trial,SUSPENSION,False,False,False,PROCEDURE
-🟧,orange,NCT03961581,,,2021,Effectivness of Distraction by Electric ride-on Cars for Peri Operative Anxiety in Ambulatory Pediatric Surgery: a Randomised Controlled Study,PTIBOLID,False,True,True,BEHAVIORAL
-⬛,noir,NCT02858687,,,2022,,,False,False,False,OTHER
-⬛,noir,NCT02868346,,,2022,,,False,False,False,OTHER
-⬛,noir,NCT03179644,,,2022,Study of Variations of Pleural and Esophageal Pressures Under Mechanical Ventilation After Lung Transplantation,,False,False,False,OTHER
-⬛,noir,NCT02839642,,,2022,"RIVA-PSP: Efficacy of Rivastigmine on Motor, Cognitive and Behavioural Impairment in Progressive Supranuclear Palsy: A Randomised Double Blind Placebo-controlled Clinical Trial",RIVA-PSP,False,False,False,DRUG
-⬛,noir,NCT02848703,,,2022,"Study "" COFLORES "":Imaging of Coronary Reserve Without Tracers",,False,False,False,DEVICE
-⬛,noir,NCT02859779,,,2022,Needs Assessment of Mediterranean Adolescents With Type 1 Diabetes About Therapeutic Education Sessions: A Qualitative Study,BADET,False,False,False,BEHAVIORAL
-⬛,noir,NCT03628261,,,2022,Is EMG-based Serious Games Effective in Improving Gait in Children With Cerebral Palsy ? Interest of Electromyography Feedback (EMG),SERIOUS GAME,False,False,False,DEVICE
-⬛,noir,NCT02822807,,,2022,Q Fever and Auto-immunity,Q Fever,False,False,False,BIOLOGICAL
-⬛,noir,NCT02827175,,,2022,Evaluation of the Effectiveness of a Diagnostic Kit in the Etiological Diagnosis of Fevers of the Traveler,,False,False,False,OTHER
-⬛,noir,NCT02858609,,,2022,,,False,False,False,OTHER
-🟩,vert,NCT02288832,,,2022,"Medico-economic Impact of Screening Atopobium Vaginae and Gardnerella Vaginalis in Molecular Biology by ""Point-of-care"" During Pregnancy",AuTop,True,True,True,DRUG
-⬛,noir,NCT03660215,,,2022,Interventional Trial in Primary Care of Medico-social Mediation on the Prevention of the Return to Emergencies Among People in a Precarious Social Situation,M2PRUSSE,False,False,False,OTHER
-🟩,vert,NCT03630822,,,2022,Experimentation of a Protocol of Psychiatric Advance Directives: Randomized Controlled Multi-site Trial,DAiP,True,True,True,BEHAVIORAL
-⬛,noir,NCT02851771,,,2022,Improving the Diagnosis of Pneumonia in Emergency Rooms,,False,False,False,OTHER
-🟩,vert,NCT02555007,,,2022,Phase IA/IB of Metronomic Chemotherapy Based on Adaptative Bio-mathematical Model of Oral Vinorelbine in Patients With Non Small Cell Lung Cancer or Malignant Pleural Mesothelioma,NVB Metro,True,True,True,DRUG
-⬛,noir,NCT02816307,,,2022,Etiology of Endocarditis in Negative Blood Cultures,ENDOC,False,False,False,OTHER
-⬛,noir,NCT02038348,,,2022,Interest of the 18F-DOPA-PET Imaging in Metastatic Melanoma Treated With B-RAF Inhibitors: a Pilot Study,,False,False,False,DEVICE
-⬛,noir,NCT02868450,,,2022,,WHIPPLE,False,False,False,BIOLOGICAL
-⬛,noir,NCT02018835,,,2022,"Exercise Stress MRI to Evaluate Aortic Function (Compliance, Distensibility, Pulse Wave Velocity) and Left Ventricular Function : Validation in Healthy Volunteers and in Selected Patients. A Pilot Study.",,False,False,False,DEVICE
-🟩,vert,NCT03043014,,,2022,Cervical Preparation of Abortions Under Paracervical Block in the First Trimester: A Randomized Clinical Trial,BPCEN,True,True,True,DRUG
-⬛,noir,NCT02866201,,,2022,,DIAVOY,False,False,False,OTHER
-⬛,noir,NCT03974958,,,2022,Circulating microRNAs and Degenerative Abdominal Aorta Aneurysm: Diagnostic Specificity and Prognostic Value in Clinical Practice,ACTA-miRNA,False,False,False,GENETIC
-⬛,noir,NCT02000011,,,2022,"Interest of a Geriatric Intervention Plan Associated to a Comprehensive Geriatric Assessment on Autonomy, Quality of Life and Survival of Patients Aged 70 Years Old and More Surgically Treated for a Resectable Cancer (Thoracic, Digestive or Urologic). Randomized Multicentric Study",epigac,False,False,False,OTHER
-⬛,noir,NCT01678469,,,2022,"Lipophilic Micronutrients, Adipokines and Gestational Diabetes Mellitus",2011-23,False,False,False,OTHER
-🟩,vert,NCT02209142,,,2022,Blood Biomarkers in Major Depression,,True,True,True,OTHER
-⬛,noir,NCT02819232,,,2022,Microbiological Diagnosis of Infectious Keratitis to Pathogenic Fastidious Germs,Keratite,False,False,False,OTHER
-⬛,noir,NCT02819206,,,2022,Microbiological Diagnosis of Infectious Uveitis to Pathogenic Fastidious Germs,,False,False,False,OTHER
-⬛,noir,NCT02828085,,,2022,Improvement of the Etiological Diagnosis of the Pericarditis,PERICARDITE,False,False,False,BIOLOGICAL
-⬛,noir,NCT02819128,,,2022,Investigation of Endemic and Emerging Diseases in Populations of Homeless Households in Marseille.,SDF,False,False,False,OTHER
-⬛,noir,NCT02473315,,,2022,Assessment of Whole Body Cryotherapy in Treatment of Active Axial Spondylarthritis,,False,False,False,OTHER
-⬛,noir,NCT02858661,,,2022,,,False,False,False,OTHER
-⬛,noir,NCT01957228,,,2022,Causative Diagnosis on Prosthetic Joint Infections: Establishment of a Comprehensive Diagnostic Strategy,,False,False,False,PROCEDURE
-⬛,noir,NCT02868411,,,2022,,,False,False,False,OTHER
-⬛,noir,NCT02422043,,,2022,Description of Socio-cognitive and Clinic Changes for Type 1 Diabetes Adolescents Cohort With Therapeutic Patient Education Program,,False,False,False,OTHER
-⬛,noir,NCT02834104,,,2022,Validation of Fibrosis Quantification Using T1 Mapping Against Histology as Reference and Comparison With Fibrosis Biomarkers,,False,False,False,BIOLOGICAL
-⬛,noir,NCT04694313,,,2022,Evaluation of Optical Pumping Magnetometer Sensors for MagnetoEncephaloGraphy Imaging,OPM,False,False,False,DEVICE
-⬛,noir,NCT01693965,,,2023,Clinical Course and Changes in the Respiratory Microbiota Based on Antibiotic Treatment in Patients With Cystic Fibrosis,,False,False,False,OTHER
-⬛,noir,NCT01916005,,,2023,Diagnostic Value of 18F-fluorodeoxyglucose Positron Emission Tomography/Computed Tomography in Prosthetic Valve Endocarditis,,False,False,False,DEVICE
-⬛,noir,NCT01613625,,,2023,Interest Of Renal Elastography In Children As A Diagnostic Tool Of Renal Fibrosis: Confrontation To Histological Features Of Renal Biopsies,,False,False,False,PROCEDURE
-⬛,noir,NCT03339908,,,2023,Regional Non-comparative Prospective Study of the Impact of Gamma Knife Radiosurgery on Tremor in Multiple Sclerosis,GK-SEP,False,False,False,DEVICE
-⬛,noir,NCT02038361,,,2023,Implementation of Innovative Techniques in Routine Diagnosis of Childhood Acute Leukemia: Analysis of Genome and Transcriptome by Micro-array,,False,False,False,GENETIC
-⬛,noir,NCT02571790,,,2023,Virtual Reality and Relaxation for the Treatment of Generalized Anxiety Disorders: a Comparative Study With Standard Relaxation,Relax-TAG,False,False,False,BEHAVIORAL
-⬛,noir,NCT02186691,,,2023,Right and Left Ventricle Remodeling Predictors After Pulmonary Valve Replacement in Patients With Repaired Tetralogy of Fallot.,,False,False,False,OTHER
-🟩,vert,NCT03297203,,,2023,Role of Innate Lymphoid Cells in the Immunosuppression of Septic Shock,CriSIs,True,True,True,BEHAVIORAL
-⬛,noir,NCT02885363,,,2023,,NCVG,False,False,False,PROCEDURE
-⬛,noir,NCT02480699,,,2023,Intra Individual Evaluation of Uremic Toxin Levels in Hemodialysed Patients,EVITUPH,False,False,False,BIOLOGICAL
-⬛,noir,NCT01284699,,,2023,Evaluation of the Safety and Efficacy of Bilateral Subthalamic Nucleus (SNT) Radiosurgery in Idiopathic Severe Parkinson's Disease Fulfilling Inclusion Criteria for STN Deep Brain Stimulation and Presenting With a Contraindication to Intracerebral Electrode Implantation.,,False,False,False,PROCEDURE
-⬛,noir,NCT01116765,,,2023,Impact of Early Oral Stimulation on Reducing Cardiorespiratory Events and Transition to Oral Feeding in Preterm Infants,,False,False,False,OTHER
-⬛,noir,NCT01947218,,,2023,EFFECT OF SMOKING ON MUCUS HYPERSECRETION MECHANISMS IN ASTHMA AND CHRONIC OBSTRUCTIVE PULMONARY DISEASE,,False,False,False,PROCEDURE
-🟩,vert,NCT02732392,,,2023,Validation of Radioisotope Guided Lymphadenectomy for Loco-regional Staging in Patients With Intermediate or High-risk Prostate Cancer,SENTINELLE,True,True,True,PROCEDURE
-⬛,noir,NCT05325047,,,2023,Intensive Preoperative Speech Rehabilitation in Drug-Resistant Temporal Epilepsy: A Case Study,REPREO SCED,False,False,False,PROCEDURE
-⬛,noir,NCT02484677,,,2023,"Pharmacokinetics and Pharmacogenetics-based Adaptive Dosing of 5-fu (5-Fluorouracile) in Head & Neck Cancer Patient Undergoing Docetaxel, Cisplatin, 5-Fluorouracile (=TPF) Therapy",5-FU,False,False,False,DRUG
-⬛,noir,NCT02559466,,,2023,Efficacy of Deep Transcranial Magnetic Stimulation (TMS) for Treatment-resistant Depression and Neuroanatomical Correlates: a Randomized Clinical Study Coupled With Positon Emission Tomography (PET),,False,False,False,DEVICE
-⬛,noir,NCT03406741,,,2023,Neuropsychological Development and Functional Outcome Sin Children With Hirschsprung Disease at School Age - Hirschsprung,Hirschsprung,False,False,False,BEHAVIORAL
-⬛,noir,NCT02562157,,,2023,"Gastroenteric Anastomosis With Natural Orifice Translumenal Endoscopic Surgery (NOTES) Using the New Fashionned Tissue Apposing Stent Axios® for the Treatment of Antro-pyloric or Duodenal Obstructions : Prospective Evaluation of Feasibility, Efficacy and Tolerance.",,False,False,False,RADIATION
-⬛,noir,NCT02904967,,,2023,,,False,False,False,BIOLOGICAL
-⬛,noir,NCT02186678,,,2023,Comparison of Diagnostic Performances of 68Ga-DOTATATE PET-CT and 18F-FDOPA PET-CT in Paragangliomas and Pheochromocytomas Evaluation: Monocentric Prospective Study,DOTATATE,False,False,False,OTHER
-⬛,noir,NCT01991249,,,2023,Targeted High Throughput Sequencing in the Diagnosis of Pediatric Acute Leukemia,,False,False,False,OTHER
-⬛,noir,NCT03636932,,,2023,"RENACTIF: Reduction of the Thrombotic Phenotype in Renal Insufficiency With N-AcetylCysteine A Randomized, Double-blind, Placebo-controlled, Cross-over Trial",RENACTIF,False,False,False,BIOLOGICAL
-⬛,noir,NCT02874118,,,2023,,Visage 3,False,False,False,BEHAVIORAL
-⬛,noir,NCT03977532,,,2023,"Study of a Red Blood Cell Deformability Parameter in Patients With Sickle Cell Disease, at Basal State and During Vaso-occlusive Crisis",Drepaforme,False,False,False,OTHER
-⬛,noir,NCT02603640,,,2023,""" Virtual Brain ""-Based Interpretation of Electrophysiological Signals in Epilepsy",VIBRATIONS,False,False,False,DEVICE
-⬛,noir,NCT02669056,,,2023,Brainstem Assesment in a Cohort of Very Preterm Babies (Less Than 28 Weeks),,False,False,False,OTHER
-⬛,noir,NCT03659045,,,2023,"Double-blind, Randomized, Multicenter Study Evaluating 200 Mg Versus 600 Mg of Mifegyne® on Pain in Medical Termination of Pregnancy (MToP) Up to 7 Weeks of Amenorreha (WA). DoMy Study.",DoMy,False,False,False,OTHER
-⬛,noir,NCT02900014,,,2023,,,False,False,False,PROCEDURE
-⬛,noir,NCT02904863,,,2023,,SHU,False,False,False,BIOLOGICAL
-⬛,noir,NCT04369820,,,2023,C5a Receptor Expression in Circulating Myeloid Cells in ARDS Secondary to COVID-19,C5-COV,False,False,False,OTHER
-⬛,noir,NCT05250713,,,2023,Quantification of the Immediate Impact of Weak Electric Fields on Brain Activity by SEEG Measurements in Drug-resistant Focal Epilepsy Patients,GALVANI PS-2,False,False,False,DEVICE
-⬛,noir,NCT02827955,,,2023,Evaluation of Bilateral Gamma Knife Thalamotomy in Patients Presenting With Severe Essential Tremor,VIMBIL,False,False,False,DEVICE
-⬛,noir,NCT02120040,,,2023,,PsychoVHL,False,False,False,OTHER
-🟩,vert,NCT01285817,,,2023,A Phase II Clinical Trial Using Metronomic Oral Low-dose Cyclophosphamide Alternating With Low-dose Oral Methotrexate With Continuous Celecoxib and Weekly Vinblastine in Children and Adolescents With Relapsed or Progressing Solid Tumours.,SFCE METRO 01,True,True,True,DRUG
-⬛,noir,NCT02335996,,,2023,Impact Hypercortisolism on Adipose Epicardial and on Myocardial Function,Hyper-Cor,False,False,False,BIOLOGICAL
-🟩,vert,NCT02307747,,,2023,Disruption of Circadian Rhythm and Healthcare-related Infection in Patients With Severe Trauma,,True,True,True,OTHER
-⬛,noir,NCT00682812,,,2023,Significance of the High-risk Hpv Viral Load,,False,False,False,OTHER
-🟩,vert,NCT02152358,,,2023,"Efficacy of a Preemptive Treatment by Ganciclovir or by Aciclovir in ICU Patients Requiring Prolonged Mechanical Ventilation and Presenting a Viral Replication (CMV and/or HSV) - Prospective, Randomized, Double-blinded Multicenter Trial",PTH,True,True,True,DRUG
-🟩,vert,NCT01284829,,,2023,Performance of 18F-Fluorodeoxyglucose Positron Emission Tomography (FDG-PET) in the Diagnosis of Indeterminate Adrenal Tumors on Conventional Imaging: A French Prospective Multicentric Study,,True,True,True,OTHER
-⬛,noir,NCT02333565,,,2023,Combination of Everolimus and Octreotide LAR in Aggressive Recurrent Meningiomas.,CEVOREM,False,False,False,DRUG
-🟩,vert,NCT02205060,,,2023,Interventionnal and Randomized Study Measuring Virtual Reality Cue Exposure for the Relapse Prevention of Tobacco Consumption Versus Cognitive and Behavioral Approaches Therapy,,True,True,True,OTHER
-⬛,noir,NCT03341949,,,2023,Soluble CD146 and Proteinuria in Chronic Renal Disease,CPinMRC,False,False,False,BIOLOGICAL
-⬛,noir,NCT02150408,,,2023,Evaluation of PET-CT Using Somatostatin Agonists Labeled With Gallium68 in Neuroendocrine Tumors,DOTATATENET,False,False,False,OTHER
-⬛,noir,NCT03852108,,,2023,Impact of a Procedure With Socio-aesthetic Care on Anxiety and Pain Scale in the Early Rest of Pulmonary Transplant.,,False,False,False,OTHER
-⬛,noir,NCT03581331,,,2023,Consequence of Unilateral Vestibular Loss on Visual Abilities,SVorthoptie,False,False,False,DIAGNOSTIC_TEST
-⬛,noir,NCT02296216,,,2023,LateR-Ac Study: Late Effects of Radiosurgery on Acromegaly Study,LateRAc,False,False,False,DEVICE
-⬛,noir,NCT02872415,,,2023,Impact of Alternative Blood Glucose Testing Site (Forearm) on Pain Reduction in Preterm Neonates.,NOBOBO,False,False,False,BIOLOGICAL
-⬛,noir,NCT04782869,,,2024,Personalized Multichannel Transcranial Direct Current Electrical Stimulation (tDCS) in Drug-resistant Epilepsy: Evaluation of Therapeutic and Neurophysiological Effects,GALVANI PS-1,False,False,False,DEVICE
-⬛,noir,NCT05407337,,,2024,"Single Center, Randomized, Comparative, Prospective Interventional Study Evaluating the Impact of Brief Psychotherapy by Narrative Exposure Therapy (NET) on the Reduction of Symptoms of Post Traumatic Stress Disorder in Refugee and Asylum Seeking Women in the Program SINDIANE in Marseille",SINDIANE,False,False,False,BEHAVIORAL
-🟥,rouge,NCT00420693,,,,Interest of Using the Sevoflurane in the Prevention of Newborns Pain,,False,False,True,DRUG
-⬛,noir,NCT00485784,,,,Interest of Circulating Endothelial Biomarkers in Vascular Pregnancy Complications,,False,False,False,OTHER
-⬛,noir,NCT00998231,,,,Major Depression and Messenger RNAs,,False,False,False,BIOLOGICAL
-🟥,rouge,NCT00484523,,,,Constitution of a Standardized Neural Imaging Database in Healthy Subjects,,False,False,True,PROCEDURE
-⬛,noir,NCT00919685,,,,Investigations of New Markers in Patients With Shock,,False,False,False,BIOLOGICAL
-⬛,noir,NCT00922909,,,,Executive Control Analysis in Patients Suffering From Parkinson Disease and Treated by Deep Brain Stimulation (Chronometric and Electromyographic Approach During a Simon Task),,False,False,False,BEHAVIORAL
-⬛,noir,NCT01284738,,,,Beta-thalassemia and Microparticles,,False,False,False,OTHER
-🟥,rouge,NCT01277068,,,,Effects of Various Bariatric Surgical Procedures on Intestinal Triglyceride-rich-lipoprotein (TRL) Metabolism in Obese Patients,,False,False,True,PROCEDURE
-⬛,noir,NCT00893568,,,,Post Traumatic Stress Disorder and Neural Mechanisms Involved in Its Treatment,,False,False,False,OTHER
-🟥,rouge,NCT01284816,,,,Impact of Bariatric Surgery on Epicardial Adipose Tissue and on Myocardial Function,,False,False,True,PROCEDURE
-⬛,noir,NCT02834130,,,,"Input of a Multidisciplinary Device Including a Psychological Approach, to Accompany the Announce of Diagnosis for Young Children With Serious Constitutional Hemorrhagic Disease and Their Families",ACADHEM,False,False,False,BEHAVIORAL
-⬛,noir,NCT00949520,,,,Dual Source Computed Tomography (DSCT) During Injection of Dipyridamole : a New Technique for Myocardial Ischemia Assessment,,False,False,False,OTHER
+statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+🟥,rouge,résultat et / ou publication posté,NCT00299650,,,2008,Systematic Early Use of Neuromuscular Blocking Agents in ARDS Patients,,False,False,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00769912,,,2009,Evaluation of of a Prefixed 50% N2O- 50%O2 Mixture in Legal Abortion Under Local Analgesia,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT04755023,,,2010,Primary Chemotherapy by BCNU-TMZ Combination in Newly Diagnosed Anaplastic Oligodendrocytic Tumors: Phase II Trial With Translational Molecular Analysis,TEMOBIC,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00702429,,,2010,Immunoregulation of Periodontal Disease,,False,False,False,OTHER
+🟥,rouge,résultat et / ou publication posté,NCT03405948,,,2010,Efficiency of Botulinum Toxin Injection for Spastic Equinovarus Foot in Post Stroke Hemiparetic Patients Randomized Controlled Trial Versus Placebo,,False,False,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00683566,,,2010,State Dependent Resonance in the BG-cortical Loops,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT00725868,,,2010,Blood Endothelium Biomarkers to Predict Major Adverse Cardiovascular Events After Percutaneous Coronary Intervention.,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00623272,,,2010,"Left Ventricular Function Assessment After Acute Myocardial Infarction: Comparison Between bi-, Three-dimensional and Cardiac Magnetic Resonance",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00726206,,,2010,"Correlation Between the Analysis of the Rapid Cortical Oscillations, the General Movements of the Preterm's and the Cerebral Palsy",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00947817,,,2010,Impact of Endothelial Cell Activation and Modifications of Haemostasis Induced by Infective Endocarditis on the Risk of Embolism.,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00769236,,,2010,Evaluation of Intestinal Secretion of Antibodies and Auto-antibodies Associated With Crohn's Disease,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00947778,,,2010,Analysis of Language and Auditory Abilities in Cochlear Implanted Children: Assessment by an Auditory Learning Programmed Method,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00697398,,,2011,Repetitive Trans-cranial Magnetic Stimulation of the Motor Cortex in Fibromyalgia: A Prospective Randomized Blinded Placebo-controlled Study Evaluating the Clinical Efficiency and the Metabolic Correlate in 18FDG-PET,,False,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01177436,,,2011,PCA-3 Gene Project,,False,False,False,BIOLOGICAL
+🟥,rouge,résultat et / ou publication posté,NCT00950209,,,2011,Acute Effect of Intensive Insulin Infusion on Intestinal Triglyceride-rich-lipoprotein-apoB48 Metabolism in Type 2 Diabetic Patients,,False,False,True,DIETARY_SUPPLEMENT
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00699868,,,2011,"Cellular Immunity, Cytomegalovirus Infection and Septic Shock in ICU Patients",2006/25,False,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00684281,,,2011,"Early Diagnosis of Alzheimer's Disease: Clinical, Neuropsychological and Neuroimaging Follow-up of a Cohort of Patients With an Isolated Memory Impairment",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00824889,,,2011,Exploratory Study of Natural Killer Cells in Human Skin,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00769574,,,2011,Assessment of New Biomarkers in the Management and Triage of Patients With Chest Pain and Suspicion of Non ST Elevation Acute Coronary Syndrome.,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01118364,,,2011,Effect of Cannabis on Simulated and Actual Driving in Healthy Subjects,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00682903,,,2011,Use of a Bearable Continuous Interstitial Glucose Monitoring Device (GuardianR) During Teaching Sessions to Functional Insulin Therapy Concept in Patients Suffering From Type 1 Diabetes: Evaluation at 6 and 12 Months,,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT00842166,,,2011,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00682409,,,2011,,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00920114,,,2012,,LU-PUCE,False,True,True,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT01505790,,,2012,Impact of Clopidogrel Dose Adjustment According to Platelet Reactivity Monitoring in Patients With High on Treatment Platelet Reactivity Undergoing Percutaneous Coronary Intervention,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00684034,,,2012,Redox State in the Course of Chronic Renal Insufficiency and Hemodialysis: Implications in Morbimortality,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01177475,,,2012,Effect of Intake in Bioactive Molecules From Natural or Pasteurised Milk on Gut Maturation in Very Premature Newborns,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00823589,,,2012,Immune Status of Elderly Population Admitted in an Acute Geriatric Unit,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01687452,,,2012,"Microparticles, Vector of Genetic Information During HIV Infection ?",,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT00920673,,,2012,"Age Influence on the Modifications of the Oral, Pharyngeal and Laryngeal Axis Alignment in Children Induced by Head Extension: an MRI Study",,False,False,False,PROCEDURE
+🟥,rouge,résultat et / ou publication posté,NCT01090232,,,2012,Host Responses in Kidney-transplant Recipients With Chronic Hepatitis E Virus Infection,,False,False,True,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00875407,,,2012,,,False,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01177423,,,2013,Efficiency Evaluation of Intradiploic Intra-osseus Anesthesia Versus Inferior Alveolar Nerve Block,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT00920335,,,2013,Adult Intracranial Ependydomas : Prognostic and Diagnostic Factors Assessment and Molecular Characterization,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT01032564,,,2013,,,False,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01626612,,,2013,De-escalation of Empirical Antimicrobial Therapy Study in Severe Sepsis: A Randomized Clinical Trial (DEA Study),,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT01900457,,,2013,Vestibular and Multisensory Influence on Bodily and Spatial Representations. Behavioral and Electrophysiological Investigations in Vestibular-defective Patients and Healthy Volunteers,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01058161,,,2013,High-Field MRI Characterization of Wrist and Hand Cartilage Abnormalities in Inflammatory and Chronic Rheumatisms,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01286714,,,2013,Assessment of Fistula Closure by OTSC Clip After Bariatric Surgery,,False,False,False,DEVICE
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT00484653,,,2013,Identification and Impact of Vaginal Flora Anomalies Among Pregnant Woman,,False,True,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT00731016,,,2013,Treatment of the Hutchinson-Gilford Progeria Syndrome With a Combination of Pravastatin and Zoledronic Acid,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT01172015,,,2014,NK-ITP STUDY : NATURAL KILLER CELLS IN IMMUNOLOGIC THROMBOCYTOPENIC PURPURA OF ADULTS.,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01125319,,,2014,Secondary Adult's Hemophagocytic Lymphohistiocytosis and Innate Immunity,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01865422,,,2014,French Linguistic and Metric Validations of Parent-proxy QOL Chronic Cough Specific Questionnaire (PC-QOL),PC-QOL,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01946334,,,2014,Does Body Position Influence Pressure Recording by High-resolution Manometry ?,,False,False,False,DEVICE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT01813279,,,2014,Assessment of the Subcutaneous Reinjection of Human Autologous Adipose-derived Stromal Vascular Fraction (Celution® System) in the Hands of Patients Suffering From Systemic Sclerosis,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01687361,,,2014,Can Branched Chain Amino Acids Supplementation Reduce Muscle Damage Induced by Neuromuscular Electrical Stimulation ? A Combined Functional and Metabolic Non-invasive Investigation in Healthy Humans.,,False,False,False,DIETARY_SUPPLEMENT
+⬛,noir,pas de résultat ni de publication,NCT01295333,,,2014,"Assessing the Impact of the Early and Systematic Hormonal Replacement After Radio-isotopic Ablation of Graves'hyperthyroïdism on Quality of Life, Efficiency and Tolerance",,False,False,False,DRUG
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT01901003,,,2014,SEDATIVE PREMEDICATION: EFFICACY ON PATIENT EXPERIENCE,PremedX,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT01626534,,,2014,Evaluation of Ticagrelor Anti Platelet and Pleiotropic Effects in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome.,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00767962,,,2014,"A Prospective Randomised Study of Efficacy, Safety and Costs of Talc Pleurodesis Under Medical Thoracoscopy and Pleurodesis Under Video-assisted Thoracoscopy Surgery for Recurrent Primary Spontaneous Pneumothorax",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01284803,,,2014,Feasibility and Acceptability of an Educational Intervention to Improve the Management of Depression in Primary Care,,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02042664,,,2015,Effect of GLP-1 Receptor (GLP-1R) Agonists on Cardiac Function and on Epicardial Adipose Tissue (EAT) Volume and on Myocardial TG Content in Obese Diabetics,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT01687348,,,2015,Lidocaine Pharmacokinetics During Tumescent Infiltrative Anaesthesia for Mastectomy.,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02585739,,,2015,Cluster Headache and SPINK-1 Gene,,False,False,False,GENETIC
+⬛,noir,pas de résultat ni de publication,NCT01964742,,,2015,Analysis of Host Genetic Factors in the Occurrence of Anemia and on the Virological Response to a Peg-interferon/Ribavirin Therapy in HIV-HCV Co-infected Patients,,False,False,False,GENETIC
+⬛,noir,pas de résultat ni de publication,NCT01954381,,,2015,Impact of Adalimumab Therapy on Brachial Endothelial Function and Large Artery Stiffness in Patients With Rheumatoid Arthritis,,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT01865435,,,2015,IN UTERO SMOKING AND PREMATURE CELLULAR SENESCENCE,,False,False,False,GENETIC
+⬛,noir,pas de résultat ni de publication,NCT01693796,,,2015,Evaluation of Thyroid Exposure to Radiation Doses During Paediatric Cardiac Catheterisations Performed for Diagnosis or the Treatment of Congenital Heart Disease,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT01613365,,,2015,"Oropharyngeal and Nasopharyngeal Decontamination With Chlorhexidine Gluconate in the Reduction of the Postoperative Morbidity and Mortality After Major Pulmonary Resections: a Multicentric, Prospective, Randomized, Double-blind, Placebo-controlled Clinical Trial",CHLORHEX,False,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02038426,,,2015,"Ultrasonography Assessment of Peripheral Entheses in Axial Spondyloarthritis and in Healthy Subjects, Athletes or Not.",,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT01284686,,,2015,Pathophysiology of Neuronal Oscillations Within Subthalamo-cortical Loops in Parkinson's Disease,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02164214,,,2015,DOES ETANERCEPT INFLUENCE TWEAK MODULATION OF INFLAMMATION DURING INFLAMMATORY RHEUMATISMS (PSORIATIC ARTHRITIS AND RHEUMATOID ARTHRITIS)?,,True,True,True,DRUG
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT01999829,,,2016,"Prevention of Atrial Fibrillation Following Valvular Replacement With Cardiopulmonary Bypass: a Prospective, Randomized Clinical Study Comparing Oral Caffeine With Placebo",,False,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT01287728,,,2016,The Value of Bacterial Loads by Real Time PCR in Predicting Recurrence of Abnormal Vaginal Flora After Oral Metronidazole Therapy,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02885883,,,2016,Non-invasive Quantification of Atrial Fibrosis by MRI in Atrial Fibrillation,QUAFI,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02899039,,,2016,Follicular Helper T Cells: Biological Marker and Involvement in the Physiopathology of the IgG4-related Disease,G4-FH,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT01284673,,,2016,Characterization of the Cord Blood Stem Cell in Situation of Neonatal Asphyxia,NEOCORD,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02727868,,,2017,Assessment of the Mutation of Pig-A Gene as Biomarker of Genotoxic Exposure in Humans,PIG-A,False,False,False,GENETIC
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02471924,,,2017,Predicting Hypotension Related to Spinal Anesthesia for Caesarean Section With Ultrasonography,,True,True,True,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT01675726,,,2017,QUALITY OF LIFE OF CHILDREN BORN VERY PRETERM AT SCHOOL-AGE,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02352129,,,2017,Prognostic Value of Myocardial Fibrosis Quantified Using CMR in Patient With Dilated Cardiomyopathy,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02879344,,,2017,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02608255,,,2017,A Prospective Pilot Study to Evaluate a New Marker of Ischemia in Chest Pain Triage,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01697423,,,2017,Comparative Assessment of Intra-articular Knee Injections of Platelet-rich Plasma (PRP) and Hyaluronic Acid in the Treatment of Knee Osteoarthritis,,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02866513,,,2017,Incidence of High Levels of Transpulmonary Pressure During the Use of Airway Pressure Release Ventilation.,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT00990691,2007-006739-30,,2017,Pilot Study of the Effects of the Desipramine on the Neurovegetative Parameters of the Child With Rett Syndrome,,True,True,True,DRUG
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02866578,,,2018,Open Lung Protective Ventilation During Cardiac Surgery With Cardiopulmonary Bypass : a Randomized Controlled Trial,PROVECS,True,True,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT03164122,,,2018,EVALUATION OF AN INNOVATIVE TREATMENT FOR RADIOCARPAL OSTEOARTHRITIS USING INTRA-ARTICULAR INJECTION OF A MIXTURE OF AUTOLOGOUS MICROFAT AND AUTOLOGOUS PLATELET-RICH PLASMA,AMIPREP,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02117037,,,2018,Prognostic Value of Biomarkers Associated With Endothelial Progenitor Cells Mobilization in Acute Coronary Syndromes,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT02622464,,,2018,Innovative Treatment for Scarred Vocal Cords by Local Injection of Autologous Stromal Vascular Fraction,,False,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01599533,,,2018,"Screening for Thoracic Aortic Aneurysm Among a Cohort of Patients With a Degenerative Abdominal Aortic Aneurysm : Prevalence, Description of the Different Thoracic Aortic Phenotypes by Aortic Volumetric Numerized Imaging and Their Relationship With Epidemiologic, Clinical, Biological and Genetic Factors",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02636127,,,2018,Role of Circulating Cytotoxic Lymphocytes in Endothelial Cell Injury in Systemic Sclerosis,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02750579,,,2018,Early or Delayed Revascularization for Intermediate and High-risk Non ST-elevation Acute Coronary Syndromes?,,True,True,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02732769,,,2018,Clinical Evaluation of the Treatment of Intellectual Metastases by Radiosurgery Gamma Knife by Means of a Support System by Mask.,Mask,False,False,False,DEVICE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02428725,,,2018,Platelet Reactivity Inhibition Following Ticagrelor Loading Dose and One Year Outcome in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02303925,,,2018,Feasibility of Superior Rectal Artery Embolization for the Treatment of Hemorrhoidal Disease,EMBORRHOID,False,False,False,DEVICE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02520843,,,2018,An Innovative Treatment for Fistula-in-ano in Crohn Disease : Local Micro Reinjection of Autologous Fat and Stromal Vascular Fraction,,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02875964,,,2019,Definition of Links Between Non-invasives Methods and Intracerebral EEG With Simultaneous Recordings.,MEG-SEEG,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT03322618,,,2019,Evaluation of the Expression and Functions of the KIR3DL2 Receptor and the Anti-inflammatory Activity of IPH4102 (Monoclonal Antibody IPH4102 Targeting KIR3DL2) in Blood Samples Taken From Patients With Axial Spondyloarthritis and Healthy Volunteers,KIR3DL2,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT03588468,,,2019,Expanding the Biomarkers in Familial Amyloid Neuropathy: Magnetic Resonance Imaging (MRI) and Motor Unit Estimation by Electrophysiological Study,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT02757794,,,2019,Long-term Effects of Visual Spatial Working Memory Training Program Performed at Preschool Age in Very Preterm Infants With Visual Spatial Working Memory Deficit. A Randomized Controlled Trial,EPIREMED,False,True,True,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT03592589,,,2019,"Prevention of Atelectasis, Via High Flow Nasal Cannula to Obtain a PEP, During General Anesthesia for MRI by Sevoflurane in Children, Evaluated by Lung MRI and Echography",PREVAT-PED,False,True,True,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT03292120,,,2019,Venous to Arterial Carbon Dioxide Difference (P₍ᵥ-ₐ₎CO₂): Predictor of Septic Patient Prognosis Depending on the ScvO₂,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02861768,,,2019,Improving the Diagnostic of Tuberculosis,,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02892890,,,2019,,EXPRET,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02304029,,,2019,Usefulness of Sodium MRI in the Presurgical Assessment of Drug-resistant Partial Epilepsy,EPISODIUM,False,False,False,DEVICE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03218007,,,2019,A 2A Receptor (A2 AR) as a Novel Biomarkers for Physician Decision-making Improvement Evaluation's Patients With Suspected Acute Coronary Syndrome But Negative Troponin.,,True,True,True,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT03640806,,,2020,"QOL Efficacy of Adapted Physical Activity for Patients With Fibromyalgia : Single-center, Prospective, Randomized With Biological and Cerebral Evaluation",,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02608203,,,2020,"Impact of [68 Ga]-DOTANOC PET-CT on the Management of Gastroenteropancreatic Neuroendocrine Tumors (GEP-NETs): Prospective, Multicentric Study.",GEP-NOC,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT03418402,,,2020,Post Operative Pain After Laparoscopic Hysterectomy Using Airseal® Versus Standard Insufflation System: A Randomized Prospective Study,AIRSEAL,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT03979586,,,2020,Intradermal Delivery of Fractional CO2 Laser-assisted Hyaluronic Acid in Facial Skin Remodeling,,False,False,False,OTHER
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT03118336,,,2020,Impact of Empaglifozine on Cardiac Ectopic Fat,EMPACEF,False,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT03245983,,,2020,"Spirituality, Experience of Disease and Quality of Life in Cancer Patients",SPIQOL,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT01987024,,,2020,Advantage of Detection of phIGFBP-1 to Reduce Hospitalization Time for Stable Patients With a Risk of Preterm Labour.,,False,False,False,DEVICE
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT02586870,,,2020,Assessment of Renal Artery Fibromuscular Dysplasia: From Diagnosis to Treatment,DysArt,False,True,True,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT03765853,,,2020,Randomized Study on the Evaluation of the Regular Practice of Standardized Postures Stretching Postural® in Secondary Prevention of Low Back Pains During Pregnancy.,GEMALODO,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT04632602,,,2020,Awake Prone Position to Reduce Ventilation Inhomogeneity in COVID-19 Acute Respiratory Failure: a Randomized Cross Over Electrical Impedance Tomography Study,ProneSpontCov,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT04579276,,,2021,Different Approaches to Thoracic Paravertebral Block: a Monocentric Randomized Study Comparing Ultrasounded-guided Method to Intrathoracic Visual Method,VAP BLOCK,False,False,False,PROCEDURE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02761304,,,2021,Assessment of the Interests of Mesure of Ultrasound Engagement on the Cesarean Rate :Study Eng - Echo Randomized Comparative Prospective Study Multicenter Center Open,eng - echo,True,True,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT03659266,,,2021,"Effects of Combined Treatment by Botulinum Toxin A and Robot-Assisted Gait Training (Lokomat®) on Walking Ability in Patients With Chronic Stroke: a Prospective, Controlled, Randomized Study",Lokomat,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT04371367,,,2021,"A Double-blind, Randomized Study Versus Placebo of Avdoralimab (IPH5401), an Anti-C5aR Antibody, in Patients With COVID-19 Severe Pneumonia",FORCE,True,True,True,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02872441,,,2021,Characterization of Tissular T Follicular Helper Cells in IgG4-RD,TIFOLH4,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT03582852,,,2021,Laparoscopic Sacrocolpexy Versus Lateral Suspension With a Mesh for the Treatment of Pelvic Organ Prolapse : a Randomized Controlled Trial,SUSPENSION,False,False,False,PROCEDURE
+🟧,orange,résultat et / ou publication posté dans les 36 mois,NCT03961581,,,2021,Effectivness of Distraction by Electric ride-on Cars for Peri Operative Anxiety in Ambulatory Pediatric Surgery: a Randomised Controlled Study,PTIBOLID,False,True,True,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02858687,,,2022,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02868346,,,2022,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03179644,,,2022,Study of Variations of Pleural and Esophageal Pressures Under Mechanical Ventilation After Lung Transplantation,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02839642,,,2022,"RIVA-PSP: Efficacy of Rivastigmine on Motor, Cognitive and Behavioural Impairment in Progressive Supranuclear Palsy: A Randomised Double Blind Placebo-controlled Clinical Trial",RIVA-PSP,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02848703,,,2022,"Study "" COFLORES "":Imaging of Coronary Reserve Without Tracers",,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02859779,,,2022,Needs Assessment of Mediterranean Adolescents With Type 1 Diabetes About Therapeutic Education Sessions: A Qualitative Study,BADET,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT03628261,,,2022,Is EMG-based Serious Games Effective in Improving Gait in Children With Cerebral Palsy ? Interest of Electromyography Feedback (EMG),SERIOUS GAME,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02822807,,,2022,Q Fever and Auto-immunity,Q Fever,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02827175,,,2022,Evaluation of the Effectiveness of a Diagnostic Kit in the Etiological Diagnosis of Fevers of the Traveler,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02858609,,,2022,,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02288832,,,2022,"Medico-economic Impact of Screening Atopobium Vaginae and Gardnerella Vaginalis in Molecular Biology by ""Point-of-care"" During Pregnancy",AuTop,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT03660215,,,2022,Interventional Trial in Primary Care of Medico-social Mediation on the Prevention of the Return to Emergencies Among People in a Precarious Social Situation,M2PRUSSE,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03630822,,,2022,Experimentation of a Protocol of Psychiatric Advance Directives: Randomized Controlled Multi-site Trial,DAiP,True,True,True,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02851771,,,2022,Improving the Diagnosis of Pneumonia in Emergency Rooms,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02555007,,,2022,Phase IA/IB of Metronomic Chemotherapy Based on Adaptative Bio-mathematical Model of Oral Vinorelbine in Patients With Non Small Cell Lung Cancer or Malignant Pleural Mesothelioma,NVB Metro,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02816307,,,2022,Etiology of Endocarditis in Negative Blood Cultures,ENDOC,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02038348,,,2022,Interest of the 18F-DOPA-PET Imaging in Metastatic Melanoma Treated With B-RAF Inhibitors: a Pilot Study,,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02868450,,,2022,,WHIPPLE,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02018835,,,2022,"Exercise Stress MRI to Evaluate Aortic Function (Compliance, Distensibility, Pulse Wave Velocity) and Left Ventricular Function : Validation in Healthy Volunteers and in Selected Patients. A Pilot Study.",,False,False,False,DEVICE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03043014,,,2022,Cervical Preparation of Abortions Under Paracervical Block in the First Trimester: A Randomized Clinical Trial,BPCEN,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02866201,,,2022,,DIAVOY,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03974958,,,2022,Circulating microRNAs and Degenerative Abdominal Aorta Aneurysm: Diagnostic Specificity and Prognostic Value in Clinical Practice,ACTA-miRNA,False,False,False,GENETIC
+⬛,noir,pas de résultat ni de publication,NCT02000011,,,2022,"Interest of a Geriatric Intervention Plan Associated to a Comprehensive Geriatric Assessment on Autonomy, Quality of Life and Survival of Patients Aged 70 Years Old and More Surgically Treated for a Resectable Cancer (Thoracic, Digestive or Urologic). Randomized Multicentric Study",epigac,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01678469,,,2022,"Lipophilic Micronutrients, Adipokines and Gestational Diabetes Mellitus",2011-23,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02209142,,,2022,Blood Biomarkers in Major Depression,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02819232,,,2022,Microbiological Diagnosis of Infectious Keratitis to Pathogenic Fastidious Germs,Keratite,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02819206,,,2022,Microbiological Diagnosis of Infectious Uveitis to Pathogenic Fastidious Germs,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02828085,,,2022,Improvement of the Etiological Diagnosis of the Pericarditis,PERICARDITE,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02819128,,,2022,Investigation of Endemic and Emerging Diseases in Populations of Homeless Households in Marseille.,SDF,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02473315,,,2022,Assessment of Whole Body Cryotherapy in Treatment of Active Axial Spondylarthritis,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02858661,,,2022,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01957228,,,2022,Causative Diagnosis on Prosthetic Joint Infections: Establishment of a Comprehensive Diagnostic Strategy,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02868411,,,2022,,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02422043,,,2022,Description of Socio-cognitive and Clinic Changes for Type 1 Diabetes Adolescents Cohort With Therapeutic Patient Education Program,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02834104,,,2022,Validation of Fibrosis Quantification Using T1 Mapping Against Histology as Reference and Comparison With Fibrosis Biomarkers,,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT04694313,,,2022,Evaluation of Optical Pumping Magnetometer Sensors for MagnetoEncephaloGraphy Imaging,OPM,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT01693965,,,2023,Clinical Course and Changes in the Respiratory Microbiota Based on Antibiotic Treatment in Patients With Cystic Fibrosis,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01916005,,,2023,Diagnostic Value of 18F-fluorodeoxyglucose Positron Emission Tomography/Computed Tomography in Prosthetic Valve Endocarditis,,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT01613625,,,2023,Interest Of Renal Elastography In Children As A Diagnostic Tool Of Renal Fibrosis: Confrontation To Histological Features Of Renal Biopsies,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT03339908,,,2023,Regional Non-comparative Prospective Study of the Impact of Gamma Knife Radiosurgery on Tremor in Multiple Sclerosis,GK-SEP,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02038361,,,2023,Implementation of Innovative Techniques in Routine Diagnosis of Childhood Acute Leukemia: Analysis of Genome and Transcriptome by Micro-array,,False,False,False,GENETIC
+⬛,noir,pas de résultat ni de publication,NCT02571790,,,2023,Virtual Reality and Relaxation for the Treatment of Generalized Anxiety Disorders: a Comparative Study With Standard Relaxation,Relax-TAG,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02186691,,,2023,Right and Left Ventricle Remodeling Predictors After Pulmonary Valve Replacement in Patients With Repaired Tetralogy of Fallot.,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03297203,,,2023,Role of Innate Lymphoid Cells in the Immunosuppression of Septic Shock,CriSIs,True,True,True,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02885363,,,2023,,NCVG,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02480699,,,2023,Intra Individual Evaluation of Uremic Toxin Levels in Hemodialysed Patients,EVITUPH,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT01284699,,,2023,Evaluation of the Safety and Efficacy of Bilateral Subthalamic Nucleus (SNT) Radiosurgery in Idiopathic Severe Parkinson's Disease Fulfilling Inclusion Criteria for STN Deep Brain Stimulation and Presenting With a Contraindication to Intracerebral Electrode Implantation.,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT01116765,,,2023,Impact of Early Oral Stimulation on Reducing Cardiorespiratory Events and Transition to Oral Feeding in Preterm Infants,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01947218,,,2023,EFFECT OF SMOKING ON MUCUS HYPERSECRETION MECHANISMS IN ASTHMA AND CHRONIC OBSTRUCTIVE PULMONARY DISEASE,,False,False,False,PROCEDURE
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02732392,,,2023,Validation of Radioisotope Guided Lymphadenectomy for Loco-regional Staging in Patients With Intermediate or High-risk Prostate Cancer,SENTINELLE,True,True,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT05325047,,,2023,Intensive Preoperative Speech Rehabilitation in Drug-Resistant Temporal Epilepsy: A Case Study,REPREO SCED,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02484677,,,2023,"Pharmacokinetics and Pharmacogenetics-based Adaptive Dosing of 5-fu (5-Fluorouracile) in Head & Neck Cancer Patient Undergoing Docetaxel, Cisplatin, 5-Fluorouracile (=TPF) Therapy",5-FU,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02559466,,,2023,Efficacy of Deep Transcranial Magnetic Stimulation (TMS) for Treatment-resistant Depression and Neuroanatomical Correlates: a Randomized Clinical Study Coupled With Positon Emission Tomography (PET),,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT03406741,,,2023,Neuropsychological Development and Functional Outcome Sin Children With Hirschsprung Disease at School Age - Hirschsprung,Hirschsprung,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02562157,,,2023,"Gastroenteric Anastomosis With Natural Orifice Translumenal Endoscopic Surgery (NOTES) Using the New Fashionned Tissue Apposing Stent Axios® for the Treatment of Antro-pyloric or Duodenal Obstructions : Prospective Evaluation of Feasibility, Efficacy and Tolerance.",,False,False,False,RADIATION
+⬛,noir,pas de résultat ni de publication,NCT02904967,,,2023,,,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02186678,,,2023,Comparison of Diagnostic Performances of 68Ga-DOTATATE PET-CT and 18F-FDOPA PET-CT in Paragangliomas and Pheochromocytomas Evaluation: Monocentric Prospective Study,DOTATATE,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT01991249,,,2023,Targeted High Throughput Sequencing in the Diagnosis of Pediatric Acute Leukemia,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03636932,,,2023,"RENACTIF: Reduction of the Thrombotic Phenotype in Renal Insufficiency With N-AcetylCysteine A Randomized, Double-blind, Placebo-controlled, Cross-over Trial",RENACTIF,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02874118,,,2023,,Visage 3,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT03977532,,,2023,"Study of a Red Blood Cell Deformability Parameter in Patients With Sickle Cell Disease, at Basal State and During Vaso-occlusive Crisis",Drepaforme,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02603640,,,2023,""" Virtual Brain ""-Based Interpretation of Electrophysiological Signals in Epilepsy",VIBRATIONS,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02669056,,,2023,Brainstem Assesment in a Cohort of Very Preterm Babies (Less Than 28 Weeks),,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03659045,,,2023,"Double-blind, Randomized, Multicenter Study Evaluating 200 Mg Versus 600 Mg of Mifegyne® on Pain in Medical Termination of Pregnancy (MToP) Up to 7 Weeks of Amenorreha (WA). DoMy Study.",DoMy,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02900014,,,2023,,,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02904863,,,2023,,SHU,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT04369820,,,2023,C5a Receptor Expression in Circulating Myeloid Cells in ARDS Secondary to COVID-19,C5-COV,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT05250713,,,2023,Quantification of the Immediate Impact of Weak Electric Fields on Brain Activity by SEEG Measurements in Drug-resistant Focal Epilepsy Patients,GALVANI PS-2,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02827955,,,2023,Evaluation of Bilateral Gamma Knife Thalamotomy in Patients Presenting With Severe Essential Tremor,VIMBIL,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02120040,,,2023,,PsychoVHL,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT01285817,,,2023,A Phase II Clinical Trial Using Metronomic Oral Low-dose Cyclophosphamide Alternating With Low-dose Oral Methotrexate With Continuous Celecoxib and Weekly Vinblastine in Children and Adolescents With Relapsed or Progressing Solid Tumours.,SFCE METRO 01,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02335996,,,2023,Impact Hypercortisolism on Adipose Epicardial and on Myocardial Function,Hyper-Cor,False,False,False,BIOLOGICAL
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02307747,,,2023,Disruption of Circadian Rhythm and Healthcare-related Infection in Patients With Severe Trauma,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00682812,,,2023,Significance of the High-risk Hpv Viral Load,,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02152358,,,2023,"Efficacy of a Preemptive Treatment by Ganciclovir or by Aciclovir in ICU Patients Requiring Prolonged Mechanical Ventilation and Presenting a Viral Replication (CMV and/or HSV) - Prospective, Randomized, Double-blinded Multicenter Trial",PTH,True,True,True,DRUG
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT01284829,,,2023,Performance of 18F-Fluorodeoxyglucose Positron Emission Tomography (FDG-PET) in the Diagnosis of Indeterminate Adrenal Tumors on Conventional Imaging: A French Prospective Multicentric Study,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT02333565,,,2023,Combination of Everolimus and Octreotide LAR in Aggressive Recurrent Meningiomas.,CEVOREM,False,False,False,DRUG
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT02205060,,,2023,Interventionnal and Randomized Study Measuring Virtual Reality Cue Exposure for the Relapse Prevention of Tobacco Consumption Versus Cognitive and Behavioral Approaches Therapy,,True,True,True,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03341949,,,2023,Soluble CD146 and Proteinuria in Chronic Renal Disease,CPinMRC,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT02150408,,,2023,Evaluation of PET-CT Using Somatostatin Agonists Labeled With Gallium68 in Neuroendocrine Tumors,DOTATATENET,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03852108,,,2023,Impact of a Procedure With Socio-aesthetic Care on Anxiety and Pain Scale in the Early Rest of Pulmonary Transplant.,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03581331,,,2023,Consequence of Unilateral Vestibular Loss on Visual Abilities,SVorthoptie,False,False,False,DIAGNOSTIC_TEST
+⬛,noir,pas de résultat ni de publication,NCT02296216,,,2023,LateR-Ac Study: Late Effects of Radiosurgery on Acromegaly Study,LateRAc,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02872415,,,2023,Impact of Alternative Blood Glucose Testing Site (Forearm) on Pain Reduction in Preterm Neonates.,NOBOBO,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT04782869,,,2024,Personalized Multichannel Transcranial Direct Current Electrical Stimulation (tDCS) in Drug-resistant Epilepsy: Evaluation of Therapeutic and Neurophysiological Effects,GALVANI PS-1,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT05407337,,,2024,"Single Center, Randomized, Comparative, Prospective Interventional Study Evaluating the Impact of Brief Psychotherapy by Narrative Exposure Therapy (NET) on the Reduction of Symptoms of Post Traumatic Stress Disorder in Refugee and Asylum Seeking Women in the Program SINDIANE in Marseille",SINDIANE,False,False,False,BEHAVIORAL
+🟥,rouge,résultat et / ou publication posté,NCT00420693,,,,Interest of Using the Sevoflurane in the Prevention of Newborns Pain,,False,False,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT00485784,,,,Interest of Circulating Endothelial Biomarkers in Vascular Pregnancy Complications,,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT00998231,,,,Major Depression and Messenger RNAs,,False,False,False,BIOLOGICAL
+🟥,rouge,résultat et / ou publication posté,NCT00484523,,,,Constitution of a Standardized Neural Imaging Database in Healthy Subjects,,False,False,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT00919685,,,,Investigations of New Markers in Patients With Shock,,False,False,False,BIOLOGICAL
+⬛,noir,pas de résultat ni de publication,NCT00922909,,,,Executive Control Analysis in Patients Suffering From Parkinson Disease and Treated by Deep Brain Stimulation (Chronometric and Electromyographic Approach During a Simon Task),,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT01284738,,,,Beta-thalassemia and Microparticles,,False,False,False,OTHER
+🟥,rouge,résultat et / ou publication posté,NCT01277068,,,,Effects of Various Bariatric Surgical Procedures on Intestinal Triglyceride-rich-lipoprotein (TRL) Metabolism in Obese Patients,,False,False,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT00893568,,,,Post Traumatic Stress Disorder and Neural Mechanisms Involved in Its Treatment,,False,False,False,OTHER
+🟥,rouge,résultat et / ou publication posté,NCT01284816,,,,Impact of Bariatric Surgery on Epicardial Adipose Tissue and on Myocardial Function,,False,False,True,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT02834130,,,,"Input of a Multidisciplinary Device Including a Psychological Approach, to Accompany the Announce of Diagnosis for Young Children With Serious Constitutional Hemorrhagic Disease and Their Families",ACADHEM,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT00949520,,,,Dual Source Computed Tomography (DSCT) During Injection of Dipyridamole : a New Technique for Myocardial Ischemia Assessment,,False,False,False,OTHER

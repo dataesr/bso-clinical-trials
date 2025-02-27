@@ -1,19 +1,19 @@
-statut,statut_label,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,noir,NCT01964456,,,2014,"""Narcisse & Echo : Self-consciousness and the Inter-subjective Body""",Narcisse,False,False,False,BEHAVIORAL
-⬛,noir,NCT02476188,,,2016,Neutrophil Extracellular Traps and Thrombolysis in the Acute Stroke,NETs,False,False,False,PROCEDURE
-⬛,noir,NCT01437527,,,2016,Body Image Therapy in Anorexia Nervosa,PIPA,False,False,False,BEHAVIORAL
-⬛,noir,NCT02602951,,,2017,4D FLOW: Feasibility Study of a Sequence 4D of Flow Applied to the Cervico-encephalic Vascular Pathologies,4D-FLOW,False,False,False,OTHER
-⬛,noir,NCT03084848,,,2017,Cerebral Bases of the Cognitive Learning in the Executive Control In the Adolescence,APEX-ADO,False,False,False,OTHER
-⬛,noir,NCT04008719,,,2019,Predictivity of Attention Test and Executive Functions After Stroke to Predict Depression 3 Months After Stroke.,ATTEST-Depress,False,False,False,OTHER
-⬛,noir,NCT03475225,,,2020,Effect of the Treatment of Vitamin D Deficiency in Drug-resistant Epilepsy,EPI-D,False,False,False,DRUG
-⬛,noir,NCT03934073,,,2021,Evaluation of the Benefit of the Training of the Manual Dexterity Post-stroke: Effect on the Function and Spontaneous Use of the Hand and the Cerebral Plasticity,DEXTRAIN,False,False,False,OTHER
-🟩,vert,NCT04350580,,,2021,Value of Early Treatment With Polyvalent Immunoglobulin in the Management of Acute Respiratory Distress Syndrome Associated With SARS-CoV-2 Infections,ICAR,True,True,True,DRUG
-⬛,noir,NCT02841098,,,2022,""" Endarterectomy Combined With Optimal Medical Therapy Versus Optimal Medical Therapy Alone in Patients With Asymptomatic Severe Atherosclerotic Carotid Artery Stenosis at Higher-than-average Risk of Ipsilateral Stroke """,ACTRIS,False,False,False,DRUG
-⬛,noir,NCT02476435,,,2022,Depersonalization Disorder: Therapeutic Effect of Neuronavigated Repetitive Transcranial Stimulation of Right Angular Gyrus.,PERSONA,False,False,False,DEVICE
-⬛,noir,NCT02235012,,,2022,"Cognitive Biases in Decision Making in a Pharmacological Model of Psychosis : a Study in Healthy Humans Recieving Low Dose Anesthetic, Ketamine Versus Placebo",KETABI,False,False,False,DRUG
-⬛,noir,NCT02576821,,,2023,Hippocampal Sclerosis and Amnesia Not Due to Alzheimer's Disease,ShaTau7,False,False,False,RADIATION
-⬛,noir,NCT06658392,,,2024,Domain-general and Domain-specific Contributions to the Development of Numerical Cognition,CFDDCN,False,False,False,OTHER
-⬛,noir,,2017-001019-35,,,"Effect of vitamin D deficiency compensation in the treatment of drug-resistant epilepsy. 
+statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
+⬛,noir,pas de résultat ni de publication,NCT01964456,,,2014,"""Narcisse & Echo : Self-consciousness and the Inter-subjective Body""",Narcisse,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02476188,,,2016,Neutrophil Extracellular Traps and Thrombolysis in the Acute Stroke,NETs,False,False,False,PROCEDURE
+⬛,noir,pas de résultat ni de publication,NCT01437527,,,2016,Body Image Therapy in Anorexia Nervosa,PIPA,False,False,False,BEHAVIORAL
+⬛,noir,pas de résultat ni de publication,NCT02602951,,,2017,4D FLOW: Feasibility Study of a Sequence 4D of Flow Applied to the Cervico-encephalic Vascular Pathologies,4D-FLOW,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03084848,,,2017,Cerebral Bases of the Cognitive Learning in the Executive Control In the Adolescence,APEX-ADO,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT04008719,,,2019,Predictivity of Attention Test and Executive Functions After Stroke to Predict Depression 3 Months After Stroke.,ATTEST-Depress,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,NCT03475225,,,2020,Effect of the Treatment of Vitamin D Deficiency in Drug-resistant Epilepsy,EPI-D,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT03934073,,,2021,Evaluation of the Benefit of the Training of the Manual Dexterity Post-stroke: Effect on the Function and Spontaneous Use of the Hand and the Cerebral Plasticity,DEXTRAIN,False,False,False,OTHER
+🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT04350580,,,2021,Value of Early Treatment With Polyvalent Immunoglobulin in the Management of Acute Respiratory Distress Syndrome Associated With SARS-CoV-2 Infections,ICAR,True,True,True,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02841098,,,2022,""" Endarterectomy Combined With Optimal Medical Therapy Versus Optimal Medical Therapy Alone in Patients With Asymptomatic Severe Atherosclerotic Carotid Artery Stenosis at Higher-than-average Risk of Ipsilateral Stroke """,ACTRIS,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02476435,,,2022,Depersonalization Disorder: Therapeutic Effect of Neuronavigated Repetitive Transcranial Stimulation of Right Angular Gyrus.,PERSONA,False,False,False,DEVICE
+⬛,noir,pas de résultat ni de publication,NCT02235012,,,2022,"Cognitive Biases in Decision Making in a Pharmacological Model of Psychosis : a Study in Healthy Humans Recieving Low Dose Anesthetic, Ketamine Versus Placebo",KETABI,False,False,False,DRUG
+⬛,noir,pas de résultat ni de publication,NCT02576821,,,2023,Hippocampal Sclerosis and Amnesia Not Due to Alzheimer's Disease,ShaTau7,False,False,False,RADIATION
+⬛,noir,pas de résultat ni de publication,NCT06658392,,,2024,Domain-general and Domain-specific Contributions to the Development of Numerical Cognition,CFDDCN,False,False,False,OTHER
+⬛,noir,pas de résultat ni de publication,,2017-001019-35,,,"Effect of vitamin D deficiency compensation in the treatment of drug-resistant epilepsy. 
  
  
  Effet de la compensation du déficit en vitamine D dans le traitement de l'épilepsie pharmaco-résistante.","Epi-D 
