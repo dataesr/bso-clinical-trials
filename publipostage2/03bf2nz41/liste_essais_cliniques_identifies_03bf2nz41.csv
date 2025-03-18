@@ -1,4 +1,4 @@
 statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,bleu,pas de résultat ni de publication,NCT04560153,,,2020,Interest of Karate Kata Practice on the Self-esteem of Patients Living With HIV,KATACHRO,False,False,False,OTHER
-🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03335345,,,2020,Non-inferiority Study of the Pursuit of Enteral Nutrition Compared to a Strategy of Gastric Emptiness Peri-extubation. Cluster Randomized Trial,AMBROISIE,True,True,True,OTHER
-🟩,vert,résultat et / ou publication posté dans les 12 mois,NCT03071601,,,2021,Prospective Evaluation of Topical Analgesia Using a Lidocaine/Prilocaine Cream for Laceration Repair in the Emergency Department,,True,True,True,DRUG
+⬛,noir,pas de résultat postés ni publiés,NCT04560153,,,2020,Interest of Karate Kata Practice on the Self-esteem of Patients Living With HIV,KATACHRO,False,False,False,OTHER
+🟩,vert,résultat postés ou publiés dans les 12 mois,NCT03335345,,,2020,Non-inferiority Study of the Pursuit of Enteral Nutrition Compared to a Strategy of Gastric Emptiness Peri-extubation. Cluster Randomized Trial,AMBROISIE,True,True,True,OTHER
+🟩,vert,résultat postés ou publiés dans les 12 mois,NCT03071601,,,2021,Prospective Evaluation of Topical Analgesia Using a Lidocaine/Prilocaine Cream for Laceration Repair in the Emergency Department,,True,True,True,DRUG
