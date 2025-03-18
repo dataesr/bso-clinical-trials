@@ -86,11 +86,13 @@ def parse_study(input_study):
                                  "id": identification_module.get("orgStudyIdInfo", {}).get("id")})
     for second_id_elt in identification_module.get("secondaryIdInfos", []):
         if second_id_elt.get("id"):
-            elt['other_ids'].append(second_id_elt)
+            elt["other_ids"].append(second_id_elt)
             if second_id_elt.get("type") in ["EudraCT Number", "EUDRACT_NUMBER"]:
-                elt['eudraCT'] = second_id_elt.get("id")
+                elt["eudraCT"] = second_id_elt.get("id")
             elif second_id_elt.get("type") == "REGISTRY" and second_id_elt.get("domain") == "CTIS (EU)":
                 elt["CTIS"] = second_id_elt.get("id")
+            elif not elt.get("eudraCT") and re.match("^20\d{2}-00\d{4}-\d{2}$", second_id_elt.get("id")):
+                elt["eudraCT"] = second_id_elt.get("id")
     elt['title'] = identification_module.get('officialTitle')
     elt['acronym'] = identification_module.get('acronym')
     #description
