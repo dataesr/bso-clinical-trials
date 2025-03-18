@@ -87,6 +87,7 @@ def parse_study(input_study):
     for second_id_elt in identification_module.get("secondaryIdInfos", []):
         if second_id_elt.get("id"):
             elt['other_ids'].append(second_id_elt)
+            # TODO: Support CTIS
             if second_id_elt.get("type") == "EudraCT Number":
                 elt['eudraCT'] = second_id_elt.get("id")
     elt['title'] = identification_module.get('officialTitle')
