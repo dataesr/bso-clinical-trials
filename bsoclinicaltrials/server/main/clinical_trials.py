@@ -87,9 +87,10 @@ def parse_study(input_study):
     for second_id_elt in identification_module.get("secondaryIdInfos", []):
         if second_id_elt.get("id"):
             elt['other_ids'].append(second_id_elt)
-            # TODO: Support CTIS
-            if second_id_elt.get("type") == "EudraCT Number":
+            if second_id_elt.get("type") in ["EudraCT Number", "EUDRACT_NUMBER"]:
                 elt['eudraCT'] = second_id_elt.get("id")
+            elif second_id_elt.get("type") == "REGISTRY" and second_id_elt.get("domain") == "CTIS (EU)":
+                elt["CTIS"] = second_id_elt.get("id")
     elt['title'] = identification_module.get('officialTitle')
     elt['acronym'] = identification_module.get('acronym')
     #description
