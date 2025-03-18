@@ -152,11 +152,11 @@ def parse_euctr(html):
     if len(other_ids) > 0:
         res['other_ids'] = other_ids
     res['lead_sponsor'] = infos.get("B.1.1;Name of Sponsor")
-    res['study_type'] = summary_infos.get("Clinical Trial Type")
     res['study_first_submit_date'] = \
         my_parse_date(summary_infos.get('Date on which this record was first entered in the EudraCT database'),
                       dayfirst=True)
-    res['study_completion_date'] = my_parse_date(infos.get("P.;Date of the global end of the trial"), dayfirst=True)
-    res['status'] = summary_infos.get("Trial Status")
-    res['study_type'] = "Interventional"
+    res["study_completion_date"] = my_parse_date(infos.get("P.;Date of the global end of the trial"), dayfirst=True)
+    res["status"] = summary_infos.get("Trial Status")
+    res["study_type"] = "Interventional"
+    res["intervention_type"] = "DRUG (presumed)"
     return res

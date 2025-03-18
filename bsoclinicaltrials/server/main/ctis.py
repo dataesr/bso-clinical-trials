@@ -125,6 +125,7 @@ def parse_ctis(ct):
     res["study_completion_date"] = my_parse_date(ct.get("endDateEU"))
     res["status"] = status_mapping.get(ct.get("ctPublicStatus"), "Unknown status")
     res["study_type"] = "Interventional"
+    res["intervention_type"] = "DRUG (presumed)"
     return res
 
 
