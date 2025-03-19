@@ -1,22 +1,22 @@
-statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,noir,pas de résultat postés ni publiés,NCT02279121,,,2016,"Prospective, Randomized, Controlled Trial Evaluating the Efficacy of a Lock-therapy With a Solution of Taurolidine/Citrate (TauroLock) vs Standard Saline Solution for the Primary Prevention of Catheter-related Infections (CLI) in Adult Patients Wtih a Non-hematological Cancer Treated With Intravenous Anti-tumor Therapy",ATAPAC,False,False,False,DEVICE
-⬛,noir,pas de résultat postés ni publiés,NCT02075424,,,2016,Descriptive Study of Biological Stress and Perceived Stress in Call Regulation Operators and Doctors When Processing a Call at the Center 15,RegulStress,False,False,False,OTHER
-🟥,rouge,résultat postés ou publiés,NCT01526915,,,2017,Contribution of Platelet Rich Fibrin (PRF) After Tooth Avulsion in the Prevention of Healing Delay and of Jawbone Osteochemonecrosis Induced by Bisphosphonates,OCN/PRF,False,False,True,PROCEDURE
-🟥,rouge,résultat postés ou publiés,NCT02535819,,,2018,Endothelial Cell Loss After Phacoemulsification Intra and Supracapsular,PERCEPOLIS,False,False,True,PROCEDURE
-⬛,noir,pas de résultat postés ni publiés,NCT02818101,,,2018,,HypCor,False,False,False,BEHAVIORAL
-⬛,noir,pas de résultat postés ni publiés,NCT03271476,,,2018,EMDR Psychotherapy of Anxious-depressive Symptoms for Women That Present an Invasive Beast Cancer : a Faisability Study,PSYCANCER,False,False,False,BEHAVIORAL
-🟩,vert,résultat postés ou publiés dans les 12 mois,NCT02884297,,,2019,Feasibility Study of the Measurement of the Placental Perfusion During the First Trimester of Pregnancy by 3D Doppler Echo-angiography With a Contrast Agent,HOPE,True,True,True,DRUG
-⬛,noir,pas de résultat postés ni publiés,NCT02818374,,,2019,"Evaluation of the Efficacy and Safety of Use of an Innovative Medical Device for Improving Oral Accessibility in People With Disabilities, Presenting Behavioral Disorders: The Oral Accessibility Spatula (Spatule SAB)",SAB,False,False,False,DEVICE
-⬛,noir,pas de résultat postés ni publiés,NCT02886468,,,2021,Determinants of Muscle - Skin Distance at the Injection Site in Patients With an Indication for the Use of Epinephrine Auto- Injector Pens,DEEP,False,False,False,OTHER
-⬛,noir,pas de résultat postés ni publiés,NCT03815227,,,2021,Outpatient Birth: Pilot Study to Assess the Feasibility of Maternity Out the Same Date or the Next Day of the Birth,ACCAMBU,False,False,False,OTHER
-⬛,noir,pas de résultat postés ni publiés,NCT02956265,,,2021,"Assessment of Optical Spectroscopy's Diagnosis Accuracy When Non-invasively and Automatically Classifying Skin Lesions in One of the Following Histological Classes: Healthy, Actinic Keratosis, in Situ Carcinoma and Invasive Carcinoma.",SPECTROLIVE,False,False,False,DEVICE
-⬛,noir,pas de résultat postés ni publiés,NCT04915274,,,2022,Validation of an Electronic Remote Toxicity Management System in Adult Cancer Patients Receiving an Active Anti-cancer Treatment,eRToMSy,False,False,False,OTHER
-⬛,noir,pas de résultat postés ni publiés,NCT03898453,,,2023,EMDR Psychotherapy of Anxious-depressive Symptoms for Women That Present an Invasive Breast Cancer : a Randomised Controlled Trial,PSYCANCER,False,False,False,BEHAVIORAL
-⬛,noir,pas de résultat postés ni publiés,NCT05265832,,,2023,Identification of Factors That Influence the Corneal Endothelial Cell Loss During Phacoemulsification,PREDICS,False,False,False,PROCEDURE
-⬛,noir,pas de résultat postés ni publiés,,2018-000597-29,,,"Interest of Nasal Provocation Tests for Diagnosis of House Mites Allergic Rhinitis  
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+⬛,4,4: pas de résultats postés ni publiés,NCT02279121,,,2016,"Prospective, Randomized, Controlled Trial Evaluating the Efficacy of a Lock-therapy With a Solution of Taurolidine/Citrate (TauroLock) vs Standard Saline Solution for the Primary Prevention of Catheter-related Infections (CLI) in Adult Patients Wtih a Non-hematological Cancer Treated With Intravenous Anti-tumor Therapy",ATAPAC,DEVICE
+⬛,4,4: pas de résultats postés ni publiés,NCT02075424,,,2016,Descriptive Study of Biological Stress and Perceived Stress in Call Regulation Operators and Doctors When Processing a Call at the Center 15,RegulStress,OTHER
+🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01526915,,,2017,Contribution of Platelet Rich Fibrin (PRF) After Tooth Avulsion in the Prevention of Healing Delay and of Jawbone Osteochemonecrosis Induced by Bisphosphonates,OCN/PRF,PROCEDURE
+🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02535819,,,2018,Endothelial Cell Loss After Phacoemulsification Intra and Supracapsular,PERCEPOLIS,PROCEDURE
+⬛,4,4: pas de résultats postés ni publiés,NCT02818101,,,2018,,HypCor,BEHAVIORAL
+⬛,4,4: pas de résultats postés ni publiés,NCT03271476,,,2018,EMDR Psychotherapy of Anxious-depressive Symptoms for Women That Present an Invasive Beast Cancer : a Faisability Study,PSYCANCER,BEHAVIORAL
+🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02884297,,,2019,Feasibility Study of the Measurement of the Placental Perfusion During the First Trimester of Pregnancy by 3D Doppler Echo-angiography With a Contrast Agent,HOPE,DRUG
+⬛,4,4: pas de résultats postés ni publiés,NCT02818374,,,2019,"Evaluation of the Efficacy and Safety of Use of an Innovative Medical Device for Improving Oral Accessibility in People With Disabilities, Presenting Behavioral Disorders: The Oral Accessibility Spatula (Spatule SAB)",SAB,DEVICE
+⬛,4,4: pas de résultats postés ni publiés,NCT02886468,,,2021,Determinants of Muscle - Skin Distance at the Injection Site in Patients With an Indication for the Use of Epinephrine Auto- Injector Pens,DEEP,OTHER
+⬛,4,4: pas de résultats postés ni publiés,NCT03815227,,,2021,Outpatient Birth: Pilot Study to Assess the Feasibility of Maternity Out the Same Date or the Next Day of the Birth,ACCAMBU,OTHER
+⬛,4,4: pas de résultats postés ni publiés,NCT02956265,,,2021,"Assessment of Optical Spectroscopy's Diagnosis Accuracy When Non-invasively and Automatically Classifying Skin Lesions in One of the Following Histological Classes: Healthy, Actinic Keratosis, in Situ Carcinoma and Invasive Carcinoma.",SPECTROLIVE,DEVICE
+⬛,4,4: pas de résultats postés ni publiés,NCT04915274,,,2022,Validation of an Electronic Remote Toxicity Management System in Adult Cancer Patients Receiving an Active Anti-cancer Treatment,eRToMSy,OTHER
+⬛,4,4: pas de résultats postés ni publiés,NCT03898453,,,2023,EMDR Psychotherapy of Anxious-depressive Symptoms for Women That Present an Invasive Breast Cancer : a Randomised Controlled Trial,PSYCANCER,BEHAVIORAL
+⬛,4,4: pas de résultats postés ni publiés,NCT05265832,,,2023,Identification of Factors That Influence the Corneal Endothelial Cell Loss During Phacoemulsification,PREDICS,PROCEDURE
+⬛,4,4: pas de résultats postés ni publiés,,2018-000597-29,,,"Interest of Nasal Provocation Tests for Diagnosis of House Mites Allergic Rhinitis  
  
  
  Intérêt des tests de provocation nasale dans la sélection des patients devant bénéficier d’une immunothérapie spécifique aux acariens","NPT-MAR 
  
  
- NPT-MAR",False,False,False,
+ NPT-MAR",

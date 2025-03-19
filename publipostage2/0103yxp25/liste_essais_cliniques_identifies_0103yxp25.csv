@@ -1,6 +1,6 @@
-statut,statut_label,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,results_1y,results_3y,results,intervention_type
-⬛,noir,pas de résultat postés ni publiés,NCT01993394,,,2012,Influence of Hyperoxia and Hypergravity on Pulmonary Ventilation and Perfusion,,False,False,False,OTHER
-⬛,noir,pas de résultat postés ni publiés,NCT04870814,,,2021,Comparison of 4 Tactical Tourniquets Used in War Medicine,,False,False,False,DEVICE
-⬛,noir,pas de résultat postés ni publiés,NCT03433859,,,2021,Prospective Multicentric Open Randomised Controlled Trial Comparing Topical Aluminium Chloride to OnabotulinumtoxinA Intradermal Injections in Residual Limb Hyperhidrosis (Lower Limbs),SALUTOX,False,False,False,DRUG
-⬛,noir,pas de résultat postés ni publiés,NCT04549194,,,2021,Contribution of L-Tyrosine to Recovery From Operational Strain on Return From External Operation,USOP,False,False,False,BIOLOGICAL
-⬛,noir,pas de résultat postés ni publiés,NCT04518254,,,2022,Contribution of L-Tyrosine to Human Decision Making in Stressful Situations,TYRO-STRESS,False,False,False,DRUG
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+⬛,4,4: pas de résultats postés ni publiés,NCT01993394,,,2012,Influence of Hyperoxia and Hypergravity on Pulmonary Ventilation and Perfusion,,OTHER
+⬛,4,4: pas de résultats postés ni publiés,NCT04870814,,,2021,Comparison of 4 Tactical Tourniquets Used in War Medicine,,DEVICE
+⬛,4,4: pas de résultats postés ni publiés,NCT03433859,,,2021,Prospective Multicentric Open Randomised Controlled Trial Comparing Topical Aluminium Chloride to OnabotulinumtoxinA Intradermal Injections in Residual Limb Hyperhidrosis (Lower Limbs),SALUTOX,DRUG
+⬛,4,4: pas de résultats postés ni publiés,NCT04549194,,,2021,Contribution of L-Tyrosine to Recovery From Operational Strain on Return From External Operation,USOP,BIOLOGICAL
+⬛,4,4: pas de résultats postés ni publiés,NCT04518254,,,2022,Contribution of L-Tyrosine to Human Decision Making in Stressful Situations,TYRO-STRESS,DRUG
