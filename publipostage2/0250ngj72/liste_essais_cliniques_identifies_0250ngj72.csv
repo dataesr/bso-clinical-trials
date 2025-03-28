@@ -1,125 +1,121 @@
 statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
-⬛,4,4: pas de résultats postés ni publiés,NCT00188071,,,2003,Postoperative Pain After Medical Abortion Under Local Anesthesia : a Prospective and Randomized Trial Comparing Several Analgesic Regimen,,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00188032,,,2006,Strategies for Suspected Pulmonary Embolism in Emergency Departments - SPEED Study,,PROCEDURE
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00188058,,,2006,Comparison of Two Strategies for Setting Positive End-Expiratory Pressure in Acute Lung Injury/ Acute Respiratory Distress Syndrome (ExPress Study).,ExPress,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT00262379,,,2009,"Multicenter Study, Randomized and Pragmatic, Comparing Two Therapeutic Strategies : Use or Non-use of Epoetin Beta in Patients Infected by Chronic Hepatitis C and Treated by Combination Therapy Peginterferon Alfa-2a Plus Ribavirin",,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01068886,,,2009,External Pancreatic Duct Stent After Pancreaticoduodenectomy: a Prospective Randomized Multicenter Trial,,PROCEDURE
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01052974,,,2010,Perioperative Analgesia by Femoral Perineural Catheter for Femoral Neck Fracture - Study KTcol -,KTcol,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00648089,,,2010,ErythroPOietin in Myocardial Infarction,EPOMI,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00485147,,,2010,Study of Human Locomotion With Global Positioning System. Application to Patients With Peripheral Arterial Disease,Starter-GPS,PROCEDURE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT01592812,,,2012,Investigation of the Arterial Effects of the Veinoplus(r) Stimlator Device.,,DEVICE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01149278,,,2012,,SEPSISPAM,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01390129,,,2012,Remote Ischemic Preconditioning in Aortic Valve Surgery (RIP-Valve),RIP-Valve,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01549691,,,2013,Assessment of Two Modes of Premedication in Surgery - PREMED Study,PREMED,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01390142,,,2013,Remote Ischemic Preconditioning Combined to Local Ischemic Postconditioning in Acute Myocardial Infarction (RIRE-1),RIRE-1,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT00188019,,,2013,Evaluation Des méthodes de dépistage du Paragangliome héréditaire Chez Les Sujets prédisposés génétiquement,,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01572961,,,2013,Amélioration Des Techniques d'étude de la Micro-cirulation cutanée Chez Des Sujets Sains,MICROTEC,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02179411,,,2013,Study of the Renal Perfusion in Healthy Volunteers and Renal Transplant Recipients During an Orthostatic Stress,ortho_rein,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT02704247,,,2014,Evaluation of CARDIOSPACE System in Healthy Volunteers for Physiological Research in Space Environment,CARDIOSPACE,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02003157,,,2014,,HYPNOART,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT01300845,,,2014,"Prospective, Randomized, Multi-center Trial Aiming at Assessing the Effect of Humidification on the Comfort of the Patient Receiving an Oxygen Therapy.",OXYREA,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02120144,,,2014,Effect of Observation Plus Imagination of Gait on Stride Variability in Young and Older Adults,OBI,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT02687659,,,2015,TEMIS: a Pilot Study to Evaluate a Device to Characterize Ambulatory Physical Activity,TEMIS,DEVICE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02549053,,,2015,Prevalence of Human Papillomavirus in Barrett Esophagus Compared With Controls,Barrett,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02538120,,,2015,Assessment of the Neurovascular Microcirculatory Response in Diabetes Type 1,NEURODIAB1,OTHER
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01426607,,,2015,VASO-AM :Impact of Oral Appliance Therapy on Endothelial Function in Obstructive Sleep Apnea,VASO-AM,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02086409,,,2015,"Dairy Product, Calcium & Vitamin D Supplementation and Cognitive-motor Function",GAME-D2,DIETARY_SUPPLEMENT
-⬛,4,4: pas de résultats postés ni publiés,NCT02072655,,,2016,Impact of Socio-aesthetic Care in the Quality of Life of Patients Treated for Lymphoma During and After Hospitalization,CareSSE,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02684149,,,2016,Pain Impact Assessment of the Relational Touch During Arterial Puncture in ICU - TORREA,ToRRéa,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02834351,,,2016,Atteinte Tissulaire au Cours de l'ischémie Chronique d'Effort. Validation d'un modèle d'étude du Muscle Sartorius Humain,SARTORIUS,OTHER
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02379234,,,2016,SIMulation for HEmofiltration in Intensive caRe Unit,SIMHeR,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT02152176,,,2016,Titration Morphinique autocontrôlée Par le Patient Par un Dispositif mécanique à Usage Unique Versus Administration Par l'infirmière Chez Les Patients Ayant Une Douleur aiguë sévère Aux Urgences.,TACIDOU,DEVICE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02556658,,,2016,Predicted Level of General Anaesthesia in Hip Fracture Surgery,NAPfem,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02704260,,,2016,Endofibrose Vasculaire et génétique,GOSSER,GENETIC
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01409694,,,2016,Evaluation d'Une stratégie thérapeutique d'Association médicamenteuse Pour la Prise en Charge de la Maladie d'Alzheimer et Des Maladies apparentées au Stade modéré,AD-IDEA,DRUG
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02302456,2014-001748-39,,2017,Tranexamic Acid for Preventing Postpartum Haemorrhage Following a Vaginal Delivery: a Multicenter Randomised Double Blind Placebo Controlled Trial,TRAAP,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02501408,,,2017,Comparaison du Pied Bionique Proprio-Foot® Versus le Pied Habituel Chez Les amputés Tibiaux,PROPRIO-FOOT,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03070860,,,2017,"Glucidic Metabolism, Ossification and Arterial Calcification During PseudoXanthoma Elasticum (PXE)",GOCAPXE,RADIATION
-⬛,4,4: pas de résultats postés ni publiés,NCT02815956,,,2017,InteresT And Mechanisms of Percutaneous Posterior tIbial Nerve Stimulation to Prevent pOstoperative Ileus in ColorectAl Surgery: A Preliminary Study,pre-TAPIOCA,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02550275,,,2017,,COSIMH,BEHAVIORAL
-⬛,4,4: pas de résultats postés ni publiés,NCT02997436,,,2017,"Asa Test ; un Nouvel Outil Dans le dépistage du Traitement Par Aspirine ? (This Official Titre is in French and Contains no Spelling Error. English Translation for it Would be : ""ASA-test. A New Tool for the Screening of Aspirin Treatment"")",FirstAMOS,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02463604,,,2017,Renal PRotection Against Contrast mEdium-induced nephroPathy in High Risk Patients undErgoing Coronary Angiography,PREPARE,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02134561,,,2018,,PREHUNT,BEHAVIORAL
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02878460,,,2018,ORI2 : ORI for hyperOxia Reduction in ICU,ORI2,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT02161965,,,2018,The VICTORIA Study (Vascular CalcIfiCation and sTiffness Induced by ORal antIcoAgulation) Comparison Anti-vitamin K Versus Anti-Xa.,VICTORIA,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02650232,,,2018,Pilot Study to Evaluate the Somnotouch Device to Quantify Spontaneous Baroreflex Sensitivity in Healthy Subjects and in Patients With Heart Failure,SOMNO-BRS,PROCEDURE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02317003,,,2018,Physical Exercise Prescription With PEdometeR in General Practice for Patients With Cardiovascular Risk Factors - The PEPPER Pragmatic Randomised Controlled Trial,PEPPER,BEHAVIORAL
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02861924,,,2019,Réponse à l'Application d'Une Pression Locale en Laser Speckle Imaging Locally Applied Pressure-induced Vasodilatation,LAV,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03305198,,,2019,BIOlogical Response to Exercise : A Metabolomic Study in Peripheral Artery Disease (BIOR),BIOR,BIOLOGICAL
-⬛,4,4: pas de résultats postés ni publiés,NCT03538080,,,2019,Evaluation du pré-marquage Par AccuVein® au Cours Des échographies Doppler de repérage saphène.,ACCUMULATION,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02689557,,,2019,VEINEX : Venous Investigations During Exercise,VEINEX,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03356379,,,2019,Application de l'oxymétrie Dynamique Pour le Diagnostic Des pièges artériels poplités,PETRUS,DIAGNOSTIC_TEST
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02811237,,,2019,"Criteria for Hospitalization or Outpatient Management of Patients With Pulmonary Embolism, Hestia Rule Versus Simplified PESI Score : an Open-label Controlled Randomized International Trial (HOME-PE)",HOME-PE,OTHER
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03631797,,,2019,L'Etude préopératoire de la Microcirculation Pour la prédiction Des Complications après Une Chirurgie Cardiaque Sous Circulation Extracorporelle.,MONS,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,,2019-002571-33,,2020,"Transcutaneous measurement of oxygen during transient hyperoxia 
+⬛,4,4 : pas de résultats postés ni publiés,NCT00188071,,,2003,Postoperative Pain After Medical Abortion Under Local Anesthesia : a Prospective and Randomized Trial Comparing Several Analgesic Regimen,,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00188058,,,2006,Comparison of Two Strategies for Setting Positive End-Expiratory Pressure in Acute Lung Injury/ Acute Respiratory Distress Syndrome (ExPress Study).,ExPress,DEVICE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00188032,,,2006,Strategies for Suspected Pulmonary Embolism in Emergency Departments - SPEED Study,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT00262379,,,2009,"Multicenter Study, Randomized and Pragmatic, Comparing Two Therapeutic Strategies : Use or Non-use of Epoetin Beta in Patients Infected by Chronic Hepatitis C and Treated by Combination Therapy Peginterferon Alfa-2a Plus Ribavirin",,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01068886,,,2009,External Pancreatic Duct Stent After Pancreaticoduodenectomy: a Prospective Randomized Multicenter Trial,,PROCEDURE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00485147,,,2010,Study of Human Locomotion With Global Positioning System. Application to Patients With Peripheral Arterial Disease,Starter-GPS,PROCEDURE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01052974,,,2010,Perioperative Analgesia by Femoral Perineural Catheter for Femoral Neck Fracture - Study KTcol -,KTcol,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00648089,,,2010,ErythroPOietin in Myocardial Infarction,EPOMI,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT01592812,,,2012,Investigation of the Arterial Effects of the Veinoplus(r) Stimlator Device.,,DEVICE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01390129,,,2012,Remote Ischemic Preconditioning in Aortic Valve Surgery (RIP-Valve),RIP-Valve,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01149278,,,2012,,SEPSISPAM,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT00188019,,,2013,Evaluation Des méthodes de dépistage du Paragangliome héréditaire Chez Les Sujets prédisposés génétiquement,,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01549691,2011-002553-65,,2013,Assessment of Two Modes of Premedication in Surgery - PREMED Study,PREMED,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01572961,,,2013,Amélioration Des Techniques d'étude de la Micro-cirulation cutanée Chez Des Sujets Sains,MICROTEC,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02179411,,,2013,Study of the Renal Perfusion in Healthy Volunteers and Renal Transplant Recipients During an Orthostatic Stress,ortho_rein,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT01390142,,,2013,Remote Ischemic Preconditioning Combined to Local Ischemic Postconditioning in Acute Myocardial Infarction (RIRE-1),RIRE-1,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02704247,,,2014,Evaluation of CARDIOSPACE System in Healthy Volunteers for Physiological Research in Space Environment,CARDIOSPACE,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01300845,,,2014,"Prospective, Randomized, Multi-center Trial Aiming at Assessing the Effect of Humidification on the Comfort of the Patient Receiving an Oxygen Therapy.",OXYREA,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02120144,,,2014,Effect of Observation Plus Imagination of Gait on Stride Variability in Young and Older Adults,OBI,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT02003157,,,2014,,HYPNOART,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02086409,,,2015,"Dairy Product, Calcium & Vitamin D Supplementation and Cognitive-motor Function",GAME-D2,DIETARY_SUPPLEMENT
+⬛,4,4 : pas de résultats postés ni publiés,NCT02687659,,,2015,TEMIS: a Pilot Study to Evaluate a Device to Characterize Ambulatory Physical Activity,TEMIS,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02549053,,,2015,Prevalence of Human Papillomavirus in Barrett Esophagus Compared With Controls,Barrett,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01426607,,,2015,VASO-AM :Impact of Oral Appliance Therapy on Endothelial Function in Obstructive Sleep Apnea,VASO-AM,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02538120,,,2015,Assessment of the Neurovascular Microcirculatory Response in Diabetes Type 1,NEURODIAB1,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT02704260,,,2016,Endofibrose Vasculaire et génétique,GOSSER,GENETIC
+⬛,4,4 : pas de résultats postés ni publiés,NCT02072655,,,2016,Impact of Socio-aesthetic Care in the Quality of Life of Patients Treated for Lymphoma During and After Hospitalization,CareSSE,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02834351,,,2016,Atteinte Tissulaire au Cours de l'ischémie Chronique d'Effort. Validation d'un modèle d'étude du Muscle Sartorius Humain,SARTORIUS,OTHER
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01409694,,,2016,Evaluation d'Une stratégie thérapeutique d'Association médicamenteuse Pour la Prise en Charge de la Maladie d'Alzheimer et Des Maladies apparentées au Stade modéré,AD-IDEA,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02556658,,,2016,Predicted Level of General Anaesthesia in Hip Fracture Surgery,NAPfem,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02152176,,,2016,Titration Morphinique autocontrôlée Par le Patient Par un Dispositif mécanique à Usage Unique Versus Administration Par l'infirmière Chez Les Patients Ayant Une Douleur aiguë sévère Aux Urgences.,TACIDOU,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02379234,,,2016,SIMulation for HEmofiltration in Intensive caRe Unit,SIMHeR,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT02684149,,,2016,Pain Impact Assessment of the Relational Touch During Arterial Puncture in ICU - TORREA,ToRRéa,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02463604,,,2017,Renal PRotection Against Contrast mEdium-induced nephroPathy in High Risk Patients undErgoing Coronary Angiography,PREPARE,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02302456,2014-001748-39,,2017,Tranexamic Acid for Preventing Postpartum Haemorrhage Following a Vaginal Delivery: a Multicenter Randomised Double Blind Placebo Controlled Trial,TRAAP,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02997436,,,2017,"Asa Test ; un Nouvel Outil Dans le dépistage du Traitement Par Aspirine ? (This Official Titre is in French and Contains no Spelling Error. English Translation for it Would be : ""ASA-test. A New Tool for the Screening of Aspirin Treatment"")",FirstAMOS,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02550275,,,2017,,COSIMH,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT03070860,,,2017,"Glucidic Metabolism, Ossification and Arterial Calcification During PseudoXanthoma Elasticum (PXE)",GOCAPXE,RADIATION
+⬛,4,4 : pas de résultats postés ni publiés,NCT02501408,,,2017,Comparaison du Pied Bionique Proprio-Foot® Versus le Pied Habituel Chez Les amputés Tibiaux,PROPRIO-FOOT,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02815956,,,2017,InteresT And Mechanisms of Percutaneous Posterior tIbial Nerve Stimulation to Prevent pOstoperative Ileus in ColorectAl Surgery: A Preliminary Study,pre-TAPIOCA,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02134561,,,2018,,PREHUNT,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT02650232,,,2018,Pilot Study to Evaluate the Somnotouch Device to Quantify Spontaneous Baroreflex Sensitivity in Healthy Subjects and in Patients With Heart Failure,SOMNO-BRS,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02161965,,,2018,The VICTORIA Study (Vascular CalcIfiCation and sTiffness Induced by ORal antIcoAgulation) Comparison Anti-vitamin K Versus Anti-Xa.,VICTORIA,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02878460,,,2018,ORI2 : ORI for hyperOxia Reduction in ICU,ORI2,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02317003,,,2018,Physical Exercise Prescription With PEdometeR in General Practice for Patients With Cardiovascular Risk Factors - The PEPPER Pragmatic Randomised Controlled Trial,PEPPER,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT03538080,,,2019,Evaluation du pré-marquage Par AccuVein® au Cours Des échographies Doppler de repérage saphène.,ACCUMULATION,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02689557,,,2019,VEINEX : Venous Investigations During Exercise,VEINEX,OTHER
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03631797,,,2019,L'Etude préopératoire de la Microcirculation Pour la prédiction Des Complications après Une Chirurgie Cardiaque Sous Circulation Extracorporelle.,MONS,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03356379,,,2019,Application de l'oxymétrie Dynamique Pour le Diagnostic Des pièges artériels poplités,PETRUS,DIAGNOSTIC_TEST
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02861924,,,2019,Réponse à l'Application d'Une Pression Locale en Laser Speckle Imaging Locally Applied Pressure-induced Vasodilatation,LAV,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03305198,,,2019,BIOlogical Response to Exercise : A Metabolomic Study in Peripheral Artery Disease (BIOR),BIOR,BIOLOGICAL
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02811237,,,2019,"Criteria for Hospitalization or Outpatient Management of Patients With Pulmonary Embolism, Hestia Rule Versus Simplified PESI Score : an Open-label Controlled Randomized International Trial (HOME-PE)",HOME-PE,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04146636,,,2020,Screening in Primary Care of Advanced Liver Fibrosis in NAFLD and/or Alcoholic Patients (IMPROVE Study),IMPROVE,DIAGNOSTIC_TEST
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03615833,2018-004146-41,,2020,"Evaluation of a Strategy for Systematic Screening for Vitamin D Deficiency and Treatment in Case of Deficiency, on the Improvement of the Maximum Walking Distance in Patients With Stage 2 Lower Limb Arterial Disease.",First-BLINDOS,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03010943,,,2020,Chirurgie Eveillee du Cerveau Sous Realite Virtuelle Integree Aux Outils Bloc Operatoire : Etude de Tolerance,CERVO1,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02475122,,,2020,Prognostic Value of Measuring DsAz by MRI in Cirrhotic Patients on Prophylactic Treatment With β Blocker (AzyMR),AzyMR,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03568201,,,2020,Application de l'oxymétrie Dynamique et Des Index de Pression Pour le Diagnostic Des Plicatures Iliaques du Sportif,SALTY-TURTLE,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT03541213,,,2020,Impact de la Carence Martiale et de Son Traitement Sur le métabolisme Mitochondrial du Cardiomyocyte (MitoCardioFer),MitoCardioFer,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,,2019-002571-33,,2020,"Transcutaneous measurement of oxygen during transient hyperoxia 
  
  
- Mesure transcutanée de l’oxygène au cours de l’hyperoxie transitoire",SCHOTT,
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03010943,,,2020,Chirurgie Eveillee du Cerveau Sous Realite Virtuelle Integree Aux Outils Bloc Operatoire : Etude de Tolerance,CERVO1,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03568201,,,2020,Application de l'oxymétrie Dynamique et Des Index de Pression Pour le Diagnostic Des Plicatures Iliaques du Sportif,SALTY-TURTLE,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT03832218,,,2020,Executive Function Disorders and Anxio-depressive Symptomatology in Children and Adolescents With Mitochondrial Pathologies,MITOPSY,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT03541213,,,2020,Impact de la Carence Martiale et de Son Traitement Sur le métabolisme Mitochondrial du Cardiomyocyte (MitoCardioFer),MitoCardioFer,BIOLOGICAL
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03615833,2018-004146-41,,2020,"Evaluation of a Strategy for Systematic Screening for Vitamin D Deficiency and Treatment in Case of Deficiency, on the Improvement of the Maximum Walking Distance in Patients With Stage 2 Lower Limb Arterial Disease.",First-BLINDOS,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT04146636,,,2020,Screening in Primary Care of Advanced Liver Fibrosis in NAFLD and/or Alcoholic Patients (IMPROVE Study),IMPROVE,DIAGNOSTIC_TEST
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04338841,,,2020,HOME-CoV: Hospitalization or Outpatient ManagEment of Patients With Confirmed or Probable SARS-CoV-2 Infection. A Before and After Implementation of a Consensus Help-decision Making Rule Study,HOME-CoV,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT02475122,,,2020,Prognostic Value of Measuring DsAz by MRI in Cirrhotic Patients on Prophylactic Treatment With β Blocker (AzyMR),AzyMR,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03635294,,,2020,Multi-Omics and IPSCs to Improve the Diagnosis of Rare Intellectual Disabilities,MIDRID,OTHER
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03433989,,,2020,"Impact of Post-Traumatic Stress Disorder After Pregnancy Loss After 12 Weeks of Gestation (Termination of Pregnancy , Stillbirth, Late Miscarriage)",ACTRAMAT-D,DIAGNOSTIC_TEST
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03158402,,,2021,High Intensity Preoperative Inspiratory Muscle Training (IMTHi) Effects on the Perioperative Inflammatory Reaction in Cardiac Surgery With an Associated Biocollection.,EMI HiPo,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04247477,,,2021,Comparison of Different Positive End-expiratory Pressure Titration Strategies Using ELectrical Impedance Tomography in Patients With Acute Respiratory Distress Syndrome : the DELTA Physiological Study,DELTA,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04657471,,,2021,Hospitalization or Outpatient ManagEment of Patients With Suspected or Confirmed SRAS-CoV-2 Infection: the Revised HOME-CoV Score Study.,,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04205032,,,2021,Evaluation in Healthy Volunteers of CARDIOSPACE II for Physiological Studies in Space,CDSII,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT04548141,,,2021,Simplification de l'évaluation de l'Activité PHysique Par Interrogatoire Rapide,SAPHIR,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04045925,,,2021,Feasibility Study of the Taïso Practice in Parkinson's Disease,Taïso-Park,OTHER
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04344041,,,2021,COvid-19 and Vitamin D Supplementation: a Multicenter Randomized Controlled Trial of High Dose Versus Standard Dose Vitamin D3 in High-risk COVID-19 Patients (CoVitTrial),,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03357367,,,2021,"Performance du TiVi Pour évaluer la réactivité Microcirculatoire de la Peau à l'Application d'un Courant Galvanique, Effet de l'Aspirine",PIRAAT,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03703765,,,2022,Volume Estimation of Lower Limbs Before and After Endovascular Venous Intervention or Conventional Surgery in Venous Disease,VELVET,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT04235023,,,2022,PTP1B Implication in the Vascular Dysfunction Associated With Obstructive Sleep Apnea,MacroSAS,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04929275,,,2022,Feasability and Impact of Enhanced Recovery Programs After Surgery for Small Bowel Obstruction,RACO,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT03800771,,,2022,DOuble tasK Test On ergometeR - Basic Research on Acceptability and Use,DOKTORBRAU,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT04164342,,,2022,Etude de la prévalence de la Douleur Chronique et de Ses Facteurs de Risque après Une Hospitalisation en réanimation Chirurgicale,DOUCREA,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04196738,,,2022,"Comparison of Volume Assist Control, Dual Mode and Airway Pressure Release Ventilation: A Physiological Study",COMIX-R,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03362710,,,2022,Evaluation du Risque Vasculaire Par Mesures Non Invasives en Soins Primaires.,First-SEDAN,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT05365295,,,2022,Sensitivity of Children With Attention Deficit/Hyperactivity Disorder to Memory Error Production,TDAH-DRM,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04773899,,,2022,L'Étude de la Dysfonction endothéliale Dans la Maladie à COVID-19 Chez Des Patients en Soins Critiques.,CAUSED,DIAGNOSTIC_TEST
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04064489,,,2022,Thromboembolic Risk Stratification by TRIP Score (Cast) to Guide Physicians in Preventive Treatment Prescriptions for Patients With Lower Limb Trauma Requiring Brace or Casting.,CASTING,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03840434,,,2023,COmpartment Syndrome vaLidation Of Non Invasive Assessment of Tissue Pressure (COLONIA),COLONIA,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT05441176,,,2023,TULIP et MASC : Premiers Usages,TEMPUS,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04157790,,,2023,Efficacy of the CARE Rule Associated With the HEART Score in Patients With Emergency Chest Pain,eCARE,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03715738,,,2023,MEasurement by a Numerical Approach of BREAst Volume MENABREA,MENABREA,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04080622,,,2023,A Randomized Trial to Evaluate the Efficacy of Selenium for the Prevention of Chemotherapy-induced Mucositis During Autologous Stem Cell Transplantation.,AutoSelenium,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT04378335,,,2023,Assessment of Orality Disorders in Children With Food Allergies,ALLERGORAL,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04459182,,,2023,Circulating Exosomes and Endothelial Dysfunction in Patients With Obstructive Sleep Apneas Hypopneas Syndrome(OSA): EXODYS,EXODYS,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT05345639,,,2023,Chest Wall Block After Sternotomy: Randomized Controlled Trial in Cardiac Surgery: (PABLOS Study),PABLOS,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT04881201,,,2024,Metabolomic Exploration of Dysregulated Lipid Metabolism in MFN2-related CMT2A (CMT2A) Linked to Mitofusin 2,,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT05584930,,,2024,Evaluation of Serum Clusterin and Serum PTX3 Assay During Febrile Aplasia in Children Treated in Pediatric Oncology,CluPPFeN,OTHER
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03362489,,,2024,Conversion of in Vitro Fertilization Cycles to Intrauterine Inseminations in Patients With a Poor Ovarian Response to Stimulation,ConFIRM,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT04316520,,,2024,A Pilot Study Evaluating the Tolerability of a Ketogenic Diet With Vitamin Supplementation for Patients Receiving Treatment for Metastatic Renal Cell Carcinoma,CETOREIN,DIETARY_SUPPLEMENT
-⬛,4,4: pas de résultats postés ni publiés,NCT03869476,,,2024,"Pilot Study for the Development of a Non-invasive Diagnostic Score to Differentiate Between Essential Thrombocythemia, Premyelofibrosis and Myelofibrosis",BioScoreSMP,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,,2021-003770-30,,,L’érythropoïétine pour améliorer le devenir des patients de soins intensifs – EPO-ICU-FS,EPO-ICU-FS,
-⬛,4,4: pas de résultats postés ni publiés,,2020-001602-34,,,"COvid-19 and Vitamin D supplementation: a multicenter randomized controlled Trial of high dose versus standard dose vitamin D3 in high-risk COVID-19 patients 
+ Mesure transcutanée de l’oxygène au cours de l’hyperoxie transitoire",SCHOTT,DRUG (presumed)
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04338841,,,2020,HOME-CoV: Hospitalization or Outpatient ManagEment of Patients With Confirmed or Probable SARS-CoV-2 Infection. A Before and After Implementation of a Consensus Help-decision Making Rule Study,HOME-CoV,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03635294,,,2020,Multi-Omics and IPSCs to Improve the Diagnosis of Rare Intellectual Disabilities,MIDRID,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03832218,,,2020,Executive Function Disorders and Anxio-depressive Symptomatology in Children and Adolescents With Mitochondrial Pathologies,MITOPSY,DIAGNOSTIC_TEST
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03433989,,,2020,"Impact of Post-Traumatic Stress Disorder After Pregnancy Loss After 12 Weeks of Gestation (Termination of Pregnancy , Stillbirth, Late Miscarriage)",ACTRAMAT-D,DIAGNOSTIC_TEST
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03158402,,,2021,High Intensity Preoperative Inspiratory Muscle Training (IMTHi) Effects on the Perioperative Inflammatory Reaction in Cardiac Surgery With an Associated Biocollection.,EMI HiPo,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04205032,,,2021,Evaluation in Healthy Volunteers of CARDIOSPACE II for Physiological Studies in Space,CDSII,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04247477,,,2021,Comparison of Different Positive End-expiratory Pressure Titration Strategies Using ELectrical Impedance Tomography in Patients With Acute Respiratory Distress Syndrome : the DELTA Physiological Study,DELTA,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04045925,,,2021,Feasibility Study of the Taïso Practice in Parkinson's Disease,Taïso-Park,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04657471,,,2021,Hospitalization or Outpatient ManagEment of Patients With Suspected or Confirmed SRAS-CoV-2 Infection: the Revised HOME-CoV Score Study.,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04548141,,,2021,Simplification de l'évaluation de l'Activité PHysique Par Interrogatoire Rapide,SAPHIR,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04344041,,,2021,COvid-19 and Vitamin D Supplementation: a Multicenter Randomized Controlled Trial of High Dose Versus Standard Dose Vitamin D3 in High-risk COVID-19 Patients (CoVitTrial),,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03357367,,,2021,"Performance du TiVi Pour évaluer la réactivité Microcirculatoire de la Peau à l'Application d'un Courant Galvanique, Effet de l'Aspirine",PIRAAT,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03800771,,,2022,DOuble tasK Test On ergometeR - Basic Research on Acceptability and Use,DOKTORBRAU,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04773899,,,2022,L'Étude de la Dysfonction endothéliale Dans la Maladie à COVID-19 Chez Des Patients en Soins Critiques.,CAUSED,DIAGNOSTIC_TEST
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04064489,,,2022,Thromboembolic Risk Stratification by TRIP Score (Cast) to Guide Physicians in Preventive Treatment Prescriptions for Patients With Lower Limb Trauma Requiring Brace or Casting.,CASTING,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04929275,,,2022,Feasability and Impact of Enhanced Recovery Programs After Surgery for Small Bowel Obstruction,RACO,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03703765,,,2022,Volume Estimation of Lower Limbs Before and After Endovascular Venous Intervention or Conventional Surgery in Venous Disease,VELVET,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04196738,,,2022,"Comparison of Volume Assist Control, Dual Mode and Airway Pressure Release Ventilation: A Physiological Study",COMIX-R,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05365295,,,2022,Sensitivity of Children With Attention Deficit/Hyperactivity Disorder to Memory Error Production,TDAH-DRM,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04235023,,,2022,PTP1B Implication in the Vascular Dysfunction Associated With Obstructive Sleep Apnea,MacroSAS,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04164342,,,2022,Etude de la prévalence de la Douleur Chronique et de Ses Facteurs de Risque après Une Hospitalisation en réanimation Chirurgicale,DOUCREA,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03362710,,,2022,Evaluation du Risque Vasculaire Par Mesures Non Invasives en Soins Primaires.,First-SEDAN,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT04459182,,,2023,Circulating Exosomes and Endothelial Dysfunction in Patients With Obstructive Sleep Apneas Hypopneas Syndrome(OSA): EXODYS,EXODYS,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT03715738,,,2023,MEasurement by a Numerical Approach of BREAst Volume MENABREA,MENABREA,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05543655,,,2023,Impact of Simulation-Based Training on the Safety of Medication Administration,SIM-SAM,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05345639,,,2023,Chest Wall Block After Sternotomy: Randomized Controlled Trial in Cardiac Surgery: (PABLOS Study),PABLOS,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04080622,,,2023,A Randomized Trial to Evaluate the Efficacy of Selenium for the Prevention of Chemotherapy-induced Mucositis During Autologous Stem Cell Transplantation.,AutoSelenium,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT04157790,,,2023,Efficacy of the CARE Rule Associated With the HEART Score in Patients With Emergency Chest Pain,eCARE,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04378335,,,2023,Assessment of Orality Disorders in Children With Food Allergies,ALLERGORAL,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05441176,,,2023,TULIP et MASC : Premiers Usages,TEMPUS,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03840434,,,2023,COmpartment Syndrome vaLidation Of Non Invasive Assessment of Tissue Pressure (COLONIA),COLONIA,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT04316520,,,2024,A Pilot Study Evaluating the Tolerability of a Ketogenic Diet With Vitamin Supplementation for Patients Receiving Treatment for Metastatic Renal Cell Carcinoma,CETOREIN,DIETARY_SUPPLEMENT
+⬛,4,4 : pas de résultats postés ni publiés,NCT06046898,,,2024,Performance of Surface Mechanomyography Using a Parasternal Patch to Measure and Detect Respiratory Drive and Effort in Healthy Volunteers - PATCH-MMG,PATCH-MMG,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04881201,,,2024,Metabolomic Exploration of Dysregulated Lipid Metabolism in MFN2-related CMT2A (CMT2A) Linked to Mitofusin 2,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05584930,,,2024,Evaluation of Serum Clusterin and Serum PTX3 Assay During Febrile Aplasia in Children Treated in Pediatric Oncology,CluPPFeN,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT06206031,,,2024,Use of Intraosseous Doppler Ultrasonography to Study Skeletal Physiology - Echo-Os Study: Exploratory Study Before Its Use in Space Physiology,Echo-Os,DEVICE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03362489,,,2024,Conversion of in Vitro Fertilization Cycles to Intrauterine Inseminations in Patients With a Poor Ovarian Response to Stimulation,ConFIRM,PROCEDURE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03355274,,,2024,Application De L'oxymétrie Dynamique Pour Le Diagnostic Des Syndromes De Défilés Thoraco-brachiaux Systematic Transcutaneous Oxymetry Use in Thoracic Outlet Syndrom,STOUT,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT03869476,,,2024,"Pilot Study for the Development of a Non-invasive Diagnostic Score to Differentiate Between Essential Thrombocythemia, Premyelofibrosis and Myelofibrosis",BioScoreSMP,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,,2020-001602-34,,,"COvid-19 and Vitamin D supplementation: a multicenter randomized controlled Trial of high dose versus standard dose vitamin D3 in high-risk COVID-19 patients 
  
  
  CoVitTrial- Supplémentation en vitamine D et COVID-19 : essai multicentrique randomisé comparant l’effet d’une forte dose versus une dose standard de vitamine D chez des patients âgés ayant une infection COVID-19 à risque d’aggravation secondaire","CoVitTrial 
  
  
- CoVitTrial",
-⬛,4,4: pas de résultats postés ni publiés,,2016-002253-38,,,"Mesure de la clairance plasmatique du iohexol chez les patients sortant de réanimation après insuffisance rénale aiguë  
+ CoVitTrial",DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,,2021-003770-30,,,L’érythropoïétine pour améliorer le devenir des patients de soins intensifs – EPO-ICU-FS,EPO-ICU-FS,DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,,2016-002253-38,,,"Mesure de la clairance plasmatique du iohexol chez les patients sortant de réanimation après insuffisance rénale aiguë  
  
  
  Mesure de la clairance plasmatique du iohexol chez les patients sortant de réanimation après insuffisance rénale aiguë","IOXSOR 
  
  
- IOXSOR",
-⬛,4,4: pas de résultats postés ni publiés,,2015-001342-28,,,"TOMOSCINTIGRAPHIE HYBRIDE AUX LEUCOCYTES MARQUES DANS LE DIAGNOSTIC DES INFECTIONS DE PROTHESES VASCULAIRES. Etude LEUCOPRO® 
- 
- 
- 
- TOMOSCINTIGRAPHIE HYBRIDE AUX LEUCOCYTES MARQUES DANS LE DIAGNOSTIC DES INFECTIONS DE PROTHESES VASCULAIRES. Etude LEUCOPRO®","LEUCOPRO® 
- 
- 
- LEUCOPRO®",
-⬛,4,4: pas de résultats postés ni publiés,,2011-002387-24,,,Dyva-AAGG: Dysfonction vasculaire micro et macro vasculaire induite par les traitements anti-angiogéniques : Identification de nouveaux marqueurs pronostics,DYVA-AAGG,
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02393014,,,,Activité Physique et prévention de la Chute du Patient âGé hospItalisé en Court séjouR: Etude de faisabilité (AGIR),AGIR,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02113319,,,,"An Open-Label, Multicenter, Phase II Study to Assess Dasatinib in Patients With Core Binding Factors Acute Myelogenous Leukemia Refractory to Conventional Chemotherapy or in Molecular Relapse. Intergroupe Français Des leucémie aiguë myéloblastique",DasaCBF,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00727935,,,,"Comparison Of The Analgesia Obtained By Infiltration Of Lidocaïne 1% And Ropivacaïne 0,75% Versus Placebo For The Joinings Of Episiotomies Among Parturients Under Epidural Analgesia",LiRoPep,DRUG
+ IOXSOR",DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,,2011-002387-24,,,Dyva-AAGG: Dysfonction vasculaire micro et macro vasculaire induite par les traitements anti-angiogéniques : Identification de nouveaux marqueurs pronostics,DYVA-AAGG,DRUG (presumed)
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT02393014,,,,Activité Physique et prévention de la Chute du Patient âGé hospItalisé en Court séjouR: Etude de faisabilité (AGIR),AGIR,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT00727935,,,,"Comparison Of The Analgesia Obtained By Infiltration Of Lidocaïne 1% And Ropivacaïne 0,75% Versus Placebo For The Joinings Of Episiotomies Among Parturients Under Epidural Analgesia",LiRoPep,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02113319,,,,"An Open-Label, Multicenter, Phase II Study to Assess Dasatinib in Patients With Core Binding Factors Acute Myelogenous Leukemia Refractory to Conventional Chemotherapy or in Molecular Relapse. Intergroupe Français Des leucémie aiguë myéloblastique",DasaCBF,DRUG

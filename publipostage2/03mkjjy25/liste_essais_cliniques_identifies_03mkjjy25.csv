@@ -1,9 +1,9 @@
 statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00148278,,,2005,"Prospective, Multicenter, Randomized, Double-Blind Study Comparing Safety and Efficacy of Norepinephrine Plus Dobutamine Versus Epinephrine Alone in Septic Shock.",CATS,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00167609,,,2006,Phase 3 Study of Oral Dehydroepiandrosterone (DHEA) in Adults With Myotonic Dystrophy,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00978783,,,2009,Speech Effects of a Speaking Valve Versus External PEEP in Tracheostomized Ventilator-Dependent Neuromuscular Patients,,DEVICE
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00320099,,,2009,Phase 3 Study of Corticotherapy (Hydrocortisone Alone Versus Hydrocortisone Plus Fludrocortisone) Versus Corticotherapy Plus Intensive Insulin Therapy for Septic Shock,COIITSS,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00167622,,,2009,Efficacy and Safety of Preventive Mechanical Ventilation in Adults With Guillain Barré Syndrome,,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01479959,,,2011,Determination of Optimal PEEP Level Under Patient Control in Tracheostomized Ventilated Patients,OptiPEP,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT00318942,,,2012,CRISTAL: Colloids Compared to Crystalloids in Fluid Resuscitation of Critically Ill Patients: A Multinational Randomised Controlled Trial,,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT00625209,,,2016,Phase III of Recombinant Human Activated Protein C and Low Dose of Hydrocortisone and Fludrocortisone in Adult Septic Shock,APROCCHS,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00148278,,,2005,"Prospective, Multicenter, Randomized, Double-Blind Study Comparing Safety and Efficacy of Norepinephrine Plus Dobutamine Versus Epinephrine Alone in Septic Shock.",CATS,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00167609,,,2006,Phase 3 Study of Oral Dehydroepiandrosterone (DHEA) in Adults With Myotonic Dystrophy,,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00320099,,,2009,Phase 3 Study of Corticotherapy (Hydrocortisone Alone Versus Hydrocortisone Plus Fludrocortisone) Versus Corticotherapy Plus Intensive Insulin Therapy for Septic Shock,COIITSS,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT00978783,,,2009,Speech Effects of a Speaking Valve Versus External PEEP in Tracheostomized Ventilator-Dependent Neuromuscular Patients,,DEVICE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00167622,,,2009,Efficacy and Safety of Preventive Mechanical Ventilation in Adults With Guillain Barré Syndrome,,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01479959,,,2011,Determination of Optimal PEEP Level Under Patient Control in Tracheostomized Ventilated Patients,OptiPEP,DEVICE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT00318942,,,2012,CRISTAL: Colloids Compared to Crystalloids in Fluid Resuscitation of Critically Ill Patients: A Multinational Randomised Controlled Trial,,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT00625209,,,2016,Phase III of Recombinant Human Activated Protein C and Low Dose of Hydrocortisone and Fludrocortisone in Adult Septic Shock,APROCCHS,DRUG

@@ -1,124 +1,127 @@
 statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00259350,,,2006,"Prevention of Central Venous Catheter Infections : Comparison of the Efficacy of Skin Disinfection With 5% Povidone Iodine in Alcoholic Solution Versus 0.25% Chlorhexidine, 0.025 Benzalkonium and 4% Benzylic Alcohol",,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00219752,,,2007,"Phase II Trial to Study the Tolerability and the Effectiveness of Imatinib in Patients With Chronic Myelogenous Leukemia in Chronic Phase With Age More Than 70, Diagnosis of CML is Being Performed Within 1 Year",,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00219726,,,2007,Phase II Trial to Study the Tolerability and the Effectiveness of Imatinib in Patients With Chronic Myelogenous Leukemia in Chronic Phase in Relapse After Allogeneic Stem Cell Transplantation,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00461825,,,2007,Efficacy and Safety of Maintenance Neoral Compared to Bitherapy Neoral-Imurel or Neoral-CellCept in Renal Transplantation,,DRUG
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01320384,,,2013,Clinical Effect of the Association of Noninvasive Ventilation and High Flow Nasal Oxygen Therapy in Resuscitation of Patients With Acute Lung Injury. A Randomised Study (FLORALI Study),FLORALI,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT01823965,,,2014,,,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT00219739,,,2014,A Phase III Prospective Randomized Comparison of Imatinib at a Dose of 400mg in Combination With Peg-Interferon-alpha2a (Peg-IFNa2a) or Cytarabine (Ara-C)Versus Imatinib at a Dose of 600mg Versus Imatinib a Dose of 400mg for Previously Untreated Chronic Myelogenous Leukemia (CML) in Chronic Phase,SPIRIT,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02205632,,,2014,,,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT01628237,,,2015,,ESTIMET,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03186144,,,2015,,CHARGE,GENETIC
-⬛,4,4: pas de résultats postés ni publiés,NCT02797730,,,2016,,EDUCARTPED,BEHAVIORAL
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02703857,,,2016,,PROPHYLOXITINE,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02930382,,,2016,,BARODEF,OTHER
-⬛,4,4: pas de résultats postés ni publiés,,2010-019837-85,,2016,Étude de la toxicité cutanée du cétuximab (anti-Epidermal Growth Factor Receptor): recherche d’un lien entre la réponse inflammatoire cutanée et la réponse radiologique.,,
-⬛,4,4: pas de résultats postés ni publiés,NCT02193737,,,2016,"Effects of Drinking at PACU Discharge After General Anaesthesia With Airway Control on Aspiration, Vomiting and Patients Comfort.",I-DRINC,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT01292356,,,2016,,,DRUG
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT01958996,,,2016,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02717468,,,2017,Comparative Noninvasive Continuous Cardiac Output by the Clearsight With Invasive Monitoring by Pulsioflex in Abdominal Surgery,CLEARSIGHT,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02399709,,,2017,"Pilot Randomized Double Blind, Placebo Controlled Trial of the Efficacy of Simvastatin for Smoking Cessation",ADDICSTATINE,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT03367065,,,2017,,PERFE-CT,RADIATION
-⬛,4,4: pas de résultats postés ni publiés,NCT03447457,,,2017,Early Initiation of High-flow Nasal Cannula Oxygen Therapy in Patients With Acute Respiratory Failure in the Emergency Department: A Before-after Study,,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02668458,,,2017,"Comparison of Pre-oxygenation by Non-invasive Ventilation With High-flow Nasal Oxygen Therapy for Intubation of Intensive Care Patients in Cases of Acute Respiratory Failure: A Prospective, Randomized, Controlled Study (FLORALI 2)",FLORALI2,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02515448,,,2017,,GENTAERO,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT03439644,,,2017,Physiological Upper Eyelid Laxity,LAX,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03223506,,,2017,Validation of a Physiological Based Pharmacokinetic Model by the Study of Paracetamol Distribution in the Brain Compartments in Brain Injured Patients,,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02920281,,,2017,,WEAN SLEEP 1,OTHER
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02869828,,,2017,,TEMP CORE BLOC,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,,2012-005263-27,,2017,"EVALUATION OF EARLY PRE-OPERATIVE INTRAVESICAL INSTILLATION OF MYTOMYCIN-C AFTER TRANSURETHRAL RESECTION OF BLADDER TUMOR COMPARED TO  EARLY POST-OPERATIVE INSTILLATION. A RANDOMIZED MULTICENTER STUDY. 
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00259350,,,2006,"Prevention of Central Venous Catheter Infections : Comparison of the Efficacy of Skin Disinfection With 5% Povidone Iodine in Alcoholic Solution Versus 0.25% Chlorhexidine, 0.025 Benzalkonium and 4% Benzylic Alcohol",,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT00219726,,,2007,Phase II Trial to Study the Tolerability and the Effectiveness of Imatinib in Patients With Chronic Myelogenous Leukemia in Chronic Phase in Relapse After Allogeneic Stem Cell Transplantation,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT00219752,,,2007,"Phase II Trial to Study the Tolerability and the Effectiveness of Imatinib in Patients With Chronic Myelogenous Leukemia in Chronic Phase With Age More Than 70, Diagnosis of CML is Being Performed Within 1 Year",,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT00461825,,,2007,Efficacy and Safety of Maintenance Neoral Compared to Bitherapy Neoral-Imurel or Neoral-CellCept in Renal Transplantation,,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01320384,,,2013,Clinical Effect of the Association of Noninvasive Ventilation and High Flow Nasal Oxygen Therapy in Resuscitation of Patients With Acute Lung Injury. A Randomised Study (FLORALI Study),FLORALI,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02205632,,,2014,,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01823965,,,2014,,,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT00219739,,,2014,A Phase III Prospective Randomized Comparison of Imatinib at a Dose of 400mg in Combination With Peg-Interferon-alpha2a (Peg-IFNa2a) or Cytarabine (Ara-C)Versus Imatinib at a Dose of 600mg Versus Imatinib a Dose of 400mg for Previously Untreated Chronic Myelogenous Leukemia (CML) in Chronic Phase,SPIRIT,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT03186144,,,2015,,CHARGE,GENETIC
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT01628237,,,2015,,ESTIMET,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,,2010-019837-85,,2016,Étude de la toxicité cutanée du cétuximab (anti-Epidermal Growth Factor Receptor): recherche d’un lien entre la réponse inflammatoire cutanée et la réponse radiologique.,,DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,NCT01292356,,,2016,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02930382,,,2016,,BARODEF,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT02797730,,,2016,,EDUCARTPED,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT02193737,,,2016,"Effects of Drinking at PACU Discharge After General Anaesthesia With Airway Control on Aspiration, Vomiting and Patients Comfort.",I-DRINC,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT01958996,,,2016,,,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02703857,,,2016,,PROPHYLOXITINE,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT02725190,,,2017,Effects of Sleep Deprivation on Diaphragm Command During an Inspiratory Endurance Trial in Healthy Volunteers.,NoSleepDiaph,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT02717468,,,2017,Comparative Noninvasive Continuous Cardiac Output by the Clearsight With Invasive Monitoring by Pulsioflex in Abdominal Surgery,CLEARSIGHT,DEVICE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02668458,,,2017,"Comparison of Pre-oxygenation by Non-invasive Ventilation With High-flow Nasal Oxygen Therapy for Intubation of Intensive Care Patients in Cases of Acute Respiratory Failure: A Prospective, Randomized, Controlled Study (FLORALI 2)",FLORALI2,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02515448,,,2017,,GENTAERO,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02920281,,,2017,,WEAN SLEEP 1,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,,2012-005263-27,,2017,"EVALUATION OF EARLY PRE-OPERATIVE INTRAVESICAL INSTILLATION OF MYTOMYCIN-C AFTER TRANSURETHRAL RESECTION OF BLADDER TUMOR COMPARED TO  EARLY POST-OPERATIVE INSTILLATION. A RANDOMIZED MULTICENTER STUDY. 
  
  
- Evaluation de la mitomycine C en installation pré-opératoire immédiate (IPOI) des résections endoscopiques des tumeurs de vessie comparée à l’installation post-opératoire précoce (IPOP).Etude multicentrique randomisée.",,
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02825121,,,2017,,CurHaTOF,DEVICE
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02725190,,,2017,Effects of Sleep Deprivation on Diaphragm Command During an Inspiratory Endurance Trial in Healthy Volunteers.,NoSleepDiaph,BEHAVIORAL
-⬛,4,4: pas de résultats postés ni publiés,NCT02821897,,,2017,Value of Target-controlled Intravenous Anaesthesia (TCIVA) to Optimize Coverage of the Low Back Pain Territory in Patients With Chronic Refractory Postoperative Multifocal Low Back and Legpain,AIVOC,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT03644836,,,2018,Interest of Branched Chain Amino Acids Associated With a Respiratory Rehabilitation Program in Patients Broncho Chronic Obstructive Pulmonary Disease. Randomized Study Against Placebo,REHABAAR,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02320474,,,2018,Efficacy of Aflibercept (Eylea®) on Choroidal Neovascularization (Type 3),ATTRACT,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02534974,,,2018,,AGATE,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03121482,,,2018,High-flow Nasal Cannula Oxygen Therapy With or Without Non-invasive Ventilation (NIV) During the Weaning Period: a Multicenter Randomized Controlled Trial,HIGH-WEAN,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03634878,,,2018,Evaluation of the Position of Promontofixation Prostheses in Perineal Ultrasound,PROMONOTECHO,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03198637,,,2018,,,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT03025841,,,2018,Population Pharmacokinetic (PK) Study of Zinforo (Ceftaroline) in Critical Care Patients With Early-onset Pneumonia and Normal or Augmented Renal Clearance,CEFTAREA,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02941952,,,2018,,CLEARPICCO,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03747874,,,2018,Prevalence of Obstructive Sleep Apnea Syndrome in Patients With a History of Sudden Sensorineural Hearing Loss,SAS-SB,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT02110888,,,2018,,,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02931227,,,2018,,TempCore,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT03211676,,,2018,"Comparison of Hemodialysis With Medium Cut-off Dialyzer (Theranova) and High Flux Dialyzer on Removal of Small and Middle Size Molecules, Inflammatory Parameters and Oxidative Stress. An Open Cross Over Randomized Study",THERANOVA,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03456557,,,2018,The Use of Perfusion CT Derived Parameters as Early Acute Pancreatitis Severity Biomarker Compared to Clinico Biological Score,K-PA,RADIATION
-⬛,4,4: pas de résultats postés ni publiés,NCT02964130,,,2019,"A Multicenter Prospective Study on Failed Back Surgery Syndrome Pathway Optimization: A Focus on Patient Identification, Chronicization Factors and Outcome Predictors",PREDIBACK,OTHER
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03757143,,,2019,"Skin Antisepsis With Chlorhexidine-Alcohol Versus Povidone Iodine-Alcohol, Combined or Not With Use of a Bundle of New Devices, for Prevention of Intravascular-catheter Colonization and Catheter Failure: An Open Label, Single Center, Randomized Controlled, Two-by-two Factorial Trial",CLEAN3,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03981042,,,2019,Comparison Between the Neuromuscular Blockade Onset Monitoring and the Expectation of a Fixed Delay After Curarization on the Quality of Laryngoscopy During Intubation in Elective Surgery (MONITURARE),MONITURARE,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03847740,,,2019,Safety and Feasibility of a New Neuromuscular Monitoring Device,MONITOF,DEVICE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02978300,,,2019,High-Flow Nasal Cannula Oxygen Therapy (HFNC) Alone or Associated With Noninvasive Ventilation (NIV) for Immunocompromised Patients Admitted to Intensive Care Unit for Acute Respiratory Failure : FLORALI-Immunodéprimés,FLORALI-IM,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03250871,,,2019,Hypnosis Contribution to Interventional Electrophysiology Performed Under Local Anesthesia and Morphine Titration Study PAINLESS : Does Hypnosis Reduce Pain in Electrophysiology Procedures ?,PAINLESS,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03537105,,,2019,Analysis of Cytokine Expression Pattern in Systemic Sclerosis: Study of the Role of Interleukine-34,SCLEROKINE,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT03227965,,,2019,Immunosuppression's Long Term Impact on Anti-tumoral Oversight in Kidney Transplantation,,BIOLOGICAL
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02273661,,,2019,Evaluation of a Therapeutic Strategy Including Nebulised Liposomal Amphotericin B (Ambisome®) in Maintenance Treatment of Allergic Bronchopulmonary Aspergillosis (Cystic Fibrosis Excluded),NEBULAMB,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02482883,,,2019,"Evaluation of the Efficacy of Transcutaneous Trigeminal Nerve Stimulation for Prevention of Cerebral Vasospasm and Its Consequences After Subarachnoid Haemorrhage Due to Ruptured Aneurysm: a Multicentre, Randomized, Double-blind Study",TRIVASOSTIM,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT02265406,,,2020,PROPHY-VAP: Prevention of Early Ventilation Acquired Pneumonia (VAP) in Brain Injured Patients by a Single Dose of Ceftriaxone,PROPHY-VAP,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02151695,,,2020,Phase 2 Study of Safety and Efficacy of Aflibercept in Proliferative Diabetic Retinopathy.,,PROCEDURE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04371965,,,2020,"Povidone Iodine Mouthwash, Gargle, and Nasal Spray to Reduce Naso- Pharyngeal Viral Load in Patients With SARS-CoV-2",KILLER,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT03461094,,,2020,Fluid Responsiveness Evaluation in Patients With Acute Circulatory Failure and Arrhythmia With Atrial Fibrillation: Indice Delta ITV / Delta RR,,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03566004,,,2020,Performance of a Non-invasive Test for the Detection of Helicobacter Pylori and Its Resistance to Clarithromycin in Stool by Real-Time PCR Amplidiag H. Pylori + ClariR (Mobidiag),HEPYSTOOL,DIAGNOSTIC_TEST
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03233984,,,2020,Effect of an Environmental Health Education Program on Pregnant Women in Order to Reduce Endocrine Disruptor Exposition : Controled Randomized Trial on Primary Prevention,,BEHAVIORAL
-⬛,4,4: pas de résultats postés ni publiés,NCT03389984,,,2020,Characterization of the Initial Psoriatic Skin Transcriptionnl Profile Associated to a Response to Adalimumab Therapy,IMPRA,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT02334488,,,2020,"Prospective Multicenter Randomized Openlabel Study to Evaluate the Benefit on Renal Function at 12months Post-transplantation of Immunosuppressive Treatment With Withdrawal of Calcineurin Inhibitor at 3months and Combining Mycophenolate Sodium-Everolimus Versus Tacrolimus-Everolimus, in Patients With de Novo Kidney Transplant",,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT03404427,,,2020,Effects of Sleep Privation on Sensorimotor Integration of the Upper Limb During a Manual Endurance Test in Healthy Volunteers-Physiological Study,,BEHAVIORAL
-⬛,4,4: pas de résultats postés ni publiés,NCT04387955,,,2021,Analysis of Chilblains Profile During COVID-19 Epidemic,ACROVID,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT03496285,,,2021,Multimodal MRI Study of Accumbofrontal Tract in Anorexia Nervosa and Obessional Compulsive Disorder : Search for Structural and Functional Changes Between Orbito-frontal Cortex and Accumbens Nucleus Subdivisions,ACCUMBENS,RADIATION
-⬛,4,4: pas de résultats postés ni publiés,NCT04978740,,,2021,Ocular and Palpebral Manifestations of Mastocytosis (MOOMA),,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03344263,,,2021,Study of the Reversibility of Vigilance Dysfunction at 6 Months of Continuous Positive Airways Pressure (CPAP) in Patients With Obstructive Sleep,VISA,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT03209843,,,2021,Post-stenting Assessment of Reendothelialization With OFDI After CTO Procedure,PERFECTO,PROCEDURE
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT04034797,,,2021,AmbulaNCE Teletransmited PHOtography for Trauma REgulation,NiCEPHORE,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03856983,,,2021,Benefits of Observing Point-light Displays in Postoperative Rehabilitation of the Total Knee Prosthesis.,LOARAL,OTHER
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03014583,,,2021,"Prospective, Randomized Study Comparing Conventional, Burst And High Frequency (HF) Spinal Cord Stimulation (SCS) in Refractory Failed Back Surgery Syndrome (FBSS) Patients After a 32-contact Surgical Lead Implantation",MULTIWAVE,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03105921,,,2021,Intérêt de l'électroporation irréversible Dans le Traitement de l'adénocarcinome du pancréas,,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT02463617,,,2021,Impulsivity and Parkinson's Disease : a Neuropsychology With Magnetic Resonance Imaging Study,,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03374930,,,2021,Influence of Oesophageal Contractile Reserve in High Resolution Manometry on Post Operative Dysphagia After Anti-reflux Surgery,,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT04118725,,,2021,Assessment of Muscular Respiratory Involvement in Systemic Sclerosis,SIROCO,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT04391660,,,2021,"Estimation of the Incidence of Colonization of Peripheral Venous Catheters After Skin Disinfection With 0.5% Sodium Hypochlorite, Preceded or Not by an Application of 70% Ethanol: Pilot, Monocentric, Randomized, Open-label Study",DACLEAN,DRUG
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04227639,,,2021,T-piece Versus Pressure-support for the Spontaneous Breathing Trial Before Extubation in Patients at High-risk of Reintubation: a Multicenter Randomized Controlled Trial,TiP-Ex,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT05003024,,,2021,"Comparison of Train of Four, Tetanus 50 Hz and Tetanus 100 Hz Recovery Following Rocuronium Induced Neuromuscular Block Reversed by Sugamamdex",,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03497832,,,2022,Diurnal Variations of Cerebral Metabolite Concentrations in Proton Magnetic Resonance Spectroscopy,Dyn24,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT05158010,,,2022,Advancing Tools for Human Early Lifecourse Exposome Research and Translation- Adolescence Follow-up of the HELIX Subcohort,ATHLETE,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04792879,,,2022,Assessment of Peripheral Veins Doppler Ultrasound for Diagnosis of Acute Right Heart Failure in Suspicion or Follow-up of Pulmonary Hypertension,CODOVEIN,DIAGNOSTIC_TEST
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03560193,,,2022,"An Open Label, Multicenter, Randomized Trial of 2% Chlorhexidine-70% Isopropanol vs 5% Povidone Iodine-69% Ethanol for Skin Antisepsis in Reducing Surgical-site Infection After Cardiac Surgery",CLEAN2,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT04387253,,,2022,Study of Late Fetal Loss in Poitou-Charentes. GYNE-COVID,,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,,2021-000304-38,,2022,Tumescent anesthesia efficiency in pain management during a dynamic phototherapy session in vertex actinic keratosis treatment: a single-center prospective randomized study.,,
-⬛,4,4: pas de résultats postés ni publiés,NCT04456972,,,2022,"Pilot Study on the Contribution of Molecular Analysis of Endometrial Cancers: Reliability, and Interest of Circulating Tumor DNA",,DIAGNOSTIC_TEST
-🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02703922,,,2022,Evaluation of a Diagnostic Strategy for Giant Cell Arteritis Based on Color Doppler Ultrasound of Temporal Arteries,ECHORTON,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT05224648,,,2022,"Comparison of Train of Four, Tetanus 50 Hz and Tetanus 100 Hz Recovery Following Rocuronium Induced Neuromuscular Block Reversed by Neostigmine",DECURATOF 2,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT04971213,,,2022,HIgh Flow Nasal Cannula Versus Noninvasive Ventilation for Acute Cardiogenic PuLmonary Oedema With Acute Respiratory Failure in an ED,,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT05231525,,,2022,"Recovery Evaluation of Two Neuromuscular Blockade Monitoring Devices on Abductor Pollicis Muscle, the TOFScan and the Wireless WiTOF",,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT05064839,,,2023,Imaging for the Evaluation of Transthyretin Cardiac Amyloidosis Prevalence of Patients Over 65 Hospitalized in Cardiology Wards (the IMPACT Study),IMPACT,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT05404425,,,2023,Non-severe Traumatic Injuries Evaluation Using smartPhone Camera for Extra-hospital Regulation,NIEPCE,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT03481569,,,2023,Population Pharmacokinetic-pharmacodynamic (PK-PD) Study of 9 Broad-Spectrum Anti-infective Agents in the Cerebro Spinal Fluid (CSF) of Brain Injured Patients With an External Ventricular Drainage (EVD).,,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT06533982,,,2023,Effect of Different Exercise Modalities on Cardiovascular and Cognitive Response in Postmenopausal Women With and Without Vasomotor Symptoms,WOMEN-EX-MOD,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT03863041,,,2023,Study of Phosphorylated Metabolism Profile as Predictive Biomarker of Cognitive Decline in Memory Complaint.,,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT04936880,,,2023,Pilot Study on the Evaluation of the Effectiveness of a Virtual Reality Device on Anxiety During Procedural Sedation in Traumatology in Emergency Department,VIRTUAL DREAM,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT03389997,,,2024,Assessement of Viral Shedding Duration After a Respiratory Tract Infection in Oncology and Hematology Patients,ONCOVIR,DIAGNOSTIC_TEST
-⬛,4,4: pas de résultats postés ni publiés,NCT05036772,,,2024,Assessment of Patients' Pain and Anxiety During a Hysterosalpingography Narratified by a Virtual Reality Helmet.,Daphné,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT05963672,,,2024,Assessment of Sleep Quality of Hospitalized Patients Treated With EEG-guided Protection Procedures: Application in Intensive Care Unit. (SleepScan),SleepScan,DEVICE
-⬛,4,4: pas de résultats postés ni publiés,NCT05610683,,,2024,Comparison of the Removal of Uremic Toxins With Medium Cut-off and Super High-flux Vitamin E-coated Dialyzers The E-FLUX Randomized Study,E-FLUX,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT03444779,,,2024,"Comparative Evaluation of Minimally Invasive ""tibial Tuberoplasty"" Surgical Technique Versus Conventional Open Surgery for Tibial Plateau Fractures (TUBERIMPACT Study)",TUBERIMPACT,DEVICE
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00845221,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01291537,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01059890,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01061047,,,,,,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00992615,,,,Comparison of 20-core vs 12-core Prostate Biopsy Diagnostic Performance in the Detection of Prostate Cancer,,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT01351142,,,,,,OTHER
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01629550,,,,,CLEAN,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT02545595,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01537614,,,,,COLI-VLM,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01872546,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01673542,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02142075,,,,,DAPTOREA,DRUG
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02424890,,,,,,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT01675986,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01532401,,,,Simplification of the Test of Sensibility in the Salt: Preliminary Study at the Child and the Adult,PLADSEL,OTHER
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01060891,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT00779922,,,,,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01061073,,,,Evaluation of the Efficacy of Tamsulosin (Alpha Blockers) Compared to Phloroglucinol in Improving JJ Ureteral Stent Tolerance. A Randomized Controlled Trial,,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT01649726,,,,,,PROCEDURE
-⬛,4,4: pas de résultats postés ni publiés,NCT01711060,,,,,,PROCEDURE
+ Evaluation de la mitomycine C en installation pré-opératoire immédiate (IPOI) des résections endoscopiques des tumeurs de vessie comparée à l’installation post-opératoire précoce (IPOP).Etude multicentrique randomisée.",,DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,NCT02821897,,,2017,Value of Target-controlled Intravenous Anaesthesia (TCIVA) to Optimize Coverage of the Low Back Pain Territory in Patients With Chronic Refractory Postoperative Multifocal Low Back and Legpain,AIVOC,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03447457,,,2017,Early Initiation of High-flow Nasal Cannula Oxygen Therapy in Patients With Acute Respiratory Failure in the Emergency Department: A Before-after Study,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03367065,,,2017,,PERFE-CT,RADIATION
+⬛,4,4 : pas de résultats postés ni publiés,NCT02399709,,,2017,"Pilot Randomized Double Blind, Placebo Controlled Trial of the Efficacy of Simvastatin for Smoking Cessation",ADDICSTATINE,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02869828,,,2017,,TEMP CORE BLOC,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03223506,,,2017,Validation of a Physiological Based Pharmacokinetic Model by the Study of Paracetamol Distribution in the Brain Compartments in Brain Injured Patients,,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02825121,,,2017,,CurHaTOF,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03439644,,,2017,Physiological Upper Eyelid Laxity,LAX,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03747874,,,2018,Prevalence of Obstructive Sleep Apnea Syndrome in Patients With a History of Sudden Sensorineural Hearing Loss,SAS-SB,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT02931227,,,2018,,TempCore,PROCEDURE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02534974,,,2018,,AGATE,DEVICE
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT03025841,,,2018,Population Pharmacokinetic (PK) Study of Zinforo (Ceftaroline) in Critical Care Patients With Early-onset Pneumonia and Normal or Augmented Renal Clearance,CEFTAREA,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02941952,,,2018,,CLEARPICCO,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02110888,,,2018,,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03634878,,,2018,Evaluation of the Position of Promontofixation Prostheses in Perineal Ultrasound,PROMONOTECHO,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03198637,,,2018,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT03211676,,,2018,"Comparison of Hemodialysis With Medium Cut-off Dialyzer (Theranova) and High Flux Dialyzer on Removal of Small and Middle Size Molecules, Inflammatory Parameters and Oxidative Stress. An Open Cross Over Randomized Study",THERANOVA,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03456557,,,2018,The Use of Perfusion CT Derived Parameters as Early Acute Pancreatitis Severity Biomarker Compared to Clinico Biological Score,K-PA,RADIATION
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03121482,,,2018,High-flow Nasal Cannula Oxygen Therapy With or Without Non-invasive Ventilation (NIV) During the Weaning Period: a Multicenter Randomized Controlled Trial,HIGH-WEAN,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03644836,,,2018,Interest of Branched Chain Amino Acids Associated With a Respiratory Rehabilitation Program in Patients Broncho Chronic Obstructive Pulmonary Disease. Randomized Study Against Placebo,REHABAAR,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02320474,,,2018,Efficacy of Aflibercept (Eylea®) on Choroidal Neovascularization (Type 3),ATTRACT,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT03847740,,,2019,Safety and Feasibility of a New Neuromuscular Monitoring Device,MONITOF,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02978300,,,2019,High-Flow Nasal Cannula Oxygen Therapy (HFNC) Alone or Associated With Noninvasive Ventilation (NIV) for Immunocompromised Patients Admitted to Intensive Care Unit for Acute Respiratory Failure : FLORALI-Immunodéprimés,FLORALI-IM,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03227965,,,2019,Immunosuppression's Long Term Impact on Anti-tumoral Oversight in Kidney Transplantation,,BIOLOGICAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT03250871,,,2019,Hypnosis Contribution to Interventional Electrophysiology Performed Under Local Anesthesia and Morphine Titration Study PAINLESS : Does Hypnosis Reduce Pain in Electrophysiology Procedures ?,PAINLESS,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03757143,,,2019,"Skin Antisepsis With Chlorhexidine-Alcohol Versus Povidone Iodine-Alcohol, Combined or Not With Use of a Bundle of New Devices, for Prevention of Intravascular-catheter Colonization and Catheter Failure: An Open Label, Single Center, Randomized Controlled, Two-by-two Factorial Trial",CLEAN3,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02273661,,,2019,Evaluation of a Therapeutic Strategy Including Nebulised Liposomal Amphotericin B (Ambisome®) in Maintenance Treatment of Allergic Bronchopulmonary Aspergillosis (Cystic Fibrosis Excluded),NEBULAMB,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT03981042,,,2019,Comparison Between the Neuromuscular Blockade Onset Monitoring and the Expectation of a Fixed Delay After Curarization on the Quality of Laryngoscopy During Intubation in Elective Surgery (MONITURARE),MONITURARE,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03537105,,,2019,Analysis of Cytokine Expression Pattern in Systemic Sclerosis: Study of the Role of Interleukine-34,SCLEROKINE,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02482883,,,2019,"Evaluation of the Efficacy of Transcutaneous Trigeminal Nerve Stimulation for Prevention of Cerebral Vasospasm and Its Consequences After Subarachnoid Haemorrhage Due to Ruptured Aneurysm: a Multicentre, Randomized, Double-blind Study",TRIVASOSTIM,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02964130,,,2019,"A Multicenter Prospective Study on Failed Back Surgery Syndrome Pathway Optimization: A Focus on Patient Identification, Chronicization Factors and Outcome Predictors",PREDIBACK,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04371965,,,2020,"Povidone Iodine Mouthwash, Gargle, and Nasal Spray to Reduce Naso- Pharyngeal Viral Load in Patients With SARS-CoV-2",KILLER,DRUG
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02265406,,,2020,PROPHY-VAP: Prevention of Early Ventilation Acquired Pneumonia (VAP) in Brain Injured Patients by a Single Dose of Ceftriaxone,PROPHY-VAP,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03233984,,,2020,Effect of an Environmental Health Education Program on Pregnant Women in Order to Reduce Endocrine Disruptor Exposition : Controled Randomized Trial on Primary Prevention,,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT03461094,,,2020,Fluid Responsiveness Evaluation in Patients With Acute Circulatory Failure and Arrhythmia With Atrial Fibrillation: Indice Delta ITV / Delta RR,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03404427,,,2020,Effects of Sleep Privation on Sensorimotor Integration of the Upper Limb During a Manual Endurance Test in Healthy Volunteers-Physiological Study,,BEHAVIORAL
+⬛,4,4 : pas de résultats postés ni publiés,NCT03566004,,,2020,Performance of a Non-invasive Test for the Detection of Helicobacter Pylori and Its Resistance to Clarithromycin in Stool by Real-Time PCR Amplidiag H. Pylori + ClariR (Mobidiag),HEPYSTOOL,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT02334488,,,2020,"Prospective Multicenter Randomized Openlabel Study to Evaluate the Benefit on Renal Function at 12months Post-transplantation of Immunosuppressive Treatment With Withdrawal of Calcineurin Inhibitor at 3months and Combining Mycophenolate Sodium-Everolimus Versus Tacrolimus-Everolimus, in Patients With de Novo Kidney Transplant",,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02151695,,,2020,Phase 2 Study of Safety and Efficacy of Aflibercept in Proliferative Diabetic Retinopathy.,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03389984,,,2020,Characterization of the Initial Psoriatic Skin Transcriptionnl Profile Associated to a Response to Adalimumab Therapy,IMPRA,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT04391660,,,2021,"Estimation of the Incidence of Colonization of Peripheral Venous Catheters After Skin Disinfection With 0.5% Sodium Hypochlorite, Preceded or Not by an Application of 70% Ethanol: Pilot, Monocentric, Randomized, Open-label Study",DACLEAN,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02463617,,,2021,Impulsivity and Parkinson's Disease : a Neuropsychology With Magnetic Resonance Imaging Study,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04118725,,,2021,Assessment of Muscular Respiratory Involvement in Systemic Sclerosis,SIROCO,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT03105921,,,2021,Intérêt de l'électroporation irréversible Dans le Traitement de l'adénocarcinome du pancréas,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03209843,,,2021,Post-stenting Assessment of Reendothelialization With OFDI After CTO Procedure,PERFECTO,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03496285,,,2021,Multimodal MRI Study of Accumbofrontal Tract in Anorexia Nervosa and Obessional Compulsive Disorder : Search for Structural and Functional Changes Between Orbito-frontal Cortex and Accumbens Nucleus Subdivisions,ACCUMBENS,RADIATION
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT04034797,,,2021,AmbulaNCE Teletransmited PHOtography for Trauma REgulation,NiCEPHORE,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03856983,,,2021,Benefits of Observing Point-light Displays in Postoperative Rehabilitation of the Total Knee Prosthesis.,LOARAL,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03014583,,,2021,"Prospective, Randomized Study Comparing Conventional, Burst And High Frequency (HF) Spinal Cord Stimulation (SCS) in Refractory Failed Back Surgery Syndrome (FBSS) Patients After a 32-contact Surgical Lead Implantation",MULTIWAVE,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03374930,,,2021,Influence of Oesophageal Contractile Reserve in High Resolution Manometry on Post Operative Dysphagia After Anti-reflux Surgery,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03344263,,,2021,Study of the Reversibility of Vigilance Dysfunction at 6 Months of Continuous Positive Airways Pressure (CPAP) in Patients With Obstructive Sleep,VISA,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT04978740,,,2021,Ocular and Palpebral Manifestations of Mastocytosis (MOOMA),,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04227639,,,2021,T-piece Versus Pressure-support for the Spontaneous Breathing Trial Before Extubation in Patients at High-risk of Reintubation: a Multicenter Randomized Controlled Trial,TiP-Ex,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04387955,,,2021,Analysis of Chilblains Profile During COVID-19 Epidemic,ACROVID,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT05003024,,,2021,"Comparison of Train of Four, Tetanus 50 Hz and Tetanus 100 Hz Recovery Following Rocuronium Induced Neuromuscular Block Reversed by Sugamamdex",,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,,2021-000304-38,,2022,Tumescent anesthesia efficiency in pain management during a dynamic phototherapy session in vertex actinic keratosis treatment: a single-center prospective randomized study.,,DRUG (presumed)
+⬛,4,4 : pas de résultats postés ni publiés,NCT03497832,,,2022,Diurnal Variations of Cerebral Metabolite Concentrations in Proton Magnetic Resonance Spectroscopy,Dyn24,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04792879,,,2022,Assessment of Peripheral Veins Doppler Ultrasound for Diagnosis of Acute Right Heart Failure in Suspicion or Follow-up of Pulmonary Hypertension,CODOVEIN,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT04387253,,,2022,Study of Late Fetal Loss in Poitou-Charentes. GYNE-COVID,,DIAGNOSTIC_TEST
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03560193,,,2022,"An Open Label, Multicenter, Randomized Trial of 2% Chlorhexidine-70% Isopropanol vs 5% Povidone Iodine-69% Ethanol for Skin Antisepsis in Reducing Surgical-site Infection After Cardiac Surgery",CLEAN2,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT04971213,,,2022,HIgh Flow Nasal Cannula Versus Noninvasive Ventilation for Acute Cardiogenic PuLmonary Oedema With Acute Respiratory Failure in an ED,,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04456972,,,2022,"Pilot Study on the Contribution of Molecular Analysis of Endometrial Cancers: Reliability, and Interest of Circulating Tumor DNA",,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT05231525,,,2022,"Recovery Evaluation of Two Neuromuscular Blockade Monitoring Devices on Abductor Pollicis Muscle, the TOFScan and the Wireless WiTOF",,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05158010,,,2022,Advancing Tools for Human Early Lifecourse Exposome Research and Translation- Adolescence Follow-up of the HELIX Subcohort,ATHLETE,OTHER
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02703922,,,2022,Evaluation of a Diagnostic Strategy for Giant Cell Arteritis Based on Color Doppler Ultrasound of Temporal Arteries,ECHORTON,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05224648,,,2022,"Comparison of Train of Four, Tetanus 50 Hz and Tetanus 100 Hz Recovery Following Rocuronium Induced Neuromuscular Block Reversed by Neostigmine",DECURATOF 2,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04224246,,,2023,Impact of Gamma-OH on Sleep in ICU Patients Difficult to Wean from Mechanical Ventilation,GO-SLEEP,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT03863041,,,2023,Study of Phosphorylated Metabolism Profile as Predictive Biomarker of Cognitive Decline in Memory Complaint.,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05404425,,,2023,Non-severe Traumatic Injuries Evaluation Using smartPhone Camera for Extra-hospital Regulation,NIEPCE,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT06533982,,,2023,Effect of Different Exercise Modalities on Cardiovascular and Cognitive Response in Postmenopausal Women With and Without Vasomotor Symptoms,WOMEN-EX-MOD,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04936880,,,2023,Pilot Study on the Evaluation of the Effectiveness of a Virtual Reality Device on Anxiety During Procedural Sedation in Traumatology in Emergency Department,VIRTUAL DREAM,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03481569,,,2023,Population Pharmacokinetic-pharmacodynamic (PK-PD) Study of 9 Broad-Spectrum Anti-infective Agents in the Cerebro Spinal Fluid (CSF) of Brain Injured Patients With an External Ventricular Drainage (EVD).,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05064839,,,2023,Imaging for the Evaluation of Transthyretin Cardiac Amyloidosis Prevalence of Patients Over 65 Hospitalized in Cardiology Wards (the IMPACT Study),IMPACT,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05036772,,,2024,Assessment of Patients' Pain and Anxiety During a Hysterosalpingography Narratified by a Virtual Reality Helmet.,Daphné,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05963672,,,2024,Assessment of Sleep Quality of Hospitalized Patients Treated With EEG-guided Protection Procedures: Application in Intensive Care Unit. (SleepScan),SleepScan,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03845790,,,2024,"Pharmacokinetic Study of Vancomycin, Clindamycin And/or Gentamicin Administration During Surgery Using a Microdialysis Procedure",,OTHER
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03444779,,,2024,"Comparative Evaluation of Minimally Invasive ""tibial Tuberoplasty"" Surgical Technique Versus Conventional Open Surgery for Tibial Plateau Fractures (TUBERIMPACT Study)",TUBERIMPACT,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05610683,,,2024,Comparison of the Removal of Uremic Toxins With Medium Cut-off and Super High-flux Vitamin E-coated Dialyzers The E-FLUX Randomized Study,E-FLUX,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT03389997,,,2024,Assessement of Viral Shedding Duration After a Respiratory Tract Infection in Oncology and Hematology Patients,ONCOVIR,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT05786248,,,2024,MOdification of Fluid Distribution in 90 Minutes : Pilot Study - MORFE 90,,OTHER
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00992615,,,,Comparison of 20-core vs 12-core Prostate Biopsy Diagnostic Performance in the Detection of Prostate Cancer,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01351142,,,,,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT01673542,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01061047,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02545595,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01291537,,,,,,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01629550,,,,,CLEAN,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01059890,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01711060,,,,,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01675986,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01872546,,,,,,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT00845221,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01532401,,,,Simplification of the Test of Sensibility in the Salt: Preliminary Study at the Child and the Adult,PLADSEL,OTHER
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT02424890,,,,,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT00779922,,,,,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01649726,,,,,,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01061073,,,,Evaluation of the Efficacy of Tamsulosin (Alpha Blockers) Compared to Phloroglucinol in Improving JJ Ureteral Stent Tolerance. A Randomized Controlled Trial,,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT01537614,,,,,COLI-VLM,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT02142075,,,,,DAPTOREA,DRUG
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01060891,,,,,,DRUG
