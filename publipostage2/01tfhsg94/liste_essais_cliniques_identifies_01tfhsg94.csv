@@ -1,7 +1,7 @@
 statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01239966,,,2015,Safety and Efficacy of Combined Extracorporeal CO2 Removal and Renal Replacement Therapy in Patients With the Acute Respiratory Distress Syndrome and Acute Renal Failure,PARSA,DEVICE
-🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04039711,,,2018,"Evaluation of Vaginal Self-sampling Diagnostic Performances to Identify Genital Infections : A Large, Cross-sectional, Non-inferiority Trial",,PROCEDURE
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02892253,,,2018,Parathyroid Autofluorescence Visualization in Thyroid Surgery: Impact on Postoperative Hypocalcemia. A Randomized Controlled Trial,,DEVICE
+🟩,1,1: résultats postés ou publiés dans les 12 mois,NCT04039711,,,2018,"Evaluation of Vaginal Self-sampling Diagnostic Performances to Identify Genital Infections : A Large, Cross-sectional, Non-inferiority Trial",,PROCEDURE
 ⬛,4,4: pas de résultats postés ni publiés,NCT01042080,,,2019,Effect of Mechanical Ventilation With NAVA and PSV on Inspiratory Muscle Workload and Synchrony in Patients With Chronic Obstructive Pulmonary Disease,NAVASYNC,DEVICE
 ⬛,4,4: pas de résultats postés ni publiés,NCT04159727,,,2020,Gut Microbiota Dysbiosis and Translocation Within Patients Suffering From Diseases Associated With Increased Intestinal Barrier Permeability : IBD and Parkinson,Medibiote1,OTHER
 ⬛,4,4: pas de résultats postés ni publiés,NCT04970563,,,2022,"Detection of Asymptomatic SARS-Cov2 Infected Patients by Detection Dogs: ""Proof of Concept"" Study",,OTHER

@@ -4,15 +4,15 @@ statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_tria
 ⬛,4,4: pas de résultats postés ni publiés,NCT00685581,,,2008,"Rationale, Study Design and Baseline Data of the TRANSQUAL Clinical Trial: A Study to Evaluate the Impact of Different Milk Fatty Acid Profiles on Cardiovascular Risk Factors in Healthy Volunteers; Focus on Trans Fatty Acids",TRANSQUAL WPC,DIETARY_SUPPLEMENT
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00617435,,,2009,,Trans-Insulin,DIETARY_SUPPLEMENT
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00931151,,,2009,,,DIETARY_SUPPLEMENT
+⬛,4,4: pas de résultats postés ni publiés,NCT01209572,,,2010,"Modelling of 24h Energy Expenditure From Heart Rate, Actimetry and Other Parameters Recorded Under Free-living Conditions",Modelheart,DEVICE
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT00862329,,,2010,,,DIETARY_SUPPLEMENT
 ⬛,4,4: pas de résultats postés ni publiés,NCT00690781,,,2010,Effect of Milk Proteins and Protein Feeding Pattern on Body Composition and Protein Metabolism in Energy Restricted Obese Subjects,SURPROL-CF-H,DIETARY_SUPPLEMENT
-⬛,4,4: pas de résultats postés ni publiés,NCT01209572,,,2010,"Modelling of 24h Energy Expenditure From Heart Rate, Actimetry and Other Parameters Recorded Under Free-living Conditions",Modelheart,DEVICE
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT00994526,,,2010,Effect of Processed Meat on Colorectal Carcinogenesis. Study of Mechanisms. Choice of Preventive Strategies,Hemcancer,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT01995162,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities in Free-living Conditions (eMouve 2),,DEVICE
 ⬛,4,4: pas de résultats postés ni publiés,NCT01995253,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities,,DEVICE
+⬛,4,4: pas de résultats postés ni publiés,NCT01995162,,,2013,A Smartphone Application to Evaluate Energy Expenditure and Duration of Moderate-intensity Activities in Free-living Conditions (eMouve 2),,DEVICE
+🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02157805,,,2014,Effect of Technological Processes on Nutritional Quality of Meat Proteins,,OTHER
 ⬛,4,4: pas de résultats postés ni publiés,NCT02473302,,,2014,Preventive Strategies in Colorectal Carcinogenesis Production and Meat Processing,,OTHER
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02354794,,,2014,Effect of Oral Supplementation With One Form of L-arginine on Vascular Endothelial Function in Healthy Subjects Featuring Risk Factors Related to the Metabolic Syndrome.,,DIETARY_SUPPLEMENT
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT02157805,,,2014,Effect of Technological Processes on Nutritional Quality of Meat Proteins,,OTHER
 ⬛,4,4: pas de résultats postés ni publiés,NCT02348554,,,2014,A Smartphone Application to Evaluate Energy Expenditure and Duration of Activities in Free-living Conditions for Overweight and Obese People (eMouve3),eMouve3,BEHAVIORAL
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT03492593,,,2016,Métabolismes Des caroténoïdes Dans la lumière du Tube Digestif de l'Homme Sain,CarotenoiDig,OTHER
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT03265392,,,2018,Digestion: Building a Better Health and Better Understanding the Digestive Processes Thanks to Magnetic Resonance Imaging,DECOUVRIR-M,OTHER

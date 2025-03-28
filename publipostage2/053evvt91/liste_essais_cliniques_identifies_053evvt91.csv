@@ -1,16 +1,16 @@
 statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
-🟥,3,3: résultats postés ou publiés après les 36 mois,NCT03166969,,,2013,,HOLTER-21J,PROCEDURE
 🟥,3,3: résultats postés ou publiés après les 36 mois,NCT01916785,,,2013,A PROSPECTIVE RANDOMIZED PHASE II STUDY EVALUATING THE OPTIMIZATION OF THE RESIDUAL PLASMATIC LEVEL OF DASATINIB (SPRYCEL®) IN PATIENTS NEWLY DIAGNOSED WITH CHRONIC PHASE CHRONIC MYELOGENOUS LEUKAEMIA (CP-CML).,OPTIM-DASA,DRUG
+🟥,3,3: résultats postés ou publiés après les 36 mois,NCT03166969,,,2013,,HOLTER-21J,PROCEDURE
 ⬛,4,4: pas de résultats postés ni publiés,NCT02963545,,,2016,Simultaneous Assessments of Serotonin and Kynurenine Pathways Parameters in Patients Shortly (Less Than 4 Hours and a Half) After the Onset of a Cerebral Infarction,,BIOLOGICAL
-⬛,4,4: pas de résultats postés ni publiés,NCT02882568,,,2016,Analysis of Immune Response In Bacterial Infection of Obese Subject,ARIIBO,BIOLOGICAL
 ⬛,4,4: pas de résultats postés ni publiés,NCT02888964,,,2016,A Study to Assess Efficacy and Safety of Pioglitazone as Add-On Therapy to Imatinib Mesylate in CP-CML Patients in Major Molecular Response,ACTIM,DRUG
-⬛,4,4: pas de résultats postés ni publiés,NCT02896842,,,2016,A Prospective Randomized Phase II Study Evaluating the Monitoring of Imatinib Mesylate (Glivec®) Plasmatic Through Level in Patients Newly Diagnosed With Chronic Phase Chronic Myelogenous Leukaemia (CP-CML).,OPTIMIMATINIB,DRUG
 ⬛,4,4: pas de résultats postés ni publiés,NCT02888990,,,2016,An Open Label Phase II Study to Evaluate the Efficacy and Safety of Induction and Consolidation Therapy With Dasatinib in Combination With Chemotherapy in Patients Aged 55 Years and Over With Philadelphia Chromosome Positive (Ph+ or BCR-ABL+) Acute Lymphoblastic Leukemia (ALL).,EWALLPH01,DRUG
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02883959,,,2016,,Painkiller,OTHER
-⬛,4,4: pas de résultats postés ni publiés,NCT01946750,,,2017,,SERODIFF,BIOLOGICAL
-⬛,4,4: pas de résultats postés ni publiés,NCT02896374,,,2017,Normal and Abnormal Event Related Potentials During Attribution of Intentions to Others and Resolution of Emotional Conflicts in Schizophrenia,SERC,BEHAVIORAL
+⬛,4,4: pas de résultats postés ni publiés,NCT02896842,,,2016,A Prospective Randomized Phase II Study Evaluating the Monitoring of Imatinib Mesylate (Glivec®) Plasmatic Through Level in Patients Newly Diagnosed With Chronic Phase Chronic Myelogenous Leukaemia (CP-CML).,OPTIMIMATINIB,DRUG
+⬛,4,4: pas de résultats postés ni publiés,NCT02882568,,,2016,Analysis of Immune Response In Bacterial Infection of Obese Subject,ARIIBO,BIOLOGICAL
 ⬛,4,4: pas de résultats postés ni publiés,NCT02901015,,,2017,Evaluation and Validation of Social Cognition Battery to Characterize Schizophrenic Patients Functioning (EVACO),EVACO,BEHAVIORAL
 ⬛,4,4: pas de résultats postés ni publiés,NCT03115242,,,2017,Contrast Enhanced Ultrasound of Carotid Plaque in Acute Ischemic Stroke,CUSCAS,OTHER
+⬛,4,4: pas de résultats postés ni publiés,NCT01946750,,,2017,,SERODIFF,BIOLOGICAL
+⬛,4,4: pas de résultats postés ni publiés,NCT02896374,,,2017,Normal and Abnormal Event Related Potentials During Attribution of Intentions to Others and Resolution of Emotional Conflicts in Schizophrenia,SERC,BEHAVIORAL
 🟧,2,2: résultats postés ou publiés entre 12 et 36 mois,NCT02349074,,,2019,Digestive ENdoscopy afTeR Out-of-hospitAl Cardiac arresT,ENTRACT,PROCEDURE
 ⬛,4,4: pas de résultats postés ni publiés,NCT02894177,,,2020,Is Transcutaneous Carbon Dioxide Pressure (tcPCO2) Monitoring During Spontaneous Breathing Trials Useful to Predict Extubation Failure in Mechanically Ventilated Patients in the ICU?,tcPCO2,PROCEDURE
 ⬛,4,4: pas de résultats postés ni publiés,NCT03030482,,,2020,Evaluation of Touch Massage on Anxiety in Critically Ill Patients : a Randomised Controlled Trial Study (REaLAX),REaLAX,PROCEDURE
