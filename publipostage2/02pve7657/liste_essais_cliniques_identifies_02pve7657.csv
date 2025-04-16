@@ -1,0 +1,9 @@
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+⬛,4,4 : pas de résultats postés ni publiés,NCT02700282,,,2016,Impact of Backpack Position on Lung Function and Oxygen Consumption in School-aged Children With Cystic Fibrosis,,BEHAVIORAL
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03058081,,,2018,Acute Effects of High Flow Nasal Support During Exercise in Patients With COPD After Severe Exacerbation,AiRehab,DEVICE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT03069625,,,2019,"Sit-to-stand Test Use in Children and Adolescents With Cystic Fibrosis : Correlations With 6-Minute Walking Test, Quadriceps and Respiratory Muscle Strength and Health Related Quality of Life",,BEHAVIORAL
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03564028,,,2019,Effects of Energy Conservation Technique During Stair Climbing in COPD Patients : a Randomized Controlled Trial,UpstAIR,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03626519,,,2021,Effects of Menthol on Dyspnoea Induced by Exercise in COPD Patients,MEDiC,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT03738501,,,2022,"Slow Expiratory Technique Efficacy on 24 Hours Food Ingestion in Children Under Than 12 Months, Hospitalized for Bronchiolitis : a Randomized Controlled Study",BRONCHIOL-EAT,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04171024,,,2022,Transcutaneous Diaphragm Electrical StimuLAtion in Critically Ill Patients to Prevent Diaphragm Dysfunction,TESLA,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT05492162,,,2023,An Intervention to Promote Health Students' Well-being : a Protocol of a Quasi-experimental Interventional Study in Le Havre,IFPDays,OTHER
