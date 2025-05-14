@@ -1,0 +1,4 @@
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04040023,,,2021,Optimization of Transfusion Use and Interest of the Correction of Iron Deficiencies in Cardiac Surgery Under Extracorporeal Circulation (ECC),PBMc,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT05650853,,,2023,Study of the Biomechanical Anatomy of Ejaculation,,OTHER
+⬛,4,4 : pas de résultats postés ni publiés,NCT04714749,,,2024,Feasibility and Tolerance Study for the Treatment of Varicose Ulcers by Cyanoacrylate Glue,ETUVVE,DEVICE

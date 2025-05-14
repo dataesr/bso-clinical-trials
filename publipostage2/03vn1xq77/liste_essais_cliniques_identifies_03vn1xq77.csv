@@ -1,0 +1,5 @@
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+⬛,4,4 : pas de résultats postés ni publiés,NCT02883465,,,2016,Ultrasound Diagnostic for Diaphragmatic Dysfunction in Reanimation and Influence Over Mechanical Ventilation Weaning Period,ECHODIAPH II,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02810730,,,2016,"Prevalence, With Medical Imaging, of the Parenchymatous and/or Ductal Pancreatic Anomalies of Patients With a 1st Degree Familial History of Pancreatic Adenocarcinoma",PAPAFA,PROCEDURE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT04422977,,,2020,Serological Study of the Exposure of Personnel to Sars-cov-2 in an Urban Hospital Two Months After Managing an Influx of COVID Patients 19,SEROPHUGAC,DIAGNOSTIC_TEST
+⬛,4,4 : pas de résultats postés ni publiés,NCT03113253,,,2021,"The Effect of Tranexamic Acid (TXA) on Blood Loss in Burn Surgery - A Randomized, Double-Blinded Placebo-Controlled Trial",TRANBURN,DRUG

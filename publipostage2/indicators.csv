@@ -27,6 +27,7 @@ ror,sponsor_name,sponsor_article,number_of_trials,number_of_trials_10_years,indi
 029s6hd13,Centre hospitalier universitaire de Poitiers,du,123,91,25 %,19,42 %,91,13 %,19,21 %
 03evbwn87,Centre hospitalier universitaire de Brest,du,97,75,37 %,17,59 %,75,16 %,17,24 %
 02vjkv261,Institut national de la santé et de la recherche médicale,de l',122,78,26 %,14,21 %,78,17 %,14,21 %
+04vhgtv41,Unicancer,de l',92,50,70 %,38,74 %,50,38 %,38,42 %
 058td2q88,Hôpital Foch,de l',98,75,21 %,7,14 %,75,3 %,7,0 %
 01kv58h76,ANRS Maladies infectieuses émergentes,de l',107,42,50 %,21,67 %,42,17 %,21,19 %
 01cmnjq37,Centre Léon-Bérard,du,71,45,47 %,20,60 %,45,16 %,20,10 %
@@ -47,9 +48,9 @@ ror,sponsor_name,sponsor_article,number_of_trials,number_of_trials_10_years,indi
 0495fxg12,Institut Pasteur,de l',17,14,29 %,1,100 %,14,21 %,1,100 %
 047wq3n50,Clinique Ambroise Paré,de la,21,20,35 %,5,80 %,20,30 %,5,60 %
 02d741577,Centre Hospitalier Régional Metz-Thionville,du,15,14,21 %,1,100 %,14,7 %,1,100 %
-02mh9a093,Hôpital de la Salpêtrière,de l',13,8,25 %,0,0 %,8,0 %,0,0 %
 0376kfa34,Centre hospitalier universitaire de Martinique,du,7,7,57 %,1,0 %,7,29 %,1,0 %
 003vg9w96,"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",de l',25,10,60 %,0,0 %,10,0 %,0,0 %
+02mh9a093,Hôpital de la Salpêtrière,de l',13,8,25 %,0,0 %,8,0 %,0,0 %
 04wqvjr21,Centre Hospitalier Intercommunal de Toulon La Seyne sur Mer,du,15,13,31 %,1,100 %,13,8 %,1,100 %
 0103yxp25,Service de santé des armées,du,6,4,0 %,0,0 %,4,0 %,0,0 %
 03bf2nz41,Centre Hospitalier le Mans,du,4,3,67 %,1,100 %,3,67 %,1,100 %
@@ -57,9 +58,33 @@ ror,sponsor_name,sponsor_article,number_of_trials,number_of_trials_10_years,indi
 03ytpa045,Centre Hospitalier Henri Laborit,du,5,4,0 %,0,0 %,4,0 %,0,0 %
 029brtt94,Université Claude-Bernard-Lyon-1,de l',14,13,23 %,0,0 %,13,8 %,0,0 %
 054jcxz87,Groupe Hospitalier Région Mulhouse et Sud Alsace,du,10,10,0 %,0,0 %,10,0 %,0,0 %
-01tfhsg94,Hôpital Européen Marseille,de l',6,6,50 %,0,0 %,6,17 %,0,0 %
 03mkjjy25,Université de Versailles-Saint-Quentin-en-Yvelines,de l',8,1,100 %,1,100 %,1,100 %,1,100 %
+01tfhsg94,Hôpital Européen Marseille,de l',6,6,50 %,0,0 %,6,17 %,0,0 %
 03deam493,Centre hospitalier Annecy Genevois,du,9,6,33 %,1,100 %,6,0 %,1,0 %
-05f82e368,Université Paris-Cité,de l',6,4,25 %,0,0 %,4,0 %,0,0 %
 01zwdgr60,Groupe Hospitalier Diaconesses Croix Saint-Simon,du,7,6,17 %,0,0 %,6,17 %,0,0 %
+05f82e368,Université Paris-Cité,de l',6,4,25 %,0,0 %,4,0 %,0,0 %
 02pve7657,Groupe hospitalier du Havre,du,8,8,38 %,0,0 %,8,25 %,0,0 %
+04q33ey84,Centre hospitalier spécialisé Charles-Perrens,du,1,1,0 %,0,0 %,1,0 %,0,0 %
+01r35jx22,Centre hospitalier Métropole Savoie,du,6,5,20 %,0,0 %,5,20 %,0,0 %
+03vn1xq77,Centre hospitalier Saint-Joseph et Saint-Luc,du,4,4,25 %,1,0 %,4,25 %,1,0 %
+024v1ns19,Hôpital des Quinze-Vingts,de l',2,2,0 %,0,0 %,2,0 %,0,0 %
+0410a8y51,Centre hospitalier de l'Université de Montréal,du,5,5,60 %,0,0 %,5,40 %,0,0 %
+05j1gs298,Hôpital Érasme - Clinique universitaire de Bruxelles,de l',5,4,50 %,1,100 %,4,50 %,1,100 %
+02mqtne57,Hôpital Lariboisière,de l',7,2,100 %,1,100 %,2,50 %,1,100 %
+05tr67282,Hôpital Necker-Enfants malades,de l',4,4,0 %,1,0 %,4,0 %,1,0 %
+02qxa1v47,Centre hospitalier Esquirol,du,6,5,20 %,0,0 %,5,0 %,0,0 %
+03j6rvb05,Hôpital Ambroise-Paré,de l',7,4,25 %,1,100 %,4,0 %,1,0 %
+0246mbd04,Centre Hospitalier Sud Francilien,du,5,4,0 %,0,0 %,4,0 %,0,0 %
+03s4khd80,Cliniques universitaires Saint-Luc,du,4,0,0 %,0,0 %,0,0 %,0,0 %
+033yb0967,Hôpital Henri-Mondor,de l',6,3,0 %,0,0 %,3,0 %,0,0 %
+01m1pv723,Hôpitaux universitaires de Genève,des,1,1,100 %,1,100 %,1,0 %,1,0 %
+02en5vm52,Sorbonne-Université,du,3,0,0 %,0,0 %,0,0 %,0,0 %
+03er61e50,Clinique Pasteur,de la,3,2,50 %,0,0 %,2,50 %,0,0 %
+02mdxv534,Hôpital Fondation Adolphe-de-Rothschild,de l',3,3,0 %,0,0 %,3,0 %,0,0 %
+00yfbr841,Hôpital Armand-Trousseau,de l',4,2,100 %,0,0 %,2,0 %,0,0 %
+01mqmer16,Hoffmann-La Roche,du,2,2,100 %,0,0 %,2,50 %,0,0 %
+035xkbk20,Université d'Aix-Marseille,de l',2,2,0 %,0,0 %,2,0 %,0,0 %
+05c9p1x46,Hôpital Bicêtre,de l',1,1,0 %,0,0 %,1,0 %,0,0 %
+04cfjax51,Fondation Lenval,du,1,1,0 %,0,0 %,1,0 %,0,0 %
+04vfs2w97,Université de Lorraine,de l',1,1,0 %,0,0 %,1,0 %,0,0 %
+016vx5156,hôpital européen Georges-Pompidou,de l',1,1,0 %,0,0 %,1,0 %,0,0 %

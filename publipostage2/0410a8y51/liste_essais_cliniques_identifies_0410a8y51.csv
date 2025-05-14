@@ -1,0 +1,6 @@
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT01670448,2013-002764-12,,2015,The Pectoral Nerve Block (PECBLOCK) for the Treatment of Pain After Breast Cancer Surgery.,PECBLOC,PROCEDURE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT00626912,,,2015,PRET: Patients Prone to Recurrence After Endovascular Treatment. A Randomized Trial Comparing Platinum and Hydrogel-coated Coils,PRET,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT02112435,,,2018,Comparative Study of Efficacy of Titratable Mandibular Advancement Splint Versus Active Mandibular Advancement Splint to Treat Patients With Obstructive Sleep Apnea,SOMNYX,DEVICE
+⬛,4,4 : pas de résultats postés ni publiés,NCT04586556,,,2022,Artificial Intelligence for Real-time Detection and Monitoring of Colorectal Polyps,,DIAGNOSTIC_TEST
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT01340612,,,2023,"Stenting in the Treatment of Large, Wide-necked or Recurring Intracranial Aneurysms",STAT,DEVICE

@@ -1,0 +1,8 @@
+statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
+⬛,4,4 : pas de résultats postés ni publiés,NCT00406198,,,1999,Phase 4 Randomized Multicentric Controlled Study on Impact of Continuous Venovenous Hemofiltration on Organ Failure at the Early Phase of Severe Sepsis,,PROCEDURE
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT00313443,,,2007,Study of Concentrations of Amiodarone in Fat Tissue Obtained by Needle Aspiration in Patients on Chronic Treatment,ATACA,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT01104337,,,2010,Dose-dependent Drug-drug Interaction Between Paracetamol and Warfarin in Adults Receiving Long-term Oral Anticoagulants: A Randomized Controlled Trial,INPAWA2,DRUG
+⬛,4,4 : pas de résultats postés ni publiés,NCT00943969,,,2010,Determinants of Oral Morphine Answer Among Obese Patients Before and After Gastric Bypass,OBEMO,PROCEDURE
+🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT02039362,,,2016,"Prevention of Hepatitis B Virus (HBV) Mother-to-Child (MTC) Transmission by Serovaccination of Newborns and Use of Tenofovir DF During the Last Trimester of Pregnancy in Mothers With HBV DNA Above 100, 000 I.U/mL",,DRUG
+🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02961569,,,2017,"Comparative Study Between the Classical Strategy and a Faster, Daily Collection for the Diagnosis of Contagious Pulmonary Tuberculosis",,PROCEDURE
+⬛,4,4 : pas de résultats postés ni publiés,NCT00390442,,,,Effect of Continuous Positive Airway Pressure as a First Line Therapy in Out-of-Hospital Management of Severe Cardiogenic Pulmonary Edema,,DEVICE
