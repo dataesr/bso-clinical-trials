@@ -1,8 +1,0 @@
-statut_color,statut,statut_name,NCTId,eudraCT,CTIS,completion_year,clinical_trial_title,acronym,intervention_type
-🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03322319,,,2016,acTive scrEening of cArdiac aMyloidosis in the Caribbean's,,PROCEDURE
-🟧,2,2 : résultats postés ou publiés entre 12 et 36 mois,NCT02968875,,,2018,"Alzheimer's Disease and Physiological, Cognitive Function and BDNF Levels of Plasma Adaptation After Exercise Training",MARAE,DEVICE
-🟥,3,3 : résultats postés ou publiés après les 36 mois,NCT02912546,,,2019,Évaluation en IRM (séquence ASL) de la Variation de Perfusion cérébrale liée à la Position Corporelle.,PerfIRMAVC,PROCEDURE
-🟩,1,1 : résultats postés ou publiés dans les 12 mois,NCT03427190,,,2020,Assessment of Preventive Efficacy of an Algorithm Taking Place After Suicide Attempts Among Attempters Admitted to Hospital in the French Overseas Territories,APSOM,OTHER
-⬛,4,4 : pas de résultats postés ni publiés,NCT04605250,,,2020,Respiratory Variability for Respiratory Monitoring During the Postoperative Recovery Period,VariaRessPi,OTHER
-⬛,4,4 : pas de résultats postés ni publiés,NCT04413890,,,2021,Administration of Prostaglandin Gel for Cervical Priming During Induction of Labour Every 12 Hours Versus 24 Hours: a Randomized Superiority Controlled Trial,GELFREQ,DRUG
-⬛,4,4 : pas de résultats postés ni publiés,NCT05564546,,,2023,"Impact of Hydrogen Sulfide on Lung Health: Study of Chronic Exposure of the Population Living on the Atlantic Coast and on the Caribbean Coast, in Martinique, During the Stranding Period and Outside the Stranding Period of Sargassum Seaweeds",SÉSAR,PROCEDURE

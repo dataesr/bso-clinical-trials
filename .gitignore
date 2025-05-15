@@ -22,3 +22,7 @@ notebooks/*
 # Build
 dist
 *.egg-info
+
+# Publipostage
+publipostage
+publipostage2
