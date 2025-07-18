@@ -8,8 +8,14 @@ from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
 def tag_sponsor(x):
     x_normalized = normalize(x)
     for f in ["hopit", "hosp", "universi", "chu ", "ihu ", "cmc ", "gustave roussy", "pasteur",
-              "leon berard", " national", "calmettes", "curie", "direction centrale", "société francaise",
-              "anrs", "inserm", "unicancer"]:
+              "leon berard", " national", "calmettes", "calmette", "curie", "direction centrale", "société francaise",
+              "anrs", "inserm", "unicancer", "polyclinique", "institut régional", "hotel dieu",
+              "imagine institute", "cardiometabolisme", "cardiométabolisme", "foresight", "rythme cardiaque",
+            # CLCC
+              "lutte contre le cancer", "oscar lambret", "baclesse", "aurelle",
+              "becquerel", "roussy", "godinot", "de lorraine", "strasbourg", "institut De cancerologie",
+              "marquis", "francois leclerc", "françois leclerc", "jean perrin", "bérard", "berard",
+              "bergonié", "bergonie", "claudius regaud", "oncopole", "institut du cancer", "lacassagne", "catherine"]:
         if f in x_normalized:
             return "academique"
     return "industriel"
