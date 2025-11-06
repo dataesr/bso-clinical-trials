@@ -1,14 +1,15 @@
 import pandas as pd
+
 from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
 
-url = "https://www.data.gouv.fr/fr/datasets/r/c5d8ca9b-39cb-45eb-817a-e5d41154d732"
+url = "https://www.data.gouv.fr/api/1/datasets/r/56589f33-b66b-4b00-ae5c-fe9dcdc9a6e3"
 
 def get_sirano():
     df = pd.read_csv(url, sep=';', encoding='iso-8859-1')
     sirano_dict = {}
-    for ix, row in df.iterrows():
+    for _, row in df.iterrows():
         if isinstance(row.numero_registre_essais, str):
             nct = row.numero_registre_essais
             if nct not in sirano_dict:
