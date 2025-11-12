@@ -33,8 +33,8 @@ def get_each_sources(date_ct, date_euctr, date_ctis):
 
 
 def merge_all(date_ct, date_euctr, date_ctis):
-    # each field is transformed (transform_ct function) to become a list of element, each element with a source
-    # after merge, the untransform_ct function turns back to a proper schema
+    # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
+    # After merge, the untransform_ct function turns back to a proper schema.
     raw_trials = get_each_sources(date_ct, date_euctr, date_ctis)
     ct_transformed = {}
     for k in raw_trials:

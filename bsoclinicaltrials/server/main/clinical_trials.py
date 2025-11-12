@@ -148,20 +148,6 @@ def parse_study(input_study):
             if doi[-1] == ".":
                 doi = doi[:-1]
             r["doi"] = doi
-    # Type can be result, derived or background (done in enrich)
-    #elt['publications_result'] = []
-    #for r in references:
-    #    if r.get('type').lower() in ['result', 'derived'] and 'protocol' not in r['citation'].lower():
-    #        if 'doi' in r:
-    #            elt['publications_result'].append(r['doi'])
-    #        elif 'pmid' in r:
-    #            elt['publications_result'].append(r['pmid'])
-    #        elif 'citation' in r:
-    #            elt['publications_result'].append(r['citation'])
-    #        else:
-    #            elt['publications_result'].append('other')
-    #elt['has_publications_result'] = len(elt['publications_result']) > 0
-    #elt['has_results_or_publications'] = elt['has_results'] or elt['has_publications_result']
     # IPD individual patient data
     ipd_module = protocol.get('ipdSharingStatementModule', {})
     elt['ipd_sharing'] = ipd_module.get('ipdSharing').capitalize() if isinstance(ipd_module.get('ipdSharing'), str) else ipd_module.get('ipdSharing')
