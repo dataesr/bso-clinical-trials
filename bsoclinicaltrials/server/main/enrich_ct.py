@@ -91,13 +91,14 @@ def enrich(all_ct):
         p['has_publication_oa'] = has_publication_oa
         p['publication_access'] = publication_access
         lead_sponsor = p.get("lead_sponsor")
-        if lead_sponsor:
+        if lead_sponsor and isinstance(lead_sponsor, str):
             lead_sponsor_normalized = sponsors_dict.get(normalize(lead_sponsor))
             if lead_sponsor_normalized:
                 p["lead_sponsor_normalized"] = lead_sponsor_normalized.get("sponsor_normalized")
                 p["ror"] = lead_sponsor_normalized.get("ror")
             else:
                 p["lead_sponsor_normalized"] = lead_sponsor
+            p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
     return res
 
 
@@ -127,8 +128,6 @@ def enrich_ct(ct, sirano_dict):
         delay_start_completion = (
                 pd.to_datetime(ct['study_completion_date']) - pd.to_datetime(ct['study_start_date'])).days
         ct['delay_start_completion'] = delay_start_completion
-    if isinstance(ct.get('lead_sponsor'), str):
-        ct['lead_sponsor_type'] = tag_sponsor(ct['lead_sponsor'])
     french_location_only = None
     location_country = ct.get('location_country', [])
     if isinstance(location_country, list):
