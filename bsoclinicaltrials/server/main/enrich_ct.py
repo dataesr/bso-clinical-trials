@@ -1,5 +1,6 @@
 import pandas as pd
 
+from bsoclinicaltrials.server.main.merge_sources import get_each_sources
 from bsoclinicaltrials.server.main.sirano import get_sirano
 from bsoclinicaltrials.server.main.strings import normalize
 from bsoclinicaltrials.server.main.utils import chunks, get_dois_info
@@ -31,10 +32,10 @@ def enrich(all_ct):
         sponsors_dict[normalize(row.get("sponsor"))] = { "sponsor_normalized" : row.get("sponsor_normalized"), "ror": row.get("ror") }
     for ct in all_ct:
         enriched = enrich_ct(ct, sirano_dict)
-        references = enriched.get('references', [])
-        for r in references:
-            if r.get('doi') and r.get('type') in ['result', 'derived']:
-                dois_to_get.append(r['doi'])
+        for date in enriched.get("results_details", {}):
+            for reference in enriched["results_details"][date]:
+                if reference.get('doi') and reference.get('type') in ['result', 'derived']:
+                    dois_to_get.append(reference['doi'])
         res.append(enriched)
     dois_info_dict = {}
     for c in chunks(list(set(dois_to_get)), 1000):
@@ -44,52 +45,52 @@ def enrich(all_ct):
             doi = info['doi']
             dois_info_dict[doi] = info
     for p in res:
-        has_publication_oa = None
-        p['has_results_or_publications_within_1y'] = False
-        p['has_results_or_publications_within_3y'] = False
-        publication_access = []
-        publications_date = []
-        for r in p['references']:
-            if r.get('doi'):
-                doi = r.get('doi')
-                if doi in dois_info_dict:
-                    for f in ['year', 'published_date', 'oa_details', 'publisher_dissemination', 'observation_dates']:
-                        if f in dois_info_dict[doi]:
-                            r[f] = dois_info_dict[doi][f]
-                if r.get('type') in ['result', 'derived']:
-                    if isinstance(r.get('published_date'), str):
-                        publications_date.append(r.get('published_date'))
-                    if has_publication_oa is None:
-                        has_publication_oa = False
-                    oa_details = r.get('oa_details', {})
-                    if len(oa_details) == 0:
-                        continue
-                    last_obs_date = max(r.get('observation_dates', []))
-                    for obs_date in r.get('oa_details', {}):
-                        if obs_date == last_obs_date:
-                            oa_detail = oa_details[obs_date]
-                            is_oa = oa_detail.get('is_oa', False)
-                            publication_access.append(is_oa)
-                            has_publication_oa = has_publication_oa or is_oa  # at least one publi is oa
-        if publications_date:
-            p['first_publication_date'] = min(publications_date)
-        if isinstance(p.get('results_first_submit_date'), str) and isinstance(p.get('first_publication_date'), str):
-            p['first_results_or_publication_date'] = min(
-                p['results_first_submit_date'], p['first_publication_date'])
-        elif isinstance(p.get('results_first_submit_date'), str):
-            p['first_results_or_publication_date'] = p['results_first_submit_date']
-        elif isinstance(p.get('first_publication_date'), str):
-            p['first_results_or_publication_date'] = p['first_publication_date']
-        if isinstance(p.get('first_results_or_publication_date'), str) and isinstance(p.get('study_completion_date'),
-                                                                                      str):
-            p['delay_first_results_completion'] = (pd.to_datetime(p['first_results_or_publication_date']) - pd.to_datetime(
-                p['study_completion_date'])).days
-            p['has_results_or_publications_within_1y'] = (
-                p['delay_first_results_completion'] <= 365)
-            p['has_results_or_publications_within_3y'] = (
-                p['delay_first_results_completion'] <= 365 * 3)
-        p['has_publication_oa'] = has_publication_oa
-        p['publication_access'] = publication_access
+        for date in p.get("results_details", {}):
+            has_publication_oa = None
+            p["results_details"][date]["has_results_or_publications_within_1y"] = False
+            p["results_details"][date]["has_results_or_publications_within_3y"] = False
+            publication_access = []
+            publications_date = []
+            for reference in p["results_details"][date]:
+                doi = reference.get("doi")
+                if doi:
+                    if doi in dois_info_dict:
+                        for field in ["oa_details", "observation_dates", "published_date", "publisher_dissemination", "year"]:
+                            if field in dois_info_dict[doi]:
+                                reference[field] = dois_info_dict[doi][field]
+                    if reference.get("type") in ["derived", "result"]:
+                        if isinstance(reference.get("published_date"), str):
+                            publications_date.append(reference.get("published_date"))
+                        if has_publication_oa is None:
+                            has_publication_oa = False
+                        oa_details = reference.get("oa_details", {})
+                        if len(oa_details) == 0:
+                            continue
+                        last_obs_date = max(reference.get("observation_dates", []))
+                        for obs_date in reference.get("oa_details", {}):
+                            if obs_date == last_obs_date:
+                                oa_detail = oa_details[obs_date]
+                                is_oa = oa_detail.get("is_oa", False)
+                                publication_access.append(is_oa)
+                                has_publication_oa = has_publication_oa or is_oa  # at least one publi is oa
+            if publications_date:
+                p["results_details"][date]["first_publication_date"] = min(publications_date)
+            if isinstance(p["results_details"][date].get("results_first_submit_date"), str) and isinstance(p["results_details"][date].get("first_publication_date"), str):
+                p["results_details"][date]["first_results_or_publication_date"] = min(
+                    p["results_details"][date]["results_first_submit_date"], p["results_details"][date]["first_publication_date"])
+            elif isinstance(p["results_details"][date].get("results_first_submit_date"), str):
+                p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["results_first_submit_date"]
+            elif isinstance(p["results_details"][date].get("first_publication_date"), str):
+                p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["first_publication_date"]
+            if isinstance(p["results_details"][date].get("first_results_or_publication_date"), str) and isinstance(p["results_details"][date].get("study_completion_date"), str):
+                p["results_details"][date]["delay_first_results_completion"] = (pd.to_datetime(p["results_details"][date]["first_results_or_publication_date"]) - pd.to_datetime(
+                    p["results_details"][date]["study_completion_date"])).days
+                p["results_details"][date]["has_results_or_publications_within_1y"] = (
+                    p["results_details"][date]["delay_first_results_completion"] <= 365)
+                p["results_details"][date]['has_results_or_publications_within_3y'] = (
+                    p["results_details"][date]["delay_first_results_completion"] <= 365 * 3)
+            p["results_details"][date]['has_publication_oa'] = has_publication_oa
+            p["results_details"][date]['publication_access'] = publication_access
         lead_sponsor = p.get("lead_sponsor")
         if lead_sponsor and isinstance(lead_sponsor, str):
             lead_sponsor_normalized = sponsors_dict.get(normalize(lead_sponsor))
@@ -139,25 +140,23 @@ def enrich_ct(ct, sirano_dict):
         else:
             french_location_only = True
     ct['french_location_only'] = french_location_only
-    if ct.get('references') is None:
-        ct['references'] = []
-    references = ct['references']
-    ct['publications_result'] = []
-    for r in references:
-        # Exclude publications whose type is not "result" or "derived", by example "background"
-        # Exclude publications that have the word "protocol" in their title
-        # Exclude publications whose publication year is strictly lower than the study completion year (ie. protocol paper)
-        if r.get('type').lower() in ['result', 'derived'] and 'protocol' not in r['citation'].lower() and ct['study_completion_year'] >= r.get('year') :
-            if 'doi' in r:
-                ct['publications_result'].append(r['doi'])
-            elif 'pmid' in r:
-                ct['publications_result'].append(r['pmid'])
-            elif 'citation' in r:
-                ct['publications_result'].append(r['citation'])
-            else:
-                ct['publications_result'].append('other')
-    ct['has_publications_result'] = len(ct['publications_result']) > 0
-    ct['has_results_or_publications'] = ct['has_results'] or ct['has_publications_result']
+    for date in ct.get("results_details", {}):
+        ct["results_details"][date]['publications_result'] = []
+        for reference in ct["results_details"][date]:
+            # Exclude publications whose type is not "result" or "derived", by example "background"
+            # Exclude publications that have the word "protocol" in their title
+            # Exclude publications whose publication year is strictly lower than the study completion year (ie. protocol paper)
+            if reference.get('type').lower() in ['result', 'derived'] and 'protocol' not in reference['citation'].lower() and ct['study_completion_year'] >= reference.get('year') :
+                if 'doi' in reference:
+                    ct["results_details"][date]['publications_result'].append(reference['doi'])
+                elif 'pmid' in reference:
+                    ct["results_details"][date]['publications_result'].append(reference['pmid'])
+                elif 'citation' in reference:
+                    ct["results_details"][date]['publications_result'].append(reference['citation'])
+                else:
+                    ct["results_details"][date]['publications_result'].append('other')
+        ct["results_details"][date]["has_publications_result"] = len(ct["results_details"][date]["publications_result"]) > 0
+        ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date]["has_results"] or ct["results_details"][date]["has_publications_result"]
     current_status = ct.get('status')
     status_simplified = 'Unknown'
     if current_status in ['Completed']:

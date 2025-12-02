@@ -6,36 +6,62 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 logger = get_logger(__name__)
 
 
-def get_each_sources(date_ct, date_euctr, date_ctis):
-    raw_trials = {}
-    logger.debug(f'getting clinicaltrials data from {date_ct}')
-    df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{date_ct}.json.gz"))
-    df_ct['source'] = 'clinical_trials'
-    raw_trials['NCTId'] = df_ct.to_dict(orient='records')
-    nb_ct_clinical_trials = len(raw_trials['NCTId'])
-    logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
-    
-    logger.debug(f'getting euctr data from {date_euctr}')
-    df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
-    df_euctr['source'] = 'euctr'
-    raw_trials['eudraCT'] = df_euctr.to_dict(orient='records')
-    nb_ct_euctr = len(raw_trials['eudraCT'])
-    logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
+def get_each_sources(dates_ct: list, dates_euctr: list, dates_ctis: list) -> dict:
+    raw_trials = {
+        "NCTId": {},
+        "eudraCT": {},
+        "CTIS": {}
+    }
 
-    logger.debug(f'getting ctis data from {date_ctis}')
-    df_ctis = pd.DataFrame(get_objects("clinical-trials", f"ctis_parsed_{date_ctis}.json.gz"))
-    df_ctis['source'] = 'ctis'
-    raw_trials['CTIS'] = df_ctis.to_dict(orient='records')
-    nb_ct_ctis = len(raw_trials['CTIS'])
-    logger.debug(f"Nb CT from ctis: {nb_ct_ctis}")
+    for date_ct in dates_ct:
+        logger.debug(f'getting clinicaltrials data from {date_ct}')
+        df_ct = pd.DataFrame(get_objects("clinical-trials", f"clinical_trials_parsed_{date_ct}.json.gz"))
+        df_ct['source'] = 'clinical_trials'
+        raw_trials['NCTId'][date_ct] = df_ct.to_dict(orient='records')
+        nb_ct_clinical_trials = len(raw_trials['NCTId'][date_ct])
+        logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
+    
+    for date_euctr in dates_euctr:
+        logger.debug(f'getting euctr data from {date_euctr}')
+        df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
+        df_euctr['source'] = 'euctr'
+        raw_trials['eudraCT'][date_euctr] = df_euctr.to_dict(orient='records')
+        nb_ct_euctr = len(raw_trials['eudraCT'][date_euctr])
+        logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
+
+    for date_ctis in dates_ctis:
+        logger.debug(f'getting ctis data from {date_ctis}')
+        df_ctis = pd.DataFrame(get_objects("clinical-trials", f"ctis_parsed_{date_ctis}.json.gz"))
+        df_ctis['source'] = 'ctis'
+        raw_trials['CTIS'][date_ctis] = df_ctis.to_dict(orient='records')
+        nb_ct_ctis = len(raw_trials['CTIS'][date_ctis])
+        logger.debug(f"Nb CT from ctis: {nb_ct_ctis}")
 
     return raw_trials
 
 
-def merge_all(date_ct, date_euctr, date_ctis):
+def merge_all(dates_ct, dates_euctr, dates_ctis):
+    date_ct = max(dates_ct)
+    date_euctr = max(dates_euctr)
+    date_ctis = max(dates_ctis)
+    raw_trials2 = get_each_sources(dates_ct, dates_euctr, dates_ctis)
+    raw_trials = {}
+    raw_trials["NCTId"] = raw_trials["NCTId"][date_ct]
+    raw_trials["eudraCT"] = raw_trials["eudraCT"][date_euctr]
+    raw_trials["CTIS"] = raw_trials["CTIS"][date_ctis]
+    # Create dict to historicize the references
+    historicize = {}
+    for id_type in raw_trials2:
+        historicize[id_type] = {}
+        for date in raw_trials2[id_type]:
+            if date in [date_ct, date_euctr, date_ctis]:
+                continue
+            historicize[id_type][date] = {}
+            for ct in raw_trials2[id_type][date]:
+                if len(ct.get("references", [])) > 0:
+                    historicize[id_type][date][ct.get(id_type)] = ct.get("references", [])
     # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
     # After merge, the untransform_ct function turns back to a proper schema.
-    raw_trials = get_each_sources(date_ct, date_euctr, date_ctis)
     ct_transformed = {}
     for k in raw_trials:
         ct_transformed[k] = {}
@@ -67,25 +93,33 @@ def merge_all(date_ct, date_euctr, date_ctis):
             for i in current_ids:
                 known_ids.add(i)
     all_ct_final = [untransform_ct(e) for e in all_ct]
-
-    # extra deduplication is needed
+    # Extra deduplication is needed
     all_ct_final.reverse()
     known_ids_dedup = set([])
     all_ct_final_dedup = []
     for ct in all_ct_final:
         skip = False
-        for k in ['NCTId', 'eudraCT', 'CTIS']:
-            if ct.get(k) in known_ids_dedup:
+        for source in ['NCTId', 'eudraCT', 'CTIS']:
+            if ct.get(source) in known_ids_dedup:
                 skip = True
         if skip:
             continue
         all_ct_final_dedup.append(ct)
-        for k in ['NCTId', 'eudraCT', 'CTIS']:
-            if ct.get(k):
-                known_ids_dedup.add(ct[k])
-
+        for source in ['NCTId', 'eudraCT', 'CTIS']:
+            if ct.get(source):
+                known_ids_dedup.add(ct[source])
     for ct in all_ct_final_dedup:
-        ct['snapshot_date'] = max(date_ct, date_euctr, date_ctis)
+        snapshot_date = max(date_ct, date_euctr, date_ctis)
+        ct["snapshot_date"] = snapshot_date
+        for source in ["NCTId", "eudraCT", "CTIS"]:
+            if ct.get("references", False):
+                ct["results_details"] = { snapshot_date: { "references": ct.get("references") } }
+                del ct["references"]
+            if ct.get(source):
+                for date in historicize[source]:
+                    if historicize[source][date].get(ct.get(source)):
+                        if isinstance(ct.get("results_details"), dict):
+                            ct["results_details"][date] = { "references": historicize[source][date][ct.get(source)] }
     set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
     return all_ct_final_dedup
 

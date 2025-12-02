@@ -60,15 +60,18 @@ def parse_all(harvested_data, harvest_date = None):
     }
 
 
-def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_date=None):
-    if to_harvest:
-        harvested_data = harvest()
-        if to_parse:
-            return parse_all(harvested_data, harvest_date)
-    else:
-        if to_parse:
-            harvested_data = get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')
-            return parse_all(harvested_data, harvest_date)
+def harvest_parse_clinical_trials(to_harvest=True, to_parse=True, harvest_dates=[]):
+    response = {}
+    for harvest_date in harvest_dates:
+        if to_harvest:
+            harvested_data = harvest()
+            if to_parse:
+                response = parse_all(harvested_data, harvest_date)
+        else:
+            if to_parse:
+                harvested_data = get_objects('clinical-trials', f'clinical_trials_raw_{harvest_date}.json.gz')
+                response = parse_all(harvested_data, harvest_date)
+    return response
 
 
 # See data model : https://clinicaltrials.gov/data-api/about-api/study-data-structure
