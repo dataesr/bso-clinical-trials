@@ -33,7 +33,7 @@ def enrich(all_ct):
     for ct in all_ct:
         enriched = enrich_ct(ct, sirano_dict)
         for date in enriched.get("results_details", {}):
-            for reference in enriched["results_details"][date]:
+            for reference in enriched["results_details"][date]["references"]:
                 if reference.get('doi') and reference.get('type') in ['result', 'derived']:
                     dois_to_get.append(reference['doi'])
         res.append(enriched)
@@ -51,7 +51,7 @@ def enrich(all_ct):
             p["results_details"][date]["has_results_or_publications_within_3y"] = False
             publication_access = []
             publications_date = []
-            for reference in p["results_details"][date]:
+            for reference in p["results_details"][date]["references"]:
                 doi = reference.get("doi")
                 if doi:
                     if doi in dois_info_dict:
@@ -141,20 +141,19 @@ def enrich_ct(ct, sirano_dict):
             french_location_only = True
     ct['french_location_only'] = french_location_only
     for date in ct.get("results_details", {}):
-        ct["results_details"][date]['publications_result'] = []
-        for reference in ct["results_details"][date]:
+        ct["results_details"][date]["publications_result"] = []
+        for reference in ct["results_details"][date]["references"]:
             # Exclude publications whose type is not "result" or "derived", by example "background"
             # Exclude publications that have the word "protocol" in their title
-            # Exclude publications whose publication year is strictly lower than the study completion year (ie. protocol paper)
-            if reference.get('type').lower() in ['result', 'derived'] and 'protocol' not in reference['citation'].lower() and ct['study_completion_year'] >= reference.get('year') :
-                if 'doi' in reference:
-                    ct["results_details"][date]['publications_result'].append(reference['doi'])
+            if reference.get("type").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower():
+                if "doi" in reference:
+                    ct["results_details"][date]["publications_result"].append(reference["doi"])
                 elif 'pmid' in reference:
-                    ct["results_details"][date]['publications_result'].append(reference['pmid'])
+                    ct["results_details"][date]["publications_result"].append(reference["pmid"])
                 elif 'citation' in reference:
-                    ct["results_details"][date]['publications_result'].append(reference['citation'])
+                    ct["results_details"][date]["publications_result"].append(reference["citation"])
                 else:
-                    ct["results_details"][date]['publications_result'].append('other')
+                    ct["results_details"][date]["publications_result"].append("other")
         ct["results_details"][date]["has_publications_result"] = len(ct["results_details"][date]["publications_result"]) > 0
         ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date]["has_results"] or ct["results_details"][date]["has_publications_result"]
     current_status = ct.get('status')

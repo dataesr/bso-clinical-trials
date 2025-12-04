@@ -35,6 +35,7 @@ def clean_json(elt):
             del elt[f]
     return elt
 
+
 def my_parse_date(x, dayfirst=False):
     if x:
         return parser.parse(x, dayfirst=dayfirst).isoformat()
@@ -56,19 +57,20 @@ def get_dois_info(publications):
     url_upw = os.getenv("PUBLICATIONS_MONGO_SERVICE")
     r = requests.post(f"{url_upw}/enrich", json={"publications": publications,
                       "last_observation_date_only": True, "PUBLIC_API_PASSWORD": PUBLIC_API_PASSWORD})
-    task_id = r.json()['data']['task_id']
-    for i in range(0, 10000):
-        r_task = requests.get(f"{url_upw}/tasks/{task_id}").json()
-        status = r_task['data']['task_status']
+    task_id = r.json()["data"]["task_id"]
+    # Check task status every second during 10 000 seconds
+    for _ in range(0, 10000):
+        redis_task = requests.get(f"{url_upw}/tasks/{task_id}").json()
+        status = redis_task["data"]["task_status"]
         if status == "finished":
-            ans = r_task['data']['task_result']
+            ans = redis_task["data"]["task_result"]
             break
         elif status in ["started", "queued"]:
             time.sleep(1)
             continue
         else:
-            logger.debug("problem in getting doi info")
-            logger.debug(r_task)
+            logger.debug("Problem in getting doi info")
+            logger.debug(redis_task)
             ans = publications
             break
     end = datetime.datetime.now()

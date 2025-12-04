@@ -46,9 +46,9 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     date_ctis = max(dates_ctis)
     raw_trials2 = get_each_sources(dates_ct, dates_euctr, dates_ctis)
     raw_trials = {}
-    raw_trials["NCTId"] = raw_trials["NCTId"][date_ct]
-    raw_trials["eudraCT"] = raw_trials["eudraCT"][date_euctr]
-    raw_trials["CTIS"] = raw_trials["CTIS"][date_ctis]
+    raw_trials["NCTId"] = raw_trials2["NCTId"][date_ct]
+    raw_trials["eudraCT"] = raw_trials2["eudraCT"][date_euctr]
+    raw_trials["CTIS"] = raw_trials2["CTIS"][date_ctis]
     # Create dict to historicize the references
     historicize = {}
     for id_type in raw_trials2:
@@ -59,7 +59,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             historicize[id_type][date] = {}
             for ct in raw_trials2[id_type][date]:
                 if len(ct.get("references", [])) > 0:
-                    historicize[id_type][date][ct.get(id_type)] = ct.get("references", [])
+                    historicize[id_type][date][ct.get(id_type)] = { "has_results": ct.get("has_results"), "references": ct.get("references", [])}
     # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
     # After merge, the untransform_ct function turns back to a proper schema.
     ct_transformed = {}
@@ -108,19 +108,20 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
         for source in ['NCTId', 'eudraCT', 'CTIS']:
             if ct.get(source):
                 known_ids_dedup.add(ct[source])
+    snapshot_date = max(date_ct, date_euctr, date_ctis)
     for ct in all_ct_final_dedup:
-        snapshot_date = max(date_ct, date_euctr, date_ctis)
         ct["snapshot_date"] = snapshot_date
         for source in ["NCTId", "eudraCT", "CTIS"]:
             if ct.get("references", False):
-                ct["results_details"] = { snapshot_date: { "references": ct.get("references") } }
+                ct["results_details"] = { snapshot_date: { "has_results": ct.get("has_results"), "references": ct.get("references") } }
+                del ct["has_results"]
                 del ct["references"]
             if ct.get(source):
                 for date in historicize[source]:
                     if historicize[source][date].get(ct.get(source)):
                         if isinstance(ct.get("results_details"), dict):
-                            ct["results_details"][date] = { "references": historicize[source][date][ct.get(source)] }
-    set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{ct['snapshot_date']}.json.gz")
+                            ct["results_details"][date] = historicize[source][date][ct.get(source)]
+    set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{snapshot_date}.json.gz")
     return all_ct_final_dedup
 
 
