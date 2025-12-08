@@ -55,7 +55,8 @@ def enrich(all_ct):
                 doi = reference.get("doi")
                 if doi:
                     if doi in dois_info_dict:
-                        for field in ["oa_details", "observation_dates", "published_date", "publisher_dissemination", "year"]:
+                        # for field in ["oa_details", "observation_dates", "published_date", "publisher_dissemination", "year"]:
+                        for field in ["observation_dates", "published_date", "publisher_dissemination", "year"]:
                             if field in dois_info_dict[doi]:
                                 reference[field] = dois_info_dict[doi][field]
                     if reference.get("type") in ["derived", "result"]:
@@ -63,13 +64,14 @@ def enrich(all_ct):
                             publications_date.append(reference.get("published_date"))
                         if has_publication_oa is None:
                             has_publication_oa = False
-                        oa_details = reference.get("oa_details", {})
+                        oa_details = dois_info_dict.get(doi, {}).get("oa_details", {})
                         if len(oa_details) == 0:
                             continue
                         last_obs_date = max(reference.get("observation_dates", []))
-                        for obs_date in reference.get("oa_details", {}):
+                        for obs_date in oa_details:
                             if obs_date == last_obs_date:
                                 oa_detail = oa_details[obs_date]
+                                reference["oa_details_latest"] = oa_detail
                                 is_oa = oa_detail.get("is_oa", False)
                                 publication_access.append(is_oa)
                                 has_publication_oa = has_publication_oa or is_oa  # at least one publi is oa
@@ -82,9 +84,9 @@ def enrich(all_ct):
                 p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["results_first_submit_date"]
             elif isinstance(p["results_details"][date].get("first_publication_date"), str):
                 p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["first_publication_date"]
-            if isinstance(p["results_details"][date].get("first_results_or_publication_date"), str) and isinstance(p["results_details"][date].get("study_completion_date"), str):
+            if isinstance(p["results_details"][date].get("first_results_or_publication_date"), str) and isinstance(p.get("study_completion_date"), str):
                 p["results_details"][date]["delay_first_results_completion"] = (pd.to_datetime(p["results_details"][date]["first_results_or_publication_date"]) - pd.to_datetime(
-                    p["results_details"][date]["study_completion_date"])).days
+                    p["study_completion_date"])).days
                 p["results_details"][date]["has_results_or_publications_within_1y"] = (
                     p["results_details"][date]["delay_first_results_completion"] <= 365)
                 p["results_details"][date]['has_results_or_publications_within_3y'] = (
