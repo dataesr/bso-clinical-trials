@@ -187,3 +187,18 @@ def dump_to_object_storage(args: dict) -> list:
     os.system(f'rm -rf {output_json_file}')
     os.system(f'rm -rf {output_csv_file}.gz')
     return [uploaded_file_json, uploaded_file_csv]
+
+
+def get_millesime(x: str) -> str:
+    if x[0:4] < '2021':
+        return x[0:4]
+    month = int(x[4:6])
+    if 1 <= month <= 3:
+        return x[0:4] + 'Q1'
+    if 4 <= month <= 6:
+        return x[0:4] + 'Q2'
+    if 7 <= month <= 9:
+        return x[0:4] + 'Q3'
+    if 10 <= month <= 12:
+        return x[0:4] + 'Q4'
+    return 'unk'

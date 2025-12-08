@@ -26,7 +26,9 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
-    sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
+    # TODO: use the updated version of this file for the next release of the BSO
+    # sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
+    sponsors_df = pd.read_csv("https://raw.githubusercontent.com/dataesr/bso-clinical-trials/c15d46bcf00c37af75752e9d6c1cd854257508ba/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
     sponsors_dict = {}
     for _, row in sponsors_df.iterrows():
         sponsors_dict[normalize(row.get("sponsor"))] = { "sponsor_normalized" : row.get("sponsor_normalized"), "ror": row.get("ror") }
@@ -55,7 +57,6 @@ def enrich(all_ct):
                 doi = reference.get("doi")
                 if doi:
                     if doi in dois_info_dict:
-                        # for field in ["oa_details", "observation_dates", "published_date", "publisher_dissemination", "year"]:
                         for field in ["observation_dates", "published_date", "publisher_dissemination", "year"]:
                             if field in dois_info_dict[doi]:
                                 reference[field] = dois_info_dict[doi][field]
@@ -101,7 +102,9 @@ def enrich(all_ct):
                 p["ror"] = lead_sponsor_normalized.get("ror")
             else:
                 p["lead_sponsor_normalized"] = lead_sponsor
-            p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
+            # TODO: compute if on the "lead_sponsor_normalized" field for the next release of the BSO
+            # p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
+            p["lead_sponsor_type"] = tag_sponsor(lead_sponsor)
     return res
 
 

@@ -1,6 +1,7 @@
 import pandas as pd
 
 from bsoclinicaltrials.server.main.logger import get_logger
+from bsoclinicaltrials.server.main.utils import get_millesime
 from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
@@ -109,18 +110,19 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             if ct.get(source):
                 known_ids_dedup.add(ct[source])
     snapshot_date = max(date_ct, date_euctr, date_ctis)
+    snapshot_millesime = get_millesime(snapshot_date)
     for ct in all_ct_final_dedup:
-        ct["snapshot_date"] = snapshot_date
         for source in ["NCTId", "eudraCT", "CTIS"]:
             if ct.get("references", False):
-                ct["results_details"] = { snapshot_date: { "has_results": ct.get("has_results"), "references": ct.get("references") } }
+                ct["results_details"] = { snapshot_millesime: { "has_results": ct.get("has_results"), "references": ct.get("references") } }
                 del ct["has_results"]
                 del ct["references"]
             if ct.get(source):
                 for date in historicize[source]:
+                    date_millesime = get_millesime(date)
                     if historicize[source][date].get(ct.get(source)):
                         if isinstance(ct.get("results_details"), dict):
-                            ct["results_details"][date] = historicize[source][date][ct.get(source)]
+                            ct["results_details"][date_millesime] = historicize[source][date][ct.get(source)]
     set_objects(all_ct_final_dedup, "clinical-trials", f"merged_ct_{snapshot_date}.json.gz")
     return all_ct_final_dedup
 
