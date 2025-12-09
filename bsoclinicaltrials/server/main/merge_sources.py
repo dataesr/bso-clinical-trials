@@ -110,7 +110,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             if ct.get(source):
                 known_ids_dedup.add(ct[source])
     snapshot_date = max(date_ct, date_euctr, date_ctis)
-    snapshot_millesime = get_millesime(snapshot_date)
+    snapshot_millesime = get_millesime(snapshot_date.replace("-", ""))
     for ct in all_ct_final_dedup:
         for source in ["NCTId", "eudraCT", "CTIS"]:
             if ct.get("references", False):
@@ -119,7 +119,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
                 del ct["references"]
             if ct.get(source):
                 for date in historicize[source]:
-                    date_millesime = get_millesime(date)
+                    date_millesime = get_millesime(date.replace("-", ""))
                     if historicize[source][date].get(ct.get(source)):
                         if isinstance(ct.get("results_details"), dict):
                             ct["results_details"][date_millesime] = historicize[source][date][ct.get(source)]
