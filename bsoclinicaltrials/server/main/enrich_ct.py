@@ -144,7 +144,7 @@ def enrich_ct(ct, sirano_dict):
             french_location_only = False
         else:
             french_location_only = True
-    ct['french_location_only'] = french_location_only
+    ct["french_location_only"] = french_location_only
     for date in ct.get("results_details", {}):
         ct["results_details"][date]["publications_result"] = []
         for reference in ct["results_details"][date]["references"]:
@@ -161,14 +161,14 @@ def enrich_ct(ct, sirano_dict):
                     ct["results_details"][date]["publications_result"].append("other")
         ct["results_details"][date]["has_publications_result"] = len(ct["results_details"][date]["publications_result"]) > 0
         ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date]["has_results"] or ct["results_details"][date]["has_publications_result"]
-    current_status = ct.get('status')
-    status_simplified = 'Unknown'
-    if current_status in ['Completed']:
-        status_simplified = 'Completed'
-    elif current_status in ['Ongoing', 'Recruiting', 'Active, not recruiting', 'Not yet recruiting']:
-        status_simplified = 'Ongoing'
-    ct['status_simplified'] = status_simplified
-    ct['bso_country'] = ['fr']
-    if isinstance(ct.get('NCTId'), str) and ct['NCTId'] in sirano_dict:
-        ct.update(sirano_dict[ct['NCTId']])
+    current_status = ct.get("status")
+    status_simplified = "Unknown"
+    if current_status in ["Completed"]:
+        status_simplified = "Completed"
+    elif current_status in ["Ongoing", "Recruiting", "Active, not recruiting", "Not yet recruiting"]:
+        status_simplified = "Ongoing"
+    ct["status_simplified"] = status_simplified
+    ct["bso_country"] = ["fr"]
+    if isinstance(ct.get("NCTId"), str) and ct["NCTId"] in sirano_dict:
+        ct.update(sirano_dict[ct["NCTId"]])
     return ct

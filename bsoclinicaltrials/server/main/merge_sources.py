@@ -60,7 +60,11 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             historicize[id_type][date] = {}
             for ct in raw_trials2[id_type][date]:
                 if len(ct.get("references", [])) > 0:
-                    historicize[id_type][date][ct.get(id_type)] = { "has_results": ct.get("has_results"), "references": ct.get("references", [])}
+                    historicize[id_type][date][ct.get(id_type)] = {
+                        "has_results": ct.get("has_results"),
+                        "references": ct.get("references", []),
+                        "results_first_submit_date": ct.get("results_first_submit_date")
+                    }
     # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
     # After merge, the untransform_ct function turns back to a proper schema.
     ct_transformed = {}
@@ -114,9 +118,14 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     for ct in all_ct_final_dedup:
         for source in ["NCTId", "eudraCT", "CTIS"]:
             if ct.get("references", False):
-                ct["results_details"] = { snapshot_millesime: { "has_results": ct.get("has_results"), "references": ct.get("references") } }
+                ct["results_details"] = { snapshot_millesime: {
+                    "has_results": ct.get("has_results"),
+                    "references": ct.get("references"),
+                    "results_first_submit_date": ct.get("results_first_submit_date")
+                }}
                 del ct["has_results"]
                 del ct["references"]
+                del ct["results_first_submit_date"]
             if ct.get(source):
                 for date in historicize[source]:
                     date_millesime = get_millesime(date.replace("-", ""))
