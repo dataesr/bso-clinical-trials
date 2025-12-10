@@ -62,7 +62,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             for ct in raw_trials2[id_type][date]:
                 if len(ct.get("references", [])) > 0:
                     historicize[id_type][date][ct.get(id_type)] = {
-                        "has_results": ct.get("has_results"),
+                        "has_results": ct.get("has_results", False),
                         "references": ct.get("references", []),
                         "results_first_submit_date": ct.get("results_first_submit_date")
                     }
@@ -118,7 +118,10 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     snapshot_millesime = get_millesime(snapshot_date.replace("-", ""))
     for ct in all_ct_final_dedup:
         for source in sources:
-            ct["results_details"] = { snapshot_millesime: {}}
+            ct["results_details"] = { snapshot_millesime: {
+                "has_results": False,
+                "references": []
+            }}
             for field in ["has_results", "references", "results_first_submit_date"]:
                 if ct.get(field, False):
                     ct["results_details"][snapshot_millesime][field] = ct.get(field)
