@@ -123,9 +123,12 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
                     "references": ct.get("references"),
                     "results_first_submit_date": ct.get("results_first_submit_date")
                 }}
-                del ct["has_results"]
-                del ct["references"]
-                del ct["results_first_submit_date"]
+                if ct.get("has_results", False):
+                    del ct["has_results"]
+                if ct.get("references", False):
+                    del ct["references"]
+                if ct.get("results_first_submit_date", False):
+                    del ct["results_first_submit_date"]
             if ct.get(source):
                 for date in historicize[source]:
                     date_millesime = get_millesime(date.replace("-", ""))
