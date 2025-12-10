@@ -42,6 +42,7 @@ def get_each_sources(dates_ct: list, dates_euctr: list, dates_ctis: list) -> dic
 
 
 def merge_all(dates_ct, dates_euctr, dates_ctis):
+    sources = ["NCTId", "eudraCT", "CTIS"]
     date_ct = max(dates_ct)
     date_euctr = max(dates_euctr)
     date_ctis = max(dates_ctis)
@@ -73,12 +74,12 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
         for ct in raw_trials[k]:
             ct_transformed[k][ct[k]] = transform_ct(ct)
     matches = {}
-    matches = update_matches(matches, raw_trials["NCTId"], "NCTId", ["eudraCT"])
-    matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", ["NCTId"])
-    matches = update_matches(matches, raw_trials["CTIS"], "CTIS", ["NCTId"])
+    matches = update_matches(matches, raw_trials["NCTId"], "NCTId", "eudraCT")
+    matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", "NCTId")
+    matches = update_matches(matches, raw_trials["CTIS"], "CTIS", "NCTId")
     known_ids = set()
     all_ct = []
-    for current_id_type in ["NCTId", "eudraCT", "CTIS"]:
+    for current_id_type in sources:
         for ct in raw_trials[current_id_type]:
             if ct[current_id_type] in known_ids:
                 continue
@@ -104,31 +105,24 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     all_ct_final_dedup = []
     for ct in all_ct_final:
         skip = False
-        for source in ['NCTId', 'eudraCT', 'CTIS']:
+        for source in sources:
             if ct.get(source) in known_ids_dedup:
                 skip = True
         if skip:
             continue
         all_ct_final_dedup.append(ct)
-        for source in ['NCTId', 'eudraCT', 'CTIS']:
+        for source in sources:
             if ct.get(source):
                 known_ids_dedup.add(ct[source])
     snapshot_date = max(date_ct, date_euctr, date_ctis)
     snapshot_millesime = get_millesime(snapshot_date.replace("-", ""))
     for ct in all_ct_final_dedup:
-        for source in ["NCTId", "eudraCT", "CTIS"]:
-            if ct.get("references", False):
-                ct["results_details"] = { snapshot_millesime: {
-                    "has_results": ct.get("has_results"),
-                    "references": ct.get("references"),
-                    "results_first_submit_date": ct.get("results_first_submit_date")
-                }}
-                if ct.get("has_results", False):
-                    del ct["has_results"]
-                if ct.get("references", False):
-                    del ct["references"]
-                if ct.get("results_first_submit_date", False):
-                    del ct["results_first_submit_date"]
+        for source in sources:
+            ct["results_details"] = { snapshot_millesime: {}}
+            for field in ["has_results", "references", "results_first_submit_date"]:
+                if ct.get(field, False):
+                    ct["results_details"][snapshot_millesime][field] = ct.get(field)
+                del ct[field]
             if ct.get(source):
                 for date in historicize[source]:
                     date_millesime = get_millesime(date.replace("-", ""))
@@ -170,18 +164,17 @@ def untransform_ct(ct):
     return new_ct
 
 
-def update_matches(matches, new_trials, id1_type, other_ids):
+def update_matches(matches, new_trials, id1_type, id2_type):
     for ct in new_trials:
         id1 = ct[id1_type]
-        for id2_type in other_ids:
-            if id2_type in ct and ct[id2_type]:
-                id2 = ct[id2_type]
-                if id1 not in matches:
-                    matches[id1] = []
-                matches[id1].append({ id2_type: id2 })
-                if id2 not in matches:
-                    matches[id2] = []
-                matches[id2].append({ id1_type: id1 })
+        if id2_type in ct and ct[id2_type]:
+            id2 = ct[id2_type]
+            if id1 not in matches:
+                matches[id1] = []
+            matches[id1].append({ id2_type: id2 })
+            if id2 not in matches:
+                matches[id2] = []
+            matches[id2].append({ id1_type: id1 })
     return matches
 
 
