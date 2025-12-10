@@ -122,7 +122,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             for field in ["has_results", "references", "results_first_submit_date"]:
                 if ct.get(field, False):
                     ct["results_details"][snapshot_millesime][field] = ct.get(field)
-                del ct[field]
+                    del ct[field]
             if ct.get(source):
                 for date in historicize[source]:
                     date_millesime = get_millesime(date.replace("-", ""))
