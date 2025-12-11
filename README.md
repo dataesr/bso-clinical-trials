@@ -18,7 +18,7 @@ make release VERSION=X.X.X
 
 ## Courrier
 
-- Pour générer les données, voir notebook/DataGeneration2.ipynb
-- Les outputs sont dans le dossier publipostage2.
-- Pour exclure un promoteur, ajouter son ROR à la liste "excluded_rors" dans la seconde cellule.
-- Pour ajouter un nouveau promoteur, ajouter son ou ses nom(s) dans le fichier bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv.
+- Pour générer les données, exécuter le notebook [notebooks/DataGeneration2.ipynb](https://github.com/dataesr/bso-clinical-trials/blob/main/notebooks/DataGeneration2.ipynb) complet.
+- Les outputs sont alors dans le dossier publipostage2 (non commité).
+- Pour exclure un promoteur, ajouter son ROR à la liste "excluded_rors" dans la seconde cellule du notebook [notebooks/DataGeneration2.ipynb](https://github.com/dataesr/bso-clinical-trials/blob/main/notebooks/DataGeneration2.ipynb).
+- Pour ajouter un nouveau promoteur, ajouter son ou ses nom(s) dans le fichier [bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv](https://github.com/dataesr/bso-clinical-trials/blob/main/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv).
