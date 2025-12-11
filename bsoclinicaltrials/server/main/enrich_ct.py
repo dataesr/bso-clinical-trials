@@ -160,7 +160,7 @@ def enrich_ct(ct, sirano_dict):
                 else:
                     ct["results_details"][date]["publications_result"].append("other")
         ct["results_details"][date]["has_publications_result"] = len(ct["results_details"][date]["publications_result"]) > 0
-        ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date]["has_results"] or ct["results_details"][date]["has_publications_result"]
+        ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date].get("has_results", False) or ct["results_details"][date]["has_publications_result"]
     current_status = ct.get("status")
     status_simplified = "Unknown"
     if current_status in ["Completed"]:
