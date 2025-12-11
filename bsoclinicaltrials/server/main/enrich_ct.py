@@ -147,7 +147,7 @@ def enrich_ct(ct, sirano_dict):
     ct["french_location_only"] = french_location_only
     for date in ct.get("results_details", {}):
         ct["results_details"][date]["publications_result"] = []
-        for reference in ct["results_details"][date]["references"]:
+        for reference in ct["results_details"][date].get("references", []):
             # Exclude publications whose type is not "result" or "derived", by example "background"
             # Exclude publications that have the word "protocol" in their title
             if reference.get("type").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower():
