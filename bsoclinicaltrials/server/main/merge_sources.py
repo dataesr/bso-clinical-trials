@@ -60,12 +60,15 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
                 continue
             historicize[id_type][date] = {}
             for ct in raw_trials2[id_type][date]:
+                historicize[id_type][date][ct.get(id_type)] = {}
                 if len(ct.get("references", [])) > 0:
-                    historicize[id_type][date][ct.get(id_type)] = {
-                        "has_results": ct.get("has_results"),
-                        "references": ct.get("references", []),
-                        "results_first_submit_date": ct.get("results_first_submit_date")
-                    }
+                    historicize[id_type][date][ct.get(id_type)]["references"] = ct.get("references")
+                if ct.get("has_results", False):
+                    historicize[id_type][date][ct.get(id_type)]["has_results"] = ct.get("has_results")
+                if ct.get("results_first_submit_date", False):
+                    historicize[id_type][date][ct.get(id_type)]["results_first_submit_date"] = ct.get("results_first_submit_date")
+                if ct.get("has_results_or_publications", False):
+                    historicize[id_type][date][ct.get(id_type)]["has_results_or_publications"] = ct.get("has_results_or_publications")
     # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
     # After merge, the untransform_ct function turns back to a proper schema.
     ct_transformed = {}
@@ -117,12 +120,21 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     snapshot_date = max(date_ct, date_euctr, date_ctis)
     snapshot_millesime = get_millesime(snapshot_date.replace("-", ""))
     for ct in all_ct_final_dedup:
+        ct["snapshot_date"] = snapshot_date
+        ct["results_details"] = { snapshot_millesime: {}}
+        if ct.get("has_results", False):
+            ct["results_details"][snapshot_millesime]["has_results"] = ct.get("has_results")
+            del ct["has_results"]
+        if ct.get("references", False):
+            ct["results_details"][snapshot_millesime]["references"] = ct.get("references")
+            del ct["references"]
+        if ct.get("results_first_submit_date", False):
+            ct["results_details"][snapshot_millesime]["results_first_submit_date"] = ct.get("results_first_submit_date")
+            del ct["results_first_submit_date"]
+        if ct.get("has_results_or_publications", False):
+            ct["results_details"][snapshot_millesime]["has_results_or_publications"] = ct.get("has_results_or_publications")
+            del ct["has_results_or_publications"]
         for source in sources:
-            ct["results_details"] = { snapshot_millesime: {}}
-            for field in ["has_results", "references", "results_first_submit_date"]:
-                if ct.get(field, False):
-                    ct["results_details"][snapshot_millesime][field] = ct.get(field)
-                    del ct[field]
             if ct.get(source):
                 for date in historicize[source]:
                     date_millesime = get_millesime(date.replace("-", ""))

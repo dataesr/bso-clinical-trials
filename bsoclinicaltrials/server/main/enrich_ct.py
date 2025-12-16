@@ -35,7 +35,7 @@ def enrich(all_ct):
     for ct in all_ct:
         enriched = enrich_ct(ct, sirano_dict)
         for date in enriched.get("results_details", {}):
-            for reference in enriched["results_details"][date]["references"]:
+            for reference in enriched["results_details"][date].get("references", []):
                 if reference.get('doi') and reference.get('type') in ['result', 'derived']:
                     dois_to_get.append(reference['doi'])
         res.append(enriched)
@@ -53,7 +53,7 @@ def enrich(all_ct):
             p["results_details"][date]["has_results_or_publications_within_3y"] = False
             publication_access = []
             publications_date = []
-            for reference in p["results_details"][date]["references"]:
+            for reference in p["results_details"][date].get("references", []):
                 doi = reference.get("doi")
                 if doi:
                     if doi in dois_info_dict:
