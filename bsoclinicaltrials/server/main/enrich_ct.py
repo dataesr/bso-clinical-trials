@@ -1,6 +1,5 @@
 import pandas as pd
 
-from bsoclinicaltrials.server.main.merge_sources import get_each_sources
 from bsoclinicaltrials.server.main.sirano import get_sirano
 from bsoclinicaltrials.server.main.strings import normalize
 from bsoclinicaltrials.server.main.utils import chunks, get_dois_info

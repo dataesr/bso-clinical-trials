@@ -1,8 +1,9 @@
 import datetime
 import requests
+import time
 
 from bsoclinicaltrials.server.main.logger import get_logger
-from bsoclinicaltrials.server.main.utils import my_parse_date
+from bsoclinicaltrials.server.main.utils import chunks, my_parse_date
 from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 
@@ -38,12 +39,14 @@ def harvest():
             break
     # 2. For each French clinical trial, find detailed metadata
     cts_fr = []
-    for ct in cts:
-        # Filter on French clinical trials
-        if "france" in [country.lower().split(":")[0] for country in ct.get("trialCountries")]:
-            r = requests.get(
-                f"https://euclinicaltrials.eu/ctis-public-api/retrieve/{ct.get('ctNumber')}", verify=False)
-            cts_fr.append(r.json())
+    for chunk in chunks(cts, 1000):
+        for ct in chunk:
+            # Filter on French clinical trials
+            if "france" in [country.lower().split(":")[0] for country in ct.get("trialCountries")]:
+                r = requests.get(
+                    f"https://euclinicaltrials.eu/ctis-public-api/retrieve/{ct.get('ctNumber')}", verify=False)
+                cts_fr.append(r.json())
+            time.sleep(1)
     # 3. Save it in Object Storage
     today = datetime.date.today()
     set_objects(cts_fr, container, f"ctis_raw_{today}.json.gz")
@@ -68,7 +71,9 @@ def parse_ctis(ct):
     res["title"] = ct.get("authorizedApplication", {}).get("authorizedPartI", {}).get(
         "trialDetails", {}).get("clinicalTrialIdentifiers", {}).get("fullTitle")
     res["study_start_date"] = ct.get("startDateEU")
-    countries = ct.get("authorizedApplication").get("authorizedPartsII")
+    countries = ct.get("authorizedApplication", {}).get("authorizedPartsII", [])
+    if len(countries) == 0:
+        logger.debug(f"CTIS: No country authorized for {ct.get('ctNumber')}")
     res["enrollment_count"] = sum([country.get("recruitmentSubjectCount", 0) for country in countries])
     # Results
     results = ct.get("results", {})
