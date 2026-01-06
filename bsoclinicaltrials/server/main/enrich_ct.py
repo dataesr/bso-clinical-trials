@@ -25,9 +25,7 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
-    # TODO: use the updated version of this file for the next release of the BSO
-    # sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
-    sponsors_df = pd.read_csv("https://raw.githubusercontent.com/dataesr/bso-clinical-trials/c15d46bcf00c37af75752e9d6c1cd854257508ba/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
+    sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
     sponsors_dict = {}
     for _, row in sponsors_df.iterrows():
         sponsors_dict[normalize(row.get("sponsor"))] = { "sponsor_normalized" : row.get("sponsor_normalized"), "ror": row.get("ror") }
@@ -39,13 +37,14 @@ def enrich(all_ct):
                     dois_to_get.append(reference['doi'])
         res.append(enriched)
     dois_info_dict = {}
-    for c in chunks(list(set(dois_to_get)), 1000):
+    for c in chunks(list(set(dois_to_get)), 500):
         dois_info = get_dois_info(
             [{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
         for info in dois_info:
             doi = info['doi']
             dois_info_dict[doi] = info
     for p in res:
+        p["observation_dates"] = list(p.get("results_details", {}).keys())
         for date in p.get("results_details", {}):
             has_publication_oa = None
             p["results_details"][date]["has_results_or_publications_within_1y"] = False
@@ -101,9 +100,7 @@ def enrich(all_ct):
                 p["ror"] = lead_sponsor_normalized.get("ror")
             else:
                 p["lead_sponsor_normalized"] = lead_sponsor
-            # TODO: compute if on the "lead_sponsor_normalized" field for the next release of the BSO
-            # p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
-            p["lead_sponsor_type"] = tag_sponsor(lead_sponsor)
+            p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
     return res
 
 
@@ -149,7 +146,7 @@ def enrich_ct(ct, sirano_dict):
         for reference in ct["results_details"][date].get("references", []):
             # Exclude publications whose type is not "result" or "derived", by example "background"
             # Exclude publications that have the word "protocol" in their title
-            if reference.get("type").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower():
+            if reference.get("type", "").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower():
                 if "doi" in reference:
                     ct["results_details"][date]["publications_result"].append(reference["doi"])
                 elif 'pmid' in reference:
