@@ -62,7 +62,22 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             for ct in raw_trials2[id_type][date]:
                 historicize[id_type][date][ct.get(id_type)] = {}
                 if len(ct.get("references", [])) > 0:
-                    historicize[id_type][date][ct.get(id_type)]["references"] = ct.get("references")
+                    # Backward compatibility with ClinicalTrials data model v1
+                    # See https://clinicaltrials.gov/data-api/about-api/api-migration
+                    references = ct.get("references")
+                    references2 = []
+                    for reference in references:
+                        if "ReferenceType" in reference:
+                            reference2 = reference
+                            for field in ["ReferenceCitation", "ReferencePMID", "ReferenceType"]:
+                                if field in reference:
+                                    new_field_name = field.lower().replace("reference", "")
+                                    reference2[new_field_name] = reference[field]
+                                    del reference2[field]
+                            references2.append(reference2)
+                        else:
+                            references2.append(reference)
+                    historicize[id_type][date][ct.get(id_type)]["references"] = references2
                 if ct.get("has_results", False):
                     historicize[id_type][date][ct.get(id_type)]["has_results"] = ct.get("has_results")
                 if ct.get("results_first_submit_date", False):
