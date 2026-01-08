@@ -37,7 +37,7 @@ def enrich(all_ct):
                     dois_to_get.append(reference['doi'])
         res.append(enriched)
     dois_info_dict = {}
-    for c in chunks(list(set(dois_to_get)), 500):
+    for c in chunks(list(set(dois_to_get)), 1000):
         dois_info = get_dois_info(
             [{'doi': doi, 'id': f'doi{doi}', 'all_ids': [f'doi{doi}']} for doi in c])
         for info in dois_info:

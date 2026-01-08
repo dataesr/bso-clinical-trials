@@ -80,10 +80,11 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
                     historicize[id_type][date][ct.get(id_type)]["references"] = references2
                 else:
                     historicize[id_type][date][ct.get(id_type)]["references"] = []
-                for field in ["has_results", "has_results_or_publications", "results_first_submit_date"]:
-                    historicize[id_type][date][ct.get(id_type)][field] = ct.get(field, False)
-                    if historicize[id_type][date][ct.get(id_type)][field] is None:
-                        historicize[id_type][date][ct.get(id_type)][field] = False
+                for boolean_field in ["has_results", "has_results_or_publications"]:
+                    historicize[id_type][date][ct.get(id_type)][boolean_field] = ct.get(boolean_field, False)
+                    if historicize[id_type][date][ct.get(id_type)][boolean_field] is None:
+                        historicize[id_type][date][ct.get(id_type)][boolean_field] = False
+                historicize[id_type][date][ct.get(id_type)]["results_first_submit_date"] = ct.get("results_first_submit_date")
     # Each field is transformed (transform_ct function) to become a list of elements, each element with a source.
     # After merge, the untransform_ct function turns back to a proper schema.
     ct_transformed = {}
