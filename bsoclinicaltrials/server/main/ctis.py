@@ -158,8 +158,7 @@ def harvest_parse_ctis(to_harvest=True, to_parse=True, harvest_dates=[]):
         if to_harvest:
             harvested_data = harvest()
         else:
-            harvested_data = [x[0] for x in get_objects(
-                container, f"ctis_raw_{harvest_date}.json.gz")]
+            harvested_data = get_objects(container, f"ctis_raw_{harvest_date}.json.gz")
         if to_parse:
             response = parse(harvested_data, harvest_date)
     return response
