@@ -146,8 +146,7 @@ def enrich_ct(ct, sirano_dict):
         for reference in ct["results_details"][date].get("references", []):
             # Exclude publications whose type is not "result" or "derived", by example "background"
             # Exclude publications that have the word "protocol" in their title
-            # Exclude publications whose publication year is strictly lower than the study completion year (ie. protocol paper)
-            if reference.get("type", "").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower() and ct.get("study_completion_year") and reference.get("year", 9999) >= ct.get("study_completion_year"):
+            if reference.get("type", "").lower() in ["result", "derived"] and "protocol" not in reference["citation"].lower():
                 if "doi" in reference:
                     ct["results_details"][date]["publications_result"].append(reference["doi"])
                 elif 'pmid' in reference:

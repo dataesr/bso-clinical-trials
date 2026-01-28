@@ -8,6 +8,7 @@ url = "https://www.data.gouv.fr/api/1/datasets/r/56589f33-b66b-4b00-ae5c-fe9dcdc
 
 def get_sirano():
     df = pd.read_csv(url, sep=';', encoding='iso-8859-1')
+    df['financement_total'] = df['financement_total'].str.replace(",", ".").astype(float)
     sirano_dict = {}
     for _, row in df.iterrows():
         if isinstance(row.numero_registre_essais, str):
