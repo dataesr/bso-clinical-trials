@@ -4,6 +4,7 @@ from bsoclinicaltrials.server.main.logger import get_logger
 
 logger = get_logger(__name__)
 
+# https://sante.gouv.fr/systeme-de-sante/innovation-et-recherche/l-innovation-et-la-recherche-clinique/appels-a-projets/programmes-recherche
 url = "https://www.data.gouv.fr/api/1/datasets/r/56589f33-b66b-4b00-ae5c-fe9dcdc9a6e3" # MAJ December 5, 2024
 
 def get_sirano():
