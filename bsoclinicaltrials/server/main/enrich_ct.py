@@ -15,7 +15,10 @@ def tag_sponsor(x):
         "lutte contre le cancer", "oscar lambret", "baclesse", "aurelle",
         "becquerel", "roussy", "godinot", "de lorraine", "strasbourg", "institut De cancerologie",
         "marquis", "francois leclerc", "françois leclerc", "jean perrin", "bérard", "berard",
-        "bergonié", "bergonie", "claudius regaud", "oncopole", "institut du cancer", "lacassagne", "catherine"]
+        "bergonié", "bergonie", "claudius regaud", "oncopole", "institut du cancer", "lacassagne", "catherine",
+        # Specific lead_sponsors
+        "Institut Mutualiste Montsouris", "Ecole des Hautes Etudes en Santé Publique",
+        "Etablissement Français du Sang", "Institut de Radioprotection et de Surete Nucleaire"]
     dictionary_normalized = [normalize(x) for x in dictionary]
     for word in dictionary_normalized:
         if word in x_normalized:
