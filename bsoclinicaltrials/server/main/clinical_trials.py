@@ -11,14 +11,40 @@ logger = get_logger(__name__)
 countries = ["france", "french guiana", "guadeloupe", "martinique", "mayotte", "réunion"]
 sponsors = [
     "anrs",
+    "Assistance Publique - Hôpitaux de Paris",
+    "Assistance Publique Hopitaux De Marseille",
+    "Central Hospital, Nancy, France",
+    "Centre Hospitalier St Anne",
+    "Centre Hospitalier Universitaire de Besancon",
+    "Centre Hospitalier Universitaire de la Réunion",
+    "Centre Hospitalier Universitaire de Nice",
+    "Centre Hospitalier Universitaire de Nīmes",
+    "Centre Hospitalier Universitaire de Saint Etienne",
+    "Fondation Ophtalmologique Adolphe de Rothschild",
+    "french national agency for research on aids and viral hepatitis",
+    "Hospices Civils de Lyon",
     "inserm",
     "institut national de la santé et de la recherche médicale",
-    "french national agency for research on aids and viral hepatitis",
+    "Institut Paoli-Calmettes",
+    "Lille Catholic University",
+    "Nantes University Hospital",
+    "Poitiers University Hospital",
+    "Rennes University Hospital",
+    "Université de Reims Champagne-Ardenne",
+    "University Hospital, Angers",
+    "University Hospital, Brest",
+    "University Hospital, Caen",
+    "University Hospital, Grenoble",
+    "University Hospital, Lille",
+    "University Hospital, Montpellier",
+    "University Hospital, Rouen",
+    "University Hospital, Toulouse",
+    "University Hospital, Tours",
 ]
 
 def harvest():
     queries = countries + sponsors
-    queries = ' OR '.join([country.lower() for country in queries])
+    queries = ' OR '.join([query.lower() for query in queries])
     url = "https://clinicaltrials.gov/api/v2/studies?query.term={}&countTotal={}&pageSize=1000"
     r = requests.get(url.format(queries, "true")).json()
     count = r.get("totalCount")
@@ -98,7 +124,7 @@ def parse_study(input_study):
                 elt["eudraCT"] = second_id_elt.get("id")
     elt['title'] = identification_module.get('officialTitle')
     elt['acronym'] = identification_module.get('acronym')
-    #description
+    # Description
     description_module = protocol.get('descriptionModule', {})
     summary = description_module.get('briefSummary')
     if summary:

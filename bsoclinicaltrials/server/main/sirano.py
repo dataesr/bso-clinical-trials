@@ -13,11 +13,12 @@ def get_sirano():
     sirano_dict = {}
     for _, row in df.iterrows():
         if isinstance(row.numero_registre_essais, str):
-            nct = row.numero_registre_essais
-            if nct not in sirano_dict:
-                sirano_dict[nct] = {'financement_total': 0.0, 'financements':[]}
-            sirano_dict[nct]['financements'].append(row.to_dict())
-            if isinstance(row.financement_total, float) or isinstance(row.financement_total, int):
-                sirano_dict[nct]['financement_total'] += row.financement_total
+            ncts = row.numero_registre_essais.split(",")
+            for nct in ncts:
+                if nct not in sirano_dict:
+                    sirano_dict[nct] = {'financement_total': 0.0, 'financements':[]}
+                sirano_dict[nct]['financements'].append(row.to_dict())
+                if isinstance(row.financement_total, float) or isinstance(row.financement_total, int):
+                    sirano_dict[nct]['financement_total'] += row.financement_total
     logger.debug(f'{len(sirano_dict)} essais dans SIRANo')
     return sirano_dict
