@@ -65,12 +65,14 @@ def parse_all(harvested_data, harvest_date = None):
     for d in harvested_data:
         parsed = parse_study(d)
         added = False
+        parsed_countries = [parsed_country.lower() for parsed_country in parsed.get("location_country", [])]
         for country in countries:
-            if (not added) and (country in parsed.get("location_country", [])):
+            if (not added) and (country.lower() in parsed_countries):
                 added = True
                 parsed_data.append(parsed)
+        parsed_collaborators = [parsed_collaborator.lower() for parsed_collaborator in parsed.get("sponsor_collaborators", [])]
         for sponsor in sponsors:
-            if (not added) and (sponsor in ';'.join(parsed.get("sponsor_collaborators", []))):
+            if (not added) and (sponsor.lower() in parsed_collaborators):
                 added = True
                 parsed_data.append(parsed)
     if harvest_date is None:
