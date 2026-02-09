@@ -88,13 +88,19 @@ def enrich(all_ct):
                 p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["results_first_submit_date"]
             elif isinstance(p["results_details"][date].get("first_publication_date"), str):
                 p["results_details"][date]["first_results_or_publication_date"] = p["results_details"][date]["first_publication_date"]
-            if isinstance(p["results_details"][date].get("first_results_or_publication_date"), str) and isinstance(p.get("study_completion_date"), str):
-                p["results_details"][date]["delay_first_results_completion"] = (pd.to_datetime(p["results_details"][date]["first_results_or_publication_date"]) - pd.to_datetime(
-                    p["study_completion_date"])).days
-                p["results_details"][date]["has_results_or_publications_within_1y"] = (
-                    p["results_details"][date]["delay_first_results_completion"] <= 365)
-                p["results_details"][date]['has_results_or_publications_within_3y'] = (
-                    p["results_details"][date]["delay_first_results_completion"] <= 365 * 3)
+            if isinstance(p.get("study_completion_date"), str):
+                if isinstance(p["results_details"][date].get("results_first_submit_date"), str):
+                    p["results_details"][date]["delay_first_results"] = (pd.to_datetime(p["results_details"][date]["results_first_submit_date"]) - pd.to_datetime(p["study_completion_date"])).days
+                    p["results_details"][date]['has_results_within_1y'] = p["results_details"][date]["delay_first_results"] <= 365
+                    p["results_details"][date]['has_results_within_3y'] = p["results_details"][date]["delay_first_results"] <= 365 * 3
+                if isinstance(p["results_details"][date].get("first_publication_date"), str):
+                    p["results_details"][date]["delay_first_publication"] = (pd.to_datetime(p["results_details"][date]["first_publication_date"]) - pd.to_datetime(p["study_completion_date"])).days
+                    p["results_details"][date]['has_publication_within_1y'] = p["results_details"][date]["delay_first_publication"] <= 365
+                    p["results_details"][date]['has_publication_within_3y'] = p["results_details"][date]["delay_first_publication"] <= 365 * 3
+                if isinstance(p["results_details"][date].get("first_results_or_publication_date"), str):
+                    p["results_details"][date]["delay_first_results_completion"] = (pd.to_datetime(p["results_details"][date]["first_results_or_publication_date"]) - pd.to_datetime(p["study_completion_date"])).days
+                    p["results_details"][date]["has_results_or_publications_within_1y"] = p["results_details"][date]["delay_first_results_completion"] <= 365
+                    p["results_details"][date]['has_results_or_publications_within_3y'] = p["results_details"][date]["delay_first_results_completion"] <= 365 * 3
             p["results_details"][date]['has_publication_oa'] = has_publication_oa
             p["results_details"][date]['publication_access'] = publication_access
         lead_sponsor = p.get("lead_sponsor")
