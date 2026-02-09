@@ -61,10 +61,10 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             historicize[id_type][date] = {}
             for ct in raw_trials2[id_type][date]:
                 historicize[id_type][date][ct.get(id_type)] = {}
-                if len(ct.get("references", [])) > 0:
+                references = ct.get("references", [])
+                if len(references) > 0:
                     # Backward compatibility with ClinicalTrials data model v1
                     # See https://clinicaltrials.gov/data-api/about-api/api-migration
-                    references = ct.get("references")
                     references2 = []
                     for reference in references:
                         if "ReferenceType" in reference:
@@ -138,16 +138,16 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
     for ct in all_ct_final_dedup:
         ct["snapshot_date"] = snapshot_date
         ct["results_details"] = { snapshot_millesime: {}}
-        if ct.get("has_results", False):
+        if "has_results" in ct:
             ct["results_details"][snapshot_millesime]["has_results"] = ct.get("has_results")
             del ct["has_results"]
-        if ct.get("references", False):
+        if "references" in ct.get:
             ct["results_details"][snapshot_millesime]["references"] = ct.get("references")
             del ct["references"]
-        if ct.get("results_first_submit_date", False):
+        if "results_first_submit_date" in ct:
             ct["results_details"][snapshot_millesime]["results_first_submit_date"] = ct.get("results_first_submit_date")
             del ct["results_first_submit_date"]
-        if ct.get("has_results_or_publications", False):
+        if "has_results_or_publications" in ct:
             ct["results_details"][snapshot_millesime]["has_results_or_publications"] = ct.get("has_results_or_publications")
             del ct["has_results_or_publications"]
         for source in sources:
