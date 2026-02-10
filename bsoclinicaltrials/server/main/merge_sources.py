@@ -141,7 +141,7 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
         if "has_results" in ct:
             ct["results_details"][snapshot_millesime]["has_results"] = ct.get("has_results")
             del ct["has_results"]
-        if "references" in ct.get:
+        if "references" in ct:
             ct["results_details"][snapshot_millesime]["references"] = ct.get("references")
             del ct["references"]
         if "results_first_submit_date" in ct:
