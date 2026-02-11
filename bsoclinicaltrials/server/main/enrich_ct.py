@@ -30,6 +30,8 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
+    chus_df = pd.read_csv("../bsoclinicaltrials/server/main/chus.csv")
+    chus = list(chus_df["ror"])
     sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
     sponsors_dict = {}
     for _, row in sponsors_df.iterrows():
@@ -108,7 +110,11 @@ def enrich(all_ct):
             lead_sponsor_normalized = sponsors_dict.get(normalize(lead_sponsor))
             if lead_sponsor_normalized:
                 p["lead_sponsor_normalized"] = lead_sponsor_normalized.get("sponsor_normalized")
-                p["ror"] = lead_sponsor_normalized.get("ror")
+                ror = lead_sponsor_normalized.get("ror")
+                p["ror"] = ror
+                p["bso_local_affiliations"] = [ror]
+                if ror in chus:
+                    p["bso_local_affiliations"].append("CHU")
             else:
                 p["lead_sponsor_normalized"] = lead_sponsor
             p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
