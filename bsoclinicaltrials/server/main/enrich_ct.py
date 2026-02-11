@@ -30,7 +30,7 @@ def enrich(all_ct):
     res = []
     dois_to_get = []
     sirano_dict = get_sirano()
-    chus_df = pd.read_csv("../bsoclinicaltrials/server/main/chus.csv")
+    chus_df = pd.read_csv("/src/bsoclinicaltrials/server/main/chus.csv")
     chus = list(chus_df["ror"])
     sponsors_df = pd.read_csv("/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv")
     sponsors_dict = {}
