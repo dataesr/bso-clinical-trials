@@ -94,7 +94,7 @@ def requests_retry_session(retries=10, backoff_factor=0.6, status_forcelist=(500
     return session
 
 
-def pandas_to_csv(df):
+def pandas_to_csv(df, last_results_details):
     def dict_get_dot_notation(dict, field):
         if dict is None:
             return None
@@ -114,9 +114,13 @@ def pandas_to_csv(df):
                 "delay_submission_start", "design_allocation", "enrollment_count",
                 "enrollment_type", "eudraCT", "first_publication_date",
                 "first_results_or_publication_date", "french_location_only",
-                "has_publication_oa", "has_publications_result", "has_results",
-                "has_results_or_publications", "has_results_or_publications_within_1y",
-                "has_results_or_publications_within_3y", "intervention_type", "ipd_sharing",
+                "has_publication_oa",
+                f"results_details.{last_results_details}.has_results",
+                f"results_details.{last_results_details}.has_publications_result",
+                f"results_details.{last_results_details}.has_results_or_publications",
+                f"results_details.{last_results_details}.has_results_or_publications_within_3y",
+                f"results_details.{last_results_details}.has_results_or_publications_within_1y",
+                "intervention_type", "ipd_sharing",
                 "ipd_sharing_description", "lead_sponsor", "lead_sponsor_type", "lead_sponsor_normalized",
                 "sponsor_collaborators", "location_country",
                 "location_facility", "other_ids", "primary_purpose", "publication_access", "publications_result",
@@ -173,8 +177,9 @@ def dump_to_object_storage(args: dict) -> list:
     os.system(cmd_elasticdump)
     logger.debug('Elasticdump is done')
     # 2. Convert JSON file into CSV by selecting fields
+    last_results_details = args.get('last_results_details', '2025Q4')
     df_json = pd.read_json(output_json_file, lines=True)
-    df_csv = pandas_to_csv(df_json)
+    df_csv = pandas_to_csv(df_json, last_results_details)
     df_csv.to_csv(output_csv_file, index=False, sep=",", lineterminator="\r\n")
     cmd_gzip = f'gzip {output_csv_file}'
     logger.debug(cmd_gzip)
