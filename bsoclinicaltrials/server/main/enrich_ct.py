@@ -194,10 +194,8 @@ def enrich(all_ct):
                         )
                         - pd.to_datetime(p["study_completion_date"])
                     ).days
-                    p["results_details"][date]["has_publication_within_1y"] = (
-                        p["results_details"][date]["delay_first_publication"] <= 365
-                    )
-                    p["results_details"][date]["has_publication_within_3y"] = (
+                    p["results_details"][date]["has_publication_within_1y"] = p["results_details"][date]["has_publications_result"] and (p["results_details"][date]["delay_first_publication"] <= 365)
+                    p["results_details"][date]["has_publication_within_3y"] = p["results_details"][date]["has_publications_result"] and (
                         p["results_details"][date]["delay_first_publication"] <= 365 * 3
                     )
                 if isinstance(
@@ -214,13 +212,13 @@ def enrich(all_ct):
                     ).days
                     p["results_details"][date][
                         "has_results_or_publications_within_1y"
-                    ] = (
+                    ] = p["results_details"][date]["has_results_or_publications"] and (
                         p["results_details"][date]["delay_first_results_completion"]
                         <= 365
                     )
                     p["results_details"][date][
                         "has_results_or_publications_within_3y"
-                    ] = (
+                    ] = p["results_details"][date]["has_results_or_publications"] and (
                         p["results_details"][date]["delay_first_results_completion"]
                         <= 365 * 3
                     )
@@ -323,13 +321,8 @@ def enrich_ct(ct, sirano_dict):
                     )
                 else:
                     ct["results_details"][date]["publications_result"].append("other")
-        ct["results_details"][date]["has_publications_result"] = (
-            len(ct["results_details"][date]["publications_result"]) > 0
-        )
-        ct["results_details"][date]["has_results_or_publications"] = (
-            ct["results_details"][date].get("has_results", False)
-            or ct["results_details"][date]["has_publications_result"]
-        )
+        ct["results_details"][date]["has_publications_result"] = len(ct["results_details"][date]["publications_result"]) > 0
+        ct["results_details"][date]["has_results_or_publications"] = ct["results_details"][date].get("has_results", False) or ct["results_details"][date]["has_publications_result"]
     current_status = ct.get("status")
     status_simplified = "Unknown"
     if current_status in ["Completed"]:
