@@ -15,6 +15,7 @@ notebooks/*
 # IDE
 .idea
 .vscode
+.zed
 
 # Logs
 *.log
@@ -26,5 +27,4 @@ dist
 # Publipostage
 publipostage
 publipostage2
-publipostage2.zip
-publipostage_*.zip
+publipostage*.zip
