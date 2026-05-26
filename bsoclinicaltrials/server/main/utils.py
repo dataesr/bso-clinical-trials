@@ -109,7 +109,7 @@ def pandas_to_csv(df, last_results_details):
     csv_data = []
     for d in data:
         elt = {}
-        for field in ["ISRCTN", "NCTId", "WHO", "acronym" ,"all_sources",
+        for field in ["ISRCTN", "NCTId", "CTIS", "WHO", "acronym" ,"all_sources",
                 "delay_first_results_completion", "delay_start_completion",
                 "delay_submission_start", "design_allocation", "enrollment_count",
                 "enrollment_type", "eudraCT", "first_publication_date",
