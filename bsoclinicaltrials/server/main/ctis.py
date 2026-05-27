@@ -122,8 +122,9 @@ def parse_ctis(ct):
         public_contacts = primary_sponsors[0].get("publicContacts", [])
         if len(public_contacts) > 0:
             res["lead_sponsor"] = public_contacts[0].get("organisation", {}).get("name")
-    res["study_first_submit_date"] = my_parse_date([t for t in ct.get("authorizedApplication", {}).get(
-        "applicationInfo", []) if t.get("type") == "INITIAL"][0].get("submissionDate"))
+    application_infos = [t for t in ct.get("authorizedApplication", {}).get("applicationInfo", []) if t.get("type") == "INITIAL"]
+    if len(application_infos) > 0:
+        res["study_first_submit_date"] = my_parse_date(application_infos[0].get("submissionDate"))
     res["study_completion_date"] = my_parse_date(ct.get("endDateEU"))
     res["status"] = status_mapping.get(ct.get("ctPublicStatus"), "Unknown status")
     res["study_type"] = "Interventional"
