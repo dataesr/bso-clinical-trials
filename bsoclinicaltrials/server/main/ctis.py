@@ -28,9 +28,6 @@ def harvest():
                 "direction": "ASC"
             },
             "searchCriteria": {
-                "containAll": "",
-                "containAny": "",
-                "containNot": ""
             }
         })
         data = r.json().get("data", [])
