@@ -255,7 +255,7 @@ def enrich(all_ct):
                 )
                 ror = lead_sponsor_normalized.get("ror")
                 p["ror"] = ror
-                p["bso_local_affiliations"] = [ror]
+                p["bso_local_affiliations"] = [ror.replace("https://ror.org/", "")]
                 if ror in chu:
                     p["bso_local_affiliations"].append("CHU")
                 if ror in clcc:
