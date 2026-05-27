@@ -110,10 +110,11 @@ def parse_study(input_study):
     elt = {'has_results': (results is not None)}
     # Identification
     identification_module = protocol.get('identificationModule', {})
-    elt['NCTId'] = identification_module.get('nctId')
-    elt['other_ids'] = []
+    elt["id"] = identification_module.get('nctId')
+    elt["NCTId"] = identification_module.get('nctId')
+    elt["other_ids"] = []
     if identification_module.get("orgStudyIdInfo", {}).get("id"):
-        elt['other_ids'].append({'type': "org_study_id", 
+        elt["other_ids"].append({"type": "org_study_id",
                                  "id": identification_module.get("orgStudyIdInfo", {}).get("id")})
     for second_id_elt in identification_module.get("secondaryIdInfos", []):
         if second_id_elt.get("id"):
@@ -124,13 +125,13 @@ def parse_study(input_study):
                 elt["CTIS"] = second_id_elt.get("id")
             elif not elt.get("eudraCT") and re.match("^20\d{2}-00\d{4}-\d{2}$", second_id_elt.get("id")):
                 elt["eudraCT"] = second_id_elt.get("id")
-    elt['title'] = identification_module.get('officialTitle')
-    elt['acronym'] = identification_module.get('acronym')
+    elt["title"] = identification_module.get("officialTitle")
+    elt["acronym"] = identification_module.get("acronym")
     # Description
-    description_module = protocol.get('descriptionModule', {})
-    summary = description_module.get('briefSummary')
+    description_module = protocol.get("descriptionModule", {})
+    summary = description_module.get("briefSummary")
     if summary:
-        elt['summary'] = summary
+        elt["summary"] = summary
     # Status
     status_module = protocol.get('statusModule', {})
     study_start_date = status_module.get('startDateStruct', {}).get('date')

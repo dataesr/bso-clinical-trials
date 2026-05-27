@@ -64,6 +64,7 @@ def parse_ctis(ct):
 
     res = {
         "CTIS": ct.get("ctNumber"),
+        "id": ct.get("ctNumber"),
     }
     res["title"] = ct.get("authorizedApplication", {}).get("authorizedPartI", {}).get(
         "trialDetails", {}).get("clinicalTrialIdentifiers", {}).get("fullTitle")

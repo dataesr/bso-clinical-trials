@@ -139,24 +139,25 @@ def parse_euctr(html):
         except:
             continue
     res = {
-        'eudraCT': infos.get('A.2;EudraCT number'),
-        'has_results': summary_infos.get('Trial results') == 'View results'
+        "eudraCT": infos.get("A.2;EudraCT number"),
+        "has_results": summary_infos.get("Trial results") == "View results",
+        "id": infos.get("A.2;EudraCT number"),
     }
-    res['has_results_or_publications'] = res['has_results']
-    if res['has_results']:
-        results_res = parse_results(res['eudraCT'])
+    res["has_results_or_publications"] = res["has_results"]
+    if res["has_results"]:
+        results_res = parse_results(res["eudraCT"])
         res.update(results_res)
-    res['title'] = infos.get("A.3;Full title of the trial")
-    res['acronym'] = infos.get("A.3.2;Name or abbreviated title of the trial where available")
+    res["title"] = infos.get("A.3;Full title of the trial")
+    res["acronym"] = infos.get("A.3.2;Name or abbreviated title of the trial where available")
     other_ids = []
     if "A.4.1;Sponsor's protocol code number" in infos:
-        other_id = {'type': 'org_study_id', 'id': infos.get("A.4.1;Sponsor's protocol code number")}
+        other_id = {"type": "org_study_id", "id": infos.get("A.4.1;Sponsor's protocol code number")}
         other_ids.append(other_id)
     if len(other_ids) > 0:
-        res['other_ids'] = other_ids
-    res['lead_sponsor'] = infos.get("B.1.1;Name of Sponsor")
-    res['study_first_submit_date'] = \
-        my_parse_date(summary_infos.get('Date on which this record was first entered in the EudraCT database'),
+        res["other_ids"] = other_ids
+    res["lead_sponsor"] = infos.get("B.1.1;Name of Sponsor")
+    res["study_first_submit_date"] = \
+        my_parse_date(summary_infos.get("Date on which this record was first entered in the EudraCT database"),
                       dayfirst=True)
     res["study_completion_date"] = my_parse_date(infos.get("P.;Date of the global end of the trial"), dayfirst=True)
     res["status"] = summary_infos.get("Trial Status")

@@ -10,8 +10,8 @@ logger = get_logger(__name__)
 def get_each_sources(dates_ct: list, dates_euctr: list, dates_ctis: list) -> dict:
     raw_trials = {
         "NCTId": {},
+        "CTIS": {},
         "eudraCT": {},
-        "CTIS": {}
     }
 
     for date_ct in dates_ct:
@@ -21,14 +21,6 @@ def get_each_sources(dates_ct: list, dates_euctr: list, dates_ctis: list) -> dic
         raw_trials['NCTId'][date_ct] = df_ct.to_dict(orient='records')
         nb_ct_clinical_trials = len(raw_trials['NCTId'][date_ct])
         logger.debug(f"Nb CT from clinical_trials: {nb_ct_clinical_trials}")
-    
-    for date_euctr in dates_euctr:
-        logger.debug(f'getting euctr data from {date_euctr}')
-        df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
-        df_euctr['source'] = 'euctr'
-        raw_trials['eudraCT'][date_euctr] = df_euctr.to_dict(orient='records')
-        nb_ct_euctr = len(raw_trials['eudraCT'][date_euctr])
-        logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
 
     for date_ctis in dates_ctis:
         logger.debug(f'getting ctis data from {date_ctis}')
@@ -38,19 +30,27 @@ def get_each_sources(dates_ct: list, dates_euctr: list, dates_ctis: list) -> dic
         nb_ct_ctis = len(raw_trials['CTIS'][date_ctis])
         logger.debug(f"Nb CT from ctis: {nb_ct_ctis}")
 
+    for date_euctr in dates_euctr:
+        logger.debug(f'getting euctr data from {date_euctr}')
+        df_euctr = pd.DataFrame(get_objects("clinical-trials", f"euctr_parsed_{date_euctr}.json.gz"))
+        df_euctr['source'] = 'euctr'
+        raw_trials['eudraCT'][date_euctr] = df_euctr.to_dict(orient='records')
+        nb_ct_euctr = len(raw_trials['eudraCT'][date_euctr])
+        logger.debug(f"Nb CT from euctr: {nb_ct_euctr}")
+
     return raw_trials
 
 
 def merge_all(dates_ct, dates_euctr, dates_ctis):
-    sources = ["NCTId", "eudraCT", "CTIS"]
+    sources = ["NCTId", "CTIS", "eudraCT"]
     date_ct = max(dates_ct)
     date_euctr = max(dates_euctr)
     date_ctis = max(dates_ctis)
     raw_trials2 = get_each_sources(dates_ct, dates_euctr, dates_ctis)
     raw_trials = {}
     raw_trials["NCTId"] = raw_trials2["NCTId"][date_ct]
-    raw_trials["eudraCT"] = raw_trials2["eudraCT"][date_euctr]
     raw_trials["CTIS"] = raw_trials2["CTIS"][date_ctis]
+    raw_trials["eudraCT"] = raw_trials2["eudraCT"][date_euctr]
     # Create dict to historicize the references
     historicize = {}
     for id_type in raw_trials2:
@@ -94,8 +94,8 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
             ct_transformed[k][ct[k]] = transform_ct(ct)
     matches = {}
     matches = update_matches(matches, raw_trials["NCTId"], "NCTId", "eudraCT")
-    matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", "NCTId")
     matches = update_matches(matches, raw_trials["CTIS"], "CTIS", "NCTId")
+    matches = update_matches(matches, raw_trials["eudraCT"], "eudraCT", "NCTId")
     known_ids = set()
     all_ct = []
     for current_id_type in sources:
@@ -162,12 +162,12 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
 
 
 def untransform_ct(ct):
-    list_of_dict = ['references', 'other_ids']
+    list_of_dict = ["references", "other_ids"]
     list_of_str = ['location_country', 'location_facility', 'collaborators', 'sponsor_collaborators', 'publications_result']
     new_ct = {}
-    all_sources = [e['source'] for e in ct['source']]
+    all_sources = [e["source"] for e in ct["source"]]
     all_sources.sort()
-    new_ct['all_sources'] = all_sources
+    new_ct["all_sources"] = all_sources
     for f in ct:
         if f == "source":
             continue
@@ -181,11 +181,11 @@ def untransform_ct(ct):
             new_ct[f] = ct[f][0][f]
         else:
             possibilities = [ct[f][i][f] for i in range(0, len(ct[f])) if f in ct[f][i]]
-            sources = [ct[f][i]['source'] for i in range(0, len(ct[f]))]
+            sources = [ct[f][i]["source"] for i in range(0, len(ct[f]))]
             if isinstance(possibilities[0], bool):
                 new_ct[f] = any(possibilities)  # at least one True
-            elif 'clinical_trials' in sources:
-                new_ct[f] = [ct[f][i][f] for i in range(0, len(ct[f])) if ct[f][i]['source'] == "clinical_trials"][0]
+            elif "clinical_trials" in sources:
+                new_ct[f] = [ct[f][i][f] for i in range(0, len(ct[f])) if ct[f][i]["source"] == "clinical_trials"][0]
             else:
                 logger.debug("THAT SHOULD NOT HAPPEN ??")
                 logger.debug(ct[f])
