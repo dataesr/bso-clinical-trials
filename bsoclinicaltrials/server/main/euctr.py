@@ -43,40 +43,34 @@ def harvest_parse_euctr(to_harvest=True, to_parse=True, harvest_dates=[]):
 
 
 def harvest():
-    urls = ["https://www.clinicaltrialsregister.eu/ctr-search/search?query=&country=fr&page="]
-    queries = ["INSERM", "INSERM-ANRS"]
-    for query in queries:
-        urls.append(f'https://www.clinicaltrialsregister.eu/ctr-search/search?query={query}&page=')
+    url = 'https://www.clinicaltrialsregister.eu/ctr-search/search?query=&country=fr&page='
+    r = requests_retry_session().get(url + '1', verify=False)
+    soup = BeautifulSoup(r.text, 'lxml')
+    nb_pages = int(re.sub(".*Displaying page 1 of ", "",
+                          soup.find(class_="outcome").get_text().replace("\n", " ")).split(".")[0])
+    logger.debug(f'{nb_pages} from EUCTR to download')
     links_to_download = []
-    for idx, url in enumerate(urls):
-        r = requests_retry_session().get(url + '1', verify=False)
-        soup = BeautifulSoup(r.text, 'lxml')
-        nb_pages = int(re.sub(".*Displaying page 1 of ", "",
-                            soup.find(class_="outcome").get_text().replace("\n", " ")).split(".")[0])
-        logger.debug(f'{nb_pages} from EUCTR url number {idx} to download')
-        for p in range(1, nb_pages + 1):
-            try:
-                r = requests_retry_session().get(url+str(p), verify=False)
-            except:
-                logger.debug(f'Ignoring search page {url}{p} that cannot be downloaded')
-                time.sleep(2)
-                continue
-            soup = BeautifulSoup(r.text, "lxml")
-            current_links = []
-            for link in soup.find_all('a'):
-                href = link.attrs['href']
-                if '/ctr-search/trial/' in href and '/FR' in href:
-                    current_links.append('https://www.clinicaltrialsregister.eu' + href)
-            links_to_download += current_links
+    for p in range(1, nb_pages + 1):
+        try:
+            r = requests_retry_session().get(url+str(p), verify=False)
+        except:
+            logger.debug(f'Ignoring page {url}{p} that cannot be downloaded')
             time.sleep(2)
-    # Deduplicate links_to_download
-    links_to_download = list(set(links_to_download))
+            continue
+        soup = BeautifulSoup(r.text, "lxml")
+        current_links = []
+        for link in soup.find_all('a'):
+            href = link.attrs['href']
+            if '/ctr-search/trial/' in href and '/FR' in href:
+                current_links.append('https://www.clinicaltrialsregister.eu' + href)
+        links_to_download += current_links
+        time.sleep(2)
     htmls = []
-    for _, url in enumerate(links_to_download):
+    for ix, url in enumerate(links_to_download):
         try:
             r = requests_retry_session().get(url, verify=False)
         except:
-            logger.debug(f'Ignoring clinical trial page {url} that cannot be downloaded')
+            logger.debug(f'Ignoring page {url} that cannot be downloaded')
             time.sleep(2)
             continue
         htmls.append(r.text)
