@@ -415,6 +415,7 @@ def enrich(all_ct):
                 )
                 ror = lead_sponsor_normalized.get("ror")
                 p["ror"] = ror
+                p["ror_lead_sponsor_normalized"] = f"{ror}###{p['lead_sponsor_normalized']}"
                 p["bso_local_affiliations"] = [str(ror).replace("https://ror.org/", "")]
                 if ror in chu:
                     p["bso_local_affiliations"].append("CHU")
