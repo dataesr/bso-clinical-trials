@@ -51,6 +51,8 @@ def harvest():
 
 
 def parse_ctis(ct):
+    if ct.get("ctNumber") is None:
+        return
     status_mapping = {
         "Authorised, not started": "Active, not recruiting",
         "Ongoing, recruiting": "Recruiting",
@@ -140,7 +142,8 @@ def parse(harvested_data, harvest_date=None):
     parsed_data = []
     for ct in harvested_data:
         parsed = parse_ctis(ct)
-        parsed_data.append(parsed)
+        if parsed:
+            parsed_data.append(parsed)
     set_objects(parsed_data, container, f"ctis_parsed_{harvest_date}.json.gz")
     return {
         "status": "ok",
