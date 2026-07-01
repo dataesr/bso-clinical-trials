@@ -162,8 +162,8 @@ def merge_all(dates_ct, dates_euctr, dates_ctis):
 
 
 def untransform_ct(ct):
-    list_of_dict = ["references", "other_ids"]
-    list_of_str = ['location_country', 'location_facility', 'collaborators', 'sponsor_collaborators', 'publications_result']
+    list_of_dict = ["other_ids", "references"]
+    list_of_str = ["collaborators", "intervention_type_raw", "location_country", "location_facility", "publications_result", "sponsor_collaborators"]
     new_ct = {}
     all_sources = [e["source"] for e in ct["source"]]
     all_sources.sort()

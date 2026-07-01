@@ -162,5 +162,6 @@ def parse_euctr(html):
     res["study_completion_date"] = my_parse_date(infos.get("P.;Date of the global end of the trial"), dayfirst=True)
     res["status"] = summary_infos.get("Trial Status")
     res["study_type"] = "Interventional"
+    res["intervention_type_raw"] = ["DRUG (presumed)"]
     res["intervention_type"] = "DRUG (presumed)"
     return res

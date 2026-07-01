@@ -259,5 +259,14 @@ def parse_study(input_study):
     elt["location_facility"] = list(set([location.get("facility") for location in locations if "facility" in location]))
     # Interventions
     interventions = protocol.get("armsInterventionsModule", {}).get("interventions", [])
+    # Should keep all types of intervention
+    elt["intervention_type_raw"] = list(set([intervention.get("type") for intervention in interventions if "type" in intervention]))
+    # Only one type of intervention, with priority to DRUG
     elt["intervention_type"] = list(set([intervention.get("type") for intervention in interventions if "type" in intervention]))
+    if "DRUG" in elt["intervention_type"]:
+        elt["intervention_type"] = "DRUG"
+    elif len(elt["intervention_type"]) > 0:
+        elt["intervention_type"] = elt["intervention_type"][0]
+    else:
+        elt["intervention_type"] = None
     return elt
