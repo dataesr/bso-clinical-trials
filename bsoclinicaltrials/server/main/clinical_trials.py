@@ -8,7 +8,7 @@ from bsoclinicaltrials.server.main.utils_swift import get_objects, set_objects
 
 logger = get_logger(__name__)
 
-countries = ["france", "french guiana", "guadeloupe", "martinique", "mayotte", "réunion"]
+countries = ["france", "french guiana", "guadeloupe", "martinique", "mayotte", "reunion"]
 sponsors = [
     "Aix Marseille Université",
     "Assistance Publique - Hôpitaux de Paris",
