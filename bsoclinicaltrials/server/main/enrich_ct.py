@@ -239,6 +239,8 @@ def enrich(all_ct):
     chu = list(chu_df["ror"])
     clcc_df = pd.read_csv("/src/bsoclinicaltrials/server/main/clcc.csv")
     clcc = list(clcc_df["ror"])
+    espic_df = pd.read_csv("/src/bsoclinicaltrials/server/main/espic.csv")
+    espic = list(espic_df["ror"])
     sponsors_df = pd.read_csv(
         "/src/bsoclinicaltrials/server/main/bso-lead-sponsors-mapping.csv"
     )
@@ -421,6 +423,8 @@ def enrich(all_ct):
                     p["bso_local_affiliations"].append("chu")
                 if ror in clcc:
                     p["bso_local_affiliations"].append("clcc")
+                if ror in espic:
+                    p["bso_local_affiliations"].append("espic")
             else:
                 p["lead_sponsor_normalized"] = lead_sponsor
             p["lead_sponsor_type"] = tag_sponsor(p["lead_sponsor_normalized"])
