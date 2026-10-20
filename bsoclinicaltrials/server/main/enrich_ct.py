@@ -63,41 +63,64 @@ def tag_sponsor(x):
         "Adaptations Métaboliques à l'Exercice en conditions Physiologiques et Pathologiques",
         "ADIR Association",
         "Agence Régionale de la Santé - Midi Pyrénées",
+        "Agence Sanitaire et Sociale de Nouvelle Calédonie",
         "Ages et Vies Association",
         "Alliance Pour La Recherche en Cancerologie",
+        "Assistance Publique – Hôpitaux de Paris",
+        "Associació per la Recerca Oncològica",
         "Association Accompagnement pour un Internet en Médecine et Santé au Service des Usagers",
         "Association APPROCHE",
         "Association Clinique et Thérapeutique Infantile du Val de Marne",
         "Association de Musicothérapie Applications et Recherches Cliniques",
         "Association de Recherche Bibliographique pour les Neurosciences",
+        "Association de Recherche Experimentale et Clinique en Chirurgie Digestive",
+        "Association de Recherche pour le Traitement des Arythmies Cardiaques",
+        "Association des Paralysees de France(APF)",
+        "Association des Réseaux Bronchiolite",
         "Association for Innovation and Biomedical Research on Light and Image",
         "Association for Training, Education, and Research in Hematology, Immunology, and Transplantation",
         "Association Francaise d'Urologie",
         "Association Francaise pour la Recherche Thermale",
         "Association Française pour la Recherche Thermale",
+        "Association Pédiatrique des Groupes d'Acuueil et de Recherche",
+        "Association pour l'Utilisation du Rein Artificiel dans la région Lyonnaise",
+        "Association pour la Recherche au Centre d'Urgence des Céphalées",
         "Association pour la Recherche Clinique et Immunologique",
         "Association pour la Recherche de Thérapeutiques Innovantes en Cancérologie",
         "Association pour la Recherche de Thérapeutiques Innovantes en Cancérologie",
+        "Association Pour la Recherche en Infectiologie",
+        "Association pour la Recherche sur le Temps Biologique et la Chronothérapie",
+        "Association pour le Dépistage Organisé des Cancers dans le Rhône",
+        "Association pour le Développement et l'Enseignement de la Chirurgie Réparatrice et Orthopédique",
         "Association pour le Développement et l'Organisation de la Recherche en Pneumologie et sur le Sommeil",
         "Association Pro-arte",
         "Association REMEDE",
+        "Australasian Gastro-Intestinal Trials Group",
         "Australian and New Zealand Intensive Care Research Centre",
+        "Autorité de sûreté nucléaire et de radioprotection",
         "Baim Institute for Clinical Research",
         "Baylor Research Institute",
         "Bistro Study Group",
         "Canadian Cancer Trials Group",
         "Cancer Trials Ireland",
         "Cardiovascular and Pulmonary Rehabilitation Center of Saint Orens",
+        "Cardiovascular European Research Center",
         "Centre Bouffard Vercelli - USSAP",
+        "Centre Cardiologique du Nord",
         "Centre d'Etude des Cellules Souches (CECS)",
+        "Centre d'Etude des Cellules Souches",
         "Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète",
         "Centre d'Expertise sur l'Altitude EXALT",
         "Centre d'Investigation Clinique et Technologique 805",
+        "Centre de l'arthrose, Paris",
         "Centre de Pharmacologie Clinique Applique a la Dermatologie",
         "Centre de Recherches et d'Etude sur la Pathologie Tropicale et le Sida",
         "Centre de Rééducation et Réadaptation Fonctionnelle La Châtaigneraie",
         "Centre Européen d'Enseignement Supérieur de l'Ostéopathie de Lyon",
         "Centre Europeen d'Etude du Diabete",
+        "Centre hospitalier Esquirol",
+        "Centre hospitalier régional et universitaire de Nancy",
+        "Centre hospitalier universitaire Grenoble-Alpes",
         "Centre Médical Porte Verte",
         "Centre Médico-Chirurgical de Réadaptation des Massues Croix Rouge Française",
         "Centre Mutualiste de Rééducation et de Réadaptation Fonctionnelles de Kerpape",
@@ -110,6 +133,7 @@ def tag_sponsor(x):
         "Clinique de la Mitterie",
         "Clinique de la Sauvegarde",
         "Clinique de lEurope a Amiens",
+        "Clinique du Sport, Bordeaux Mérignac",
         "Clinique du Trocadéro",
         "Clinique Générale dAnnecy",
         "Clinique Juge",
@@ -118,6 +142,7 @@ def tag_sponsor(x):
         "Clinique Mutualiste la Sagesse",
         "Clinique Paris-Bercy",
         "Clinique Saint Jean, France",
+        "Department of Clinical Research and Innovation",
         "Dieulefit Santé Centre de Réadaptation",
         "Ecole des Hautes Etudes en Santé Publique",
         "Elsan",
@@ -137,59 +162,80 @@ def tag_sponsor(x):
         "Fondation Audavie",
         "Fondation Ellen Poidatz",
         "Fondation Franc.Cancerologie Digestive",
+        "Fondation Hopale",
         "Fondation Ildys",
         "Fondation Jérôme-Lejeune",
         "Fondation Korian pour le Bien Vieillir",
         "Fondation Lenval",
         "Fondation Mederic Alzheimer",
+        "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+        "Fondazione Poliambulanza Istituto Ospedaliero",
         "French Cardiology Society",
         "French Defence Health Service",
         "French Innovative Leukemia Organisation",
-        "French Innovative Leukemia Organization (FILO)",
         "French Society for Intensive Care",
         "French Society of Digestive Endoscopy",
         "French Study Group on Chronic Lymphoid Leukemia",
         "GCS Ramsay Santé pour l'Enseignement et la Recherche",
+        "Gérond'if",
         "Groupe d'Etude sur le Risque d'Exposition des Soignants aux Agents Infectieux",
         "Groupe d'Étude Thérapeutique des Affections Inflammatoires du Tube Digestif",
         "Groupe Francais De Pneumo-Cancerologie",
         "Groupe Francophone des Myélodysplasies",
         "Groupe Francophone des Myélodysplasies",
         "Groupe Oncologie Radiotherapie Tete et Cou",
+        "Groupe Oncologie Radiotherapie Tete et Cou",
         "Groupement de Coopération Sanitaire Ramsay Générale de Santé pour l’Enseignement et la Recherche",
+        "Hôpital de Ville-Évrard",
+        "Hôpital Edouard Herriot",
         "Hôpital Marie Lannelongue",
         "Institut Arnault Tzanck",
+        "Institut de Formation et de Recherche en Médecine de Montagne",
         "Institut De La Colonne Vertebrale Et Des Neurosciences",
         "Institut de Myologie",
         "Institut de Radioprotection et de Surete Nucleaire",
+        "institut de recherche biomédicale des armées",
         "Institut de Recherche pour le Developpement",
         "Institut de Recherche sur la Moelle épinière et l'Encéphale",
         "Institut Franco Europeen de Chiropratique",
         "Institut Jules Bordet",
         "Institut Mutualiste Montsouris",
+        "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
         "Institute of Tropical Medicine, Belgium",
         "Intergroupe Francophone de Cancerologie Thoracique",
         "Intergroupe Francophone du Myelome",
+        "International Breast Cancer Study Group",
         "Jaeb Center for Health Research",
-        "Jules Bordet Institute",
         "Karolinska Institutet",
         "King's College London",
         "Kirby Institute",
+        "Korian",
+        "LFB(France)",
         "London School of Hygiene and Tropical Medicine",
         "Lymphoma Study Association",
         "Médecins Sans Frontières",
         "Médipole Garonne",
+        "Montreal Heart Institute",
         "Observatoire Regional de la Sante Provence-Alpes-Côte d'Azur",
         "Population Health Research Institute",
+        "QOL-ONE Association",
         "Ramsay Générale de Santé",
+        "Research on healthcare performance",
         "Service de santé des armées",
+        "SOS Attaque Cérébrale",
+        "Spanish National Centre for Cardiovascular Research",
         "Swiss Cancer Institute",
         "The George Institute",
         "The Lymphoma Academic Research Organisation",
         "The Netherlands Cancer Institute",
-        "Union de Gestion des Etablissements des Caisses d'Assurance Maladie - Nord Est"
+        "UGECAM Rhône-Alpes",
+        "Union de Gestion des Etablissements des Caisses d'Assurance Maladie - Nord Est",
+        "Université Claude-Bernard-Lyon-1",
+        "Université Grenoble-Alpes",
+        "Université Paris-Saclay",
     ]
-    academic_lead_sponsors_normalized = [normalize(x) for x in academic_lead_sponsors]
+    academic_lead_sponsors_normalized = [
+        normalize(x) for x in academic_lead_sponsors]
 
     industrial_lead_sponsors = [
         "Air Liquide Santé International",
@@ -208,13 +254,10 @@ def tag_sponsor(x):
         "Essilor International",
         "GCP-Service International West GmbH",
         "HUYABIO International, LLC.",
+        "Incyte (United States)",
         "Incyte Biosciences International Sàrl",
-        "Institut de Recherches Internationales Servier",
-        "Janssen Cilag international NV",
-        "Janssen Cilag International NV",
-        "Janssen-Cilag International N.V.",
-        "Janssen-Cilag International NV",
-        "Janssen-Cilag International, N.V.Turnhoutseweg 30, 2340 Beerse, Belgium",
+        "Institut de Recherches Internationales Servier (France)"
+        "Janssen (France)",
         "LABORATOIRE INNOTECH INTERNATIONAL",
         "Lesaffre International",
         "Mayne Pharma International Pty Ltd",
@@ -223,13 +266,14 @@ def tag_sponsor(x):
         "MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG SA",
         "Mondelēz International, Inc.",
         "Polyclinique Saint-Laurent",
-        "Servier International / Les Laboratoires Servier",
         "Vifor (International) Inc.",
         "Vitaflo International, Ltd",
+        "Winicker Norimed GmbH (Germany)",
         "Zogenix International Limited, Inc., a subsidiary of Zogenix, Inc.",
     ]
-    industrial_lead_sponsors_normalized = [normalize(x) for x in industrial_lead_sponsors]
-    
+    industrial_lead_sponsors_normalized = [
+        normalize(x) for x in industrial_lead_sponsors]
+
     for word in academic_lead_sponsors_normalized:
         if word in x_normalized and x_normalized not in industrial_lead_sponsors_normalized:
             return "academique"
@@ -268,7 +312,8 @@ def enrich(all_ct):
     dois_info_dict = {}
     for c in chunks(list(set(dois_to_get)), 1000):
         dois_info = get_dois_info(
-            [{"doi": doi, "id": f"doi{doi}", "all_ids": [f"doi{doi}"]} for doi in c]
+            [{"doi": doi, "id": f"doi{doi}", "all_ids": [f"doi{doi}"]}
+                for doi in c]
         )
         for info in dois_info:
             doi = info["doi"]
@@ -295,13 +340,16 @@ def enrich(all_ct):
                                 reference[field] = dois_info_dict[doi][field]
                     if reference.get("type") in ["derived", "result"]:
                         if isinstance(reference.get("published_date"), str):
-                            publications_date.append(reference.get("published_date"))
+                            publications_date.append(
+                                reference.get("published_date"))
                         if has_publication_oa is None:
                             has_publication_oa = False
-                        oa_details = dois_info_dict.get(doi, {}).get("oa_details", {})
+                        oa_details = dois_info_dict.get(
+                            doi, {}).get("oa_details", {})
                         if len(oa_details) == 0:
                             continue
-                        last_obs_date = max(reference.get("observation_dates", []))
+                        last_obs_date = max(
+                            reference.get("observation_dates", []))
                         for obs_date in oa_details:
                             if obs_date == last_obs_date:
                                 oa_detail = oa_details[obs_date]
@@ -316,7 +364,8 @@ def enrich(all_ct):
                     publications_date
                 )
             if isinstance(
-                p["results_details"][date].get("results_first_submit_date"), str
+                p["results_details"][date].get(
+                    "results_first_submit_date"), str
             ) and isinstance(
                 p["results_details"][date].get("first_publication_date"), str
             ):
@@ -325,7 +374,8 @@ def enrich(all_ct):
                     p["results_details"][date]["first_publication_date"],
                 )
             elif isinstance(
-                p["results_details"][date].get("results_first_submit_date"), str
+                p["results_details"][date].get(
+                    "results_first_submit_date"), str
             ):
                 p["results_details"][date]["first_results_or_publication_date"] = p[
                     "results_details"
@@ -338,7 +388,8 @@ def enrich(all_ct):
                 ][date]["first_publication_date"]
             if isinstance(p.get("study_completion_date"), str):
                 if isinstance(
-                    p["results_details"][date].get("results_first_submit_date"), str
+                    p["results_details"][date].get(
+                        "results_first_submit_date"), str
                 ):
                     p["results_details"][date]["delay_first_results"] = (
                         pd.to_datetime(
@@ -353,7 +404,8 @@ def enrich(all_ct):
                         p["results_details"][date]["delay_first_results"] <= 365 * 3
                     )
                 if isinstance(
-                    p["results_details"][date].get("first_publication_date"), str
+                    p["results_details"][date].get(
+                        "first_publication_date"), str
                 ):
                     p["results_details"][date]["delay_first_publication"] = (
                         pd.to_datetime(
@@ -374,7 +426,8 @@ def enrich(all_ct):
                         p["results_details"][date]["delay_first_publication"] <= 365 * 3
                     )
                 if isinstance(
-                    p["results_details"][date].get("first_results_or_publication_date"),
+                    p["results_details"][date].get(
+                        "first_results_or_publication_date"),
                     str,
                 ):
                     p["results_details"][date]["delay_first_results_completion"] = (
@@ -415,7 +468,8 @@ def enrich(all_ct):
             p["results_details"][date]["publication_access"] = publication_access
         lead_sponsor = p.get("lead_sponsor")
         if lead_sponsor and isinstance(lead_sponsor, str):
-            lead_sponsor_normalized = sponsors_dict.get(normalize(lead_sponsor))
+            lead_sponsor_normalized = sponsors_dict.get(
+                normalize(lead_sponsor))
             if lead_sponsor_normalized:
                 p["lead_sponsor_normalized"] = lead_sponsor_normalized.get(
                     "sponsor_normalized"
@@ -423,7 +477,8 @@ def enrich(all_ct):
                 ror = lead_sponsor_normalized.get("ror")
                 p["ror"] = ror
                 p["ror_lead_sponsor_normalized"] = f"{ror}###{p['lead_sponsor_normalized']}"
-                p["bso_local_affiliations"] = [str(ror).replace("https://ror.org/", "").lower()]
+                p["bso_local_affiliations"] = [
+                    str(ror).replace("https://ror.org/", "").lower()]
                 if ror in chu:
                     p["bso_local_affiliations"].append("chu")
                 if ror in clcc:
@@ -482,7 +537,8 @@ def enrich_ct(ct, sirano_dict):
     french_location_only = None
     location_country = ct.get("location_country", [])
     if isinstance(location_country, list):
-        location_country_lower = list(set([loc.lower() for loc in location_country]))
+        location_country_lower = list(
+            set([loc.lower() for loc in location_country]))
         if "france" in location_country_lower:
             location_country_lower.remove("france")
         if len(location_country_lower) > 0:
@@ -513,7 +569,8 @@ def enrich_ct(ct, sirano_dict):
                         reference["citation"]
                     )
                 else:
-                    ct["results_details"][date]["publications_result"].append("other")
+                    ct["results_details"][date]["publications_result"].append(
+                        "other")
         ct["results_details"][date]["has_publications_result"] = (
             len(ct["results_details"][date]["publications_result"]) > 0
         )
